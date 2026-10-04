@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-10-04T05:48:07.141993+00:00",
+  "tested_python": "3.9.6",
+  "tested_platform": "macOS-26.6-arm64-arm-64bit",
+  "scope": "Clean copy of code ZIP contents before archive creation; final ZIP integrity verified separately in upload receipt.",
+  "no_credentials_in_copy": true,
+  "external_model_requests": 0,
+  "commands": [
+    {
+      "command": "python3 -m unittest discover -s tests -q",
+      "exit_code": 0,
+      "stdout": "{\n  \"run_directory\": \"/var/folders/66/8dpb75ss73s01rf6qh1q1mhm0000gn/T/tmpkmgzlaz1/20261004T054806Z-bcca2513\",\n  \"run_id\": \"20261004T054806Z-bcca2513\",\n  \"dry_run\": true,\n  \"cases_attempted\": 1,\n  \"delivered_by_arm\": {\n    \"prompt_only\": 1,\n    \"full_guardrail\": 1\n  },\n  \"quality_metrics\": \"not_scored; requires actual output annotations\",\n  \"cost\": {\n    \"currency\": \"USD\",\n    \"shared_upstream_cost\": 0,\n    \"guard_increment_cost\": 0,\n    \"standalone_prompt_only_cost\": 0,\n    \"standalone_full_guardrail_cost\": 0,\n    \"actual_experiment_estimated_cost\": 0,\n    \"actual_experiment_cost\": 0,\n    \"cost_basis\": \"usage_based_estimate_or_unknown\",\n    \"unknown_cost_calls\": 0,\n    \"actual_model_requests\": 0,\n    \"dry_run\": true,\n    \"cost_is_usage_based_estimate_not_provider_bill\": true,\n    \"per_successful_delivery_standalone_cost\": {\n      \"prompt_only\": 0.0,\n      \"full_guardrail\": 0.0\n    }\n  },\n  \"failures\": {}\n}\n",
+      "stderr": "----------------------------------------------------------------------\nRan 47 tests in 0.060s\n\nOK\n"
+    },
+    {
+      "command": "python3 -m scripts.verify_saved_results",
+      "exit_code": 0,
+      "stdout": "PASS: 152 frozen artifacts and all four judgement CSV hashes verified.\nPASS: group and per-case aggregates match the saved results.\n{\n  \"prompt_only\": {\n    \"cases\": 20,\n    \"delivered\": 20,\n    \"unsupported_claims\": 137,\n    \"published_claims\": 671,\n    \"unsupported_claim_rate\": 0.20417287630402384,\n    \"unsupported_claim_rate_macro\": 0.20341832733505671,\n    \"claim_rate_na_cases\": 0,\n    \"gap_hits\": 23,\n    \"gap_total\": 28,\n    \"gap_coverage\": 0.8214285714285714,\n    \"opportunity_hits\": 56,\n    \"opportunity_total\": 56,\n    \"retention\": 1.0,\n    \"primary_retention\": 1.0,\n    \"secondary_retention\": 1.0,\n    \"failure_rate\": 0.0,\n    \"empty_or_abstention_rate\": 0.0,\n    \"successful_delivery_gap_coverage\": 0.8214285714285714,\n    \"claim_target_met\": false\n  },\n  \"full_guardrail\": {\n    \"cases\": 20,\n    \"delivered\": 20,\n    \"unsupported_claims\": 103,\n    \"published_claims\": 594,\n    \"unsupported_claim_rate\": 0.1734006734006734,\n    \"unsupported_claim_rate_macro\": 0.17113414725473877,\n    \"claim_rate_na_cases\": 0,\n    \"gap_hits\": 23,\n    \"gap_total\": 28,\n    \"gap_coverage\": 0.8214285714285714,\n    \"opportunity_hits\": 56,\n    \"opportunity_total\": 56,\n    \"retention\": 1.0,\n    \"primary_retention\": 1.0,\n    \"secondary_retention\": 1.0,\n    \"failure_rate\": 0.0,\n    \"empty_or_abstention_rate\": 0.0,\n    \"successful_delivery_gap_coverage\": 0.8214285714285714,\n    \"claim_target_met\": false\n  }\n}\nNo API calls or file changes. These are single-AI-rater synthetic results, not independent validation.\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 -m eval.paired_eval --dry-run --split dev",
+      "exit_code": 0,
+      "stdout": "{\n  \"run_directory\": \"/private/tmp/ukcs-code-zip-qsd_s9bv/Academic_Compass_UK_CS_Counselor/eval/results/paired/20261004T054806Z-f2c1c994\",\n  \"run_id\": \"20261004T054806Z-f2c1c994\",\n  \"dry_run\": true,\n  \"cases_attempted\": 6,\n  \"delivered_by_arm\": {\n    \"prompt_only\": 6,\n    \"full_guardrail\": 6\n  },\n  \"quality_metrics\": \"not_scored; requires actual output annotations\",\n  \"cost\": {\n    \"currency\": \"USD\",\n    \"shared_upstream_cost\": 0,\n    \"guard_increment_cost\": 0,\n    \"standalone_prompt_only_cost\": 0,\n    \"standalone_full_guardrail_cost\": 0,\n    \"actual_experiment_estimated_cost\": 0,\n    \"actual_experiment_cost\": 0,\n    \"cost_basis\": \"usage_based_estimate_or_unknown\",\n    \"unknown_cost_calls\": 0,\n    \"actual_model_requests\": 0,\n    \"dry_run\": true,\n    \"cost_is_usage_based_estimate_not_provider_bill\": true,\n    \"per_successful_delivery_standalone_cost\": {\n      \"prompt_only\": 0.0,\n      \"full_guardrail\": 0.0\n    }\n  },\n  \"failures\": {}\n}\n",
+      "stderr": ""
+    }
+  ],
+  "http_workflow": {
+    "launcher": "python3 -m scripts.start_demo",
+    "forced_demo_despite_inherited_live_setting": true,
+    "homepage": 200,
+    "json_intake": 200,
+    "answer_round": 1,
+    "partial_finish": 200,
+    "export": 200,
+    "docx_bytes": 3597,
+    "docx_package_valid": true
+  },
+  "limits": [
+    "Same host, clean directory; not independent-machine or Windows testing.",
+    "No live model rerun; saved semantic judgements were not independently reviewed.",
+    "Video is a separate submission file."
+  ]
+}

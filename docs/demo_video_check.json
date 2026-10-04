@@ -1,0 +1,34 @@
+{
+  "path": "/Users/xumuqiu/Desktop/Pre.mov",
+  "size_bytes": 348261904,
+  "tracks": [
+    {
+      "width": 3592.0,
+      "height": 2190.0,
+      "handler": "vide"
+    },
+    {
+      "width": 0.0,
+      "height": 0.0,
+      "handler": "soun"
+    }
+  ],
+  "duration_seconds": 175.59,
+  "duration_requirement_met": true,
+  "video_track_present": true,
+  "audio_track_present": true,
+  "face_and_screen_sample_check": "Both visible in samples at 15, 85, 155, 170 and 174 seconds",
+  "audio_intelligibility": "not_assessed",
+  "uploaded_to_course_platform": "not_verified",
+  "sampled_seconds": [
+    15,
+    85,
+    155,
+    170,
+    174
+  ],
+  "workflow_sample_check": "Landing page, interview and generated result visible",
+  "word_export_sample_check": "Download button visible; opening the exported Word document not verified",
+  "evaluation_metrics_sample_check": "Not visible in sampled frames",
+  "mode_note": "Video uses localhost:8011; this session launched that port in demo mode. Present as template workflow demonstration; real model evidence is in saved evaluation records."
+}
