@@ -1,0 +1,120 @@
+{
+  "case_id": "EVAL06",
+  "split": "evaluation_candidates",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "EVAL06",
+      "gap_id": "EVAL06:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "concept",
+      "description": "训练集与测试集区别尚说不清",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/3/answer",
+          "round": 4,
+          "element": "deep:concept",
+          "text": "我现在说不清训练集和测试集有什么区别。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/3/answer"
+      ],
+      "expected_detection": "指出概念理解不足，不能称掌握模型泛化原理",
+      "confirmation_question_example": "你如何区分训练图片与测试图片？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL06",
+      "gap_id": "EVAL06:gap:v1:2",
+      "experience_id": "exp_1",
+      "kind": "solution",
+      "description": "没有处理分类错误的本人方法",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "[跳过]",
+          "confirmation": "missing_answer"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/4/answer",
+          "round": 5,
+          "element": "deep:alternative",
+          "text": "没有比较不同模型或调整参数。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/1/answer",
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/4/answer"
+      ],
+      "expected_detection": "指出解决方法缺失且没有模型或参数比较，不补写优化分类器",
+      "confirmation_question_example": "你亲自尝试过什么调整，有没有测试记录？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "EVAL06",
+      "opportunity_id": "EVAL06:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "对光照变化影响分类结果提出尚未解释的问题",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "我想了解为什么换光线会影响结果，目前还没有具体解释。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/2/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL06",
+      "opportunity_id": "EVAL06:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/7/answer",
+          "round": 8,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/7/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

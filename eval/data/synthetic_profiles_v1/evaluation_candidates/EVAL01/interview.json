@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL01",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "校园空气质量记录",
+      "answers_by_element": {
+        "process": "我连续三天记录教室传感器读数，用 Python 画图，并标出开窗时间。",
+        "knowledge": "我用时间戳排序，遇到空值就标为空，不把它当成零。",
+        "problem": "第二天设备断电，图中出现一段空白。",
+        "solution": "我保留空白并在图注说明断电，没有用猜测补齐。",
+        "reflection": "我发现缺失数据也应该展示，否则读者可能误以为读数持续下降。",
+        "outcome": "留下三天数据和图表，仅来自一间教室。",
+        "deep:concept": "我理解时间序列是按时间排列的数据，缺失值不等于观测到零。",
+        "deep:alternative": "我比较过连线和留空，连线可能让人误解中间实际测过。",
+        "deep:limit": "设备没有校准，这些记录不能证明开窗一定导致读数改善。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "数学社函数练习",
+      "answers_by_element": {
+        "process": "我负责检查函数取值，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到数学，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "边界值也需要检查。",
+        "outcome": "留下了练习草稿，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

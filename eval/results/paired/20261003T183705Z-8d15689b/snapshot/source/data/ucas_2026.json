@@ -1,0 +1,57 @@
+{
+  "id": "ucas_2026",
+  "name": "UCAS Personal Statement（2026 年 9 月入学起：三问式）",
+  "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement",
+  "collected_on": "2026-08-12",
+  "human_verified": false,
+  "prompts": [
+    {
+      "id": "ucas_2026:q1",
+      "question": "你为什么想学习这门课程或学科？",
+      "question_en": "Why do you want to study this course or subject?",
+      "focus": "学科兴趣的真实来源、对学科重大问题的批判性参与、希望深耕的细分领域",
+      "guidance": [
+        "侧重你希望学习的学科的学术兴趣：是什么吸引你选择这门学科？哪些方面让你想在本科阶段学习它？",
+        "是否希望专注于该学科的某个特定领域？该学科的重大问题是什么，你觉得哪些最有趣、你对这些话题有何看法？",
+        "对联合课程，说明学科之间如何相互关联、为什么它们对你有吸引力。"
+      ],
+      "avoid": [
+        "避免讨论未来的职业规划——个人陈述应反映你个人的学术兴趣。",
+        "避免「我从小就梦想…」这类没有起源事件的空话。"
+      ],
+      "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+    },
+    {
+      "id": "ucas_2026:q2",
+      "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+      "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+      "focus": "课内学习与超课程活动（super-curricular）如何递进地加深学科认知，重在反思而非罗列",
+      "guidance": [
+        "评审寻找的是能够最好地反思自身经历与学术思想的学生，而不是拥有最佳机会的学生。",
+        "如何在学习之外发展学科兴趣：额外阅读、讲座、在线资料、拓展项目资质（EPQ）？你从中发现了什么有趣之处、有何看法？",
+        "是否从其他学校科目中获得了补充所选课程的技能？",
+        "感兴趣的不仅是你读过什么的清单，而是你有反思学术思想的证据。"
+      ],
+      "avoid": [
+        "无需讨论所有当前学习，只谈与所选科目相关的部分。",
+        "不要罗列课程科目清单——资格部分会显示这些信息。"
+      ],
+      "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+    },
+    {
+      "id": "ucas_2026:q3",
+      "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+      "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+      "focus": "课外经历（实习、项目、社会实践）如何拓宽对学科主题的理解，与课程相关性是关键",
+      "guidance": [
+        "实习或相关经历如何让你对大学将要学习的主题有更广泛的理解？",
+        "可用此空间扩展问题一和问题二中的批判性反思，或收纳前两问未能容纳的超课程活动。",
+        "写满最低 350 字符即可接受——相关性比篇幅重要。"
+      ],
+      "avoid": [
+        "确保回答与所申请课程相关，并展示对该学科的批判性参与；与课程无关的可转移技能（如球队领导力）分量应远低于学术内容。"
+      ],
+      "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+    }
+  ]
+}

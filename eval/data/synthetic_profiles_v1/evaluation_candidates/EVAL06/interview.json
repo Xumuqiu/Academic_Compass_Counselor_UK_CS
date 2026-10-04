@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL06",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "图片分类在线体验",
+      "answers_by_element": {
+        "process": "我上传老师提供的图片，按步骤点击训练，然后看结果。",
+        "knowledge": "我会上传文件和看标签，但不理解模型训练原理。",
+        "problem": "换一张光线暗的图片后分类错误，我不知道原因。",
+        "solution": "[跳过]",
+        "reflection": "我想了解为什么换光线会影响结果，目前还没有具体解释。",
+        "outcome": "只有课堂截图，没有独立实验记录。",
+        "deep:concept": "我现在说不清训练集和测试集有什么区别。",
+        "deep:alternative": "没有比较不同模型或调整参数。",
+        "deep:limit": "我不能确认结果是否只是在记住训练图片。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "数学统计作业",
+      "answers_by_element": {
+        "process": "我负责计算样本均值，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到数学，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "样本太少时均值不能代表所有人。",
+        "outcome": "留下了作业草稿，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

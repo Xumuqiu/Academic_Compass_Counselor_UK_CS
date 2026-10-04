@@ -1,0 +1,846 @@
+{
+  "case_id": "DEV01",
+  "slice": "supported",
+  "dry_run": false,
+  "actual_transcript": [
+    {
+      "round": 1,
+      "question_id": "exp_1:problem",
+      "experience_id": "exp_1",
+      "element": "problem",
+      "question": "「社团课表可视化」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "同一门课程被录入两次，柱状图就比实际多了一节。"
+    },
+    {
+      "round": 2,
+      "question_id": "exp_1:solution",
+      "experience_id": "exp_1",
+      "element": "solution",
+      "question": "你提到「同一门课程被录入两次，柱状图就比实际多了一节。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我把星期、时段和课程名作为组合键，先检查重复再统计。"
+    },
+    {
+      "round": 3,
+      "question_id": "exp_1:reflection",
+      "experience_id": "exp_1",
+      "element": "reflection",
+      "question": "「社团课表可视化」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "我发现图表画得漂亮还不够，输入记录不准确会让结果误导人。"
+    },
+    {
+      "round": 4,
+      "question_id": "exp_1:deep:concept",
+      "experience_id": "exp_1",
+      "element": "deep:concept",
+      "question": "关于「社团课表可视化」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这里涉及数据表示和去重，组合键帮助判断两条记录是不是同一节课。"
+    },
+    {
+      "round": 5,
+      "question_id": "exp_1:deep:alternative",
+      "experience_id": "exp_1",
+      "element": "deep:alternative",
+      "question": "关于「社团课表可视化」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过只按课程名去重，但同一课程在不同时间会被错误合并。"
+    },
+    {
+      "round": 6,
+      "question_id": "exp_1:deep:limit",
+      "experience_id": "exp_1",
+      "element": "deep:limit",
+      "question": "关于「社团课表可视化」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "如果不同人用不同课程缩写，组合键还是会漏掉重复，需要先统一名称。"
+    },
+    {
+      "round": 7,
+      "question_id": "exp_2:problem",
+      "experience_id": "exp_2",
+      "element": "problem",
+      "question": "「课堂函数图像讨论」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "第一次记录有一处缺项，需要重新核对。"
+    },
+    {
+      "round": 8,
+      "question_id": "exp_2:solution",
+      "experience_id": "exp_2",
+      "element": "solution",
+      "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+    },
+    {
+      "round": 9,
+      "question_id": "exp_2:reflection",
+      "experience_id": "exp_2",
+      "element": "reflection",
+      "question": "「课堂函数图像讨论」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "我发现输入范围会改变图像看起来的趋势。"
+    },
+    {
+      "round": 10,
+      "question_id": "exp_2:deep:concept",
+      "experience_id": "exp_2",
+      "element": "deep:concept",
+      "question": "关于「课堂函数图像讨论」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+    },
+    {
+      "round": 11,
+      "question_id": "exp_2:deep:alternative",
+      "experience_id": "exp_2",
+      "element": "deep:alternative",
+      "question": "关于「课堂函数图像讨论」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+    },
+    {
+      "round": 12,
+      "question_id": "exp_2:deep:limit",
+      "experience_id": "exp_2",
+      "element": "deep:limit",
+      "question": "关于「课堂函数图像讨论」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+    }
+  ],
+  "outputs": {},
+  "failures": {
+    "prompt_only": {
+      "stage": "brief_generation",
+      "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+    },
+    "full_guardrail": {
+      "stage": "brief_generation",
+      "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+    }
+  },
+  "failure_stage": "brief_generation",
+  "proposal": null,
+  "reviews": {},
+  "programmes": [
+    {
+      "id": "manchester_cs_ug",
+      "name": "BSc Computer Science (2027 entry)",
+      "university": "The University of Manchester",
+      "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+      "human_verified": false,
+      "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+      "requirements": [
+        {
+          "id": "manchester_cs_ug:req_02",
+          "text": "A* in Mathematics",
+          "kind": "math_grade",
+          "expected": "A*"
+        },
+        {
+          "id": "manchester_cs_ug:req_03",
+          "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+          "kind": "science_subject",
+          "accepted": [
+            "Computer Science",
+            "Further Mathematics",
+            "Biology",
+            "Chemistry",
+            "Physics"
+          ]
+        }
+      ],
+      "source_requirements": [
+        {
+          "id": "manchester_cs_ug:req_01",
+          "category": "gpa",
+          "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+          "curriculum": "a_level",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_02",
+          "category": "subject",
+          "text": "A* in Mathematics",
+          "curriculum": "a_level",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_03",
+          "category": "subject",
+          "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+          "curriculum": "a_level",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_04",
+          "category": "material",
+          "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_05",
+          "category": "gpa",
+          "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_06",
+          "category": "subject",
+          "text": "including Mathematics",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_07",
+          "category": "subject",
+          "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_08",
+          "category": "gpa",
+          "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_09",
+          "category": "gpa",
+          "text": "7,6,6 in Higher Level subjects",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_10",
+          "category": "subject",
+          "text": "including 7 in Mathematics: Analysis and Approaches",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_11",
+          "category": "subject",
+          "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_12",
+          "category": "language",
+          "text": "IELTS 7.0 overall, with no subscore below 6.5",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_13",
+          "category": "language",
+          "text": "no subscore below 6.5",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_14",
+          "category": "language",
+          "text": "TOEFL iBT 100 overall, with no subscore below 22",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_15",
+          "category": "language",
+          "text": "no subscore below 22",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_16",
+          "category": "language",
+          "text": "GCSE/IGCSE English Language grade B/6",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        }
+      ]
+    }
+  ],
+  "calls": [
+    {
+      "call_id": "call_1",
+      "case_id": "DEV01",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 182,
+        "completion_tokens": 54,
+        "total_tokens": 236,
+        "cost": 0.0001592,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001592,
+          "upstream_inference_prompt_cost": 7.28e-05,
+          "upstream_inference_completions_cost": 8.64e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001592,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「社团课表可视化」里最具体的一个困难是什么？当时卡在哪里？",
+        "answer": "同一门课程被录入两次，柱状图就比实际多了一节。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "latency_s": 1.6623
+    },
+    {
+      "call_id": "call_2",
+      "case_id": "DEV01",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 199,
+        "completion_tokens": 92,
+        "total_tokens": 291,
+        "cost": 0.0002268,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002268,
+          "upstream_inference_prompt_cost": 7.96e-05,
+          "upstream_inference_completions_cost": 0.0001472
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0002268,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "你提到「同一门课程被录入两次，柱状图就比实际多了一节。」。你尝试过什么办法，为什么选了最后的做法？",
+        "answer": "我把星期、时段和课程名作为组合键，先检查重复再统计。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "latency_s": 1.1782
+    },
+    {
+      "call_id": "call_3",
+      "case_id": "DEV01",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 187,
+        "completion_tokens": 54,
+        "total_tokens": 241,
+        "cost": 0.0001612,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001612,
+          "upstream_inference_prompt_cost": 7.48e-05,
+          "upstream_inference_completions_cost": 8.64e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001612,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「社团课表可视化」之后，你对计算机科学产生了什么新疑问或想法？",
+        "answer": "我发现图表画得漂亮还不够，输入记录不准确会让结果误导人。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "latency_s": 1.0011
+    },
+    {
+      "call_id": "call_4",
+      "case_id": "DEV01",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 172,
+        "completion_tokens": 47,
+        "total_tokens": 219,
+        "cost": 0.000144,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000144,
+          "upstream_inference_prompt_cost": 6.88e-05,
+          "upstream_inference_completions_cost": 7.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.000144,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「课堂函数图像讨论」里最具体的一个困难是什么？当时卡在哪里？",
+        "answer": "第一次记录有一处缺项，需要重新核对。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "latency_s": 0.9356
+    },
+    {
+      "call_id": "call_5",
+      "case_id": "DEV01",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 192,
+        "completion_tokens": 70,
+        "total_tokens": 262,
+        "cost": 0.0001888,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001888,
+          "upstream_inference_prompt_cost": 7.68e-05,
+          "upstream_inference_completions_cost": 0.000112
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001888,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+        "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "latency_s": 1.5494
+    },
+    {
+      "call_id": "call_6",
+      "case_id": "DEV01",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 176,
+        "completion_tokens": 45,
+        "total_tokens": 221,
+        "cost": 0.0001424,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001424,
+          "upstream_inference_prompt_cost": 7.04e-05,
+          "upstream_inference_completions_cost": 7.2e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001424,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「课堂函数图像讨论」之后，你对计算机科学产生了什么新疑问或想法？",
+        "answer": "我发现输入范围会改变图像看起来的趋势。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "latency_s": 1.0002
+    },
+    {
+      "call_id": "call_7",
+      "case_id": "DEV01",
+      "arm": "shared",
+      "stage": "brief_generation",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1684,
+        "completion_tokens": 952,
+        "total_tokens": 2636,
+        "cost": 0.0021968,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0021968,
+          "upstream_inference_prompt_cost": 0.0006736,
+          "upstream_inference_completions_cost": 0.0015232
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0021968,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "按 UCAS 三问，为文书老师整理完整头脑风暴素材包，不写个人陈述成稿。",
+        "evidence": [
+          {
+            "experience_id": "exp_1",
+            "title": "社团课表可视化",
+            "values": {
+              "process": "负责数据整理与原型测试\n我把星期、时段和课程名作为组合键，先检查重复再统计。",
+              "knowledge": "Python",
+              "problem": "同一门课程被录入两次，柱状图就比实际多了一节。\n输入记录不准确会让结果误导人",
+              "solution": "我把星期、时段和课程名作为组合键，先检查重复再统计。",
+              "reflection": "我发现图表画得漂亮还不够，输入记录不准确会让结果误导人。",
+              "outcome": "展示原型"
+            },
+            "deep": {
+              "concept": {
+                "text": "这里涉及数据表示和去重，组合键帮助判断两条记录是不是同一节课。",
+                "source": "dialog:r4"
+              },
+              "alternative": {
+                "text": "我试过只按课程名去重，但同一课程在不同时间会被错误合并。",
+                "source": "dialog:r5"
+              },
+              "limit": {
+                "text": "如果不同人用不同课程缩写，组合键还是会漏掉重复，需要先统一名称。",
+                "source": "dialog:r6"
+              }
+            }
+          },
+          {
+            "experience_id": "exp_2",
+            "title": "课堂函数图像讨论",
+            "values": {
+              "process": "比较手画与软件绘图\n回看原始资料并向知情同学或老师确认",
+              "knowledge": "数学",
+              "problem": "第一次记录有一处缺项，需要重新核对。\n输入范围会改变图像看起来的趋势",
+              "solution": "需要重新核对\n我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "reflection": "我发现输入范围会改变图像看起来的趋势。",
+              "outcome": "图像笔记"
+            },
+            "deep": {
+              "concept": {
+                "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+                "source": "dialog:r10"
+              },
+              "alternative": {
+                "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+                "source": "dialog:r11"
+              },
+              "limit": {
+                "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+                "source": "dialog:r12"
+              }
+            }
+          }
+        ],
+        "ucas_questions": [
+          {
+            "id": "ucas_2026:q1",
+            "question": "Why do you want to study this course or subject?",
+            "focus": "学科兴趣的真实来源、对学科重大问题的批判性参与、希望深耕的细分领域",
+            "avoid": [
+              "避免讨论未来的职业规划——个人陈述应反映你个人的学术兴趣。",
+              "避免「我从小就梦想…」这类没有起源事件的空话。"
+            ]
+          },
+          {
+            "id": "ucas_2026:q2",
+            "question": "How have your qualifications and studies helped you to prepare for this course or subject?",
+            "focus": "课内学习与超课程活动（super-curricular）如何递进地加深学科认知，重在反思而非罗列",
+            "avoid": [
+              "无需讨论所有当前学习，只谈与所选科目相关的部分。",
+              "不要罗列课程科目清单——资格部分会显示这些信息。"
+            ]
+          },
+          {
+            "id": "ucas_2026:q3",
+            "question": "What else have you done to prepare outside of education, and why are these experiences useful?",
+            "focus": "课外经历（实习、项目、社会实践）如何拓宽对学科主题的理解，与课程相关性是关键",
+            "avoid": [
+              "确保回答与所申请课程相关，并展示对该学科的批判性参与；与课程无关的可转移技能（如球队领导力）分量应远低于学术内容。"
+            ]
+          }
+        ],
+        "programmes": [
+          {
+            "id": "manchester_cs_ug",
+            "name": "BSc Computer Science (2027 entry)",
+            "requirement_hints": [
+              {
+                "id": "manchester_cs_ug:req_02",
+                "category": "subject",
+                "text": "A* in Mathematics",
+                "curriculum": "a_level",
+                "is_mandatory": true,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_03",
+                "category": "subject",
+                "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+                "curriculum": "a_level",
+                "is_mandatory": true,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_04",
+                "category": "material",
+                "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+                "curriculum": "a_level",
+                "is_mandatory": false,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_06",
+                "category": "subject",
+                "text": "including Mathematics",
+                "curriculum": "a_level",
+                "is_mandatory": false,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_07",
+                "category": "subject",
+                "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+                "curriculum": "a_level",
+                "is_mandatory": false,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              }
+            ]
+          }
+        ],
+        "output_schema": {
+          "thesis_claim": "基于已确认经历的候选主线",
+          "thesis_evidence_quote": "从一条学生原话逐字复制的短句",
+          "materials": [
+            {
+              "experience_id": "exp_1",
+              "angle": "候选写作角度",
+              "evidence_quote": "从某一条 values 原文逐字复制的短句",
+              "guide_note": "写作用途和限制",
+              "translated_positioning": "专业语言转译，未经确认的推断须标明候选"
+            }
+          ],
+          "sections": [
+            {
+              "prompt_id": "ucas_2026:q1",
+              "material_ids": [
+                "mat_1"
+              ],
+              "strategy": "这道题如何使用已确认素材"
+            }
+          ]
+        },
+        "rules": [
+          "只使用给定经历 ID 与 UCAS 三问 ID。",
+          "每条材料必须提供逐字证据引文。",
+          "不把学生未说出的算法优化、成绩或专业认知写成事实。",
+          "素材不足的题目写明缺口，不编造填满。"
+        ]
+      },
+      "max_tokens": 4000,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "latency_s": 6.7607
+    }
+  ],
+  "cost_summary": {
+    "currency": "USD",
+    "shared_upstream_cost": 0.0032192,
+    "guard_increment_cost": 0,
+    "standalone_prompt_only_cost": 0.0032192,
+    "standalone_full_guardrail_cost": 0.0032192,
+    "actual_experiment_estimated_cost": 0.0032192,
+    "actual_experiment_cost": 0.0032192,
+    "cost_basis": "provider_reported",
+    "unknown_cost_calls": 0,
+    "actual_model_requests": 7,
+    "dry_run": false,
+    "cost_is_usage_based_estimate_not_provider_bill": false
+  }
+}

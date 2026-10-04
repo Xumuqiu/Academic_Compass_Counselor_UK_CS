@@ -1,0 +1,1720 @@
+[
+  {
+    "case_id": "DEV01",
+    "reference_id": "DEV01:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "用组合键清理重复课表记录，并测试样例原型",
+    "label": "insufficient",
+    "reason": "组合键已确认，但“测试样例原型”未在实际回放确认。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV01",
+    "reference_id": "DEV01:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "比较手画与软件绘图并留下图像笔记",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV01",
+    "reference_id": "DEV01:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "提高了全校排课效率",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV01",
+    "reference_id": "DEV01:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV02",
+    "reference_id": "DEV02:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "通过调整传感器与急弯速度迭代巡线策略",
+    "label": "supported",
+    "reason": "调整传感器与急弯速度均由实际解决回答支持。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV02",
+    "reference_id": "DEV02:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "轮流记录出勤并留下出勤表",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV02",
+    "reference_id": "DEV02:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "识别准确率提升40%",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV02",
+    "reference_id": "DEV02:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV02/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV03",
+    "reference_id": "DEV03:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "参与小组项目并整理过测试数据",
+    "label": "insufficient",
+    "reason": "整理测试数据的过程回答未被询问；实际回放只能确认贡献边界反思。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV03",
+    "reference_id": "DEV03:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "阅读列表例子并留下练习笔记",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV03",
+    "reference_id": "DEV03:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "独立设计了数据库和完整登录系统",
+    "label": "insufficient",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV03",
+    "reference_id": "DEV03:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV04",
+    "reference_id": "DEV04:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "记录和复现团队算法测试错误",
+    "label": "supported",
+    "reason": "实际回答支持记录并复现错误。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV04",
+    "reference_id": "DEV04:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "整理物资编号并留下编号清单",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV04",
+    "reference_id": "DEV04:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "作为负责人设计获奖算法",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV04",
+    "reference_id": "DEV04:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV05",
+    "reference_id": "DEV05:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "设计静态展示并修正 AI 生成页面的链接与布局",
+    "label": "insufficient",
+    "reason": "具体页面修改已确认，但设计归属及AI生成第一版的细节未全部送达。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV05",
+    "reference_id": "DEV05:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "记录老师演示并留下课堂笔记",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV05",
+    "reference_id": "DEV05:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "独立构建了实时比价和数据抓取系统",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV05",
+    "reference_id": "DEV05:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV05/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV06",
+    "reference_id": "DEV06:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "通过入门阅读关注模型假设与现实条件的差异",
+    "label": "supported",
+    "reason": "实际学习回答支持检查模型假设与条件。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV06",
+    "reference_id": "DEV06:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "观察并记录设备流程并留下参观笔记",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV06",
+    "reference_id": "DEV06:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "完成非线性控制研究并提出新模型",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "DEV06",
+    "reference_id": "DEV06:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/dev/DEV06/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL01",
+    "reference_id": "EVAL01:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "记录传感器数据并明确标注缺失区间",
+    "label": "insufficient",
+    "reason": "实际回答确认标注缺失，但本人采集传感器数据的过程未再确认。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL01",
+    "reference_id": "EVAL01:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "检查函数取值并留下练习草稿",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL01",
+    "reference_id": "EVAL01:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "证明开窗导致空气质量提升",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL01",
+    "reference_id": "EVAL01:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL01/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL02",
+    "reference_id": "EVAL02:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "检查空格输入并改进演示表单验证",
+    "label": "supported",
+    "reason": "实际回答支持空格输入检查与修改。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL02",
+    "reference_id": "EVAL02:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "维护匿名借用清单并留下借用清单",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL02",
+    "reference_id": "EVAL02:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "报名转化率显著提升",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL02",
+    "reference_id": "EVAL02:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL03",
+    "reference_id": "EVAL03:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "在同一路线比较速度设置并据完成记录选择方案",
+    "label": "supported",
+    "reason": "实际回答支持路线上的速度/完成情况比较与选择。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL03",
+    "reference_id": "EVAL03:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "观察连杆动作并留下观察笔记",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL03",
+    "reference_id": "EVAL03:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "证明低速策略在所有赛场最优",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL03",
+    "reference_id": "EVAL03:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL03/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL04",
+    "reference_id": "EVAL04:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "手工比较排序的交换与比较步骤",
+    "label": "supported",
+    "reason": "实际回答支持手工比较与交换记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL04",
+    "reference_id": "EVAL04:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "分析示例移动规则并留下规则笔记",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL04",
+    "reference_id": "EVAL04:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "实现并部署了更高效排序算法",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL04",
+    "reference_id": "EVAL04:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL05",
+    "reference_id": "EVAL05:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "用字符串规范化和字典查询制作本地词卡工具",
+    "label": "supported",
+    "reason": "实际回答支持字符串规范化与字典查询。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL05",
+    "reference_id": "EVAL05:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "组织一次练习并留下练习安排表",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL05",
+    "reference_id": "EVAL05:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "训练 AI 模型提高英语成绩",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL05",
+    "reference_id": "EVAL05:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL06",
+    "reference_id": "EVAL06:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "体验了图片分类工具并提出光照变化的问题",
+    "label": "supported",
+    "reason": "实际回答描述换暗图片后分类错误并提出光照疑问；仅限体验与疑问。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL06",
+    "reference_id": "EVAL06:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "计算样本均值并留下作业草稿",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL06",
+    "reference_id": "EVAL06:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "掌握了模型泛化原理并优化分类器",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL06",
+    "reference_id": "EVAL06:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL06/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL07",
+    "reference_id": "EVAL07:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "分享问题分解例子并记录未能回答的问题",
+    "label": "insufficient",
+    "reason": "记录未答问题已确认；分享具体问题分解例子的过程未再次确认。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL07",
+    "reference_id": "EVAL07:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "整理物品编号并留下登记表",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL07",
+    "reference_id": "EVAL07:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "深入研究动态规划与分治的区别",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL07",
+    "reference_id": "EVAL07:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL08",
+    "reference_id": "EVAL08:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "参加学术讲座并提交心得",
+    "label": "insufficient",
+    "reason": "参加讲座并提交心得仅来自CV，实际回放未确认具体成果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/5/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/6/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL08",
+    "reference_id": "EVAL08:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "记录课堂实验现象并留下观察表",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL08",
+    "reference_id": "EVAL08:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "形成明确的机器学习研究方向",
+    "label": "insufficient",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/5/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/6/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL08",
+    "reference_id": "EVAL08:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL09",
+    "reference_id": "EVAL09:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "参与小组展示并报告消息发送问题",
+    "label": "supported",
+    "reason": "实际困难回答明确展示时本人报告发送问题。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL09",
+    "reference_id": "EVAL09:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "整理排练时间并留下安排表",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL09",
+    "reference_id": "EVAL09:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "独立实现聊天工具的网络协议",
+    "label": "insufficient",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL09",
+    "reference_id": "EVAL09:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL10",
+    "reference_id": "EVAL10:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "修改登录提示并处理手机显示问题",
+    "label": "supported",
+    "reason": "实际回答支持修改登录提示与手机显示。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL10",
+    "reference_id": "EVAL10:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "检查字母大小写并留下练习代码",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL10",
+    "reference_id": "EVAL10:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "负责完整前后端开发和身份验证",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL10",
+    "reference_id": "EVAL10:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL10/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL11",
+    "reference_id": "EVAL11:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "按匿名编号删除社团重复报名记录",
+    "label": "supported",
+    "reason": "实际回答支持匿名编号去重。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL11",
+    "reference_id": "EVAL11:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "绘制课堂样例图并留下柱状图",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL11",
+    "reference_id": "EVAL11:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "在该社团项目中训练模型并绘图",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL11",
+    "reference_id": "EVAL11:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL11/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL12",
+    "reference_id": "EVAL12:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "作为志愿者运行测试脚本并记录报错",
+    "label": "insufficient",
+    "reason": "志愿者身份与报告错误已确认；运行测试脚本仅在未问答案中。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL12",
+    "reference_id": "EVAL12:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "核对活动入口编号并留下岗位清单",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL12",
+    "reference_id": "EVAL12:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "个人一等奖证明算法能力突出",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL12",
+    "reference_id": "EVAL12:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL12/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL13",
+    "reference_id": "EVAL13:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "用纸面索引表检查数组越界",
+    "label": "supported",
+    "reason": "实际回答支持纸面索引与边界检查。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL13",
+    "reference_id": "EVAL13:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "修改模板导航链接并留下本地页面",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL13",
+    "reference_id": "EVAL13:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "实现并上线了该数组算法",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL13",
+    "reference_id": "EVAL13:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL14",
+    "reference_id": "EVAL14:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "更新活动日期并修正失效链接",
+    "label": "insufficient",
+    "reason": "修链接已确认，但更新活动日期仅在未问过程回答中。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL14",
+    "reference_id": "EVAL14:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "记录隐私讨论问题并留下问题清单",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL14",
+    "reference_id": "EVAL14:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "通过用户实验显著提升留存率",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL14",
+    "reference_id": "EVAL14:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL14/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL15",
+    "reference_id": "EVAL15:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "在指定数据与设备的三次测试中把平均查询时间从5秒降到3秒",
+    "label": "supported",
+    "reason": "实际解决回答包含设备、数据、三次测试与5秒到3秒。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL15",
+    "reference_id": "EVAL15:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "比较两个课堂概率例子并留下讨论草稿",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL15",
+    "reference_id": "EVAL15:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "证明新方法在所有规模上更快且内存更低",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL15",
+    "reference_id": "EVAL15:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL16",
+    "reference_id": "EVAL16:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "在模拟器中用转向状态记录调整避障规则",
+    "label": "supported",
+    "reason": "实际反思/概念确认模拟范围，解决回答支持转向状态调整。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL16",
+    "reference_id": "EVAL16:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "完成课堂安全练习并留下练习表",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL16",
+    "reference_id": "EVAL16:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "在真实机器人上部署可靠自主导航",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL16",
+    "reference_id": "EVAL16:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL16/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL17",
+    "reference_id": "EVAL17:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "Cleaned duplicate rows and distinguished missing values from zero",
+    "label": "insufficient",
+    "reason": "区分缺失与零已确认；删除重复行仅在未问过程回答中。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL17",
+    "reference_id": "EVAL17:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "Recorded discussion questions并留下Discussion notes",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL17",
+    "reference_id": "EVAL17:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "Deployed a city-wide prediction system",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL17",
+    "reference_id": "EVAL17:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL17/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL18",
+    "reference_id": "EVAL18:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "通过教学讨论学习检查线性近似的适用条件",
+    "label": "supported",
+    "reason": "实际回答支持教学讨论后修订模型范围。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL18",
+    "reference_id": "EVAL18:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "跟随老师记录测量并留下实验记录",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL18",
+    "reference_id": "EVAL18:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "提出原创非线性模型并证明误差界",
+    "label": "contradicted",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL18",
+    "reference_id": "EVAL18:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL18/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL19",
+    "reference_id": "EVAL19:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "因两周工期选择可实现的固定优先级原型",
+    "label": "supported",
+    "reason": "实际困难、解决和比较回答支持两周工期下的可实现性取舍。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL19",
+    "reference_id": "EVAL19:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "追踪老师提供的函数调用并留下调用图",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL19",
+    "reference_id": "EVAL19:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "优化算法性能并证明胜率更高",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL19",
+    "reference_id": "EVAL19:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/7/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL19/simulated_transcript.json#/turns/11/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL20",
+    "reference_id": "EVAL20:supported:1",
+    "experience_id": "exp_1",
+    "original_category": "supported_claims",
+    "claim": "用活动编号核对体育训练的重复记录",
+    "label": "supported",
+    "reason": "实际回答支持活动编号去重与队员核对。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL20",
+    "reference_id": "EVAL20:supported:2",
+    "experience_id": "exp_2",
+    "original_category": "supported_claims",
+    "claim": "分享任务分解例子并留下分享笔记",
+    "label": "insufficient",
+    "reason": "CV职责与作品未在实际回放逐项确认，不能据通用核对回答确认完整原论点。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL20",
+    "reference_id": "EVAL20:forbidden:1",
+    "experience_id": "exp_1",
+    "original_category": "forbidden_claims",
+    "claim": "开发预测模型提升团队竞技表现",
+    "label": "overstated",
+    "reason": "具体措辞超出实际回答的范围；核对本例限制、贡献与纠正记录。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/0/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/1/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/2/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/3/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/4/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/5/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  },
+  {
+    "case_id": "EVAL20",
+    "reference_id": "EVAL20:forbidden:2",
+    "experience_id": "exp_2",
+    "original_category": "forbidden_claims",
+    "claim": "通过该活动证明独立科研能力或量化效果",
+    "label": "overstated",
+    "reason": "核对记录行动不能支持独立科研能力或量化效果。",
+    "evidence_locators": [
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/8/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/9/answer",
+      "data/synthetic_profiles_v1/evaluation_candidates/EVAL20/simulated_transcript.json#/turns/12/answer"
+    ],
+    "unit": "composite_reference_example_not_a_scored_model_atom"
+  }
+]

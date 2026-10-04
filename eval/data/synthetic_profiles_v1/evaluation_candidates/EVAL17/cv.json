@@ -1,0 +1,38 @@
+{
+  "student": {
+    "id": "eval17",
+    "label": "虚构学生 EVAL17",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "CSV chart practice",
+        "type": "project",
+        "role": "Cleaned CSV rows",
+        "skills": [
+          "Python"
+        ],
+        "outputs": [
+          "Chart notebook"
+        ]
+      },
+      {
+        "title": "School debate practice",
+        "type": "holistic",
+        "role": "Recorded discussion questions",
+        "skills": [],
+        "outputs": [
+          "Discussion notes"
+        ]
+      }
+    ]
+  }
+}

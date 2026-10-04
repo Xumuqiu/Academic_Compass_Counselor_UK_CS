@@ -1,0 +1,1 @@
+run_id,case_id,arm,call_id,stage,provider,model,region,status,retry_of,input_tokens,output_tokens,cached_input_tokens,latency_s,pricing_version,currency,cost,cost_status,error_type

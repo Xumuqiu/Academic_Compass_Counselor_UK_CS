@@ -1,0 +1,144 @@
+{
+  "case_id": "DEV04",
+  "split": "dev",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "DEV04",
+      "gap_id": "DEV04:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "identity_conflict",
+      "description": "CV负责人身份需要更正",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "没有核心代码贡献证据，简历上的团队负责人需要更正。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/5/answer"
+      ],
+      "expected_detection": "明确指出负责人条目需更正，不能保留负责人身份为已确认事实",
+      "confirmation_question_example": "负责人条目应如何更正？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "DEV04",
+      "gap_id": "DEV04:gap:v1:2",
+      "experience_id": "exp_1",
+      "kind": "contribution",
+      "description": "测试贡献不能归为本人设计核心算法",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "复现错误和记录条件也有价值，但不能说成我设计了算法。",
+          "confirmation": "student_stated"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "没有核心代码贡献证据，简历上的团队负责人需要更正。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/2/answer",
+        "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/5/answer"
+      ],
+      "expected_detection": "明确区分本人复现测试与算法设计贡献",
+      "confirmation_question_example": "你负责的测试记录与组员算法修改分别有哪些证据？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "DEV04",
+      "opportunity_id": "DEV04:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "反复运行同一输入复现错误并记录后交组员修改",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "我反复运行这条输入确认能复现，然后记录下来交给组员修改。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/1/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "DEV04",
+      "opportunity_id": "DEV04:opportunity:1:2",
+      "experience_id": "exp_1",
+      "supported_fact": "从口头描述改为写清输入与输出，帮助复现错误",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/4/answer",
+          "round": 5,
+          "element": "deep:alternative",
+          "text": "我先口头描述错误，后来发现写清输入和输出更容易让组员复现。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/4/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "DEV04",
+      "opportunity_id": "DEV04:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/8/answer",
+          "round": 9,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV04/simulated_transcript.json#/turns/8/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

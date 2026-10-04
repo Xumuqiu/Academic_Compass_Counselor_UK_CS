@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL19",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "资源策略比赛原型",
+      "answers_by_element": {
+        "process": "我原先想让每个单位实时判断，但比赛只有两周，就先写固定优先级策略。",
+        "knowledge": "我用条件判断选择升级顺序，还没有实现搜索最优策略。",
+        "problem": "实时方案功能太多，我不能在两周内完成。",
+        "solution": "我删去个别单位判断，只按当前资源和预设优先级做选择。",
+        "reflection": "我学到开发时间和可实现程度也是选择方案的条件。",
+        "outcome": "原型能在演示对局运行，没有保存胜率对比。",
+        "deep:concept": "我理解的是约束下的方案取舍，不是证明算法性能优化。",
+        "deep:alternative": "我比较实时方案的功能清单与开发时间，最终选择较简单的原型。",
+        "deep:limit": "没有对照胜率，不能说简单策略比复杂策略性能更好。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "信息课递归例子",
+      "answers_by_element": {
+        "process": "我负责追踪老师提供的函数调用，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到Python基础，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "我能跟踪一个例子，还不会证明复杂度。",
+        "outcome": "留下了调用图，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

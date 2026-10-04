@@ -1,0 +1,588 @@
+{
+  "dataset_id": "synthetic_profiles_v1",
+  "created_on": "2026-10-04",
+  "status": "generated_snapshot_not_final_evaluation_freeze",
+  "total_profiles": 26,
+  "dev_profiles": 6,
+  "evaluation_candidate_profiles": 20,
+  "independent_held_out_profiles": 0,
+  "all_gold_labels_are_drafts": true,
+  "reference": "参考演示案例目录中 Tracy CV 的栏目组织，以同类校园场景重新虚构；不复制原文、身份信息或真实奖项。",
+  "reference_programme_status": "本地 manchester_cs_ug 仍待人工核实；不提供官方资格 gold。",
+  "generation_method": "deterministic authored specifications in build_synthetic_profiles.py",
+  "generator_sha256": "20fc5babf270125e3b906d4d00ab38adc45c04df3af050e84a5d95e015310856",
+  "profiles": [
+    {
+      "case_id": "DEV01",
+      "split": "dev",
+      "slice": "supported",
+      "cv_file": "dev/DEV01/cv.json",
+      "interview_file": "dev/DEV01/interview.json",
+      "gold_file": "dev/DEV01/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "DEV02",
+      "split": "dev",
+      "slice": "measurement",
+      "cv_file": "dev/DEV02/cv.json",
+      "interview_file": "dev/DEV02/interview.json",
+      "gold_file": "dev/DEV02/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "DEV03",
+      "split": "dev",
+      "slice": "missing",
+      "cv_file": "dev/DEV03/cv.json",
+      "interview_file": "dev/DEV03/interview.json",
+      "gold_file": "dev/DEV03/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "DEV04",
+      "split": "dev",
+      "slice": "conflict",
+      "cv_file": "dev/DEV04/cv.json",
+      "interview_file": "dev/DEV04/interview.json",
+      "gold_file": "dev/DEV04/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "DEV05",
+      "split": "dev",
+      "slice": "ai_ownership",
+      "cv_file": "dev/DEV05/cv.json",
+      "interview_file": "dev/DEV05/interview.json",
+      "gold_file": "dev/DEV05/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "DEV06",
+      "split": "dev",
+      "slice": "research_scope",
+      "cv_file": "dev/DEV06/cv.json",
+      "interview_file": "dev/DEV06/interview.json",
+      "gold_file": "dev/DEV06/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL01",
+      "split": "evaluation_candidates",
+      "slice": "methods_and_scope",
+      "cv_file": "evaluation_candidates/EVAL01/cv.json",
+      "interview_file": "evaluation_candidates/EVAL01/interview.json",
+      "gold_file": "evaluation_candidates/EVAL01/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL02",
+      "split": "evaluation_candidates",
+      "slice": "methods_and_scope",
+      "cv_file": "evaluation_candidates/EVAL02/cv.json",
+      "interview_file": "evaluation_candidates/EVAL02/interview.json",
+      "gold_file": "evaluation_candidates/EVAL02/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL03",
+      "split": "evaluation_candidates",
+      "slice": "methods_and_scope",
+      "cv_file": "evaluation_candidates/EVAL03/cv.json",
+      "interview_file": "evaluation_candidates/EVAL03/interview.json",
+      "gold_file": "evaluation_candidates/EVAL03/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL04",
+      "split": "evaluation_candidates",
+      "slice": "methods_and_scope",
+      "cv_file": "evaluation_candidates/EVAL04/cv.json",
+      "interview_file": "evaluation_candidates/EVAL04/interview.json",
+      "gold_file": "evaluation_candidates/EVAL04/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL05",
+      "split": "evaluation_candidates",
+      "slice": "missing_and_depth",
+      "cv_file": "evaluation_candidates/EVAL05/cv.json",
+      "interview_file": "evaluation_candidates/EVAL05/interview.json",
+      "gold_file": "evaluation_candidates/EVAL05/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL06",
+      "split": "evaluation_candidates",
+      "slice": "missing_and_depth",
+      "cv_file": "evaluation_candidates/EVAL06/cv.json",
+      "interview_file": "evaluation_candidates/EVAL06/interview.json",
+      "gold_file": "evaluation_candidates/EVAL06/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL07",
+      "split": "evaluation_candidates",
+      "slice": "missing_and_depth",
+      "cv_file": "evaluation_candidates/EVAL07/cv.json",
+      "interview_file": "evaluation_candidates/EVAL07/interview.json",
+      "gold_file": "evaluation_candidates/EVAL07/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL08",
+      "split": "evaluation_candidates",
+      "slice": "missing_and_depth",
+      "cv_file": "evaluation_candidates/EVAL08/cv.json",
+      "interview_file": "evaluation_candidates/EVAL08/interview.json",
+      "gold_file": "evaluation_candidates/EVAL08/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL09",
+      "split": "evaluation_candidates",
+      "slice": "ownership_and_conflict",
+      "cv_file": "evaluation_candidates/EVAL09/cv.json",
+      "interview_file": "evaluation_candidates/EVAL09/interview.json",
+      "gold_file": "evaluation_candidates/EVAL09/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL10",
+      "split": "evaluation_candidates",
+      "slice": "ownership_and_conflict",
+      "cv_file": "evaluation_candidates/EVAL10/cv.json",
+      "interview_file": "evaluation_candidates/EVAL10/interview.json",
+      "gold_file": "evaluation_candidates/EVAL10/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL11",
+      "split": "evaluation_candidates",
+      "slice": "ownership_and_conflict",
+      "cv_file": "evaluation_candidates/EVAL11/cv.json",
+      "interview_file": "evaluation_candidates/EVAL11/interview.json",
+      "gold_file": "evaluation_candidates/EVAL11/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL12",
+      "split": "evaluation_candidates",
+      "slice": "ownership_and_conflict",
+      "cv_file": "evaluation_candidates/EVAL12/cv.json",
+      "interview_file": "evaluation_candidates/EVAL12/interview.json",
+      "gold_file": "evaluation_candidates/EVAL12/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL13",
+      "split": "evaluation_candidates",
+      "slice": "execution_and_measurement",
+      "cv_file": "evaluation_candidates/EVAL13/cv.json",
+      "interview_file": "evaluation_candidates/EVAL13/interview.json",
+      "gold_file": "evaluation_candidates/EVAL13/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL14",
+      "split": "evaluation_candidates",
+      "slice": "execution_and_measurement",
+      "cv_file": "evaluation_candidates/EVAL14/cv.json",
+      "interview_file": "evaluation_candidates/EVAL14/interview.json",
+      "gold_file": "evaluation_candidates/EVAL14/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL15",
+      "split": "evaluation_candidates",
+      "slice": "execution_and_measurement",
+      "cv_file": "evaluation_candidates/EVAL15/cv.json",
+      "interview_file": "evaluation_candidates/EVAL15/interview.json",
+      "gold_file": "evaluation_candidates/EVAL15/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL16",
+      "split": "evaluation_candidates",
+      "slice": "execution_and_measurement",
+      "cv_file": "evaluation_candidates/EVAL16/cv.json",
+      "interview_file": "evaluation_candidates/EVAL16/interview.json",
+      "gold_file": "evaluation_candidates/EVAL16/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL17",
+      "split": "evaluation_candidates",
+      "slice": "language_and_tradeoffs",
+      "cv_file": "evaluation_candidates/EVAL17/cv.json",
+      "interview_file": "evaluation_candidates/EVAL17/interview.json",
+      "gold_file": "evaluation_candidates/EVAL17/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL18",
+      "split": "evaluation_candidates",
+      "slice": "language_and_tradeoffs",
+      "cv_file": "evaluation_candidates/EVAL18/cv.json",
+      "interview_file": "evaluation_candidates/EVAL18/interview.json",
+      "gold_file": "evaluation_candidates/EVAL18/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL19",
+      "split": "evaluation_candidates",
+      "slice": "language_and_tradeoffs",
+      "cv_file": "evaluation_candidates/EVAL19/cv.json",
+      "interview_file": "evaluation_candidates/EVAL19/interview.json",
+      "gold_file": "evaluation_candidates/EVAL19/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    },
+    {
+      "case_id": "EVAL20",
+      "split": "evaluation_candidates",
+      "slice": "language_and_tradeoffs",
+      "cv_file": "evaluation_candidates/EVAL20/cv.json",
+      "interview_file": "evaluation_candidates/EVAL20/interview.json",
+      "gold_file": "evaluation_candidates/EVAL20/gold.json",
+      "program_ids": [
+        "manchester_cs_ug"
+      ],
+      "experience_count": 2,
+      "origin": "agent_authored_synthetic",
+      "author": "Codex",
+      "contains_real_student_data": false,
+      "permission": "user_requested_fictional_test_fixtures",
+      "independent_held_out": false,
+      "cv_source_style": "education_experience_honors_skills_organization_only",
+      "initial_evidence_gaps": [
+        "个人做法、困难、解决与反思需由访谈补充"
+      ],
+      "human_review_status": "not_reviewed"
+    }
+  ]
+}

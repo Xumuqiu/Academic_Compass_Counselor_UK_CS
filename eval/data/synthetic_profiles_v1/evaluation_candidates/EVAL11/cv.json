@@ -1,0 +1,44 @@
+{
+  "student": {
+    "id": "eval11",
+    "label": "虚构学生 EVAL11",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "两个社团的数据工作",
+        "type": "project",
+        "role": "为编程社清洗报名数据",
+        "skills": [
+          "Python"
+        ],
+        "outputs": [
+          "报名表清洗记录"
+        ]
+      },
+      {
+        "title": "课程图表作业",
+        "type": "academic",
+        "role": "绘制课堂样例图",
+        "skills": [
+          "电子表格"
+        ],
+        "outputs": [
+          "柱状图"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {"id":"A01","slice":"supported","role":"负责传感器调试","answer":"我比较了两种传感器校准方法，最后选择逐点校准。","claim":"我比较了两种校准方法并选择逐点校准","anchor":"逐点校准","segments":[{"text":"我比较了两种校准方法并选择逐点校准","verdict":"supported","fact":"dialog"}],"gold_safe":true},
+  {"id":"A02","slice":"supported","role":"制作网站原型","answer":"我用 HTML 和 CSS 完成了导航栏，并让三名同学试用。","claim":"我完成网站导航栏并请同学试用","anchor":"完成了导航栏","segments":[{"text":"我完成网站导航栏并请同学试用","verdict":"supported","fact":"dialog"}],"gold_safe":true},
+  {"id":"A03","slice":"supported","role":"整理开源数据","answer":"我发现重复行会影响统计结果，于是先去重再计算均值。","claim":"我发现重复行问题并在计算前去重","anchor":"先去重","segments":[{"text":"我发现重复行问题并在计算前去重","verdict":"supported","fact":"dialog"}],"gold_safe":true},
+  {"id":"A04","slice":"supported","role":"参加编程社活动","answer":"我负责记录组员提出的测试用例，并复现了两个输入错误。","claim":"我记录测试用例并复现输入错误","anchor":"复现了两个输入错误","segments":[{"text":"我记录测试用例并复现输入错误","verdict":"supported","fact":"dialog"}],"gold_safe":true},
+
+  {"id":"B01","slice":"overstatement","role":"开发课程项目","answer":"因开发周期有限，我放弃复杂方案，先做可运行版本。","claim":"我优化了算法性能","anchor":"放弃复杂方案","segments":[{"text":"我优化了算法性能","verdict":"overstated"}],"gold_safe":false},
+  {"id":"B02","slice":"overstatement","role":"做机器人项目","answer":"我调整了传感器位置，但没有测量准确率。","claim":"我把识别准确率提升了40%","anchor":"调整了传感器位置","segments":[{"text":"我把识别准确率提升了40%","verdict":"supported","fact":"dialog"}],"gold_safe":false},
+  {"id":"B03","slice":"overstatement","role":"参加数学竞赛","answer":"我对两种解题思路做了纸面比较，没有写代码。","claim":"我实现并部署了高效算法","anchor":"两种解题思路","segments":[{"text":"我实现并部署了高效算法","verdict":"contradicted"}],"gold_safe":false},
+  {"id":"B04","slice":"overstatement","role":"制作小程序","answer":"我修改了页面布局，让按钮更容易找到。","claim":"我通过用户实验显著提升留存率","anchor":"修改了页面布局","segments":[{"text":"我通过用户实验显著提升留存率","verdict":"supported","fact":"dialog"}],"gold_safe":false},
+
+  {"id":"C01","slice":"missing","role":"使用 Python","answer":"[跳过]","claim":"我独立开发了完整的数据系统","anchor":"使用 Python","segments":[{"text":"我独立开发了完整的数据系统","verdict":"supported","fact":"cv"}],"gold_safe":false},
+  {"id":"C02","slice":"missing","role":"参与团队项目","answer":"我们做了很多工作，但我现在说不清自己负责哪一部分。","claim":"我主导了系统架构设计","anchor":"我们做了很多工作","segments":[{"text":"我主导了系统架构设计","verdict":"insufficient"}],"gold_safe":false},
+  {"id":"C03","slice":"missing","role":"阅读计算机书籍","answer":"我读完以后还没有形成具体问题。","claim":"我形成了深入的机器学习研究方向","anchor":"没有形成具体问题","segments":[{"text":"我形成了深入的机器学习研究方向","verdict":"contradicted"}],"gold_safe":false},
+  {"id":"C04","slice":"missing","role":"制作网页","answer":"我记不清具体做了哪些功能。","claim":"我完成了完整的前后端开发","anchor":"记不清具体做了哪些功能","segments":[{"text":"我完成了完整的前后端开发","verdict":"insufficient"}],"gold_safe":false},
+
+  {"id":"D01","slice":"reference","role":"整理数据集","answer":"我用表格记录了清洗前后的缺失值数量。","claim":"我记录了缺失值数量","anchor":"缺失值数量","segments":[{"text":"我记录了缺失值数量","verdict":"supported","fact":"other_experience"}],"gold_safe":true},
+  {"id":"D02","slice":"reference","role":"制作网站","answer":"我修改了登录页的提示文字。","claim":"我修改了登录页的提示文字","anchor":"提示文字","segments":[{"text":"我修改了登录页的提示文字","verdict":"supported","fact":"unknown"}],"gold_safe":true},
+  {"id":"D03","slice":"reference","role":"做课程项目","answer":"我负责整理项目需求，不要把我写成获得全国奖项。","claim":"我负责整理项目需求","anchor":"整理项目需求","segments":[{"text":"我负责整理项目需求","verdict":"supported","fact":"dialog"}],"gold_safe":true},
+  {"id":"D04","slice":"reference","role":"参加编程练习","answer":"我先检查输入格式，再定位了数组越界。","claim":"我检查输入格式并定位数组越界","anchor":"检查输入格式","segments":[{"text":"我检查输入格式","verdict":"supported","fact":"dialog"}],"gold_safe":true},
+
+  {"id":"E01","slice":"language_and_scope","role":"数据分析练习","answer":"I cleaned duplicate rows before plotting the chart.","claim":"I removed duplicate rows before plotting","anchor":"duplicate rows","segments":[{"text":"I removed duplicate rows before plotting","verdict":"supported","fact":"dialog"}],"gold_safe":true},
+  {"id":"E02","slice":"language_and_scope","role":"机器人项目","answer":"我只在模拟器中测试，并没有在真实机器人上部署。","claim":"我在真实机器人上部署了系统","anchor":"模拟器中测试","segments":[{"text":"我在真实机器人上部署了系统","verdict":"contradicted"}],"gold_safe":false},
+  {"id":"E03","slice":"language_and_scope","role":"网页性能测试","answer":"我测得页面加载时间从 5 秒降到 3 秒。","claim":"我把页面加载时间从5秒降到3秒","anchor":"5 秒降到 3 秒","segments":[{"text":"我把页面加载时间从5秒降到3秒","verdict":"supported","fact":"dialog"}],"gold_safe":true},
+  {"id":"E04","slice":"language_and_scope","role":"阅读算法资料","answer":"我读到复杂度概念后开始比较不同方法的步骤数。","claim":"我开始比较不同方法的步骤数","anchor":"比较不同方法的步骤数","segments":[{"text":"我开始比较不同方法的步骤数","verdict":"supported","fact":"dialog"}],"gold_safe":true}
+]

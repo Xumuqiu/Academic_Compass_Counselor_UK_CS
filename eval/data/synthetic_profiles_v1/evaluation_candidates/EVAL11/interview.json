@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL11",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "两个社团的数据工作",
+      "answers_by_element": {
+        "process": "编程社这次我只删除重复报名行，绘图是在另一门课程做的。",
+        "knowledge": "我用 Python 检查重复行，绘图用的工具不属于这次社团工作。",
+        "problem": "同一人重复填写导致名额数量不准确。",
+        "solution": "我按社团分配的匿名编号去重，没有做身份识别。",
+        "reflection": "整理申请材料时我需要把不同课程里的行动分开。",
+        "outcome": "这段经历只有清洗后的报名表，没有图表或机器学习模型。",
+        "deep:concept": "我理解重复记录检查，和另一段经历的数据展示是两件事。",
+        "deep:alternative": "我比较过只按姓名和按匿名编号，姓名可能重名，所以用了编号。",
+        "deep:limit": "同学的绘图和模型工作不能作为我的贡献。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "课程图表作业",
+      "answers_by_element": {
+        "process": "我负责绘制课堂样例图，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到电子表格，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "这是另一门课程的图，不能并入报名表清洗项目。",
+        "outcome": "留下了柱状图，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

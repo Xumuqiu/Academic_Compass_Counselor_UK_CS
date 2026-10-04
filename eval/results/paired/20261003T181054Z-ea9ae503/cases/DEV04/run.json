@@ -1,0 +1,2074 @@
+{
+  "case_id": "DEV04",
+  "slice": "conflict",
+  "dry_run": true,
+  "actual_transcript": [
+    {
+      "round": 1,
+      "question_id": "exp_1:problem",
+      "experience_id": "exp_1",
+      "element": "problem",
+      "question": "「算法竞赛团队获奖」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "一条测试输入得到不同答案，我把它交给写算法的同学。"
+    },
+    {
+      "round": 2,
+      "question_id": "exp_1:solution",
+      "experience_id": "exp_1",
+      "element": "solution",
+      "question": "你提到「一条测试输入得到不同答案，我把它交给写算法的同学。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我反复运行这条输入确认能复现，然后记录下来交给组员修改。"
+    },
+    {
+      "round": 3,
+      "question_id": "exp_1:reflection",
+      "experience_id": "exp_1",
+      "element": "reflection",
+      "question": "「算法竞赛团队获奖」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "复现错误和记录条件也有价值，但不能说成我设计了算法。"
+    },
+    {
+      "round": 4,
+      "question_id": "exp_1:deep:concept",
+      "experience_id": "exp_1",
+      "element": "deep:concept",
+      "question": "关于「算法竞赛团队获奖」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "我知道要比较预期和实际输出，还不能解释算法复杂度。"
+    },
+    {
+      "round": 5,
+      "question_id": "exp_1:deep:alternative",
+      "experience_id": "exp_1",
+      "element": "deep:alternative",
+      "question": "关于「算法竞赛团队获奖」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我先口头描述错误，后来发现写清输入和输出更容易让组员复现。"
+    },
+    {
+      "round": 6,
+      "question_id": "exp_1:deep:limit",
+      "experience_id": "exp_1",
+      "element": "deep:limit",
+      "question": "关于「算法竞赛团队获奖」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "没有核心代码贡献证据，简历上的团队负责人需要更正。"
+    },
+    {
+      "round": 7,
+      "question_id": "exp_2:knowledge",
+      "experience_id": "exp_2",
+      "element": "knowledge",
+      "question": "「校园志愿活动」中你用到了哪些知识或技能？具体用在了哪一步？",
+      "answer": "这段主要是记录与协作，没有使用具体编程方法。"
+    },
+    {
+      "round": 8,
+      "question_id": "exp_2:problem",
+      "experience_id": "exp_2",
+      "element": "problem",
+      "question": "「校园志愿活动」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "第一次记录有一处缺项，需要重新核对。"
+    },
+    {
+      "round": 9,
+      "question_id": "exp_2:solution",
+      "experience_id": "exp_2",
+      "element": "solution",
+      "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+    },
+    {
+      "round": 10,
+      "question_id": "exp_2:reflection",
+      "experience_id": "exp_2",
+      "element": "reflection",
+      "question": "「校园志愿活动」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "清单帮助交接，但我没有测量活动效率提升。"
+    },
+    {
+      "round": 11,
+      "question_id": "exp_2:deep:concept",
+      "experience_id": "exp_2",
+      "element": "deep:concept",
+      "question": "关于「校园志愿活动」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+    },
+    {
+      "round": 12,
+      "question_id": "exp_2:deep:alternative",
+      "experience_id": "exp_2",
+      "element": "deep:alternative",
+      "question": "关于「校园志愿活动」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+    },
+    {
+      "round": 13,
+      "question_id": "exp_2:deep:limit",
+      "experience_id": "exp_2",
+      "element": "deep:limit",
+      "question": "关于「校园志愿活动」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+    }
+  ],
+  "outputs": {
+    "prompt_only": {
+      "student": "虚构学生 DEV04",
+      "programmes": [
+        {
+          "id": "manchester_cs_ug",
+          "name": "BSc Computer Science (2027 entry)",
+          "university": "The University of Manchester",
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false,
+          "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+          "requirements": [
+            {
+              "id": "manchester_cs_ug:req_02",
+              "text": "A* in Mathematics",
+              "kind": "math_grade",
+              "expected": "A*"
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "kind": "science_subject",
+              "accepted": [
+                "Computer Science",
+                "Further Mathematics",
+                "Biology",
+                "Chemistry",
+                "Physics"
+              ]
+            }
+          ],
+          "source_requirements": [
+            {
+              "id": "manchester_cs_ug:req_01",
+              "category": "gpa",
+              "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_02",
+              "category": "subject",
+              "text": "A* in Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_04",
+              "category": "material",
+              "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_05",
+              "category": "gpa",
+              "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_06",
+              "category": "subject",
+              "text": "including Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_07",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_08",
+              "category": "gpa",
+              "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_09",
+              "category": "gpa",
+              "text": "7,6,6 in Higher Level subjects",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_10",
+              "category": "subject",
+              "text": "including 7 in Mathematics: Analysis and Approaches",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_11",
+              "category": "subject",
+              "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_12",
+              "category": "language",
+              "text": "IELTS 7.0 overall, with no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_13",
+              "category": "language",
+              "text": "no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_14",
+              "category": "language",
+              "text": "TOEFL iBT 100 overall, with no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_15",
+              "category": "language",
+              "text": "no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_16",
+              "category": "language",
+              "text": "GCSE/IGCSE English Language grade B/6",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            }
+          ]
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Mathematics",
+          "predicted": "A*"
+        },
+        {
+          "name": "Physics",
+          "predicted": "B"
+        },
+        {
+          "name": "Computer Science",
+          "predicted": "A"
+        }
+      ],
+      "prompt_set_id": "ucas_2026",
+      "prompts": [
+        {
+          "id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?"
+        }
+      ],
+      "writing_guidance": {
+        "id": "ucas_2026",
+        "name": "UCAS Personal Statement（2026 年 9 月入学起：三问式）",
+        "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement",
+        "collected_on": "2026-08-12",
+        "human_verified": false,
+        "prompts": [
+          {
+            "id": "ucas_2026:q1",
+            "question": "你为什么想学习这门课程或学科？",
+            "question_en": "Why do you want to study this course or subject?",
+            "focus": "学科兴趣的真实来源、对学科重大问题的批判性参与、希望深耕的细分领域",
+            "guidance": [
+              "侧重你希望学习的学科的学术兴趣：是什么吸引你选择这门学科？哪些方面让你想在本科阶段学习它？",
+              "是否希望专注于该学科的某个特定领域？该学科的重大问题是什么，你觉得哪些最有趣、你对这些话题有何看法？",
+              "对联合课程，说明学科之间如何相互关联、为什么它们对你有吸引力。"
+            ],
+            "avoid": [
+              "避免讨论未来的职业规划——个人陈述应反映你个人的学术兴趣。",
+              "避免「我从小就梦想…」这类没有起源事件的空话。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q2",
+            "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+            "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+            "focus": "课内学习与超课程活动（super-curricular）如何递进地加深学科认知，重在反思而非罗列",
+            "guidance": [
+              "评审寻找的是能够最好地反思自身经历与学术思想的学生，而不是拥有最佳机会的学生。",
+              "如何在学习之外发展学科兴趣：额外阅读、讲座、在线资料、拓展项目资质（EPQ）？你从中发现了什么有趣之处、有何看法？",
+              "是否从其他学校科目中获得了补充所选课程的技能？",
+              "感兴趣的不仅是你读过什么的清单，而是你有反思学术思想的证据。"
+            ],
+            "avoid": [
+              "无需讨论所有当前学习，只谈与所选科目相关的部分。",
+              "不要罗列课程科目清单——资格部分会显示这些信息。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q3",
+            "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+            "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+            "focus": "课外经历（实习、项目、社会实践）如何拓宽对学科主题的理解，与课程相关性是关键",
+            "guidance": [
+              "实习或相关经历如何让你对大学将要学习的主题有更广泛的理解？",
+              "可用此空间扩展问题一和问题二中的批判性反思，或收纳前两问未能容纳的超课程活动。",
+              "写满最低 350 字符即可接受——相关性比篇幅重要。"
+            ],
+            "avoid": [
+              "确保回答与所申请课程相关，并展示对该学科的批判性参与；与课程无关的可转移技能（如球队领导力）分量应远低于学术内容。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          }
+        ]
+      },
+      "thesis_claim": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+      "sections": [
+        {
+          "prompt_id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?",
+          "material_ids": [
+            "mat_1",
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        },
+        {
+          "prompt_id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+          "material_ids": [],
+          "strategy": "当前证据不足，先补充相应经历与思考。"
+        },
+        {
+          "prompt_id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+          "material_ids": [
+            "mat_1",
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        }
+      ],
+      "materials": [
+        {
+          "id": "mat_1",
+          "experience_id": "exp_1",
+          "title": "算法竞赛团队获奖",
+          "prompt_id": "ucas_2026:q3",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+          "evidence_quote": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+          "evidence": [
+            {
+              "id": "exp_1:process:0",
+              "element": "process",
+              "text": "团队负责人",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:knowledge:0",
+              "element": "knowledge",
+              "text": "Python",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_1:outcome:0",
+              "element": "outcome",
+              "text": "团队优胜奖",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_1:problem:1",
+              "element": "problem",
+              "text": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+              "source": "dialog:r1",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_1:solution:2",
+              "element": "solution",
+              "text": "我反复运行这条输入确认能复现，然后记录下来交给组员修改。",
+              "source": "dialog:r2",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_1:reflection:3",
+              "element": "reflection",
+              "text": "复现错误和记录条件也有价值，但不能说成我设计了算法。",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_1:deep:concept:4",
+              "element": "deep:concept",
+              "text": "我知道要比较预期和实际输出，还不能解释算法复杂度。",
+              "source": "dialog:r4",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:alternative:5",
+              "element": "deep:alternative",
+              "text": "我先口头描述错误，后来发现写清输入和输出更容易让组员复现。",
+              "source": "dialog:r5",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:limit:6",
+              "element": "deep:limit",
+              "text": "没有核心代码贡献证据，简历上的团队负责人需要更正。",
+              "source": "dialog:r6",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：一条测试输入得到不同答案，我把它交给写算法的同学。",
+            "解决方法：我反复运行这条输入确认能复现，然后记录下来交给组员修改。",
+            "个人思考：复现错误和记录条件也有价值，但不能说成我设计了算法。"
+          ],
+          "narrative": "行为过程：团队负责人。 运用知识：Python。 最终收获：团队优胜奖。 遇到的问题：一条测试输入得到不同答案，我把它交给写算法的同学。。 解决方法：我反复运行这条输入确认能复现，然后记录下来交给组员修改。。 个人思考：复现错误和记录条件也有价值，但不能说成我设计了算法。。 专业深挖：我知道要比较预期和实际输出，还不能解释算法复杂度。。 专业深挖：我先口头描述错误，后来发现写清输入和输出更容易让组员复现。。 专业深挖：没有核心代码贡献证据，简历上的团队负责人需要更正。。",
+          "usage": "可作为 ucas_2026:q3 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "校园志愿活动",
+          "guide_note": "适合围绕一条测试输入得到不同答案，我把它交给写算法的同学。与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "复现错误和记录条件也有价值，但不能说成我设计了算法。",
+          "deep_dive": {
+            "concept": {
+              "text": "我知道要比较预期和实际输出，还不能解释算法复杂度。",
+              "source": "dialog:r4"
+            },
+            "alternative": {
+              "text": "我先口头描述错误，后来发现写清输入和输出更容易让组员复现。",
+              "source": "dialog:r5"
+            },
+            "limit": {
+              "text": "没有核心代码贡献证据，简历上的团队负责人需要更正。",
+              "source": "dialog:r6"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "Python",
+              "source": "cv:experience:1"
+            },
+            {
+              "kind": "process",
+              "claim": "团队负责人",
+              "source": "cv:experience:1"
+            },
+            {
+              "kind": "solution",
+              "claim": "我反复运行这条输入确认能复现，然后记录下来交给组员修改。",
+              "source": "dialog:r2"
+            },
+            {
+              "kind": "reflection",
+              "claim": "复现错误和记录条件也有价值，但不能说成我设计了算法。",
+              "source": "dialog:r3"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "cv:experience:1",
+            "knowledge": "cv:experience:1",
+            "outcome": "cv:experience:1",
+            "problem": "dialog:r1",
+            "solution": "dialog:r2",
+            "reflection": "dialog:r3"
+          },
+          "suggested_points": []
+        },
+        {
+          "id": "mat_2",
+          "experience_id": "exp_2",
+          "title": "校园志愿活动",
+          "prompt_id": "ucas_2026:q3",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "这段主要是记录与协作，没有使用具体编程方法。",
+          "evidence_quote": "这段主要是记录与协作，没有使用具体编程方法。",
+          "evidence": [
+            {
+              "id": "exp_2:process:0",
+              "element": "process",
+              "text": "整理物资编号",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:outcome:0",
+              "element": "outcome",
+              "text": "编号清单",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_2:knowledge:7",
+              "element": "knowledge",
+              "text": "这段主要是记录与协作，没有使用具体编程方法。",
+              "source": "dialog:r7",
+              "confirmation": "student_stated",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_2:problem:8",
+              "element": "problem",
+              "text": "第一次记录有一处缺项，需要重新核对。",
+              "source": "dialog:r8",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_2:solution:9",
+              "element": "solution",
+              "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r9",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_2:reflection:10",
+              "element": "reflection",
+              "text": "清单帮助交接，但我没有测量活动效率提升。",
+              "source": "dialog:r10",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_2:deep:concept:11",
+              "element": "deep:concept",
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r11",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:alternative:12",
+              "element": "deep:alternative",
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r12",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:limit:13",
+              "element": "deep:limit",
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r13",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：第一次记录有一处缺项，需要重新核对。",
+            "解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。",
+            "个人思考：清单帮助交接，但我没有测量活动效率提升。"
+          ],
+          "narrative": "行为过程：整理物资编号。 最终收获：编号清单。 运用知识：这段主要是记录与协作，没有使用具体编程方法。。 遇到的问题：第一次记录有一处缺项，需要重新核对。。 解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。。 个人思考：清单帮助交接，但我没有测量活动效率提升。。 专业深挖：这段经历没有进一步的专业方法证据，我不想为了申请补写概念。。 专业深挖：我试过凭记忆填写，后来选择先核对原始资料。。 专业深挖：这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。。",
+          "usage": "可作为 ucas_2026:q3 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "算法竞赛团队获奖",
+          "guide_note": "适合围绕这段主要是记录与协作，没有使用具体编程方法。与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "清单帮助交接，但我没有测量活动效率提升。",
+          "deep_dive": {
+            "concept": {
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r11"
+            },
+            "alternative": {
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r12"
+            },
+            "limit": {
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r13"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "这段主要是记录与协作，没有使用具体编程方法。",
+              "source": "dialog:r7"
+            },
+            {
+              "kind": "process",
+              "claim": "整理物资编号",
+              "source": "cv:experience:2"
+            },
+            {
+              "kind": "solution",
+              "claim": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r9"
+            },
+            {
+              "kind": "reflection",
+              "claim": "清单帮助交接，但我没有测量活动效率提升。",
+              "source": "dialog:r10"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "cv:experience:2",
+            "outcome": "cv:experience:2",
+            "knowledge": "dialog:r7",
+            "problem": "dialog:r8",
+            "solution": "dialog:r9",
+            "reflection": "dialog:r10"
+          },
+          "suggested_points": []
+        }
+      ],
+      "claim_audit": [],
+      "open_questions": [],
+      "checks": {
+        "professional_cognition": "已有至少一段本人反思或专业问题说明；需核对其学术准确性。",
+        "connection": "至少一段经历具备可指认的知识、方法或兴趣匹配；仍需核对相关性。",
+        "growth": "多段经历均记录了个人反思；可进一步核对真实的递进关系。"
+      },
+      "programme_gaps": [],
+      "mode": "verification_fixture",
+      "notice": "离线夹具流程验证：不是实际模型输出，不可计入质量评分。"
+    },
+    "full_guardrail": {
+      "student": "虚构学生 DEV04",
+      "programmes": [
+        {
+          "id": "manchester_cs_ug",
+          "name": "BSc Computer Science (2027 entry)",
+          "university": "The University of Manchester",
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false,
+          "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+          "requirements": [
+            {
+              "id": "manchester_cs_ug:req_02",
+              "text": "A* in Mathematics",
+              "kind": "math_grade",
+              "expected": "A*"
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "kind": "science_subject",
+              "accepted": [
+                "Computer Science",
+                "Further Mathematics",
+                "Biology",
+                "Chemistry",
+                "Physics"
+              ]
+            }
+          ],
+          "source_requirements": [
+            {
+              "id": "manchester_cs_ug:req_01",
+              "category": "gpa",
+              "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_02",
+              "category": "subject",
+              "text": "A* in Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_04",
+              "category": "material",
+              "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_05",
+              "category": "gpa",
+              "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_06",
+              "category": "subject",
+              "text": "including Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_07",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_08",
+              "category": "gpa",
+              "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_09",
+              "category": "gpa",
+              "text": "7,6,6 in Higher Level subjects",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_10",
+              "category": "subject",
+              "text": "including 7 in Mathematics: Analysis and Approaches",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_11",
+              "category": "subject",
+              "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_12",
+              "category": "language",
+              "text": "IELTS 7.0 overall, with no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_13",
+              "category": "language",
+              "text": "no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_14",
+              "category": "language",
+              "text": "TOEFL iBT 100 overall, with no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_15",
+              "category": "language",
+              "text": "no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_16",
+              "category": "language",
+              "text": "GCSE/IGCSE English Language grade B/6",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            }
+          ]
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Mathematics",
+          "predicted": "A*"
+        },
+        {
+          "name": "Physics",
+          "predicted": "B"
+        },
+        {
+          "name": "Computer Science",
+          "predicted": "A"
+        }
+      ],
+      "prompt_set_id": "ucas_2026",
+      "prompts": [
+        {
+          "id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?"
+        }
+      ],
+      "writing_guidance": {
+        "id": "ucas_2026",
+        "name": "UCAS Personal Statement（2026 年 9 月入学起：三问式）",
+        "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement",
+        "collected_on": "2026-08-12",
+        "human_verified": false,
+        "prompts": [
+          {
+            "id": "ucas_2026:q1",
+            "question": "你为什么想学习这门课程或学科？",
+            "question_en": "Why do you want to study this course or subject?",
+            "focus": "学科兴趣的真实来源、对学科重大问题的批判性参与、希望深耕的细分领域",
+            "guidance": [
+              "侧重你希望学习的学科的学术兴趣：是什么吸引你选择这门学科？哪些方面让你想在本科阶段学习它？",
+              "是否希望专注于该学科的某个特定领域？该学科的重大问题是什么，你觉得哪些最有趣、你对这些话题有何看法？",
+              "对联合课程，说明学科之间如何相互关联、为什么它们对你有吸引力。"
+            ],
+            "avoid": [
+              "避免讨论未来的职业规划——个人陈述应反映你个人的学术兴趣。",
+              "避免「我从小就梦想…」这类没有起源事件的空话。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q2",
+            "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+            "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+            "focus": "课内学习与超课程活动（super-curricular）如何递进地加深学科认知，重在反思而非罗列",
+            "guidance": [
+              "评审寻找的是能够最好地反思自身经历与学术思想的学生，而不是拥有最佳机会的学生。",
+              "如何在学习之外发展学科兴趣：额外阅读、讲座、在线资料、拓展项目资质（EPQ）？你从中发现了什么有趣之处、有何看法？",
+              "是否从其他学校科目中获得了补充所选课程的技能？",
+              "感兴趣的不仅是你读过什么的清单，而是你有反思学术思想的证据。"
+            ],
+            "avoid": [
+              "无需讨论所有当前学习，只谈与所选科目相关的部分。",
+              "不要罗列课程科目清单——资格部分会显示这些信息。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q3",
+            "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+            "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+            "focus": "课外经历（实习、项目、社会实践）如何拓宽对学科主题的理解，与课程相关性是关键",
+            "guidance": [
+              "实习或相关经历如何让你对大学将要学习的主题有更广泛的理解？",
+              "可用此空间扩展问题一和问题二中的批判性反思，或收纳前两问未能容纳的超课程活动。",
+              "写满最低 350 字符即可接受——相关性比篇幅重要。"
+            ],
+            "avoid": [
+              "确保回答与所申请课程相关，并展示对该学科的批判性参与；与课程无关的可转移技能（如球队领导力）分量应远低于学术内容。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          }
+        ]
+      },
+      "thesis_claim": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+      "sections": [
+        {
+          "prompt_id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?",
+          "material_ids": [
+            "mat_1",
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        },
+        {
+          "prompt_id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+          "material_ids": [],
+          "strategy": "当前证据不足，先补充相应经历与思考。"
+        },
+        {
+          "prompt_id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+          "material_ids": [
+            "mat_1",
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        }
+      ],
+      "materials": [
+        {
+          "id": "mat_1",
+          "experience_id": "exp_1",
+          "title": "算法竞赛团队获奖",
+          "prompt_id": "ucas_2026:q3",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+          "evidence_quote": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+          "evidence": [
+            {
+              "id": "exp_1:process:0",
+              "element": "process",
+              "text": "团队负责人",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:knowledge:0",
+              "element": "knowledge",
+              "text": "Python",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_1:outcome:0",
+              "element": "outcome",
+              "text": "团队优胜奖",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_1:problem:1",
+              "element": "problem",
+              "text": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+              "source": "dialog:r1",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_1:solution:2",
+              "element": "solution",
+              "text": "我反复运行这条输入确认能复现，然后记录下来交给组员修改。",
+              "source": "dialog:r2",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_1:reflection:3",
+              "element": "reflection",
+              "text": "复现错误和记录条件也有价值，但不能说成我设计了算法。",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_1:deep:concept:4",
+              "element": "deep:concept",
+              "text": "我知道要比较预期和实际输出，还不能解释算法复杂度。",
+              "source": "dialog:r4",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:alternative:5",
+              "element": "deep:alternative",
+              "text": "我先口头描述错误，后来发现写清输入和输出更容易让组员复现。",
+              "source": "dialog:r5",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:limit:6",
+              "element": "deep:limit",
+              "text": "没有核心代码贡献证据，简历上的团队负责人需要更正。",
+              "source": "dialog:r6",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：一条测试输入得到不同答案，我把它交给写算法的同学。",
+            "解决方法：我反复运行这条输入确认能复现，然后记录下来交给组员修改。",
+            "个人思考：复现错误和记录条件也有价值，但不能说成我设计了算法。"
+          ],
+          "narrative": "行为过程：团队负责人。 运用知识：Python。 最终收获：团队优胜奖。 遇到的问题：一条测试输入得到不同答案，我把它交给写算法的同学。。 解决方法：我反复运行这条输入确认能复现，然后记录下来交给组员修改。。 个人思考：复现错误和记录条件也有价值，但不能说成我设计了算法。。 专业深挖：我知道要比较预期和实际输出，还不能解释算法复杂度。。 专业深挖：我先口头描述错误，后来发现写清输入和输出更容易让组员复现。。 专业深挖：没有核心代码贡献证据，简历上的团队负责人需要更正。。",
+          "usage": "可作为 ucas_2026:q3 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "校园志愿活动",
+          "guide_note": "适合围绕一条测试输入得到不同答案，我把它交给写算法的同学。与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "复现错误和记录条件也有价值，但不能说成我设计了算法。",
+          "deep_dive": {
+            "concept": {
+              "text": "我知道要比较预期和实际输出，还不能解释算法复杂度。",
+              "source": "dialog:r4"
+            },
+            "alternative": {
+              "text": "我先口头描述错误，后来发现写清输入和输出更容易让组员复现。",
+              "source": "dialog:r5"
+            },
+            "limit": {
+              "text": "没有核心代码贡献证据，简历上的团队负责人需要更正。",
+              "source": "dialog:r6"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "Python",
+              "source": "cv:experience:1"
+            },
+            {
+              "kind": "process",
+              "claim": "团队负责人",
+              "source": "cv:experience:1"
+            },
+            {
+              "kind": "solution",
+              "claim": "我反复运行这条输入确认能复现，然后记录下来交给组员修改。",
+              "source": "dialog:r2"
+            },
+            {
+              "kind": "reflection",
+              "claim": "复现错误和记录条件也有价值，但不能说成我设计了算法。",
+              "source": "dialog:r3"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "cv:experience:1",
+            "knowledge": "cv:experience:1",
+            "outcome": "cv:experience:1",
+            "problem": "dialog:r1",
+            "solution": "dialog:r2",
+            "reflection": "dialog:r3"
+          },
+          "suggested_points": []
+        },
+        {
+          "id": "mat_2",
+          "experience_id": "exp_2",
+          "title": "校园志愿活动",
+          "prompt_id": "ucas_2026:q3",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "这段主要是记录与协作，没有使用具体编程方法。",
+          "evidence_quote": "这段主要是记录与协作，没有使用具体编程方法。",
+          "evidence": [
+            {
+              "id": "exp_2:process:0",
+              "element": "process",
+              "text": "整理物资编号",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:outcome:0",
+              "element": "outcome",
+              "text": "编号清单",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_2:knowledge:7",
+              "element": "knowledge",
+              "text": "这段主要是记录与协作，没有使用具体编程方法。",
+              "source": "dialog:r7",
+              "confirmation": "student_stated",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_2:problem:8",
+              "element": "problem",
+              "text": "第一次记录有一处缺项，需要重新核对。",
+              "source": "dialog:r8",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_2:solution:9",
+              "element": "solution",
+              "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r9",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_2:reflection:10",
+              "element": "reflection",
+              "text": "清单帮助交接，但我没有测量活动效率提升。",
+              "source": "dialog:r10",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_2:deep:concept:11",
+              "element": "deep:concept",
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r11",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:alternative:12",
+              "element": "deep:alternative",
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r12",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:limit:13",
+              "element": "deep:limit",
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r13",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：第一次记录有一处缺项，需要重新核对。",
+            "解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。",
+            "个人思考：清单帮助交接，但我没有测量活动效率提升。"
+          ],
+          "narrative": "行为过程：整理物资编号。 最终收获：编号清单。 运用知识：这段主要是记录与协作，没有使用具体编程方法。。 遇到的问题：第一次记录有一处缺项，需要重新核对。。 解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。。 个人思考：清单帮助交接，但我没有测量活动效率提升。。 专业深挖：这段经历没有进一步的专业方法证据，我不想为了申请补写概念。。 专业深挖：我试过凭记忆填写，后来选择先核对原始资料。。 专业深挖：这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。。",
+          "usage": "可作为 ucas_2026:q3 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "算法竞赛团队获奖",
+          "guide_note": "适合围绕这段主要是记录与协作，没有使用具体编程方法。与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "清单帮助交接，但我没有测量活动效率提升。",
+          "deep_dive": {
+            "concept": {
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r11"
+            },
+            "alternative": {
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r12"
+            },
+            "limit": {
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r13"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "这段主要是记录与协作，没有使用具体编程方法。",
+              "source": "dialog:r7"
+            },
+            {
+              "kind": "process",
+              "claim": "整理物资编号",
+              "source": "cv:experience:2"
+            },
+            {
+              "kind": "solution",
+              "claim": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r9"
+            },
+            {
+              "kind": "reflection",
+              "claim": "清单帮助交接，但我没有测量活动效率提升。",
+              "source": "dialog:r10"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "cv:experience:2",
+            "outcome": "cv:experience:2",
+            "knowledge": "dialog:r7",
+            "problem": "dialog:r8",
+            "solution": "dialog:r9",
+            "reflection": "dialog:r10"
+          },
+          "suggested_points": []
+        }
+      ],
+      "claim_audit": [
+        {
+          "kind": "angle",
+          "experience_id": "exp_1",
+          "claim": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+          "status": "supported",
+          "segments": [
+            {
+              "text": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+              "status": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:problem:1",
+                  "quote": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+                  "source": "dialog:r1",
+                  "confirmation": "student_stated"
+                }
+              ],
+              "reason": "离线夹具，不是模型判断"
+            }
+          ],
+          "original_status": "supported",
+          "suggested_wording": null,
+          "accepted_wording": "一条测试输入得到不同答案，我把它交给写算法的同学。"
+        },
+        {
+          "kind": "angle",
+          "experience_id": "exp_2",
+          "claim": "这段主要是记录与协作，没有使用具体编程方法。",
+          "status": "supported",
+          "segments": [
+            {
+              "text": "这段主要是记录与协作，没有使用具体编程方法。",
+              "status": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_2:knowledge:7",
+                  "quote": "这段主要是记录与协作，没有使用具体编程方法。",
+                  "source": "dialog:r7",
+                  "confirmation": "student_stated"
+                }
+              ],
+              "reason": "离线夹具，不是模型判断"
+            }
+          ],
+          "original_status": "supported",
+          "suggested_wording": null,
+          "accepted_wording": "这段主要是记录与协作，没有使用具体编程方法。"
+        },
+        {
+          "kind": "thesis",
+          "experience_id": null,
+          "claim": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+          "status": "supported",
+          "segments": [
+            {
+              "text": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+              "status": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:problem:1",
+                  "quote": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+                  "source": "dialog:r1",
+                  "confirmation": "student_stated"
+                }
+              ],
+              "reason": "离线夹具，不是模型判断"
+            }
+          ],
+          "original_status": "supported",
+          "suggested_wording": null,
+          "accepted_wording": "一条测试输入得到不同答案，我把它交给写算法的同学。"
+        }
+      ],
+      "open_questions": [],
+      "checks": {
+        "professional_cognition": "已有至少一段本人反思或专业问题说明；需核对其学术准确性。",
+        "connection": "至少一段经历具备可指认的知识、方法或兴趣匹配；仍需核对相关性。",
+        "growth": "多段经历均记录了个人反思；可进一步核对真实的递进关系。"
+      },
+      "programme_gaps": [],
+      "mode": "verification_fixture",
+      "notice": "离线夹具流程验证：不是实际模型输出，不可计入质量评分。"
+    }
+  },
+  "failures": {},
+  "failure_stage": null,
+  "proposal": {
+    "thesis_claim": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+    "thesis_evidence_quote": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+    "materials": [
+      {
+        "experience_id": "exp_1",
+        "angle": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+        "evidence_quote": "一条测试输入得到不同答案，我把它交给写算法的同学。"
+      },
+      {
+        "experience_id": "exp_2",
+        "angle": "这段主要是记录与协作，没有使用具体编程方法。",
+        "evidence_quote": "这段主要是记录与协作，没有使用具体编程方法。"
+      }
+    ]
+  },
+  "reviews": {
+    "first": {
+      "claims": [
+        {
+          "kind": "angle",
+          "experience_id": "exp_1",
+          "claim": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+          "segments": [
+            {
+              "text": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:problem:1",
+                  "quote": "一条测试输入得到不同答案，我把它交给写算法的同学。"
+                }
+              ],
+              "reason": "离线夹具，不是模型判断"
+            }
+          ]
+        },
+        {
+          "kind": "angle",
+          "experience_id": "exp_2",
+          "claim": "这段主要是记录与协作，没有使用具体编程方法。",
+          "segments": [
+            {
+              "text": "这段主要是记录与协作，没有使用具体编程方法。",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_2:knowledge:7",
+                  "quote": "这段主要是记录与协作，没有使用具体编程方法。"
+                }
+              ],
+              "reason": "离线夹具，不是模型判断"
+            }
+          ]
+        },
+        {
+          "kind": "thesis",
+          "experience_id": null,
+          "claim": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+          "segments": [
+            {
+              "text": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:problem:1",
+                  "quote": "一条测试输入得到不同答案，我把它交给写算法的同学。"
+                }
+              ],
+              "reason": "离线夹具，不是模型判断"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "state": {
+    "case": {
+      "student": {
+        "id": "dev04",
+        "label": "虚构学生 DEV04",
+        "subjects": [
+          {
+            "name": "Mathematics",
+            "predicted": "A*"
+          },
+          {
+            "name": "Physics",
+            "predicted": "B"
+          },
+          {
+            "name": "Computer Science",
+            "predicted": "A"
+          }
+        ],
+        "experiences": [
+          {
+            "id": "exp_1",
+            "title": "算法竞赛团队获奖",
+            "role": "团队负责人",
+            "skills": [
+              "Python"
+            ],
+            "outputs": [
+              "团队优胜奖"
+            ],
+            "type": "competition",
+            "source": "cv:experience:1"
+          },
+          {
+            "id": "exp_2",
+            "title": "校园志愿活动",
+            "role": "整理物资编号",
+            "skills": [],
+            "outputs": [
+              "编号清单"
+            ],
+            "type": "holistic",
+            "source": "cv:experience:2"
+          }
+        ]
+      }
+    },
+    "programmes": [
+      {
+        "id": "manchester_cs_ug",
+        "name": "BSc Computer Science (2027 entry)",
+        "university": "The University of Manchester",
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false,
+        "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+        "requirements": [
+          {
+            "id": "manchester_cs_ug:req_02",
+            "text": "A* in Mathematics",
+            "kind": "math_grade",
+            "expected": "A*"
+          },
+          {
+            "id": "manchester_cs_ug:req_03",
+            "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+            "kind": "science_subject",
+            "accepted": [
+              "Computer Science",
+              "Further Mathematics",
+              "Biology",
+              "Chemistry",
+              "Physics"
+            ]
+          }
+        ],
+        "source_requirements": [
+          {
+            "id": "manchester_cs_ug:req_01",
+            "category": "gpa",
+            "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+            "curriculum": "a_level",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_02",
+            "category": "subject",
+            "text": "A* in Mathematics",
+            "curriculum": "a_level",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_03",
+            "category": "subject",
+            "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+            "curriculum": "a_level",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_04",
+            "category": "material",
+            "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_05",
+            "category": "gpa",
+            "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_06",
+            "category": "subject",
+            "text": "including Mathematics",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_07",
+            "category": "subject",
+            "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_08",
+            "category": "gpa",
+            "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_09",
+            "category": "gpa",
+            "text": "7,6,6 in Higher Level subjects",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_10",
+            "category": "subject",
+            "text": "including 7 in Mathematics: Analysis and Approaches",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_11",
+            "category": "subject",
+            "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_12",
+            "category": "language",
+            "text": "IELTS 7.0 overall, with no subscore below 6.5",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_13",
+            "category": "language",
+            "text": "no subscore below 6.5",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_14",
+            "category": "language",
+            "text": "TOEFL iBT 100 overall, with no subscore below 22",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_15",
+            "category": "language",
+            "text": "no subscore below 22",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_16",
+            "category": "language",
+            "text": "GCSE/IGCSE English Language grade B/6",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          }
+        ]
+      }
+    ],
+    "records": [
+      {
+        "experience_id": "exp_1",
+        "title": "算法竞赛团队获奖",
+        "type": "competition",
+        "values": {
+          "process": "团队负责人",
+          "knowledge": "Python",
+          "problem": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+          "solution": "我反复运行这条输入确认能复现，然后记录下来交给组员修改。",
+          "reflection": "复现错误和记录条件也有价值，但不能说成我设计了算法。",
+          "outcome": "团队优胜奖"
+        },
+        "sources": {
+          "process": "cv:experience:1",
+          "knowledge": "cv:experience:1",
+          "outcome": "cv:experience:1",
+          "problem": "dialog:r1",
+          "solution": "dialog:r2",
+          "reflection": "dialog:r3"
+        },
+        "fact_items": [
+          {
+            "id": "exp_1:process:0",
+            "element": "process",
+            "text": "团队负责人",
+            "source": "cv:experience:1",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_1:knowledge:0",
+            "element": "knowledge",
+            "text": "Python",
+            "source": "cv:experience:1",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_1:outcome:0",
+            "element": "outcome",
+            "text": "团队优胜奖",
+            "source": "cv:experience:1",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_1:problem:1",
+            "element": "problem",
+            "text": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+            "source": "dialog:r1",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:solution:2",
+            "element": "solution",
+            "text": "我反复运行这条输入确认能复现，然后记录下来交给组员修改。",
+            "source": "dialog:r2",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:reflection:3",
+            "element": "reflection",
+            "text": "复现错误和记录条件也有价值，但不能说成我设计了算法。",
+            "source": "dialog:r3",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:deep:concept:4",
+            "element": "deep:concept",
+            "text": "我知道要比较预期和实际输出，还不能解释算法复杂度。",
+            "source": "dialog:r4",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:deep:alternative:5",
+            "element": "deep:alternative",
+            "text": "我先口头描述错误，后来发现写清输入和输出更容易让组员复现。",
+            "source": "dialog:r5",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:deep:limit:6",
+            "element": "deep:limit",
+            "text": "没有核心代码贡献证据，简历上的团队负责人需要更正。",
+            "source": "dialog:r6",
+            "confirmation": "student_stated"
+          }
+        ],
+        "skipped": [],
+        "deep": {
+          "concept": {
+            "text": "我知道要比较预期和实际输出，还不能解释算法复杂度。",
+            "source": "dialog:r4"
+          },
+          "alternative": {
+            "text": "我先口头描述错误，后来发现写清输入和输出更容易让组员复现。",
+            "source": "dialog:r5"
+          },
+          "limit": {
+            "text": "没有核心代码贡献证据，简历上的团队负责人需要更正。",
+            "source": "dialog:r6"
+          }
+        },
+        "verified": true
+      },
+      {
+        "experience_id": "exp_2",
+        "title": "校园志愿活动",
+        "type": "holistic",
+        "values": {
+          "process": "整理物资编号",
+          "knowledge": "这段主要是记录与协作，没有使用具体编程方法。",
+          "problem": "第一次记录有一处缺项，需要重新核对。",
+          "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "reflection": "清单帮助交接，但我没有测量活动效率提升。",
+          "outcome": "编号清单"
+        },
+        "sources": {
+          "process": "cv:experience:2",
+          "outcome": "cv:experience:2",
+          "knowledge": "dialog:r7",
+          "problem": "dialog:r8",
+          "solution": "dialog:r9",
+          "reflection": "dialog:r10"
+        },
+        "fact_items": [
+          {
+            "id": "exp_2:process:0",
+            "element": "process",
+            "text": "整理物资编号",
+            "source": "cv:experience:2",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_2:outcome:0",
+            "element": "outcome",
+            "text": "编号清单",
+            "source": "cv:experience:2",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_2:knowledge:7",
+            "element": "knowledge",
+            "text": "这段主要是记录与协作，没有使用具体编程方法。",
+            "source": "dialog:r7",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:problem:8",
+            "element": "problem",
+            "text": "第一次记录有一处缺项，需要重新核对。",
+            "source": "dialog:r8",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:solution:9",
+            "element": "solution",
+            "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+            "source": "dialog:r9",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:reflection:10",
+            "element": "reflection",
+            "text": "清单帮助交接，但我没有测量活动效率提升。",
+            "source": "dialog:r10",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:deep:concept:11",
+            "element": "deep:concept",
+            "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+            "source": "dialog:r11",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:deep:alternative:12",
+            "element": "deep:alternative",
+            "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+            "source": "dialog:r12",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:deep:limit:13",
+            "element": "deep:limit",
+            "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+            "source": "dialog:r13",
+            "confirmation": "student_stated"
+          }
+        ],
+        "skipped": [],
+        "deep": {
+          "concept": {
+            "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+            "source": "dialog:r11"
+          },
+          "alternative": {
+            "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+            "source": "dialog:r12"
+          },
+          "limit": {
+            "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+            "source": "dialog:r13"
+          }
+        },
+        "verified": true
+      }
+    ],
+    "round": 13,
+    "messages": [
+      {
+        "question": {
+          "id": "exp_1:problem",
+          "experience_id": "exp_1",
+          "element": "problem",
+          "text": "「算法竞赛团队获奖」里最具体的一个困难是什么？当时卡在哪里？"
+        },
+        "answer": "一条测试输入得到不同答案，我把它交给写算法的同学。"
+      },
+      {
+        "question": {
+          "id": "exp_1:solution",
+          "experience_id": "exp_1",
+          "element": "solution",
+          "text": "你提到「一条测试输入得到不同答案，我把它交给写算法的同学。」。你尝试过什么办法，为什么选了最后的做法？"
+        },
+        "answer": "我反复运行这条输入确认能复现，然后记录下来交给组员修改。"
+      },
+      {
+        "question": {
+          "id": "exp_1:reflection",
+          "experience_id": "exp_1",
+          "element": "reflection",
+          "text": "「算法竞赛团队获奖」之后，你对计算机科学产生了什么新疑问或想法？"
+        },
+        "answer": "复现错误和记录条件也有价值，但不能说成我设计了算法。"
+      },
+      {
+        "question": {
+          "id": "exp_1:deep:concept",
+          "experience_id": "exp_1",
+          "element": "deep:concept",
+          "text": "关于「算法竞赛团队获奖」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？"
+        },
+        "answer": "我知道要比较预期和实际输出，还不能解释算法复杂度。"
+      },
+      {
+        "question": {
+          "id": "exp_1:deep:alternative",
+          "experience_id": "exp_1",
+          "element": "deep:alternative",
+          "text": "关于「算法竞赛团队获奖」：回头看这个做法，当时还有什么其他选择？你如何比较它们？"
+        },
+        "answer": "我先口头描述错误，后来发现写清输入和输出更容易让组员复现。"
+      },
+      {
+        "question": {
+          "id": "exp_1:deep:limit",
+          "experience_id": "exp_1",
+          "element": "deep:limit",
+          "text": "关于「算法竞赛团队获奖」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？"
+        },
+        "answer": "没有核心代码贡献证据，简历上的团队负责人需要更正。"
+      },
+      {
+        "question": {
+          "id": "exp_2:knowledge",
+          "experience_id": "exp_2",
+          "element": "knowledge",
+          "text": "「校园志愿活动」中你用到了哪些知识或技能？具体用在了哪一步？"
+        },
+        "answer": "这段主要是记录与协作，没有使用具体编程方法。"
+      },
+      {
+        "question": {
+          "id": "exp_2:problem",
+          "experience_id": "exp_2",
+          "element": "problem",
+          "text": "「校园志愿活动」里最具体的一个困难是什么？当时卡在哪里？"
+        },
+        "answer": "第一次记录有一处缺项，需要重新核对。"
+      },
+      {
+        "question": {
+          "id": "exp_2:solution",
+          "experience_id": "exp_2",
+          "element": "solution",
+          "text": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？"
+        },
+        "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+      },
+      {
+        "question": {
+          "id": "exp_2:reflection",
+          "experience_id": "exp_2",
+          "element": "reflection",
+          "text": "「校园志愿活动」之后，你对计算机科学产生了什么新疑问或想法？"
+        },
+        "answer": "清单帮助交接，但我没有测量活动效率提升。"
+      },
+      {
+        "question": {
+          "id": "exp_2:deep:concept",
+          "experience_id": "exp_2",
+          "element": "deep:concept",
+          "text": "关于「校园志愿活动」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？"
+        },
+        "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+      },
+      {
+        "question": {
+          "id": "exp_2:deep:alternative",
+          "experience_id": "exp_2",
+          "element": "deep:alternative",
+          "text": "关于「校园志愿活动」：回头看这个做法，当时还有什么其他选择？你如何比较它们？"
+        },
+        "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+      },
+      {
+        "question": {
+          "id": "exp_2:deep:limit",
+          "experience_id": "exp_2",
+          "element": "deep:limit",
+          "text": "关于「校园志愿活动」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？"
+        },
+        "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    ],
+    "finished": false,
+    "result": null,
+    "model_usage": null
+  },
+  "calls": [],
+  "cost_summary": {
+    "currency": null,
+    "shared_upstream_cost": 0,
+    "guard_increment_cost": 0,
+    "standalone_prompt_only_cost": 0,
+    "standalone_full_guardrail_cost": 0,
+    "actual_experiment_estimated_cost": 0,
+    "unknown_cost_calls": 0,
+    "actual_model_requests": 0,
+    "dry_run": true,
+    "cost_is_usage_based_estimate_not_provider_bill": true
+  }
+}

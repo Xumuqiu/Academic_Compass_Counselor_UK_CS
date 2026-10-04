@@ -1,0 +1,748 @@
+{
+  "rater": "Codex AI output annotation v1; single non-independent rater",
+  "date": "2026-10-04",
+  "api_calls_for_annotation": 0,
+  "additional_api_cost_USD": 0,
+  "independent_human_review": false,
+  "blindness": "Assessed anonymous user-visible packs; scorer is also implementation author and can infer arms from style. Not an independent blinded trial.",
+  "artifacts_untouched": true,
+  "rules_version": "SCORING_RULES v1",
+  "case_reviews": [
+    {
+      "blind_id": "177346a6e0634d66",
+      "case_id": "EVAL05",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 29
+    },
+    {
+      "blind_id": "6c3731ae574c46fd",
+      "case_id": "EVAL09",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 35
+    },
+    {
+      "blind_id": "8468db9e060b4aaf",
+      "case_id": "EVAL01",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 34
+    },
+    {
+      "blind_id": "6c45769659484d54",
+      "case_id": "EVAL08",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 26
+    },
+    {
+      "blind_id": "63f7def36a564256",
+      "case_id": "EVAL15",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 34
+    },
+    {
+      "blind_id": "23b0fb44f9724115",
+      "case_id": "EVAL06",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 29
+    },
+    {
+      "blind_id": "00fb5f29b7744557",
+      "case_id": "EVAL11",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 33
+    },
+    {
+      "blind_id": "a4fd03db95dc45bc",
+      "case_id": "EVAL18",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 26
+    },
+    {
+      "blind_id": "95c9970d9b9b4e41",
+      "case_id": "EVAL14",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 32
+    },
+    {
+      "blind_id": "7a27c22e848a4ecc",
+      "case_id": "EVAL01",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 36
+    },
+    {
+      "blind_id": "73908a007b584be6",
+      "case_id": "EVAL12",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 36
+    },
+    {
+      "blind_id": "6975b7f4d3634119",
+      "case_id": "EVAL13",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 34
+    },
+    {
+      "blind_id": "67daaae18bf64da9",
+      "case_id": "EVAL07",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 33
+    },
+    {
+      "blind_id": "aa715e7594b24851",
+      "case_id": "EVAL10",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 36
+    },
+    {
+      "blind_id": "a37aa5db2c0c4759",
+      "case_id": "EVAL08",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 25
+    },
+    {
+      "blind_id": "d4f35364bf2d4128",
+      "case_id": "EVAL02",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 34
+    },
+    {
+      "blind_id": "d7f94b9d16a5464f",
+      "case_id": "EVAL12",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 32
+    },
+    {
+      "blind_id": "309de01cfa6b4daa",
+      "case_id": "EVAL16",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 29
+    },
+    {
+      "blind_id": "a2449c9e389949e9",
+      "case_id": "EVAL19",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 34
+    },
+    {
+      "blind_id": "099b483f407b4dd1",
+      "case_id": "EVAL11",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 28
+    },
+    {
+      "blind_id": "06c899f702064d9c",
+      "case_id": "EVAL15",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 28
+    },
+    {
+      "blind_id": "003979e4bd7944f0",
+      "case_id": "EVAL17",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 32
+    },
+    {
+      "blind_id": "18fea32993794013",
+      "case_id": "EVAL03",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 32
+    },
+    {
+      "blind_id": "7e257120ff83465f",
+      "case_id": "EVAL04",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 30
+    },
+    {
+      "blind_id": "b4351d36c3f2469a",
+      "case_id": "EVAL20",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 35
+    },
+    {
+      "blind_id": "4c860e77378b4589",
+      "case_id": "EVAL14",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 39
+    },
+    {
+      "blind_id": "5c898cd3597b424a",
+      "case_id": "EVAL04",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 30
+    },
+    {
+      "blind_id": "40148f4e8b134bc2",
+      "case_id": "EVAL20",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 29
+    },
+    {
+      "blind_id": "d436cb64780c41b9",
+      "case_id": "EVAL19",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 34
+    },
+    {
+      "blind_id": "027e36295a644cfd",
+      "case_id": "EVAL18",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 31
+    },
+    {
+      "blind_id": "e817927004cc456c",
+      "case_id": "EVAL03",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 35
+    },
+    {
+      "blind_id": "e312b565dde048aa",
+      "case_id": "EVAL16",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 33
+    },
+    {
+      "blind_id": "e3c4743bf30e4569",
+      "case_id": "EVAL05",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 36
+    },
+    {
+      "blind_id": "48304eef37ba4e87",
+      "case_id": "EVAL07",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 33
+    },
+    {
+      "blind_id": "1cd3491423904a0e",
+      "case_id": "EVAL17",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 32
+    },
+    {
+      "blind_id": "54edb318b86e44f9",
+      "case_id": "EVAL09",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 25
+    },
+    {
+      "blind_id": "3455cdde9b984a60",
+      "case_id": "EVAL13",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 29
+    },
+    {
+      "blind_id": "48c55206c1434aa4",
+      "case_id": "EVAL10",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 31
+    },
+    {
+      "blind_id": "85a6f3f5736b4e9e",
+      "case_id": "EVAL02",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 34
+    },
+    {
+      "blind_id": "45b4d044e19a4a79",
+      "case_id": "EVAL06",
+      "excluded_fields": [
+        "evidence",
+        "proof_targets (verification targets)",
+        "sources",
+        "claim_audit",
+        "programmes",
+        "subjects",
+        "writing_guidance",
+        "status",
+        "match_labels"
+      ],
+      "excluded_text_rule": "真实待问方向、查证请求、写作分配建议和非学生事实不计论点；模板寻找兴趣不是已存在兴趣声明。",
+      "duplicate_rule": "叙述中原句与解析片段同义且范围不变者合并；deep_dive/translated_positioning/guide_note重复同一论点只增加位置，不再计数。",
+      "included_claims": 22
+    }
+  ],
+  "counts": {
+    "claims": 1265,
+    "gaps": 56,
+    "opportunities": 112,
+    "cases": 40
+  },
+  "limitations": "CV-only vs contextual student confirmation and mild capability wording remain judgement calls needing external calibration. Generic secondary experiences have duplicated fixture answers.",
+  "assembler_sha256": "49f1953e07b329a7886fd4fd1fa0c8cda218696ff54781fc1d533c3c34dd8bc4",
+  "scoring_rules_sha256": "0990074fc72361d515e09ce16e254d5f75cc1aba755c7e12180ef62a5f22c069",
+  "reference_case_count": 20,
+  "reference_opportunities_per_arm": 56,
+  "primary_opportunities_per_arm": 36,
+  "secondary_opportunities_per_arm": 20,
+  "citation_error_metric": "not assessed; not reported as zero",
+  "record_vs_narrative_scope": "document.py renders narrative as material summary, distinct from recorded facts/source section; narrative student assertions are scored",
+  "semantic_unit_decisions": "AI authored; borderline confirmation/inference and splitting choices require independent calibration. No changes to original gold or scoring rules."
+}

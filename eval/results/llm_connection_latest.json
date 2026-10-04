@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-03T18:02:01.035203+00:00",
+  "normal_project_configuration": "missing_OPENAI_API_KEY",
+  "user_updated_config_source": ".env.example",
+  "memory_only_official_generation_test": {
+    "provider": "openai",
+    "http_status": 401,
+    "api_error_code": "invalid_api_key",
+    "valid_generation": false
+  },
+  "credential_values_stored": false,
+  "credential_files_modified": false,
+  "usage": null,
+  "cost": null,
+  "readiness": {
+    "data_and_annotations_hashes_valid": {
+      "dataset": true,
+      "annotations": true
+    },
+    "scoring_rules_present": true,
+    "new_paired_runner_implemented": false,
+    "formal_run_frozen": false,
+    "ready_for_preparation": true,
+    "ready_for_formal_live_evaluation": false
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "7a27c22e848a4ecc": {
+    "case_id": "EVAL01",
+    "arm": "prompt_only"
+  },
+  "8468db9e060b4aaf": {
+    "case_id": "EVAL01",
+    "arm": "full_guardrail"
+  },
+  "d4f35364bf2d4128": {
+    "case_id": "EVAL02",
+    "arm": "prompt_only"
+  },
+  "85a6f3f5736b4e9e": {
+    "case_id": "EVAL02",
+    "arm": "full_guardrail"
+  },
+  "e817927004cc456c": {
+    "case_id": "EVAL03",
+    "arm": "prompt_only"
+  },
+  "18fea32993794013": {
+    "case_id": "EVAL03",
+    "arm": "full_guardrail"
+  },
+  "5c898cd3597b424a": {
+    "case_id": "EVAL04",
+    "arm": "prompt_only"
+  },
+  "7e257120ff83465f": {
+    "case_id": "EVAL04",
+    "arm": "full_guardrail"
+  },
+  "e3c4743bf30e4569": {
+    "case_id": "EVAL05",
+    "arm": "prompt_only"
+  },
+  "177346a6e0634d66": {
+    "case_id": "EVAL05",
+    "arm": "full_guardrail"
+  },
+  "23b0fb44f9724115": {
+    "case_id": "EVAL06",
+    "arm": "prompt_only"
+  },
+  "45b4d044e19a4a79": {
+    "case_id": "EVAL06",
+    "arm": "full_guardrail"
+  },
+  "48304eef37ba4e87": {
+    "case_id": "EVAL07",
+    "arm": "prompt_only"
+  },
+  "67daaae18bf64da9": {
+    "case_id": "EVAL07",
+    "arm": "full_guardrail"
+  },
+  "6c45769659484d54": {
+    "case_id": "EVAL08",
+    "arm": "prompt_only"
+  },
+  "a37aa5db2c0c4759": {
+    "case_id": "EVAL08",
+    "arm": "full_guardrail"
+  },
+  "6c3731ae574c46fd": {
+    "case_id": "EVAL09",
+    "arm": "prompt_only"
+  },
+  "54edb318b86e44f9": {
+    "case_id": "EVAL09",
+    "arm": "full_guardrail"
+  },
+  "aa715e7594b24851": {
+    "case_id": "EVAL10",
+    "arm": "prompt_only"
+  },
+  "48c55206c1434aa4": {
+    "case_id": "EVAL10",
+    "arm": "full_guardrail"
+  },
+  "00fb5f29b7744557": {
+    "case_id": "EVAL11",
+    "arm": "prompt_only"
+  },
+  "099b483f407b4dd1": {
+    "case_id": "EVAL11",
+    "arm": "full_guardrail"
+  },
+  "73908a007b584be6": {
+    "case_id": "EVAL12",
+    "arm": "prompt_only"
+  },
+  "d7f94b9d16a5464f": {
+    "case_id": "EVAL12",
+    "arm": "full_guardrail"
+  },
+  "6975b7f4d3634119": {
+    "case_id": "EVAL13",
+    "arm": "prompt_only"
+  },
+  "3455cdde9b984a60": {
+    "case_id": "EVAL13",
+    "arm": "full_guardrail"
+  },
+  "4c860e77378b4589": {
+    "case_id": "EVAL14",
+    "arm": "prompt_only"
+  },
+  "95c9970d9b9b4e41": {
+    "case_id": "EVAL14",
+    "arm": "full_guardrail"
+  },
+  "63f7def36a564256": {
+    "case_id": "EVAL15",
+    "arm": "prompt_only"
+  },
+  "06c899f702064d9c": {
+    "case_id": "EVAL15",
+    "arm": "full_guardrail"
+  },
+  "e312b565dde048aa": {
+    "case_id": "EVAL16",
+    "arm": "prompt_only"
+  },
+  "309de01cfa6b4daa": {
+    "case_id": "EVAL16",
+    "arm": "full_guardrail"
+  },
+  "003979e4bd7944f0": {
+    "case_id": "EVAL17",
+    "arm": "prompt_only"
+  },
+  "1cd3491423904a0e": {
+    "case_id": "EVAL17",
+    "arm": "full_guardrail"
+  },
+  "027e36295a644cfd": {
+    "case_id": "EVAL18",
+    "arm": "prompt_only"
+  },
+  "a4fd03db95dc45bc": {
+    "case_id": "EVAL18",
+    "arm": "full_guardrail"
+  },
+  "a2449c9e389949e9": {
+    "case_id": "EVAL19",
+    "arm": "prompt_only"
+  },
+  "d436cb64780c41b9": {
+    "case_id": "EVAL19",
+    "arm": "full_guardrail"
+  },
+  "b4351d36c3f2469a": {
+    "case_id": "EVAL20",
+    "arm": "prompt_only"
+  },
+  "40148f4e8b134bc2": {
+    "case_id": "EVAL20",
+    "arm": "full_guardrail"
+  }
+}

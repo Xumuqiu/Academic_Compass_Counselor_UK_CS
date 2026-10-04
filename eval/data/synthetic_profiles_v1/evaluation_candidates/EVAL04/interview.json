@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL04",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "课堂排序方法比较",
+      "answers_by_element": {
+        "process": "我用六个数字手工演示两种排序方法，记录交换和比较步骤。",
+        "knowledge": "我知道循环和比较操作，但没有写完整排序程序。",
+        "problem": "第一次统计时漏记了不交换的比较。",
+        "solution": "我把比较和交换分别记在两列，重新逐步演示。",
+        "reflection": "评价方法之前需要定义自己到底在数什么。",
+        "outcome": "有手写步骤表，没有程序运行耗时。",
+        "deep:concept": "我只理解步骤数可以随输入变化，还不会严格证明复杂度。",
+        "deep:alternative": "我比较顺序和倒序输入，发现步骤数量并不总是相同。",
+        "deep:limit": "六个数字的手工例子不能证明运行时间或推广到很长的数组。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "小游戏规则阅读",
+      "answers_by_element": {
+        "process": "我负责分析示例移动规则，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到Scratch，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "理解规则不等于实现完整游戏。",
+        "outcome": "留下了规则笔记，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

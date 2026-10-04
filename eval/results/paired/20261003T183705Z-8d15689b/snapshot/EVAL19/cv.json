@@ -1,0 +1,44 @@
+{
+  "student": {
+    "id": "eval19",
+    "label": "虚构学生 EVAL19",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A*"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "资源策略比赛原型",
+        "type": "competition",
+        "role": "设计资源分配原型",
+        "skills": [
+          "Python"
+        ],
+        "outputs": [
+          "比赛原型"
+        ]
+      },
+      {
+        "title": "信息课递归例子",
+        "type": "academic",
+        "role": "追踪老师提供的函数调用",
+        "skills": [
+          "Python基础"
+        ],
+        "outputs": [
+          "调用图"
+        ]
+      }
+    ]
+  }
+}

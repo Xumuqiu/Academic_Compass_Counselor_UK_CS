@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL10",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "课程签到应用",
+      "answers_by_element": {
+        "process": "简历写前后端不准确，我只修改了登录页提示文字，后端是学长写的。",
+        "knowledge": "我用了 HTML 文本标签，没有实现数据库连接。",
+        "problem": "提示文字太长，在手机上换行后挡住按钮。",
+        "solution": "我缩短提示并调整文字区域宽度，再看手机显示。",
+        "reflection": "我发现参与一个应用不能等同于掌握整个开发流程。",
+        "outcome": "有登录页前后截图，没有后端代码贡献。",
+        "deep:concept": "我能讲清页面显示，不能解释服务端身份验证。",
+        "deep:alternative": "我试了缩小字号，最后选择缩短文字避免过小。",
+        "deep:limit": "简历的负责前后端开发需要改为修改登录页。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "课堂字符串练习",
+      "answers_by_element": {
+        "process": "我负责检查字母大小写，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到Python，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "输入格式不同会影响结果。",
+        "outcome": "留下了练习代码，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL03",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "机器人急弯路线对比",
+      "answers_by_element": {
+        "process": "我在同一条路线测试两个速度设置，每个设置跑五次并记录完成时间。",
+        "knowledge": "我用同一个计时方法，也记录跑偏未完成的次数。",
+        "problem": "高速设置有两次跑偏，低速设置五次都完成了。",
+        "solution": "我在这条测试路线选择低速设置，并在记录里保留失败次数。",
+        "reflection": "单次最快不一定是更可靠的选择，我需要同时看完成率。",
+        "outcome": "有十次路线记录；低速设置在这五次测试中都完成，没有全国赛成绩。",
+        "deep:concept": "这是小样本的重复测试，不能把五次成功当作所有场景都成功。",
+        "deep:alternative": "我比较速度和完成率，接受时间较长来减少跑偏。",
+        "deep:limit": "换地面或光线后还需要重测，不能说低速策略普遍最好。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "机械结构课堂练习",
+      "answers_by_element": {
+        "process": "我负责观察连杆动作，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到Physics，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "理想图示与真实连接会有偏差。",
+        "outcome": "留下了观察笔记，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

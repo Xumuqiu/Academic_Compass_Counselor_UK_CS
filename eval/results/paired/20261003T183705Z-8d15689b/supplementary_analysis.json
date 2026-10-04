@@ -1,0 +1,60 @@
+{
+  "run_id": "20261003T183705Z-8d15689b",
+  "sections": {
+    "prompt_only": {
+      "narrative": {
+        "published_claims": 543,
+        "supported": 458,
+        "unsupported": 85,
+        "label_counts": {
+          "supported": 458,
+          "insufficient": 80,
+          "overstated": 1,
+          "contradicted": 4
+        }
+      },
+      "angle_and_thesis": {
+        "published_claims": 128,
+        "supported": 76,
+        "unsupported": 52,
+        "label_counts": {
+          "supported": 76,
+          "overstated": 13,
+          "insufficient": 37,
+          "contradicted": 2
+        }
+      }
+    },
+    "full_guardrail": {
+      "narrative": {
+        "published_claims": 543,
+        "supported": 458,
+        "unsupported": 85,
+        "label_counts": {
+          "supported": 458,
+          "insufficient": 80,
+          "contradicted": 4,
+          "overstated": 1
+        }
+      },
+      "angle_and_thesis": {
+        "published_claims": 51,
+        "supported": 33,
+        "unsupported": 18,
+        "label_counts": {
+          "insufficient": 13,
+          "supported": 33,
+          "overstated": 4,
+          "contradicted": 1
+        }
+      }
+    }
+  },
+  "paired_case_rate_comparison": {
+    "lower": 14,
+    "same": 5,
+    "higher": 1
+  },
+  "unsupported_rate_change_percentage_points": -3.077220290335045,
+  "interpretation": "Breakdown of the same finalized units, not a new annotation rule. Counts of safe generated summaries are not the predeclared opportunity-retention metric."
+}

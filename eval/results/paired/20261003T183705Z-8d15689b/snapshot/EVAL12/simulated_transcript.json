@@ -1,0 +1,124 @@
+{
+  "case_id": "EVAL12",
+  "record_type": "offline_rule_path_fixture",
+  "actual_student_interview": false,
+  "model_calls": 0,
+  "note": "由当前规则选择器回放，未调用模型；live 解析可改变问题顺序或轮数，须按回答库重新回放。",
+  "turns": [
+    {
+      "round": 1,
+      "question_id": "exp_1:problem",
+      "experience_id": "exp_1",
+      "element": "problem",
+      "question": "「校园编程赛测试志愿者」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "有一份输入文件打不开，我不知道编码格式。"
+    },
+    {
+      "round": 2,
+      "question_id": "exp_1:solution",
+      "experience_id": "exp_1",
+      "element": "solution",
+      "question": "你提到「有一份输入文件打不开，我不知道编码格式。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我向老师报告文件名和报错，没有自行修复。"
+    },
+    {
+      "round": 3,
+      "question_id": "exp_1:reflection",
+      "experience_id": "exp_1",
+      "element": "reflection",
+      "question": "「校园编程赛测试志愿者」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "我学到报错信息需要完整记录；我的身份是测试志愿者，简历中的个人一等奖是录入错误。"
+    },
+    {
+      "round": 4,
+      "question_id": "exp_1:deep:concept",
+      "experience_id": "exp_1",
+      "element": "deep:concept",
+      "question": "关于「校园编程赛测试志愿者」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "我知道文件读取可以报错，编码原理还没有理解。"
+    },
+    {
+      "round": 5,
+      "question_id": "exp_1:deep:alternative",
+      "experience_id": "exp_1",
+      "element": "deep:alternative",
+      "question": "关于「校园编程赛测试志愿者」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "没有比较算法或修改代码。"
+    },
+    {
+      "round": 6,
+      "question_id": "exp_1:deep:limit",
+      "experience_id": "exp_1",
+      "element": "deep:limit",
+      "question": "关于「校园编程赛测试志愿者」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "个人一等奖应从 CV 删除，不能由赛事证明推断。"
+    },
+    {
+      "round": 7,
+      "question_id": "exp_2:knowledge",
+      "experience_id": "exp_2",
+      "element": "knowledge",
+      "question": "「学校开放日志愿者」中你用到了哪些知识或技能？具体用在了哪一步？",
+      "answer": "这段主要是记录与协作，没有使用具体编程方法。"
+    },
+    {
+      "round": 8,
+      "question_id": "exp_2:problem",
+      "experience_id": "exp_2",
+      "element": "problem",
+      "question": "「学校开放日志愿者」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "第一次记录有一处缺项，需要重新核对。"
+    },
+    {
+      "round": 9,
+      "question_id": "exp_2:solution",
+      "experience_id": "exp_2",
+      "element": "solution",
+      "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+    },
+    {
+      "round": 10,
+      "question_id": "exp_2:reflection",
+      "experience_id": "exp_2",
+      "element": "reflection",
+      "question": "「学校开放日志愿者」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "我承担的是服务岗位，没有竞赛奖项。"
+    },
+    {
+      "round": 11,
+      "question_id": "exp_2:deep:concept",
+      "experience_id": "exp_2",
+      "element": "deep:concept",
+      "question": "关于「学校开放日志愿者」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+    },
+    {
+      "round": 12,
+      "question_id": "exp_2:deep:alternative",
+      "experience_id": "exp_2",
+      "element": "deep:alternative",
+      "question": "关于「学校开放日志愿者」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+    },
+    {
+      "round": 13,
+      "question_id": "exp_2:deep:limit",
+      "experience_id": "exp_2",
+      "element": "deep:limit",
+      "question": "关于「学校开放日志愿者」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+    }
+  ],
+  "unasked_answer_fields": {
+    "exp_1": [
+      "process",
+      "knowledge",
+      "outcome"
+    ],
+    "exp_2": [
+      "process",
+      "outcome"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "DEV05",
+  "split": "dev",
+  "slice": "ai_ownership",
+  "cv_file": "dev/DEV05/cv.json",
+  "interview_file": "dev/DEV05/interview.json",
+  "gold_file": "dev/DEV05/gold.json",
+  "program_ids": [
+    "manchester_cs_ug"
+  ],
+  "experience_count": 2,
+  "origin": "agent_authored_synthetic",
+  "author": "Codex",
+  "contains_real_student_data": false,
+  "permission": "user_requested_fictional_test_fixtures",
+  "independent_held_out": false,
+  "cv_source_style": "education_experience_honors_skills_organization_only",
+  "initial_evidence_gaps": [
+    "个人做法、困难、解决与反思需由访谈补充"
+  ],
+  "human_review_status": "not_reviewed"
+}

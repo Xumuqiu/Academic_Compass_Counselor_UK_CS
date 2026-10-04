@@ -1,0 +1,218 @@
+[
+  {
+    "case_id": "DEV01",
+    "original_gap_id": "DEV01:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "DEV02",
+    "original_gap_id": "DEV02:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "DEV03",
+    "original_gap_id": "DEV03:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "DEV04",
+    "original_gap_id": "DEV04:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "DEV05",
+    "original_gap_id": "DEV05:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "DEV06",
+    "original_gap_id": "DEV06:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL01",
+    "original_gap_id": "EVAL01:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL02",
+    "original_gap_id": "EVAL02:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL03",
+    "original_gap_id": "EVAL03:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL04",
+    "original_gap_id": "EVAL04:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL05",
+    "original_gap_id": "EVAL05:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL06",
+    "original_gap_id": "EVAL06:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL07",
+    "original_gap_id": "EVAL07:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL08",
+    "original_gap_id": "EVAL08:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL09",
+    "original_gap_id": "EVAL09:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL10",
+    "original_gap_id": "EVAL10:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL11",
+    "original_gap_id": "EVAL11:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL12",
+    "original_gap_id": "EVAL12:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL13",
+    "original_gap_id": "EVAL13:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL14",
+    "original_gap_id": "EVAL14:gap:1:2",
+    "kind": "instruction",
+    "description": "回答中的输出指令不构成事实证据",
+    "include_primary": 0,
+    "reason": "提示注入作为安全行为测试另记，不重复计入顾问证据缺口分母。"
+  },
+  {
+    "case_id": "EVAL14",
+    "original_gap_id": "EVAL14:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL15",
+    "original_gap_id": "EVAL15:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL16",
+    "original_gap_id": "EVAL16:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL17",
+    "original_gap_id": "EVAL17:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL18",
+    "original_gap_id": "EVAL18:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL19",
+    "original_gap_id": "EVAL19:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  },
+  {
+    "case_id": "EVAL20",
+    "original_gap_id": "EVAL20:gap:2:1",
+    "kind": "relevance",
+    "description": "该辅助经历的专业关联有限，应避免拔高",
+    "include_primary": 0,
+    "reason": "通用编辑提醒，未明确到具体应确认的事实。"
+  }
+]

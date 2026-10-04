@@ -1,0 +1,136 @@
+{
+  "case_id": "EVAL04",
+  "split": "evaluation_candidates",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "EVAL04",
+      "gap_id": "EVAL04:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "implementation",
+      "description": "手工步骤比较没有程序运行时间依据",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "六个数字的手工例子不能证明运行时间或推广到很长的数组。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/5/answer"
+      ],
+      "expected_detection": "区分手工演示与程序计时，不把六个数字的步骤比较写成部署或性能结论",
+      "confirmation_question_example": "有没有实际实现代码与同条件程序计时？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL04",
+      "gap_id": "EVAL04:gap:v1:2",
+      "experience_id": "exp_1",
+      "kind": "concept",
+      "description": "尚不能严格证明复杂度",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/3/answer",
+          "round": 4,
+          "element": "deep:concept",
+          "text": "我只理解步骤数可以随输入变化，还不会严格证明复杂度。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/3/answer"
+      ],
+      "expected_detection": "明确尚无复杂度证明，不写成已证明算法效率",
+      "confirmation_question_example": "能否说明步骤数随输入规模变化的理由，哪些部分尚无法证明？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "EVAL04",
+      "opportunity_id": "EVAL04:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "分别记录比较和交换步骤并重新逐步演示",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "我把比较和交换分别记在两列，重新逐步演示。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/1/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL04",
+      "opportunity_id": "EVAL04:opportunity:1:2",
+      "experience_id": "exp_1",
+      "supported_fact": "认识到比较方法前需要定义计数对象",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "评价方法之前需要定义自己到底在数什么。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/2/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL04",
+      "opportunity_id": "EVAL04:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/7/answer",
+          "round": 8,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL04/simulated_transcript.json#/turns/7/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "case_id": "DEV01",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "社团课表可视化",
+      "answers_by_element": {
+        "process": "我导入课表，清理重复记录，再画出每天课程数量，最后请两位同学试用。",
+        "knowledge": "我用 Python 的列表保存课程，用字典按星期统计，再用图表展示。",
+        "problem": "同一门课程被录入两次，柱状图就比实际多了一节。",
+        "solution": "我把星期、时段和课程名作为组合键，先检查重复再统计。",
+        "reflection": "我发现图表画得漂亮还不够，输入记录不准确会让结果误导人。",
+        "outcome": "我交了一个能读取样例课表的原型和五条人工检查用例，没有正式上线。",
+        "deep:concept": "这里涉及数据表示和去重，组合键帮助判断两条记录是不是同一节课。",
+        "deep:alternative": "我试过只按课程名去重，但同一课程在不同时间会被错误合并。",
+        "deep:limit": "如果不同人用不同课程缩写，组合键还是会漏掉重复，需要先统一名称。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "课堂函数图像讨论",
+      "answers_by_element": {
+        "process": "我负责比较手画与软件绘图，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到数学，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "我发现输入范围会改变图像看起来的趋势。",
+        "outcome": "留下了图像笔记，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "case_id": "EVAL10",
+  "record_type": "offline_rule_path_fixture",
+  "actual_student_interview": false,
+  "model_calls": 0,
+  "note": "由当前规则选择器回放，未调用模型；live 解析可改变问题顺序或轮数，须按回答库重新回放。",
+  "turns": [
+    {
+      "round": 1,
+      "question_id": "exp_1:problem",
+      "experience_id": "exp_1",
+      "element": "problem",
+      "question": "「课程签到应用」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "提示文字太长，在手机上换行后挡住按钮。"
+    },
+    {
+      "round": 2,
+      "question_id": "exp_1:solution",
+      "experience_id": "exp_1",
+      "element": "solution",
+      "question": "你提到「提示文字太长，在手机上换行后挡住按钮。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我缩短提示并调整文字区域宽度，再看手机显示。"
+    },
+    {
+      "round": 3,
+      "question_id": "exp_1:reflection",
+      "experience_id": "exp_1",
+      "element": "reflection",
+      "question": "「课程签到应用」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "我发现参与一个应用不能等同于掌握整个开发流程。"
+    },
+    {
+      "round": 4,
+      "question_id": "exp_1:deep:concept",
+      "experience_id": "exp_1",
+      "element": "deep:concept",
+      "question": "关于「课程签到应用」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "我能讲清页面显示，不能解释服务端身份验证。"
+    },
+    {
+      "round": 5,
+      "question_id": "exp_1:deep:alternative",
+      "experience_id": "exp_1",
+      "element": "deep:alternative",
+      "question": "关于「课程签到应用」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试了缩小字号，最后选择缩短文字避免过小。"
+    },
+    {
+      "round": 6,
+      "question_id": "exp_1:deep:limit",
+      "experience_id": "exp_1",
+      "element": "deep:limit",
+      "question": "关于「课程签到应用」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "简历的负责前后端开发需要改为修改登录页。"
+    },
+    {
+      "round": 7,
+      "question_id": "exp_2:problem",
+      "experience_id": "exp_2",
+      "element": "problem",
+      "question": "「课堂字符串练习」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "第一次记录有一处缺项，需要重新核对。"
+    },
+    {
+      "round": 8,
+      "question_id": "exp_2:solution",
+      "experience_id": "exp_2",
+      "element": "solution",
+      "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+    },
+    {
+      "round": 9,
+      "question_id": "exp_2:reflection",
+      "experience_id": "exp_2",
+      "element": "reflection",
+      "question": "「课堂字符串练习」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "输入格式不同会影响结果。"
+    },
+    {
+      "round": 10,
+      "question_id": "exp_2:deep:concept",
+      "experience_id": "exp_2",
+      "element": "deep:concept",
+      "question": "关于「课堂字符串练习」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+    },
+    {
+      "round": 11,
+      "question_id": "exp_2:deep:alternative",
+      "experience_id": "exp_2",
+      "element": "deep:alternative",
+      "question": "关于「课堂字符串练习」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+    },
+    {
+      "round": 12,
+      "question_id": "exp_2:deep:limit",
+      "experience_id": "exp_2",
+      "element": "deep:limit",
+      "question": "关于「课堂字符串练习」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+    }
+  ],
+  "unasked_answer_fields": {
+    "exp_1": [
+      "process",
+      "knowledge",
+      "outcome"
+    ],
+    "exp_2": [
+      "process",
+      "knowledge",
+      "outcome"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "student": {
+    "id": "eval15",
+    "label": "虚构学生 EVAL15",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "B"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      },
+      {
+        "name": "Further Mathematics",
+        "predicted": "B"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "本地搜索脚本时间测量",
+        "type": "project",
+        "role": "比较两个搜索脚本",
+        "skills": [
+          "Python"
+        ],
+        "outputs": [
+          "测试记录"
+        ]
+      },
+      {
+        "title": "数学概率讨论",
+        "type": "academic",
+        "role": "比较两个课堂概率例子",
+        "skills": [
+          "数学"
+        ],
+        "outputs": [
+          "讨论草稿"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "student": {
+    "id": "eval05",
+    "label": "虚构学生 EVAL05",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      },
+      {
+        "name": "Further Mathematics",
+        "predicted": "B"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "英语词卡检索练习",
+        "type": "project",
+        "role": "编写本地词卡查询脚本",
+        "skills": [
+          "Python"
+        ],
+        "outputs": [
+          "本地脚本"
+        ]
+      },
+      {
+        "title": "英语演讲社",
+        "type": "holistic",
+        "role": "组织一次练习",
+        "skills": [],
+        "outputs": [
+          "练习安排表"
+        ]
+      }
+    ]
+  }
+}

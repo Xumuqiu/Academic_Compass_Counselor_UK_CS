@@ -1,0 +1,45 @@
+{
+  "student": {
+    "id": "eval02",
+    "label": "虚构学生 EVAL02",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "志愿活动报名页面",
+        "type": "project",
+        "role": "制作报名页并检查表单",
+        "skills": [
+          "HTML",
+          "JavaScript"
+        ],
+        "outputs": [
+          "演示页面"
+        ]
+      },
+      {
+        "title": "环保社物资登记",
+        "type": "holistic",
+        "role": "维护匿名借用清单",
+        "skills": [
+          "电子表格"
+        ],
+        "outputs": [
+          "借用清单"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "student": {
+    "id": "demo_highschool_01",
+    "label": "虚构学生 A（高二，A-Level）",
+    "source": "原项目 data/fixtures/highschool_01_profile.yaml",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A"
+      },
+      {
+        "name": "Economics",
+        "predicted": "A"
+      },
+      {
+        "name": "Business Studies",
+        "predicted": "B"
+      }
+    ],
+    "experience": {
+      "id": "exp_h1",
+      "title": "校数学建模社团，参与市级中学生数学建模竞赛",
+      "source": "transcript:p2",
+      "role": "数据整理与图表制作",
+      "skills": [
+        "数据整理",
+        "图表制作"
+      ],
+      "outputs": [
+        "市级三等奖"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "student": {
+    "id": "eval12",
+    "label": "虚构学生 EVAL12",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "B"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "校园编程赛测试志愿者",
+        "type": "competition",
+        "role": "获得个人一等奖",
+        "skills": [
+          "Python基础"
+        ],
+        "outputs": [
+          "赛事证明"
+        ]
+      },
+      {
+        "title": "学校开放日志愿者",
+        "type": "holistic",
+        "role": "核对活动入口编号",
+        "skills": [],
+        "outputs": [
+          "岗位清单"
+        ]
+      }
+    ]
+  }
+}

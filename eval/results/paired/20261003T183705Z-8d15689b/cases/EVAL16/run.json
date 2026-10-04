@@ -1,0 +1,3886 @@
+{
+  "case_id": "EVAL16",
+  "slice": "execution_and_measurement",
+  "dry_run": false,
+  "actual_transcript": [
+    {
+      "round": 1,
+      "question_id": "exp_1:problem",
+      "experience_id": "exp_1",
+      "element": "problem",
+      "question": "「模拟器避障练习」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "有两个障碍挨得近时，模拟机器人会反复左右转。"
+    },
+    {
+      "round": 2,
+      "question_id": "exp_1:solution",
+      "experience_id": "exp_1",
+      "element": "solution",
+      "question": "你提到「有两个障碍挨得近时，模拟机器人会反复左右转。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我记录最近一次转向，短时间内不重复反向转。"
+    },
+    {
+      "round": 3,
+      "question_id": "exp_1:reflection",
+      "experience_id": "exp_1",
+      "element": "reflection",
+      "question": "「模拟器避障练习」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "模拟效果不能说明实体设备一定能运行。"
+    },
+    {
+      "round": 4,
+      "question_id": "exp_1:deep:concept",
+      "experience_id": "exp_1",
+      "element": "deep:concept",
+      "question": "关于「模拟器避障练习」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "我理解的是状态记录可以避免反复切换，不是完整自主导航。"
+    },
+    {
+      "round": 5,
+      "question_id": "exp_1:deep:alternative",
+      "experience_id": "exp_1",
+      "element": "deep:alternative",
+      "question": "关于「模拟器避障练习」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过直接加大转向角，但在另一个地图会碰到障碍。"
+    },
+    {
+      "round": 6,
+      "question_id": "exp_1:deep:limit",
+      "experience_id": "exp_1",
+      "element": "deep:limit",
+      "question": "关于「模拟器避障练习」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "真实传感器误差和电机运动都没有验证。"
+    },
+    {
+      "round": 7,
+      "question_id": "exp_2:knowledge",
+      "experience_id": "exp_2",
+      "element": "knowledge",
+      "question": "「科学社安全培训」中你用到了哪些知识或技能？具体用在了哪一步？",
+      "answer": "这段主要是记录与协作，没有使用具体编程方法。"
+    },
+    {
+      "round": 8,
+      "question_id": "exp_2:problem",
+      "experience_id": "exp_2",
+      "element": "problem",
+      "question": "「科学社安全培训」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "第一次记录有一处缺项，需要重新核对。"
+    },
+    {
+      "round": 9,
+      "question_id": "exp_2:solution",
+      "experience_id": "exp_2",
+      "element": "solution",
+      "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+    },
+    {
+      "round": 10,
+      "question_id": "exp_2:reflection",
+      "experience_id": "exp_2",
+      "element": "reflection",
+      "question": "「科学社安全培训」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "培训记录不能替代真实设备部署经验。"
+    },
+    {
+      "round": 11,
+      "question_id": "exp_2:deep:concept",
+      "experience_id": "exp_2",
+      "element": "deep:concept",
+      "question": "关于「科学社安全培训」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+    },
+    {
+      "round": 12,
+      "question_id": "exp_2:deep:alternative",
+      "experience_id": "exp_2",
+      "element": "deep:alternative",
+      "question": "关于「科学社安全培训」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+    },
+    {
+      "round": 13,
+      "question_id": "exp_2:deep:limit",
+      "experience_id": "exp_2",
+      "element": "deep:limit",
+      "question": "关于「科学社安全培训」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+    }
+  ],
+  "outputs": {
+    "prompt_only": {
+      "student": "虚构学生 EVAL16",
+      "programmes": [
+        {
+          "id": "manchester_cs_ug",
+          "name": "BSc Computer Science (2027 entry)",
+          "university": "The University of Manchester",
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false,
+          "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+          "requirements": [
+            {
+              "id": "manchester_cs_ug:req_02",
+              "text": "A* in Mathematics",
+              "kind": "math_grade",
+              "expected": "A*"
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "kind": "science_subject",
+              "accepted": [
+                "Computer Science",
+                "Further Mathematics",
+                "Biology",
+                "Chemistry",
+                "Physics"
+              ]
+            }
+          ],
+          "source_requirements": [
+            {
+              "id": "manchester_cs_ug:req_01",
+              "category": "gpa",
+              "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_02",
+              "category": "subject",
+              "text": "A* in Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_04",
+              "category": "material",
+              "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_05",
+              "category": "gpa",
+              "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_06",
+              "category": "subject",
+              "text": "including Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_07",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_08",
+              "category": "gpa",
+              "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_09",
+              "category": "gpa",
+              "text": "7,6,6 in Higher Level subjects",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_10",
+              "category": "subject",
+              "text": "including 7 in Mathematics: Analysis and Approaches",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_11",
+              "category": "subject",
+              "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_12",
+              "category": "language",
+              "text": "IELTS 7.0 overall, with no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_13",
+              "category": "language",
+              "text": "no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_14",
+              "category": "language",
+              "text": "TOEFL iBT 100 overall, with no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_15",
+              "category": "language",
+              "text": "no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_16",
+              "category": "language",
+              "text": "GCSE/IGCSE English Language grade B/6",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            }
+          ]
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Mathematics",
+          "predicted": "A*"
+        },
+        {
+          "name": "Physics",
+          "predicted": "B"
+        },
+        {
+          "name": "Computer Science",
+          "predicted": "A"
+        }
+      ],
+      "prompt_set_id": "ucas_2026",
+      "prompts": [
+        {
+          "id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?"
+        }
+      ],
+      "writing_guidance": {
+        "id": "ucas_2026",
+        "name": "UCAS Personal Statement（2026 年 9 月入学起：三问式）",
+        "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement",
+        "collected_on": "2026-08-12",
+        "human_verified": false,
+        "prompts": [
+          {
+            "id": "ucas_2026:q1",
+            "question": "你为什么想学习这门课程或学科？",
+            "question_en": "Why do you want to study this course or subject?",
+            "focus": "学科兴趣的真实来源、对学科重大问题的批判性参与、希望深耕的细分领域",
+            "guidance": [
+              "侧重你希望学习的学科的学术兴趣：是什么吸引你选择这门学科？哪些方面让你想在本科阶段学习它？",
+              "是否希望专注于该学科的某个特定领域？该学科的重大问题是什么，你觉得哪些最有趣、你对这些话题有何看法？",
+              "对联合课程，说明学科之间如何相互关联、为什么它们对你有吸引力。"
+            ],
+            "avoid": [
+              "避免讨论未来的职业规划——个人陈述应反映你个人的学术兴趣。",
+              "避免「我从小就梦想…」这类没有起源事件的空话。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q2",
+            "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+            "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+            "focus": "课内学习与超课程活动（super-curricular）如何递进地加深学科认知，重在反思而非罗列",
+            "guidance": [
+              "评审寻找的是能够最好地反思自身经历与学术思想的学生，而不是拥有最佳机会的学生。",
+              "如何在学习之外发展学科兴趣：额外阅读、讲座、在线资料、拓展项目资质（EPQ）？你从中发现了什么有趣之处、有何看法？",
+              "是否从其他学校科目中获得了补充所选课程的技能？",
+              "感兴趣的不仅是你读过什么的清单，而是你有反思学术思想的证据。"
+            ],
+            "avoid": [
+              "无需讨论所有当前学习，只谈与所选科目相关的部分。",
+              "不要罗列课程科目清单——资格部分会显示这些信息。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q3",
+            "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+            "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+            "focus": "课外经历（实习、项目、社会实践）如何拓宽对学科主题的理解，与课程相关性是关键",
+            "guidance": [
+              "实习或相关经历如何让你对大学将要学习的主题有更广泛的理解？",
+              "可用此空间扩展问题一和问题二中的批判性反思，或收纳前两问未能容纳的超课程活动。",
+              "写满最低 350 字符即可接受——相关性比篇幅重要。"
+            ],
+            "avoid": [
+              "确保回答与所申请课程相关，并展示对该学科的批判性参与；与课程无关的可转移技能（如球队领导力）分量应远低于学术内容。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          }
+        ]
+      },
+      "thesis_claim": "通过模拟器避障练习和科学社安全培训，展示了对计算机科学中机器人导航与系统安全的初步理解和批判性思考，体现了对专业知识的兴趣和反思能力。",
+      "sections": [
+        {
+          "prompt_id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?",
+          "material_ids": [
+            "mat_1",
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        },
+        {
+          "prompt_id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+          "material_ids": [],
+          "strategy": "当前证据不足，先补充相应经历与思考。"
+        },
+        {
+          "prompt_id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+          "material_ids": [
+            "mat_1",
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        }
+      ],
+      "materials": [
+        {
+          "id": "mat_1",
+          "experience_id": "exp_1",
+          "title": "模拟器避障练习",
+          "prompt_id": "ucas_2026:q3",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "展示了对机器人导航中状态记录方法的理解及其局限性，体现了批判性思考和问题解决能力",
+          "evidence_quote": "我记录最近一次转向，短时间内不重复反向转。",
+          "evidence": [
+            {
+              "id": "exp_1:process:0",
+              "element": "process",
+              "text": "在模拟器中测试避障",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:knowledge:0",
+              "element": "knowledge",
+              "text": "Python",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_1:outcome:0",
+              "element": "outcome",
+              "text": "模拟运行录像",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_1:problem:1",
+              "element": "problem",
+              "text": "有两个障碍挨得近时，模拟机器人会反复左右转。",
+              "source": "dialog:r1",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_1:solution:2",
+              "element": "solution",
+              "text": "我记录最近一次转向，短时间内不重复反向转。",
+              "source": "dialog:r2",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_1:process:2",
+              "element": "process",
+              "text": "记录最近一次转向",
+              "source": "dialog:r2",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:reflection:3",
+              "element": "reflection",
+              "text": "模拟效果不能说明实体设备一定能运行。",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_1:problem:3",
+              "element": "problem",
+              "text": "模拟效果不能说明实体设备一定能运行。",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_1:deep:concept:4",
+              "element": "deep:concept",
+              "text": "我理解的是状态记录可以避免反复切换，不是完整自主导航。",
+              "source": "dialog:r4",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:alternative:5",
+              "element": "deep:alternative",
+              "text": "我试过直接加大转向角，但在另一个地图会碰到障碍。",
+              "source": "dialog:r5",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:limit:6",
+              "element": "deep:limit",
+              "text": "真实传感器误差和电机运动都没有验证。",
+              "source": "dialog:r6",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：有两个障碍挨得近时，模拟机器人会反复左右转。",
+            "解决方法：我记录最近一次转向，短时间内不重复反向转。",
+            "个人思考：模拟效果不能说明实体设备一定能运行。",
+            "遇到的问题：模拟效果不能说明实体设备一定能运行。"
+          ],
+          "narrative": "行为过程：在模拟器中测试避障。 运用知识：Python。 最终收获：模拟运行录像。 遇到的问题：有两个障碍挨得近时，模拟机器人会反复左右转。。 解决方法：我记录最近一次转向，短时间内不重复反向转。。 行为过程：记录最近一次转向。 个人思考：模拟效果不能说明实体设备一定能运行。。 遇到的问题：模拟效果不能说明实体设备一定能运行。。 专业深挖：我理解的是状态记录可以避免反复切换，不是完整自主导航。。 专业深挖：我试过直接加大转向角，但在另一个地图会碰到障碍。。 专业深挖：真实传感器误差和电机运动都没有验证。。",
+          "usage": "可作为 ucas_2026:q3 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "科学社安全培训",
+          "guide_note": "适合围绕展示了对机器人导航中状态记录方法的理解及其局限性，体现了批判性思考和问题解决能力与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "模拟效果不能说明实体设备一定能运行。",
+          "deep_dive": {
+            "concept": {
+              "text": "我理解的是状态记录可以避免反复切换，不是完整自主导航。",
+              "source": "dialog:r4"
+            },
+            "alternative": {
+              "text": "我试过直接加大转向角，但在另一个地图会碰到障碍。",
+              "source": "dialog:r5"
+            },
+            "limit": {
+              "text": "真实传感器误差和电机运动都没有验证。",
+              "source": "dialog:r6"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "Python",
+              "source": "cv:experience:1"
+            },
+            {
+              "kind": "process",
+              "claim": "在模拟器中测试避障\n记录最近一次转向",
+              "source": "dialog:r2"
+            },
+            {
+              "kind": "solution",
+              "claim": "我记录最近一次转向，短时间内不重复反向转。",
+              "source": "dialog:r2"
+            },
+            {
+              "kind": "reflection",
+              "claim": "模拟效果不能说明实体设备一定能运行。",
+              "source": "dialog:r3"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "dialog:r2",
+            "knowledge": "cv:experience:1",
+            "outcome": "cv:experience:1",
+            "problem": "dialog:r3",
+            "solution": "dialog:r2",
+            "reflection": "dialog:r3"
+          },
+          "suggested_points": []
+        },
+        {
+          "id": "mat_2",
+          "experience_id": "exp_2",
+          "title": "科学社安全培训",
+          "prompt_id": "ucas_2026:q3",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "体现了对安全培训中记录与协作重要性的认识，反思了培训与实际设备部署经验的差异",
+          "evidence_quote": "培训记录不能替代真实设备部署经验。",
+          "evidence": [
+            {
+              "id": "exp_2:process:0",
+              "element": "process",
+              "text": "完成课堂安全练习",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:outcome:0",
+              "element": "outcome",
+              "text": "练习表",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_2:knowledge:7",
+              "element": "knowledge",
+              "text": "这段主要是记录与协作，没有使用具体编程方法。",
+              "source": "dialog:r7",
+              "confirmation": "student_stated",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_2:process:7",
+              "element": "process",
+              "text": "记录与协作",
+              "source": "dialog:r7",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:problem:8",
+              "element": "problem",
+              "text": "第一次记录有一处缺项，需要重新核对。",
+              "source": "dialog:r8",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_2:solution:8",
+              "element": "solution",
+              "text": "需要重新核对",
+              "source": "dialog:r8",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_2:solution:9",
+              "element": "solution",
+              "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r9",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_2:process:9",
+              "element": "process",
+              "text": "回看原始资料并向知情同学或老师确认，再补上记录",
+              "source": "dialog:r9",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:reflection:10",
+              "element": "reflection",
+              "text": "培训记录不能替代真实设备部署经验。",
+              "source": "dialog:r10",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_2:problem:10",
+              "element": "problem",
+              "text": "培训记录不能替代真实设备部署经验。",
+              "source": "dialog:r10",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_2:deep:concept:11",
+              "element": "deep:concept",
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r11",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:alternative:12",
+              "element": "deep:alternative",
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r12",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:limit:13",
+              "element": "deep:limit",
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r13",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：第一次记录有一处缺项，需要重新核对。",
+            "解决方法：需要重新核对",
+            "解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。",
+            "个人思考：培训记录不能替代真实设备部署经验。"
+          ],
+          "narrative": "行为过程：完成课堂安全练习。 最终收获：练习表。 运用知识：这段主要是记录与协作，没有使用具体编程方法。。 行为过程：记录与协作。 遇到的问题：第一次记录有一处缺项，需要重新核对。。 解决方法：需要重新核对。 解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。。 行为过程：回看原始资料并向知情同学或老师确认，再补上记录。 个人思考：培训记录不能替代真实设备部署经验。。 遇到的问题：培训记录不能替代真实设备部署经验。。 专业深挖：这段经历没有进一步的专业方法证据，我不想为了申请补写概念。。 专业深挖：我试过凭记忆填写，后来选择先核对原始资料。。 专业深挖：这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。。",
+          "usage": "可作为 ucas_2026:q3 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "模拟器避障练习",
+          "guide_note": "适合围绕体现了对安全培训中记录与协作重要性的认识，反思了培训与实际设备部署经验的差异与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "培训记录不能替代真实设备部署经验。",
+          "deep_dive": {
+            "concept": {
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r11"
+            },
+            "alternative": {
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r12"
+            },
+            "limit": {
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r13"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "这段主要是记录与协作，没有使用具体编程方法。",
+              "source": "dialog:r7"
+            },
+            {
+              "kind": "process",
+              "claim": "完成课堂安全练习\n记录与协作\n回看原始资料并向知情同学或老师确认，再补上记录",
+              "source": "dialog:r9"
+            },
+            {
+              "kind": "solution",
+              "claim": "需要重新核对\n我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r9"
+            },
+            {
+              "kind": "reflection",
+              "claim": "培训记录不能替代真实设备部署经验。",
+              "source": "dialog:r10"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "dialog:r9",
+            "outcome": "cv:experience:2",
+            "knowledge": "dialog:r7",
+            "problem": "dialog:r10",
+            "solution": "dialog:r9",
+            "reflection": "dialog:r10"
+          },
+          "suggested_points": []
+        }
+      ],
+      "claim_audit": [],
+      "open_questions": [],
+      "checks": {
+        "professional_cognition": "已有至少一段本人反思或专业问题说明；需核对其学术准确性。",
+        "connection": "至少一段经历具备可指认的知识、方法或兴趣匹配；仍需核对相关性。",
+        "growth": "多段经历均记录了个人反思；可进一步核对真实的递进关系。"
+      },
+      "programme_gaps": [],
+      "mode": "prompt_only_eval",
+      "notice": "这是头脑风暴素材包，不是个人陈述成稿；待探讨内容不得写成学生事实。"
+    },
+    "full_guardrail": {
+      "student": "虚构学生 EVAL16",
+      "programmes": [
+        {
+          "id": "manchester_cs_ug",
+          "name": "BSc Computer Science (2027 entry)",
+          "university": "The University of Manchester",
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false,
+          "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+          "requirements": [
+            {
+              "id": "manchester_cs_ug:req_02",
+              "text": "A* in Mathematics",
+              "kind": "math_grade",
+              "expected": "A*"
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "kind": "science_subject",
+              "accepted": [
+                "Computer Science",
+                "Further Mathematics",
+                "Biology",
+                "Chemistry",
+                "Physics"
+              ]
+            }
+          ],
+          "source_requirements": [
+            {
+              "id": "manchester_cs_ug:req_01",
+              "category": "gpa",
+              "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_02",
+              "category": "subject",
+              "text": "A* in Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_04",
+              "category": "material",
+              "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_05",
+              "category": "gpa",
+              "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_06",
+              "category": "subject",
+              "text": "including Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_07",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_08",
+              "category": "gpa",
+              "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_09",
+              "category": "gpa",
+              "text": "7,6,6 in Higher Level subjects",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_10",
+              "category": "subject",
+              "text": "including 7 in Mathematics: Analysis and Approaches",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_11",
+              "category": "subject",
+              "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_12",
+              "category": "language",
+              "text": "IELTS 7.0 overall, with no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_13",
+              "category": "language",
+              "text": "no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_14",
+              "category": "language",
+              "text": "TOEFL iBT 100 overall, with no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_15",
+              "category": "language",
+              "text": "no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_16",
+              "category": "language",
+              "text": "GCSE/IGCSE English Language grade B/6",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            }
+          ]
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Mathematics",
+          "predicted": "A*"
+        },
+        {
+          "name": "Physics",
+          "predicted": "B"
+        },
+        {
+          "name": "Computer Science",
+          "predicted": "A"
+        }
+      ],
+      "prompt_set_id": "ucas_2026",
+      "prompts": [
+        {
+          "id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?"
+        }
+      ],
+      "writing_guidance": {
+        "id": "ucas_2026",
+        "name": "UCAS Personal Statement（2026 年 9 月入学起：三问式）",
+        "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement",
+        "collected_on": "2026-08-12",
+        "human_verified": false,
+        "prompts": [
+          {
+            "id": "ucas_2026:q1",
+            "question": "你为什么想学习这门课程或学科？",
+            "question_en": "Why do you want to study this course or subject?",
+            "focus": "学科兴趣的真实来源、对学科重大问题的批判性参与、希望深耕的细分领域",
+            "guidance": [
+              "侧重你希望学习的学科的学术兴趣：是什么吸引你选择这门学科？哪些方面让你想在本科阶段学习它？",
+              "是否希望专注于该学科的某个特定领域？该学科的重大问题是什么，你觉得哪些最有趣、你对这些话题有何看法？",
+              "对联合课程，说明学科之间如何相互关联、为什么它们对你有吸引力。"
+            ],
+            "avoid": [
+              "避免讨论未来的职业规划——个人陈述应反映你个人的学术兴趣。",
+              "避免「我从小就梦想…」这类没有起源事件的空话。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q2",
+            "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+            "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+            "focus": "课内学习与超课程活动（super-curricular）如何递进地加深学科认知，重在反思而非罗列",
+            "guidance": [
+              "评审寻找的是能够最好地反思自身经历与学术思想的学生，而不是拥有最佳机会的学生。",
+              "如何在学习之外发展学科兴趣：额外阅读、讲座、在线资料、拓展项目资质（EPQ）？你从中发现了什么有趣之处、有何看法？",
+              "是否从其他学校科目中获得了补充所选课程的技能？",
+              "感兴趣的不仅是你读过什么的清单，而是你有反思学术思想的证据。"
+            ],
+            "avoid": [
+              "无需讨论所有当前学习，只谈与所选科目相关的部分。",
+              "不要罗列课程科目清单——资格部分会显示这些信息。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q3",
+            "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+            "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+            "focus": "课外经历（实习、项目、社会实践）如何拓宽对学科主题的理解，与课程相关性是关键",
+            "guidance": [
+              "实习或相关经历如何让你对大学将要学习的主题有更广泛的理解？",
+              "可用此空间扩展问题一和问题二中的批判性反思，或收纳前两问未能容纳的超课程活动。",
+              "写满最低 350 字符即可接受——相关性比篇幅重要。"
+            ],
+            "avoid": [
+              "确保回答与所申请课程相关，并展示对该学科的批判性参与；与课程无关的可转移技能（如球队领导力）分量应远低于学术内容。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          }
+        ]
+      },
+      "thesis_claim": "通过模拟器避障练习和科学社安全培训，展示了对机器人导航中状态记录方法和安全培训记录的初步理解与批判性思考，体现了反思能力。",
+      "sections": [
+        {
+          "prompt_id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?",
+          "material_ids": [
+            "mat_1",
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        },
+        {
+          "prompt_id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+          "material_ids": [],
+          "strategy": "当前证据不足，先补充相应经历与思考。"
+        },
+        {
+          "prompt_id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+          "material_ids": [
+            "mat_1",
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        }
+      ],
+      "materials": [
+        {
+          "id": "mat_1",
+          "experience_id": "exp_1",
+          "title": "模拟器避障练习",
+          "prompt_id": "ucas_2026:q3",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "探讨「模拟器避障练习」中本人采取的做法及其思考",
+          "evidence_quote": null,
+          "evidence": [
+            {
+              "id": "exp_1:process:0",
+              "element": "process",
+              "text": "在模拟器中测试避障",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:knowledge:0",
+              "element": "knowledge",
+              "text": "Python",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_1:outcome:0",
+              "element": "outcome",
+              "text": "模拟运行录像",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_1:problem:1",
+              "element": "problem",
+              "text": "有两个障碍挨得近时，模拟机器人会反复左右转。",
+              "source": "dialog:r1",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_1:solution:2",
+              "element": "solution",
+              "text": "我记录最近一次转向，短时间内不重复反向转。",
+              "source": "dialog:r2",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_1:process:2",
+              "element": "process",
+              "text": "记录最近一次转向",
+              "source": "dialog:r2",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:reflection:3",
+              "element": "reflection",
+              "text": "模拟效果不能说明实体设备一定能运行。",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_1:problem:3",
+              "element": "problem",
+              "text": "模拟效果不能说明实体设备一定能运行。",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_1:deep:concept:4",
+              "element": "deep:concept",
+              "text": "我理解的是状态记录可以避免反复切换，不是完整自主导航。",
+              "source": "dialog:r4",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:alternative:5",
+              "element": "deep:alternative",
+              "text": "我试过直接加大转向角，但在另一个地图会碰到障碍。",
+              "source": "dialog:r5",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:limit:6",
+              "element": "deep:limit",
+              "text": "真实传感器误差和电机运动都没有验证。",
+              "source": "dialog:r6",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：有两个障碍挨得近时，模拟机器人会反复左右转。",
+            "解决方法：我记录最近一次转向，短时间内不重复反向转。",
+            "个人思考：模拟效果不能说明实体设备一定能运行。",
+            "遇到的问题：模拟效果不能说明实体设备一定能运行。"
+          ],
+          "narrative": "行为过程：在模拟器中测试避障。 运用知识：Python。 最终收获：模拟运行录像。 遇到的问题：有两个障碍挨得近时，模拟机器人会反复左右转。。 解决方法：我记录最近一次转向，短时间内不重复反向转。。 行为过程：记录最近一次转向。 个人思考：模拟效果不能说明实体设备一定能运行。。 遇到的问题：模拟效果不能说明实体设备一定能运行。。 专业深挖：我理解的是状态记录可以避免反复切换，不是完整自主导航。。 专业深挖：我试过直接加大转向角，但在另一个地图会碰到障碍。。 专业深挖：真实传感器误差和电机运动都没有验证。。",
+          "usage": "可作为 ucas_2026:q3 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "科学社安全培训",
+          "guide_note": "适合围绕探讨「模拟器避障练习」中本人采取的做法及其思考与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "模拟效果不能说明实体设备一定能运行。",
+          "deep_dive": {
+            "concept": {
+              "text": "我理解的是状态记录可以避免反复切换，不是完整自主导航。",
+              "source": "dialog:r4"
+            },
+            "alternative": {
+              "text": "我试过直接加大转向角，但在另一个地图会碰到障碍。",
+              "source": "dialog:r5"
+            },
+            "limit": {
+              "text": "真实传感器误差和电机运动都没有验证。",
+              "source": "dialog:r6"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "Python",
+              "source": "cv:experience:1"
+            },
+            {
+              "kind": "process",
+              "claim": "在模拟器中测试避障\n记录最近一次转向",
+              "source": "dialog:r2"
+            },
+            {
+              "kind": "solution",
+              "claim": "我记录最近一次转向，短时间内不重复反向转。",
+              "source": "dialog:r2"
+            },
+            {
+              "kind": "reflection",
+              "claim": "模拟效果不能说明实体设备一定能运行。",
+              "source": "dialog:r3"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "dialog:r2",
+            "knowledge": "cv:experience:1",
+            "outcome": "cv:experience:1",
+            "problem": "dialog:r3",
+            "solution": "dialog:r2",
+            "reflection": "dialog:r3"
+          },
+          "suggested_points": []
+        },
+        {
+          "id": "mat_2",
+          "experience_id": "exp_2",
+          "title": "科学社安全培训",
+          "prompt_id": "ucas_2026:q3",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "探讨「科学社安全培训」中本人采取的做法及其思考",
+          "evidence_quote": null,
+          "evidence": [
+            {
+              "id": "exp_2:process:0",
+              "element": "process",
+              "text": "完成课堂安全练习",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:outcome:0",
+              "element": "outcome",
+              "text": "练习表",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_2:knowledge:7",
+              "element": "knowledge",
+              "text": "这段主要是记录与协作，没有使用具体编程方法。",
+              "source": "dialog:r7",
+              "confirmation": "student_stated",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_2:process:7",
+              "element": "process",
+              "text": "记录与协作",
+              "source": "dialog:r7",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:problem:8",
+              "element": "problem",
+              "text": "第一次记录有一处缺项，需要重新核对。",
+              "source": "dialog:r8",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_2:solution:8",
+              "element": "solution",
+              "text": "需要重新核对",
+              "source": "dialog:r8",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_2:solution:9",
+              "element": "solution",
+              "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r9",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_2:process:9",
+              "element": "process",
+              "text": "回看原始资料并向知情同学或老师确认，再补上记录",
+              "source": "dialog:r9",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:reflection:10",
+              "element": "reflection",
+              "text": "培训记录不能替代真实设备部署经验。",
+              "source": "dialog:r10",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_2:problem:10",
+              "element": "problem",
+              "text": "培训记录不能替代真实设备部署经验。",
+              "source": "dialog:r10",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_2:deep:concept:11",
+              "element": "deep:concept",
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r11",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:alternative:12",
+              "element": "deep:alternative",
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r12",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:limit:13",
+              "element": "deep:limit",
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r13",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：第一次记录有一处缺项，需要重新核对。",
+            "解决方法：需要重新核对",
+            "解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。",
+            "个人思考：培训记录不能替代真实设备部署经验。"
+          ],
+          "narrative": "行为过程：完成课堂安全练习。 最终收获：练习表。 运用知识：这段主要是记录与协作，没有使用具体编程方法。。 行为过程：记录与协作。 遇到的问题：第一次记录有一处缺项，需要重新核对。。 解决方法：需要重新核对。 解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。。 行为过程：回看原始资料并向知情同学或老师确认，再补上记录。 个人思考：培训记录不能替代真实设备部署经验。。 遇到的问题：培训记录不能替代真实设备部署经验。。 专业深挖：这段经历没有进一步的专业方法证据，我不想为了申请补写概念。。 专业深挖：我试过凭记忆填写，后来选择先核对原始资料。。 专业深挖：这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。。",
+          "usage": "可作为 ucas_2026:q3 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "模拟器避障练习",
+          "guide_note": "适合围绕探讨「科学社安全培训」中本人采取的做法及其思考与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "培训记录不能替代真实设备部署经验。",
+          "deep_dive": {
+            "concept": {
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r11"
+            },
+            "alternative": {
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r12"
+            },
+            "limit": {
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r13"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "这段主要是记录与协作，没有使用具体编程方法。",
+              "source": "dialog:r7"
+            },
+            {
+              "kind": "process",
+              "claim": "完成课堂安全练习\n记录与协作\n回看原始资料并向知情同学或老师确认，再补上记录",
+              "source": "dialog:r9"
+            },
+            {
+              "kind": "solution",
+              "claim": "需要重新核对\n我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r9"
+            },
+            {
+              "kind": "reflection",
+              "claim": "培训记录不能替代真实设备部署经验。",
+              "source": "dialog:r10"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "dialog:r9",
+            "outcome": "cv:experience:2",
+            "knowledge": "dialog:r7",
+            "problem": "dialog:r10",
+            "solution": "dialog:r9",
+            "reflection": "dialog:r10"
+          },
+          "suggested_points": []
+        }
+      ],
+      "claim_audit": [
+        {
+          "kind": "angle",
+          "experience_id": "exp_1",
+          "claim": "展示了对机器人导航中状态记录方法的理解及其局限性，体现了批判性思考和问题解决能力",
+          "status": "incomplete_segmentation",
+          "segments": [],
+          "original_status": "incomplete_segmentation",
+          "suggested_wording": null,
+          "accepted_wording": null
+        },
+        {
+          "kind": "angle",
+          "experience_id": "exp_2",
+          "claim": "体现了对安全培训中记录与协作重要性的认识，反思了培训与实际设备部署经验的差异",
+          "status": "incomplete_segmentation",
+          "segments": [],
+          "original_status": "incomplete_segmentation",
+          "suggested_wording": null,
+          "accepted_wording": null
+        },
+        {
+          "kind": "thesis",
+          "experience_id": null,
+          "claim": "通过模拟器避障练习和科学社安全培训，展示了对计算机科学中机器人导航与系统安全的初步理解和批判性思考，体现了对专业知识的兴趣和反思能力。",
+          "status": "narrowed_supported",
+          "segments": [],
+          "original_status": "incomplete_segmentation",
+          "suggested_wording": "通过模拟器避障练习和科学社安全培训，展示了对机器人导航中状态记录方法和安全培训记录的初步理解与批判性思考，体现了反思能力。",
+          "accepted_wording": "通过模拟器避障练习和科学社安全培训，展示了对机器人导航中状态记录方法和安全培训记录的初步理解与批判性思考，体现了反思能力。"
+        }
+      ],
+      "open_questions": [
+        "关于「模拟器避障练习」：「展示了对机器人导航中状态记录方法的理解及其局限性，体现了批判性思考和问题解决能力」需要什么具体做法、比较依据或结果来支持？",
+        "关于「科学社安全培训」：「体现了对安全培训中记录与协作重要性的认识，反思了培训与实际设备部署经验的差异」需要什么具体做法、比较依据或结果来支持？"
+      ],
+      "checks": {
+        "professional_cognition": "已有至少一段本人反思或专业问题说明；需核对其学术准确性。",
+        "connection": "至少一段经历具备可指认的知识、方法或兴趣匹配；仍需核对相关性。",
+        "growth": "多段经历均记录了个人反思；可进一步核对真实的递进关系。"
+      },
+      "programme_gaps": [],
+      "mode": "live_model",
+      "notice": "这是头脑风暴素材包，不是个人陈述成稿；待探讨内容不得写成学生事实。"
+    }
+  },
+  "failures": {},
+  "failure_stage": null,
+  "proposal": {
+    "thesis_claim": "通过模拟器避障练习和科学社安全培训，展示了对计算机科学中机器人导航与系统安全的初步理解和批判性思考，体现了对专业知识的兴趣和反思能力。",
+    "thesis_evidence_quote": "我记录最近一次转向，短时间内不重复反向转。",
+    "materials": [
+      {
+        "experience_id": "exp_1",
+        "angle": "展示了对机器人导航中状态记录方法的理解及其局限性，体现了批判性思考和问题解决能力",
+        "evidence_quote": "我记录最近一次转向，短时间内不重复反向转。",
+        "guide_note": "用于回答为何选择该学科，体现对计算机科学中机器人导航问题的兴趣和批判性参与；同时可用于展示课内外学习如何深化专业认知。注意说明模拟器结果与实体设备的差异，避免过度夸大。",
+        "translated_positioning": "该经历体现了对机器人导航中状态管理的理解，展示了初步的算法设计思路和对模拟环境局限性的认识，符合计算机科学中人工智能与机器人方向的学科兴趣。"
+      },
+      {
+        "experience_id": "exp_2",
+        "angle": "体现了对安全培训中记录与协作重要性的认识，反思了培训与实际设备部署经验的差异",
+        "evidence_quote": "培训记录不能替代真实设备部署经验。",
+        "guide_note": "用于展示课外活动中对系统安全和团队协作的理解，体现对计算机科学相关领域的批判性思考。适合回答如何通过课外经历加深对学科的理解，但需说明该经历的局限性，避免夸大专业深度。",
+        "translated_positioning": "该经历反映了对安全管理流程的认知和反思，强调了理论与实践的差距，体现了对计算机系统安全领域的初步理解。"
+      }
+    ],
+    "sections": [
+      {
+        "prompt_id": "ucas_2026:q1",
+        "material_ids": [
+          "exp_1"
+        ],
+        "strategy": "利用模拟器避障练习中对状态记录避免反复转向的解决方案，展示对机器人导航中关键问题的兴趣和批判性思考，体现对计算机科学中人工智能与机器人方向的真实学科兴趣。强调对模拟与实体差异的认识，体现理性思考。"
+      },
+      {
+        "prompt_id": "ucas_2026:q2",
+        "material_ids": [
+          "exp_1"
+        ],
+        "strategy": "结合模拟器避障练习中使用Python编程和状态记录方法，反思模拟环境与真实设备的差异，展示课内编程技能与超课程项目的递进加深，体现对专业知识的理解和批判性反思。"
+      },
+      {
+        "prompt_id": "ucas_2026:q3",
+        "material_ids": [
+          "exp_2"
+        ],
+        "strategy": "利用科学社安全培训经历，展示课外活动中对安全记录与协作流程的理解及反思，说明该经历如何拓宽了对计算机系统安全主题的认识，体现对学科的批判性参与。明确该经历的局限性，避免夸大。"
+      }
+    ]
+  },
+  "reviews": {
+    "first": {
+      "claims": [
+        {
+          "kind": "angle",
+          "experience_id": "exp_1",
+          "claim": "展示了对机器人导航中状态记录方法的理解及其局限性，体现了批判性思考和问题解决能力",
+          "segments": [
+            {
+              "text": "展示了对机器人导航中状态记录方法的理解及其局限性",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:solution:2",
+                  "quote": "我记录最近一次转向，短时间内不重复反向转。"
+                },
+                {
+                  "fact_id": "exp_1:deep:concept:4",
+                  "quote": "我理解的是状态记录可以避免反复切换，不是完整自主导航。"
+                },
+                {
+                  "fact_id": "exp_1:deep:limit:6",
+                  "quote": "真实传感器误差和电机运动都没有验证。"
+                }
+              ],
+              "reason": "学生陈述了具体的状态记录方法及其局限性，体现了对方法的理解和批判性思考。"
+            },
+            {
+              "text": "体现了批判性思考和问题解决能力",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:solution:2",
+                  "quote": "我记录最近一次转向，短时间内不重复反向转。"
+                },
+                {
+                  "fact_id": "exp_1:problem:1",
+                  "quote": "有两个障碍挨得近时，模拟机器人会反复左右转。"
+                }
+              ],
+              "reason": "学生针对问题提出了解决方案，体现了问题解决能力和批判性思考。"
+            }
+          ],
+          "suggested_wording": ""
+        },
+        {
+          "kind": "angle",
+          "experience_id": "exp_2",
+          "claim": "体现了对安全培训中记录与协作重要性的认识，反思了培训与实际设备部署经验的差异",
+          "segments": [
+            {
+              "text": "体现了对安全培训中记录与协作重要性的认识",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_2:process:7",
+                  "quote": "记录与协作"
+                },
+                {
+                  "fact_id": "exp_2:knowledge:7",
+                  "quote": "这段主要是记录与协作，没有使用具体编程方法。"
+                }
+              ],
+              "reason": "学生明确指出经历中记录与协作的重要性。"
+            },
+            {
+              "text": "反思了培训与实际设备部署经验的差异",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_2:reflection:10",
+                  "quote": "培训记录不能替代真实设备部署经验。"
+                }
+              ],
+              "reason": "学生反思了培训记录与真实设备部署经验的区别。"
+            }
+          ],
+          "suggested_wording": ""
+        },
+        {
+          "kind": "thesis",
+          "experience_id": null,
+          "claim": "通过模拟器避障练习和科学社安全培训，展示了对计算机科学中机器人导航与系统安全的初步理解和批判性思考，体现了对专业知识的兴趣和反思能力。",
+          "segments": [
+            {
+              "text": "通过模拟器避障练习和科学社安全培训，展示了对计算机科学中机器人导航与系统安全的初步理解和批判性思考",
+              "verdict": "insufficient",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:solution:2",
+                  "quote": "我记录最近一次转向，短时间内不重复反向转。"
+                },
+                {
+                  "fact_id": "exp_2:reflection:10",
+                  "quote": "培训记录不能替代真实设备部署经验。"
+                }
+              ],
+              "reason": "学生展示了对机器人导航状态记录和安全培训的理解与反思，但未明确体现对“系统安全”的理解，且“初步理解和批判性思考”部分虽有体现，但“兴趣和反思能力”未有直接事实支撑。"
+            },
+            {
+              "text": "体现了对专业知识的兴趣和反思能力。",
+              "verdict": "insufficient",
+              "evidence": [],
+              "reason": "材料中无直接事实明确表明学生对专业知识的兴趣，仅有反思能力的部分体现。"
+            }
+          ],
+          "suggested_wording": "通过模拟器避障练习和科学社安全培训，展示了对机器人导航中状态记录方法和安全培训记录的初步理解与批判性思考，体现了反思能力。"
+        }
+      ]
+    },
+    "second": {
+      "claims": [
+        {
+          "kind": "thesis",
+          "experience_id": null,
+          "claim": "通过模拟器避障练习和科学社安全培训，展示了对机器人导航中状态记录方法和安全培训记录的初步理解与批判性思考，体现了反思能力。",
+          "segments": [
+            {
+              "text": "通过模拟器避障练习和科学社安全培训，展示了对机器人导航中状态记录方法和安全培训记录的初步理解与批判性思考，体现了反思能力。",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:solution:2",
+                  "quote": "我记录最近一次转向，短时间内不重复反向转。"
+                },
+                {
+                  "fact_id": "exp_1:reflection:3",
+                  "quote": "模拟效果不能说明实体设备一定能运行。"
+                },
+                {
+                  "fact_id": "exp_1:deep:concept:4",
+                  "quote": "我理解的是状态记录可以避免反复切换，不是完整自主导航。"
+                },
+                {
+                  "fact_id": "exp_1:deep:limit:6",
+                  "quote": "真实传感器误差和电机运动都没有验证。"
+                },
+                {
+                  "fact_id": "exp_2:process:7",
+                  "quote": "记录与协作"
+                },
+                {
+                  "fact_id": "exp_2:reflection:10",
+                  "quote": "培训记录不能替代真实设备部署经验。"
+                },
+                {
+                  "fact_id": "exp_2:deep:concept:11",
+                  "quote": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+                },
+                {
+                  "fact_id": "exp_2:deep:limit:13",
+                  "quote": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+                }
+              ],
+              "reason": "学生在模拟器避障练习中提出了状态记录避免反复转向的具体方法，并反思了模拟与真实设备的差异，体现了对状态记录方法的初步理解和批判性思考；在科学社安全培训中，学生说明了记录与协作过程，反思了培训记录与真实经验的差距，体现了对安全培训记录的理解和反思能力。"
+            }
+          ],
+          "suggested_wording": ""
+        }
+      ]
+    }
+  },
+  "programmes": [
+    {
+      "id": "manchester_cs_ug",
+      "name": "BSc Computer Science (2027 entry)",
+      "university": "The University of Manchester",
+      "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+      "human_verified": false,
+      "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+      "requirements": [
+        {
+          "id": "manchester_cs_ug:req_02",
+          "text": "A* in Mathematics",
+          "kind": "math_grade",
+          "expected": "A*"
+        },
+        {
+          "id": "manchester_cs_ug:req_03",
+          "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+          "kind": "science_subject",
+          "accepted": [
+            "Computer Science",
+            "Further Mathematics",
+            "Biology",
+            "Chemistry",
+            "Physics"
+          ]
+        }
+      ],
+      "source_requirements": [
+        {
+          "id": "manchester_cs_ug:req_01",
+          "category": "gpa",
+          "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+          "curriculum": "a_level",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_02",
+          "category": "subject",
+          "text": "A* in Mathematics",
+          "curriculum": "a_level",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_03",
+          "category": "subject",
+          "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+          "curriculum": "a_level",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_04",
+          "category": "material",
+          "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_05",
+          "category": "gpa",
+          "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_06",
+          "category": "subject",
+          "text": "including Mathematics",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_07",
+          "category": "subject",
+          "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_08",
+          "category": "gpa",
+          "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_09",
+          "category": "gpa",
+          "text": "7,6,6 in Higher Level subjects",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_10",
+          "category": "subject",
+          "text": "including 7 in Mathematics: Analysis and Approaches",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_11",
+          "category": "subject",
+          "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_12",
+          "category": "language",
+          "text": "IELTS 7.0 overall, with no subscore below 6.5",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_13",
+          "category": "language",
+          "text": "no subscore below 6.5",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_14",
+          "category": "language",
+          "text": "TOEFL iBT 100 overall, with no subscore below 22",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_15",
+          "category": "language",
+          "text": "no subscore below 22",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_16",
+          "category": "language",
+          "text": "GCSE/IGCSE English Language grade B/6",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        }
+      ]
+    }
+  ],
+  "state": {
+    "case": {
+      "student": {
+        "id": "eval16",
+        "label": "虚构学生 EVAL16",
+        "subjects": [
+          {
+            "name": "Mathematics",
+            "predicted": "A*"
+          },
+          {
+            "name": "Physics",
+            "predicted": "B"
+          },
+          {
+            "name": "Computer Science",
+            "predicted": "A"
+          }
+        ],
+        "experiences": [
+          {
+            "id": "exp_1",
+            "title": "模拟器避障练习",
+            "role": "在模拟器中测试避障",
+            "skills": [
+              "Python"
+            ],
+            "outputs": [
+              "模拟运行录像"
+            ],
+            "type": "project",
+            "source": "cv:experience:1"
+          },
+          {
+            "id": "exp_2",
+            "title": "科学社安全培训",
+            "role": "完成课堂安全练习",
+            "skills": [],
+            "outputs": [
+              "练习表"
+            ],
+            "type": "holistic",
+            "source": "cv:experience:2"
+          }
+        ]
+      }
+    },
+    "programmes": [
+      {
+        "id": "manchester_cs_ug",
+        "name": "BSc Computer Science (2027 entry)",
+        "university": "The University of Manchester",
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false,
+        "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+        "requirements": [
+          {
+            "id": "manchester_cs_ug:req_02",
+            "text": "A* in Mathematics",
+            "kind": "math_grade",
+            "expected": "A*"
+          },
+          {
+            "id": "manchester_cs_ug:req_03",
+            "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+            "kind": "science_subject",
+            "accepted": [
+              "Computer Science",
+              "Further Mathematics",
+              "Biology",
+              "Chemistry",
+              "Physics"
+            ]
+          }
+        ],
+        "source_requirements": [
+          {
+            "id": "manchester_cs_ug:req_01",
+            "category": "gpa",
+            "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+            "curriculum": "a_level",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_02",
+            "category": "subject",
+            "text": "A* in Mathematics",
+            "curriculum": "a_level",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_03",
+            "category": "subject",
+            "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+            "curriculum": "a_level",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_04",
+            "category": "material",
+            "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_05",
+            "category": "gpa",
+            "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_06",
+            "category": "subject",
+            "text": "including Mathematics",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_07",
+            "category": "subject",
+            "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_08",
+            "category": "gpa",
+            "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_09",
+            "category": "gpa",
+            "text": "7,6,6 in Higher Level subjects",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_10",
+            "category": "subject",
+            "text": "including 7 in Mathematics: Analysis and Approaches",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_11",
+            "category": "subject",
+            "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_12",
+            "category": "language",
+            "text": "IELTS 7.0 overall, with no subscore below 6.5",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_13",
+            "category": "language",
+            "text": "no subscore below 6.5",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_14",
+            "category": "language",
+            "text": "TOEFL iBT 100 overall, with no subscore below 22",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_15",
+            "category": "language",
+            "text": "no subscore below 22",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_16",
+            "category": "language",
+            "text": "GCSE/IGCSE English Language grade B/6",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          }
+        ]
+      }
+    ],
+    "records": [
+      {
+        "experience_id": "exp_1",
+        "title": "模拟器避障练习",
+        "type": "project",
+        "values": {
+          "process": "在模拟器中测试避障\n记录最近一次转向",
+          "knowledge": "Python",
+          "problem": "有两个障碍挨得近时，模拟机器人会反复左右转。\n模拟效果不能说明实体设备一定能运行。",
+          "solution": "我记录最近一次转向，短时间内不重复反向转。",
+          "reflection": "模拟效果不能说明实体设备一定能运行。",
+          "outcome": "模拟运行录像"
+        },
+        "sources": {
+          "process": "dialog:r2",
+          "knowledge": "cv:experience:1",
+          "outcome": "cv:experience:1",
+          "problem": "dialog:r3",
+          "solution": "dialog:r2",
+          "reflection": "dialog:r3"
+        },
+        "fact_items": [
+          {
+            "id": "exp_1:process:0",
+            "element": "process",
+            "text": "在模拟器中测试避障",
+            "source": "cv:experience:1",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_1:knowledge:0",
+            "element": "knowledge",
+            "text": "Python",
+            "source": "cv:experience:1",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_1:outcome:0",
+            "element": "outcome",
+            "text": "模拟运行录像",
+            "source": "cv:experience:1",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_1:problem:1",
+            "element": "problem",
+            "text": "有两个障碍挨得近时，模拟机器人会反复左右转。",
+            "source": "dialog:r1",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:solution:2",
+            "element": "solution",
+            "text": "我记录最近一次转向，短时间内不重复反向转。",
+            "source": "dialog:r2",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:process:2",
+            "element": "process",
+            "text": "记录最近一次转向",
+            "source": "dialog:r2",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:reflection:3",
+            "element": "reflection",
+            "text": "模拟效果不能说明实体设备一定能运行。",
+            "source": "dialog:r3",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:problem:3",
+            "element": "problem",
+            "text": "模拟效果不能说明实体设备一定能运行。",
+            "source": "dialog:r3",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:deep:concept:4",
+            "element": "deep:concept",
+            "text": "我理解的是状态记录可以避免反复切换，不是完整自主导航。",
+            "source": "dialog:r4",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:deep:alternative:5",
+            "element": "deep:alternative",
+            "text": "我试过直接加大转向角，但在另一个地图会碰到障碍。",
+            "source": "dialog:r5",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:deep:limit:6",
+            "element": "deep:limit",
+            "text": "真实传感器误差和电机运动都没有验证。",
+            "source": "dialog:r6",
+            "confirmation": "student_stated"
+          }
+        ],
+        "skipped": [],
+        "deep": {
+          "concept": {
+            "text": "我理解的是状态记录可以避免反复切换，不是完整自主导航。",
+            "source": "dialog:r4"
+          },
+          "alternative": {
+            "text": "我试过直接加大转向角，但在另一个地图会碰到障碍。",
+            "source": "dialog:r5"
+          },
+          "limit": {
+            "text": "真实传感器误差和电机运动都没有验证。",
+            "source": "dialog:r6"
+          }
+        },
+        "verified": true
+      },
+      {
+        "experience_id": "exp_2",
+        "title": "科学社安全培训",
+        "type": "holistic",
+        "values": {
+          "process": "完成课堂安全练习\n记录与协作\n回看原始资料并向知情同学或老师确认，再补上记录",
+          "knowledge": "这段主要是记录与协作，没有使用具体编程方法。",
+          "problem": "第一次记录有一处缺项，需要重新核对。\n培训记录不能替代真实设备部署经验。",
+          "solution": "需要重新核对\n我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "reflection": "培训记录不能替代真实设备部署经验。",
+          "outcome": "练习表"
+        },
+        "sources": {
+          "process": "dialog:r9",
+          "outcome": "cv:experience:2",
+          "knowledge": "dialog:r7",
+          "problem": "dialog:r10",
+          "solution": "dialog:r9",
+          "reflection": "dialog:r10"
+        },
+        "fact_items": [
+          {
+            "id": "exp_2:process:0",
+            "element": "process",
+            "text": "完成课堂安全练习",
+            "source": "cv:experience:2",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_2:outcome:0",
+            "element": "outcome",
+            "text": "练习表",
+            "source": "cv:experience:2",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_2:knowledge:7",
+            "element": "knowledge",
+            "text": "这段主要是记录与协作，没有使用具体编程方法。",
+            "source": "dialog:r7",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:process:7",
+            "element": "process",
+            "text": "记录与协作",
+            "source": "dialog:r7",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:problem:8",
+            "element": "problem",
+            "text": "第一次记录有一处缺项，需要重新核对。",
+            "source": "dialog:r8",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:solution:8",
+            "element": "solution",
+            "text": "需要重新核对",
+            "source": "dialog:r8",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:solution:9",
+            "element": "solution",
+            "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+            "source": "dialog:r9",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:process:9",
+            "element": "process",
+            "text": "回看原始资料并向知情同学或老师确认，再补上记录",
+            "source": "dialog:r9",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:reflection:10",
+            "element": "reflection",
+            "text": "培训记录不能替代真实设备部署经验。",
+            "source": "dialog:r10",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:problem:10",
+            "element": "problem",
+            "text": "培训记录不能替代真实设备部署经验。",
+            "source": "dialog:r10",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:deep:concept:11",
+            "element": "deep:concept",
+            "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+            "source": "dialog:r11",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:deep:alternative:12",
+            "element": "deep:alternative",
+            "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+            "source": "dialog:r12",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:deep:limit:13",
+            "element": "deep:limit",
+            "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+            "source": "dialog:r13",
+            "confirmation": "student_stated"
+          }
+        ],
+        "skipped": [],
+        "deep": {
+          "concept": {
+            "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+            "source": "dialog:r11"
+          },
+          "alternative": {
+            "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+            "source": "dialog:r12"
+          },
+          "limit": {
+            "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+            "source": "dialog:r13"
+          }
+        },
+        "verified": true
+      }
+    ],
+    "round": 13,
+    "messages": [
+      {
+        "question": {
+          "id": "exp_1:problem",
+          "experience_id": "exp_1",
+          "element": "problem",
+          "text": "「模拟器避障练习」里最具体的一个困难是什么？当时卡在哪里？"
+        },
+        "answer": "有两个障碍挨得近时，模拟机器人会反复左右转。"
+      },
+      {
+        "question": {
+          "id": "exp_1:solution",
+          "experience_id": "exp_1",
+          "element": "solution",
+          "text": "你提到「有两个障碍挨得近时，模拟机器人会反复左右转。」。你尝试过什么办法，为什么选了最后的做法？"
+        },
+        "answer": "我记录最近一次转向，短时间内不重复反向转。"
+      },
+      {
+        "question": {
+          "id": "exp_1:reflection",
+          "experience_id": "exp_1",
+          "element": "reflection",
+          "text": "「模拟器避障练习」之后，你对计算机科学产生了什么新疑问或想法？"
+        },
+        "answer": "模拟效果不能说明实体设备一定能运行。"
+      },
+      {
+        "question": {
+          "id": "exp_1:deep:concept",
+          "experience_id": "exp_1",
+          "element": "deep:concept",
+          "text": "关于「模拟器避障练习」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？"
+        },
+        "answer": "我理解的是状态记录可以避免反复切换，不是完整自主导航。"
+      },
+      {
+        "question": {
+          "id": "exp_1:deep:alternative",
+          "experience_id": "exp_1",
+          "element": "deep:alternative",
+          "text": "关于「模拟器避障练习」：回头看这个做法，当时还有什么其他选择？你如何比较它们？"
+        },
+        "answer": "我试过直接加大转向角，但在另一个地图会碰到障碍。"
+      },
+      {
+        "question": {
+          "id": "exp_1:deep:limit",
+          "experience_id": "exp_1",
+          "element": "deep:limit",
+          "text": "关于「模拟器避障练习」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？"
+        },
+        "answer": "真实传感器误差和电机运动都没有验证。"
+      },
+      {
+        "question": {
+          "id": "exp_2:knowledge",
+          "experience_id": "exp_2",
+          "element": "knowledge",
+          "text": "「科学社安全培训」中你用到了哪些知识或技能？具体用在了哪一步？"
+        },
+        "answer": "这段主要是记录与协作，没有使用具体编程方法。"
+      },
+      {
+        "question": {
+          "id": "exp_2:problem",
+          "experience_id": "exp_2",
+          "element": "problem",
+          "text": "「科学社安全培训」里最具体的一个困难是什么？当时卡在哪里？"
+        },
+        "answer": "第一次记录有一处缺项，需要重新核对。"
+      },
+      {
+        "question": {
+          "id": "exp_2:solution",
+          "experience_id": "exp_2",
+          "element": "solution",
+          "text": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？"
+        },
+        "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+      },
+      {
+        "question": {
+          "id": "exp_2:reflection",
+          "experience_id": "exp_2",
+          "element": "reflection",
+          "text": "「科学社安全培训」之后，你对计算机科学产生了什么新疑问或想法？"
+        },
+        "answer": "培训记录不能替代真实设备部署经验。"
+      },
+      {
+        "question": {
+          "id": "exp_2:deep:concept",
+          "experience_id": "exp_2",
+          "element": "deep:concept",
+          "text": "关于「科学社安全培训」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？"
+        },
+        "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+      },
+      {
+        "question": {
+          "id": "exp_2:deep:alternative",
+          "experience_id": "exp_2",
+          "element": "deep:alternative",
+          "text": "关于「科学社安全培训」：回头看这个做法，当时还有什么其他选择？你如何比较它们？"
+        },
+        "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+      },
+      {
+        "question": {
+          "id": "exp_2:deep:limit",
+          "experience_id": "exp_2",
+          "element": "deep:limit",
+          "text": "关于「科学社安全培训」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？"
+        },
+        "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    ],
+    "finished": false,
+    "result": null,
+    "model_usage": null
+  },
+  "calls": [
+    {
+      "call_id": "call_132",
+      "case_id": "EVAL16",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 179,
+        "completion_tokens": 52,
+        "total_tokens": 231,
+        "cost": 0.0001548,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001548,
+          "upstream_inference_prompt_cost": 7.16e-05,
+          "upstream_inference_completions_cost": 8.32e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001548,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「模拟器避障练习」里最具体的一个困难是什么？当时卡在哪里？",
+        "answer": "有两个障碍挨得近时，模拟机器人会反复左右转。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "",
+        "knowledge": "",
+        "problem": "有两个障碍挨得近时，模拟机器人会反复左右转。",
+        "solution": "",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 1.497
+    },
+    {
+      "call_id": "call_133",
+      "case_id": "EVAL16",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 194,
+        "completion_tokens": 67,
+        "total_tokens": 261,
+        "cost": 0.0001848,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001848,
+          "upstream_inference_prompt_cost": 7.76e-05,
+          "upstream_inference_completions_cost": 0.0001072
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001848,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "你提到「有两个障碍挨得近时，模拟机器人会反复左右转。」。你尝试过什么办法，为什么选了最后的做法？",
+        "answer": "我记录最近一次转向，短时间内不重复反向转。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "记录最近一次转向",
+        "knowledge": "",
+        "problem": "有两个障碍挨得近时，模拟机器人会反复左右转",
+        "solution": "短时间内不重复反向转",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 1.1518
+    },
+    {
+      "call_id": "call_134",
+      "case_id": "EVAL16",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 174,
+        "completion_tokens": 44,
+        "total_tokens": 218,
+        "cost": 0.00014,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00014,
+          "upstream_inference_prompt_cost": 6.96e-05,
+          "upstream_inference_completions_cost": 7.04e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.00014,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「模拟器避障练习」之后，你对计算机科学产生了什么新疑问或想法？",
+        "answer": "模拟效果不能说明实体设备一定能运行。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "",
+        "knowledge": "",
+        "problem": "模拟效果不能说明实体设备一定能运行。",
+        "solution": "",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 0.9719
+    },
+    {
+      "call_id": "call_135",
+      "case_id": "EVAL16",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 177,
+        "completion_tokens": 39,
+        "total_tokens": 216,
+        "cost": 0.0001332,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001332,
+          "upstream_inference_prompt_cost": 7.08e-05,
+          "upstream_inference_completions_cost": 6.24e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001332,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「科学社安全培训」中你用到了哪些知识或技能？具体用在了哪一步？",
+        "answer": "这段主要是记录与协作，没有使用具体编程方法。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "记录与协作",
+        "knowledge": "",
+        "problem": "",
+        "solution": "",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 1.0977
+    },
+    {
+      "call_id": "call_136",
+      "case_id": "EVAL16",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 171,
+        "completion_tokens": 47,
+        "total_tokens": 218,
+        "cost": 0.0001436,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001436,
+          "upstream_inference_prompt_cost": 6.84e-05,
+          "upstream_inference_completions_cost": 7.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001436,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「科学社安全培训」里最具体的一个困难是什么？当时卡在哪里？",
+        "answer": "第一次记录有一处缺项，需要重新核对。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "",
+        "knowledge": "",
+        "problem": "第一次记录有一处缺项",
+        "solution": "需要重新核对",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 1.3383
+    },
+    {
+      "call_id": "call_137",
+      "case_id": "EVAL16",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 192,
+        "completion_tokens": 80,
+        "total_tokens": 272,
+        "cost": 0.0002048,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002048,
+          "upstream_inference_prompt_cost": 7.68e-05,
+          "upstream_inference_completions_cost": 0.000128
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0002048,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+        "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "回看原始资料并向知情同学或老师确认，再补上记录",
+        "knowledge": "",
+        "problem": "第一次记录有一处缺项",
+        "solution": "回看原始资料并向知情同学或老师确认，再补上记录",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 1.2899
+    },
+    {
+      "call_id": "call_138",
+      "case_id": "EVAL16",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 172,
+        "completion_tokens": 44,
+        "total_tokens": 216,
+        "cost": 0.0001392,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001392,
+          "upstream_inference_prompt_cost": 6.88e-05,
+          "upstream_inference_completions_cost": 7.04e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001392,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「科学社安全培训」之后，你对计算机科学产生了什么新疑问或想法？",
+        "answer": "培训记录不能替代真实设备部署经验。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "",
+        "knowledge": "",
+        "problem": "培训记录不能替代真实设备部署经验。",
+        "solution": "",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 1.0915
+    },
+    {
+      "call_id": "call_139",
+      "case_id": "EVAL16",
+      "arm": "shared",
+      "stage": "brief_generation",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1764,
+        "completion_tokens": 768,
+        "total_tokens": 2532,
+        "cost": 0.0019344,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0019344,
+          "upstream_inference_prompt_cost": 0.0007056,
+          "upstream_inference_completions_cost": 0.0012288
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0019344,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "按 UCAS 三问，为文书老师整理完整头脑风暴素材包，不写个人陈述成稿。",
+        "evidence": [
+          {
+            "experience_id": "exp_1",
+            "title": "模拟器避障练习",
+            "values": {
+              "process": "在模拟器中测试避障\n记录最近一次转向",
+              "knowledge": "Python",
+              "problem": "有两个障碍挨得近时，模拟机器人会反复左右转。\n模拟效果不能说明实体设备一定能运行。",
+              "solution": "我记录最近一次转向，短时间内不重复反向转。",
+              "reflection": "模拟效果不能说明实体设备一定能运行。",
+              "outcome": "模拟运行录像"
+            },
+            "deep": {
+              "concept": {
+                "text": "我理解的是状态记录可以避免反复切换，不是完整自主导航。",
+                "source": "dialog:r4"
+              },
+              "alternative": {
+                "text": "我试过直接加大转向角，但在另一个地图会碰到障碍。",
+                "source": "dialog:r5"
+              },
+              "limit": {
+                "text": "真实传感器误差和电机运动都没有验证。",
+                "source": "dialog:r6"
+              }
+            }
+          },
+          {
+            "experience_id": "exp_2",
+            "title": "科学社安全培训",
+            "values": {
+              "process": "完成课堂安全练习\n记录与协作\n回看原始资料并向知情同学或老师确认，再补上记录",
+              "knowledge": "这段主要是记录与协作，没有使用具体编程方法。",
+              "problem": "第一次记录有一处缺项，需要重新核对。\n培训记录不能替代真实设备部署经验。",
+              "solution": "需要重新核对\n我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "reflection": "培训记录不能替代真实设备部署经验。",
+              "outcome": "练习表"
+            },
+            "deep": {
+              "concept": {
+                "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+                "source": "dialog:r11"
+              },
+              "alternative": {
+                "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+                "source": "dialog:r12"
+              },
+              "limit": {
+                "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+                "source": "dialog:r13"
+              }
+            }
+          }
+        ],
+        "required_material_experience_ids": [
+          "exp_1",
+          "exp_2"
+        ],
+        "ucas_questions": [
+          {
+            "id": "ucas_2026:q1",
+            "question": "Why do you want to study this course or subject?",
+            "focus": "学科兴趣的真实来源、对学科重大问题的批判性参与、希望深耕的细分领域",
+            "avoid": [
+              "避免讨论未来的职业规划——个人陈述应反映你个人的学术兴趣。",
+              "避免「我从小就梦想…」这类没有起源事件的空话。"
+            ]
+          },
+          {
+            "id": "ucas_2026:q2",
+            "question": "How have your qualifications and studies helped you to prepare for this course or subject?",
+            "focus": "课内学习与超课程活动（super-curricular）如何递进地加深学科认知，重在反思而非罗列",
+            "avoid": [
+              "无需讨论所有当前学习，只谈与所选科目相关的部分。",
+              "不要罗列课程科目清单——资格部分会显示这些信息。"
+            ]
+          },
+          {
+            "id": "ucas_2026:q3",
+            "question": "What else have you done to prepare outside of education, and why are these experiences useful?",
+            "focus": "课外经历（实习、项目、社会实践）如何拓宽对学科主题的理解，与课程相关性是关键",
+            "avoid": [
+              "确保回答与所申请课程相关，并展示对该学科的批判性参与；与课程无关的可转移技能（如球队领导力）分量应远低于学术内容。"
+            ]
+          }
+        ],
+        "programmes": [
+          {
+            "id": "manchester_cs_ug",
+            "name": "BSc Computer Science (2027 entry)",
+            "requirement_hints": [
+              {
+                "id": "manchester_cs_ug:req_02",
+                "category": "subject",
+                "text": "A* in Mathematics",
+                "curriculum": "a_level",
+                "is_mandatory": true,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_03",
+                "category": "subject",
+                "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+                "curriculum": "a_level",
+                "is_mandatory": true,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_04",
+                "category": "material",
+                "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+                "curriculum": "a_level",
+                "is_mandatory": false,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_06",
+                "category": "subject",
+                "text": "including Mathematics",
+                "curriculum": "a_level",
+                "is_mandatory": false,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_07",
+                "category": "subject",
+                "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+                "curriculum": "a_level",
+                "is_mandatory": false,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              }
+            ]
+          }
+        ],
+        "output_schema": {
+          "thesis_claim": "基于已确认经历的候选主线",
+          "thesis_evidence_quote": "从一条学生原话逐字复制的短句",
+          "materials": [
+            {
+              "experience_id": "exp_1",
+              "angle": "候选写作角度",
+              "evidence_quote": "从某一条 values 原文逐字复制的短句",
+              "guide_note": "写作用途和限制",
+              "translated_positioning": "专业语言转译，未经确认的推断须标明候选"
+            }
+          ],
+          "sections": [
+            {
+              "prompt_id": "ucas_2026:q1",
+              "material_ids": [
+                "mat_1"
+              ],
+              "strategy": "这道题如何使用已确认素材"
+            }
+          ]
+        },
+        "rules": [
+          "materials必须对required_material_experience_ids中的每个ID恰好输出一条，不能遗漏、重复、合并或新增ID。示例中的exp_1只是占位符。",
+          "证据不足的经历也保留一条材料，angle明确写待核实的讨论方向；不得编造事实以补齐。",
+          "只使用给定经历 ID 与 UCAS 三问 ID。",
+          "每条材料必须提供逐字证据引文；没有任何学生原话可引用时用空串并注明待核实。",
+          "不把学生未说出的算法优化、成绩或专业认知写成事实。",
+          "素材不足的题目写明缺口，不编造填满。"
+        ]
+      },
+      "max_tokens": 4000,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "thesis_claim": "通过模拟器避障练习和科学社安全培训，展示了对计算机科学中机器人导航与系统安全的初步理解和批判性思考，体现了对专业知识的兴趣和反思能力。",
+        "thesis_evidence_quote": "我记录最近一次转向，短时间内不重复反向转。",
+        "materials": [
+          {
+            "experience_id": "exp_1",
+            "angle": "展示了对机器人导航中状态记录方法的理解及其局限性，体现了批判性思考和问题解决能力",
+            "evidence_quote": "我记录最近一次转向，短时间内不重复反向转。",
+            "guide_note": "用于回答为何选择该学科，体现对计算机科学中机器人导航问题的兴趣和批判性参与；同时可用于展示课内外学习如何深化专业认知。注意说明模拟器结果与实体设备的差异，避免过度夸大。",
+            "translated_positioning": "该经历体现了对机器人导航中状态管理的理解，展示了初步的算法设计思路和对模拟环境局限性的认识，符合计算机科学中人工智能与机器人方向的学科兴趣。"
+          },
+          {
+            "experience_id": "exp_2",
+            "angle": "体现了对安全培训中记录与协作重要性的认识，反思了培训与实际设备部署经验的差异",
+            "evidence_quote": "培训记录不能替代真实设备部署经验。",
+            "guide_note": "用于展示课外活动中对系统安全和团队协作的理解，体现对计算机科学相关领域的批判性思考。适合回答如何通过课外经历加深对学科的理解，但需说明该经历的局限性，避免夸大专业深度。",
+            "translated_positioning": "该经历反映了对安全管理流程的认知和反思，强调了理论与实践的差距，体现了对计算机系统安全领域的初步理解。"
+          }
+        ],
+        "sections": [
+          {
+            "prompt_id": "ucas_2026:q1",
+            "material_ids": [
+              "exp_1"
+            ],
+            "strategy": "利用模拟器避障练习中对状态记录避免反复转向的解决方案，展示对机器人导航中关键问题的兴趣和批判性思考，体现对计算机科学中人工智能与机器人方向的真实学科兴趣。强调对模拟与实体差异的认识，体现理性思考。"
+          },
+          {
+            "prompt_id": "ucas_2026:q2",
+            "material_ids": [
+              "exp_1"
+            ],
+            "strategy": "结合模拟器避障练习中使用Python编程和状态记录方法，反思模拟环境与真实设备的差异，展示课内编程技能与超课程项目的递进加深，体现对专业知识的理解和批判性反思。"
+          },
+          {
+            "prompt_id": "ucas_2026:q3",
+            "material_ids": [
+              "exp_2"
+            ],
+            "strategy": "利用科学社安全培训经历，展示课外活动中对安全记录与协作流程的理解及反思，说明该经历如何拓宽了对计算机系统安全主题的认识，体现对学科的批判性参与。明确该经历的局限性，避免夸大。"
+          }
+        ]
+      },
+      "latency_s": 5.3092
+    },
+    {
+      "call_id": "call_140",
+      "case_id": "EVAL16",
+      "arm": "full_guardrail",
+      "stage": "claim_review",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1930,
+        "completion_tokens": 1104,
+        "total_tokens": 3034,
+        "cost": 0.0025384,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0025384,
+          "upstream_inference_prompt_cost": 0.000772,
+          "upstream_inference_completions_cost": 0.0017664
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0025384,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "独立核查候选论点中每一项具体主张与学生事实之间的关系。",
+        "facts": [
+          {
+            "experience_id": "exp_1",
+            "title": "模拟器避障练习",
+            "facts": [
+              {
+                "id": "exp_1:process:0",
+                "element": "process",
+                "text": "在模拟器中测试避障",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:knowledge:0",
+                "element": "knowledge",
+                "text": "Python",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:outcome:0",
+                "element": "outcome",
+                "text": "模拟运行录像",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:problem:1",
+                "element": "problem",
+                "text": "有两个障碍挨得近时，模拟机器人会反复左右转。",
+                "source": "dialog:r1",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:solution:2",
+                "element": "solution",
+                "text": "我记录最近一次转向，短时间内不重复反向转。",
+                "source": "dialog:r2",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:process:2",
+                "element": "process",
+                "text": "记录最近一次转向",
+                "source": "dialog:r2",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:reflection:3",
+                "element": "reflection",
+                "text": "模拟效果不能说明实体设备一定能运行。",
+                "source": "dialog:r3",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:problem:3",
+                "element": "problem",
+                "text": "模拟效果不能说明实体设备一定能运行。",
+                "source": "dialog:r3",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:concept:4",
+                "element": "deep:concept",
+                "text": "我理解的是状态记录可以避免反复切换，不是完整自主导航。",
+                "source": "dialog:r4",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:alternative:5",
+                "element": "deep:alternative",
+                "text": "我试过直接加大转向角，但在另一个地图会碰到障碍。",
+                "source": "dialog:r5",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:limit:6",
+                "element": "deep:limit",
+                "text": "真实传感器误差和电机运动都没有验证。",
+                "source": "dialog:r6",
+                "confirmation": "student_stated"
+              }
+            ]
+          },
+          {
+            "experience_id": "exp_2",
+            "title": "科学社安全培训",
+            "facts": [
+              {
+                "id": "exp_2:process:0",
+                "element": "process",
+                "text": "完成课堂安全练习",
+                "source": "cv:experience:2",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_2:outcome:0",
+                "element": "outcome",
+                "text": "练习表",
+                "source": "cv:experience:2",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_2:knowledge:7",
+                "element": "knowledge",
+                "text": "这段主要是记录与协作，没有使用具体编程方法。",
+                "source": "dialog:r7",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:process:7",
+                "element": "process",
+                "text": "记录与协作",
+                "source": "dialog:r7",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:problem:8",
+                "element": "problem",
+                "text": "第一次记录有一处缺项，需要重新核对。",
+                "source": "dialog:r8",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:solution:8",
+                "element": "solution",
+                "text": "需要重新核对",
+                "source": "dialog:r8",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:solution:9",
+                "element": "solution",
+                "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+                "source": "dialog:r9",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:process:9",
+                "element": "process",
+                "text": "回看原始资料并向知情同学或老师确认，再补上记录",
+                "source": "dialog:r9",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:reflection:10",
+                "element": "reflection",
+                "text": "培训记录不能替代真实设备部署经验。",
+                "source": "dialog:r10",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:problem:10",
+                "element": "problem",
+                "text": "培训记录不能替代真实设备部署经验。",
+                "source": "dialog:r10",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:concept:11",
+                "element": "deep:concept",
+                "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+                "source": "dialog:r11",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:alternative:12",
+                "element": "deep:alternative",
+                "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+                "source": "dialog:r12",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:limit:13",
+                "element": "deep:limit",
+                "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+                "source": "dialog:r13",
+                "confirmation": "student_stated"
+              }
+            ]
+          }
+        ],
+        "claims": [
+          {
+            "kind": "angle",
+            "experience_id": "exp_1",
+            "claim": "展示了对机器人导航中状态记录方法的理解及其局限性，体现了批判性思考和问题解决能力",
+            "evidence_quote": "我记录最近一次转向，短时间内不重复反向转。"
+          },
+          {
+            "kind": "angle",
+            "experience_id": "exp_2",
+            "claim": "体现了对安全培训中记录与协作重要性的认识，反思了培训与实际设备部署经验的差异",
+            "evidence_quote": "培训记录不能替代真实设备部署经验。"
+          },
+          {
+            "kind": "thesis",
+            "experience_id": null,
+            "claim": "通过模拟器避障练习和科学社安全培训，展示了对计算机科学中机器人导航与系统安全的初步理解和批判性思考，体现了对专业知识的兴趣和反思能力。",
+            "evidence_quote": "我记录最近一次转向，短时间内不重复反向转。"
+          }
+        ],
+        "rules": [
+          "每条 claim 拆成连续 segments；各 text 原样拼接必须完全等于原 claim。",
+          "每段分别核查个人贡献、因果、比较、数字、结果和专业理解；逐字引文存在不代表支持论点。",
+          "例如放弃复杂方案支持可行性取舍，不支持算法性能优化。",
+          "只有事实直接完整支撑才用 supported；表述过强用 overstated；没有足够事实用 insufficient；与事实冲突用 contradicted。",
+          "supported 段必须引用具体 fact_id 和该事实中的逐字短句；CV 记录与学生亲口陈述须区分。",
+          "若能收窄措辞，可给 suggested_wording；它不会自动通过，仍需再核查。",
+          "一条 claim 对应一条核查结果，claim 原样复制。"
+        ],
+        "output_schema": {
+          "claims": [
+            {
+              "kind": "angle|thesis",
+              "experience_id": "经历 ID；主线为 null",
+              "claim": "原样复制",
+              "segments": [
+                {
+                  "text": "原句连续片段",
+                  "verdict": "supported|overstated|insufficient|contradicted",
+                  "evidence": [
+                    {
+                      "fact_id": "精确 fact_id",
+                      "quote": "该事实中的逐字短句"
+                    }
+                  ],
+                  "reason": "判断依据"
+                }
+              ],
+              "suggested_wording": "可选的更窄措辞；无则空串"
+            }
+          ]
+        }
+      },
+      "max_tokens": 3500,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "claims": [
+          {
+            "kind": "angle",
+            "experience_id": "exp_1",
+            "claim": "展示了对机器人导航中状态记录方法的理解及其局限性，体现了批判性思考和问题解决能力",
+            "segments": [
+              {
+                "text": "展示了对机器人导航中状态记录方法的理解及其局限性",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_1:solution:2",
+                    "quote": "我记录最近一次转向，短时间内不重复反向转。"
+                  },
+                  {
+                    "fact_id": "exp_1:deep:concept:4",
+                    "quote": "我理解的是状态记录可以避免反复切换，不是完整自主导航。"
+                  },
+                  {
+                    "fact_id": "exp_1:deep:limit:6",
+                    "quote": "真实传感器误差和电机运动都没有验证。"
+                  }
+                ],
+                "reason": "学生陈述了具体的状态记录方法及其局限性，体现了对方法的理解和批判性思考。"
+              },
+              {
+                "text": "体现了批判性思考和问题解决能力",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_1:solution:2",
+                    "quote": "我记录最近一次转向，短时间内不重复反向转。"
+                  },
+                  {
+                    "fact_id": "exp_1:problem:1",
+                    "quote": "有两个障碍挨得近时，模拟机器人会反复左右转。"
+                  }
+                ],
+                "reason": "学生针对问题提出了解决方案，体现了问题解决能力和批判性思考。"
+              }
+            ],
+            "suggested_wording": ""
+          },
+          {
+            "kind": "angle",
+            "experience_id": "exp_2",
+            "claim": "体现了对安全培训中记录与协作重要性的认识，反思了培训与实际设备部署经验的差异",
+            "segments": [
+              {
+                "text": "体现了对安全培训中记录与协作重要性的认识",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_2:process:7",
+                    "quote": "记录与协作"
+                  },
+                  {
+                    "fact_id": "exp_2:knowledge:7",
+                    "quote": "这段主要是记录与协作，没有使用具体编程方法。"
+                  }
+                ],
+                "reason": "学生明确指出经历中记录与协作的重要性。"
+              },
+              {
+                "text": "反思了培训与实际设备部署经验的差异",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_2:reflection:10",
+                    "quote": "培训记录不能替代真实设备部署经验。"
+                  }
+                ],
+                "reason": "学生反思了培训记录与真实设备部署经验的区别。"
+              }
+            ],
+            "suggested_wording": ""
+          },
+          {
+            "kind": "thesis",
+            "experience_id": null,
+            "claim": "通过模拟器避障练习和科学社安全培训，展示了对计算机科学中机器人导航与系统安全的初步理解和批判性思考，体现了对专业知识的兴趣和反思能力。",
+            "segments": [
+              {
+                "text": "通过模拟器避障练习和科学社安全培训，展示了对计算机科学中机器人导航与系统安全的初步理解和批判性思考",
+                "verdict": "insufficient",
+                "evidence": [
+                  {
+                    "fact_id": "exp_1:solution:2",
+                    "quote": "我记录最近一次转向，短时间内不重复反向转。"
+                  },
+                  {
+                    "fact_id": "exp_2:reflection:10",
+                    "quote": "培训记录不能替代真实设备部署经验。"
+                  }
+                ],
+                "reason": "学生展示了对机器人导航状态记录和安全培训的理解与反思，但未明确体现对“系统安全”的理解，且“初步理解和批判性思考”部分虽有体现，但“兴趣和反思能力”未有直接事实支撑。"
+              },
+              {
+                "text": "体现了对专业知识的兴趣和反思能力。",
+                "verdict": "insufficient",
+                "evidence": [],
+                "reason": "材料中无直接事实明确表明学生对专业知识的兴趣，仅有反思能力的部分体现。"
+              }
+            ],
+            "suggested_wording": "通过模拟器避障练习和科学社安全培训，展示了对机器人导航中状态记录方法和安全培训记录的初步理解与批判性思考，体现了反思能力。"
+          }
+        ]
+      },
+      "latency_s": 7.1557
+    },
+    {
+      "call_id": "call_141",
+      "case_id": "EVAL16",
+      "arm": "full_guardrail",
+      "stage": "narrowed_claim_recheck",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1791,
+        "completion_tokens": 570,
+        "total_tokens": 2361,
+        "cost": 0.0016284,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0016284,
+          "upstream_inference_prompt_cost": 0.0007164,
+          "upstream_inference_completions_cost": 0.000912
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0016284,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "独立核查候选论点中每一项具体主张与学生事实之间的关系。",
+        "facts": [
+          {
+            "experience_id": "exp_1",
+            "title": "模拟器避障练习",
+            "facts": [
+              {
+                "id": "exp_1:process:0",
+                "element": "process",
+                "text": "在模拟器中测试避障",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:knowledge:0",
+                "element": "knowledge",
+                "text": "Python",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:outcome:0",
+                "element": "outcome",
+                "text": "模拟运行录像",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:problem:1",
+                "element": "problem",
+                "text": "有两个障碍挨得近时，模拟机器人会反复左右转。",
+                "source": "dialog:r1",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:solution:2",
+                "element": "solution",
+                "text": "我记录最近一次转向，短时间内不重复反向转。",
+                "source": "dialog:r2",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:process:2",
+                "element": "process",
+                "text": "记录最近一次转向",
+                "source": "dialog:r2",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:reflection:3",
+                "element": "reflection",
+                "text": "模拟效果不能说明实体设备一定能运行。",
+                "source": "dialog:r3",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:problem:3",
+                "element": "problem",
+                "text": "模拟效果不能说明实体设备一定能运行。",
+                "source": "dialog:r3",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:concept:4",
+                "element": "deep:concept",
+                "text": "我理解的是状态记录可以避免反复切换，不是完整自主导航。",
+                "source": "dialog:r4",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:alternative:5",
+                "element": "deep:alternative",
+                "text": "我试过直接加大转向角，但在另一个地图会碰到障碍。",
+                "source": "dialog:r5",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:limit:6",
+                "element": "deep:limit",
+                "text": "真实传感器误差和电机运动都没有验证。",
+                "source": "dialog:r6",
+                "confirmation": "student_stated"
+              }
+            ]
+          },
+          {
+            "experience_id": "exp_2",
+            "title": "科学社安全培训",
+            "facts": [
+              {
+                "id": "exp_2:process:0",
+                "element": "process",
+                "text": "完成课堂安全练习",
+                "source": "cv:experience:2",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_2:outcome:0",
+                "element": "outcome",
+                "text": "练习表",
+                "source": "cv:experience:2",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_2:knowledge:7",
+                "element": "knowledge",
+                "text": "这段主要是记录与协作，没有使用具体编程方法。",
+                "source": "dialog:r7",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:process:7",
+                "element": "process",
+                "text": "记录与协作",
+                "source": "dialog:r7",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:problem:8",
+                "element": "problem",
+                "text": "第一次记录有一处缺项，需要重新核对。",
+                "source": "dialog:r8",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:solution:8",
+                "element": "solution",
+                "text": "需要重新核对",
+                "source": "dialog:r8",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:solution:9",
+                "element": "solution",
+                "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+                "source": "dialog:r9",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:process:9",
+                "element": "process",
+                "text": "回看原始资料并向知情同学或老师确认，再补上记录",
+                "source": "dialog:r9",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:reflection:10",
+                "element": "reflection",
+                "text": "培训记录不能替代真实设备部署经验。",
+                "source": "dialog:r10",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:problem:10",
+                "element": "problem",
+                "text": "培训记录不能替代真实设备部署经验。",
+                "source": "dialog:r10",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:concept:11",
+                "element": "deep:concept",
+                "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+                "source": "dialog:r11",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:alternative:12",
+                "element": "deep:alternative",
+                "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+                "source": "dialog:r12",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:limit:13",
+                "element": "deep:limit",
+                "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+                "source": "dialog:r13",
+                "confirmation": "student_stated"
+              }
+            ]
+          }
+        ],
+        "claims": [
+          {
+            "kind": "thesis",
+            "experience_id": null,
+            "claim": "通过模拟器避障练习和科学社安全培训，展示了对机器人导航中状态记录方法和安全培训记录的初步理解与批判性思考，体现了反思能力。",
+            "evidence_quote": "我记录最近一次转向，短时间内不重复反向转。"
+          }
+        ],
+        "rules": [
+          "每条 claim 拆成连续 segments；各 text 原样拼接必须完全等于原 claim。",
+          "每段分别核查个人贡献、因果、比较、数字、结果和专业理解；逐字引文存在不代表支持论点。",
+          "例如放弃复杂方案支持可行性取舍，不支持算法性能优化。",
+          "只有事实直接完整支撑才用 supported；表述过强用 overstated；没有足够事实用 insufficient；与事实冲突用 contradicted。",
+          "supported 段必须引用具体 fact_id 和该事实中的逐字短句；CV 记录与学生亲口陈述须区分。",
+          "若能收窄措辞，可给 suggested_wording；它不会自动通过，仍需再核查。",
+          "一条 claim 对应一条核查结果，claim 原样复制。"
+        ],
+        "output_schema": {
+          "claims": [
+            {
+              "kind": "angle|thesis",
+              "experience_id": "经历 ID；主线为 null",
+              "claim": "原样复制",
+              "segments": [
+                {
+                  "text": "原句连续片段",
+                  "verdict": "supported|overstated|insufficient|contradicted",
+                  "evidence": [
+                    {
+                      "fact_id": "精确 fact_id",
+                      "quote": "该事实中的逐字短句"
+                    }
+                  ],
+                  "reason": "判断依据"
+                }
+              ],
+              "suggested_wording": "可选的更窄措辞；无则空串"
+            }
+          ]
+        }
+      },
+      "max_tokens": 3500,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "claims": [
+          {
+            "kind": "thesis",
+            "experience_id": null,
+            "claim": "通过模拟器避障练习和科学社安全培训，展示了对机器人导航中状态记录方法和安全培训记录的初步理解与批判性思考，体现了反思能力。",
+            "segments": [
+              {
+                "text": "通过模拟器避障练习和科学社安全培训，展示了对机器人导航中状态记录方法和安全培训记录的初步理解与批判性思考，体现了反思能力。",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_1:solution:2",
+                    "quote": "我记录最近一次转向，短时间内不重复反向转。"
+                  },
+                  {
+                    "fact_id": "exp_1:reflection:3",
+                    "quote": "模拟效果不能说明实体设备一定能运行。"
+                  },
+                  {
+                    "fact_id": "exp_1:deep:concept:4",
+                    "quote": "我理解的是状态记录可以避免反复切换，不是完整自主导航。"
+                  },
+                  {
+                    "fact_id": "exp_1:deep:limit:6",
+                    "quote": "真实传感器误差和电机运动都没有验证。"
+                  },
+                  {
+                    "fact_id": "exp_2:process:7",
+                    "quote": "记录与协作"
+                  },
+                  {
+                    "fact_id": "exp_2:reflection:10",
+                    "quote": "培训记录不能替代真实设备部署经验。"
+                  },
+                  {
+                    "fact_id": "exp_2:deep:concept:11",
+                    "quote": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+                  },
+                  {
+                    "fact_id": "exp_2:deep:limit:13",
+                    "quote": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+                  }
+                ],
+                "reason": "学生在模拟器避障练习中提出了状态记录避免反复转向的具体方法，并反思了模拟与真实设备的差异，体现了对状态记录方法的初步理解和批判性思考；在科学社安全培训中，学生说明了记录与协作过程，反思了培训记录与真实经验的差距，体现了对安全培训记录的理解和反思能力。"
+              }
+            ],
+            "suggested_wording": ""
+          }
+        ]
+      },
+      "latency_s": 4.2116
+    }
+  ],
+  "cost_summary": {
+    "currency": "USD",
+    "shared_upstream_cost": 0.0030348,
+    "guard_increment_cost": 0.0041668,
+    "standalone_prompt_only_cost": 0.0030348,
+    "standalone_full_guardrail_cost": 0.0072016,
+    "actual_experiment_estimated_cost": 0.007201600000000001,
+    "actual_experiment_cost": 0.007201600000000001,
+    "cost_basis": "provider_reported",
+    "unknown_cost_calls": 0,
+    "actual_model_requests": 10,
+    "dry_run": false,
+    "cost_is_usage_based_estimate_not_provider_bill": false
+  }
+}

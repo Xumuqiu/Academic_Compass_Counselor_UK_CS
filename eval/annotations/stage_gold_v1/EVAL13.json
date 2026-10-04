@@ -1,0 +1,118 @@
+{
+  "case_id": "EVAL13",
+  "split": "evaluation_candidates",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "EVAL13",
+      "gap_id": "EVAL13:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "implementation",
+      "description": "纸面数组分析没有该题的代码实现依据",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+          "confirmation": "student_stated"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "不能把另一段网页代码当成这道题的实现。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/2/answer",
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/5/answer"
+      ],
+      "expected_detection": "区分纸面分析与另一段网页作品，不把网页当该数组题的实现",
+      "confirmation_question_example": "这道题是否有本人实际运行的代码？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "EVAL13",
+      "opportunity_id": "EVAL13:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "从零编号画位置，逐步检查循环停止条件",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/1/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL13",
+      "opportunity_id": "EVAL13:opportunity:1:2",
+      "experience_id": "exp_1",
+      "supported_fact": "认识到纸面边界检查可以暴露问题",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/2/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL13",
+      "opportunity_id": "EVAL13:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/7/answer",
+          "round": 8,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL13/simulated_transcript.json#/turns/7/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "student": {
+    "id": "dev02",
+    "label": "虚构学生 DEV02",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "机器人巡线调试",
+        "type": "competition",
+        "role": "负责路线调试",
+        "skills": [
+          "RoboExp"
+        ],
+        "outputs": [
+          "比赛机器人"
+        ]
+      },
+      {
+        "title": "足球社训练记录",
+        "type": "holistic",
+        "role": "轮流记录出勤",
+        "skills": [
+          "电子表格"
+        ],
+        "outputs": [
+          "出勤表"
+        ]
+      }
+    ]
+  }
+}

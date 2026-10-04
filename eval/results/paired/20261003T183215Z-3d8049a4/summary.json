@@ -1,0 +1,80 @@
+{
+  "run_id": "20261003T183215Z-3d8049a4",
+  "dry_run": false,
+  "cases_attempted": 6,
+  "delivered_by_arm": {
+    "prompt_only": 1,
+    "full_guardrail": 1
+  },
+  "quality_metrics": "not_scored; requires actual output annotations",
+  "cost": {
+    "currency": "USD",
+    "shared_upstream_cost": 0.017750799999999997,
+    "guard_increment_cost": 0.0027196,
+    "standalone_prompt_only_cost": 0.017750799999999997,
+    "standalone_full_guardrail_cost": 0.020470399999999996,
+    "actual_experiment_estimated_cost": 0.020470399999999993,
+    "actual_experiment_cost": 0.020470399999999993,
+    "cost_basis": "provider_reported",
+    "unknown_cost_calls": 0,
+    "actual_model_requests": 44,
+    "dry_run": false,
+    "cost_is_usage_based_estimate_not_provider_bill": false,
+    "per_successful_delivery_standalone_cost": {
+      "prompt_only": 0.0177508,
+      "full_guardrail": 0.0204704
+    }
+  },
+  "failures": {
+    "DEV01": {
+      "prompt_only": {
+        "stage": "brief_generation",
+        "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+      },
+      "full_guardrail": {
+        "stage": "brief_generation",
+        "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+      }
+    },
+    "DEV02": {
+      "prompt_only": {
+        "stage": "brief_generation",
+        "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+      },
+      "full_guardrail": {
+        "stage": "brief_generation",
+        "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+      }
+    },
+    "DEV03": {
+      "prompt_only": {
+        "stage": "brief_generation",
+        "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+      },
+      "full_guardrail": {
+        "stage": "brief_generation",
+        "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+      }
+    },
+    "DEV05": {
+      "prompt_only": {
+        "stage": "brief_generation",
+        "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+      },
+      "full_guardrail": {
+        "stage": "brief_generation",
+        "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+      }
+    },
+    "DEV06": {
+      "prompt_only": {
+        "stage": "brief_generation",
+        "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+      },
+      "full_guardrail": {
+        "stage": "brief_generation",
+        "error": "RuntimeError: 候选素材包经历ID缺失、重复或未知"
+      }
+    }
+  }
+}

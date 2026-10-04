@@ -1,0 +1,68 @@
+{
+  "run_id": "20261003T182300Z-585482fa",
+  "status": "verification_complete",
+  "dry_run": true,
+  "split": "dev",
+  "case_ids": [
+    "DEV01",
+    "DEV02",
+    "DEV03",
+    "DEV04",
+    "DEV05",
+    "DEV06"
+  ],
+  "planned_sample_count": 6,
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "endpoint": "https://api.openai.com/v1",
+  "pricing": {
+    "cost": null,
+    "currency": "USD",
+    "price_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+    "price_checked_on": "2026-10-04"
+  },
+  "budget_limit": 10.0,
+  "budget_currency": "USD",
+  "independent_held_out_count": 0,
+  "gold_author_review": "AI author; no independent human review",
+  "data_checksums_sha256": "836de6cf4f9355009f1528a1db0ef2e56d2b249bc9f5f942a138cabff6aae478",
+  "stage_gold_checksums_sha256": "0099f9aec4fa6a848b87f4c3de5e82167adc4f5e2f679a3bc42e9f797e0d7054",
+  "scoring_rules_sha256": "0990074fc72361d515e09ce16e254d5f75cc1aba755c7e12180ef62a5f22c069",
+  "prompt_source_sha256": "d284f7f9e7311e5af00f628067bd7b0166c3079b6724fbb8c0ad0d519a05f3b6",
+  "code_hashes": {
+    "counselor/intake.py": "608a73dbe8b139b55c3b3ea75c1389c216a24a246a9b4ce6d073b32f1c4045c6",
+    "counselor/server.py": "aea8f83a8e7ea31c57790bad95faae6126fd5857dd6a74d2c8ecdbc6a3a14d95",
+    "counselor/claim_check.py": "fae68a93c4ce63914f79bdd0acce5a4502c8121f7a0d09afcb7ddeeb504095d2",
+    "counselor/config.py": "dcc4134f4848a219a5b34ad437c1fc3a69c78861d5cc67958ab23b53349ee2ed",
+    "counselor/domain.py": "448160460fad9fe4985e2f03454443b487b8b8949105534e3de77dc01615143f",
+    "counselor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "counselor/llm.py": "d284f7f9e7311e5af00f628067bd7b0166c3079b6724fbb8c0ad0d519a05f3b6",
+    "counselor/check_llm.py": "fbb8e89cadd379bb4bf722498d9bbe45c346adabefe775bcf7641173ecadbd17",
+    "counselor/document.py": "3cc9fa090aee138bbbd78cb8a7699c9db285c2f702a40a2020bc7e3b5881b9a3",
+    "counselor/cv.py": "d1fcd332b5b4a06488b0d223cf8e5c17292e31a1d7a46cba07a0d3db86ae87a3",
+    "counselor/workflow.py": "bd81887c68052e64cc1941660f26843a7c40288289ba7acfa6de45d7fe057439",
+    "counselor/data.py": "8563935db7eda5e69c9302f454f9dacd12bdbcebb426689efe94fb7470f55a4b",
+    "eval/annotate_synthetic_profiles.py": "a6af951ec838a863ee5258626219e409efe84efb80b5589f60656941f6c9fac2",
+    "eval/__init__.py": "be5180493a667c5281628737527662300beba74bea283bd7cf37c29543c33926",
+    "eval/run_offline.py": "44c993589a3b9970220fbcdf9c0eac3ea8a85fc900587a49dc720c4ff6a560c0",
+    "eval/run_live.py": "725b137e13051f5a7ddde6a16a0b4e7ee2d0e23ef54a81b7ace7714c7bcb4215",
+    "eval/score_paired.py": "ac912ae791f76de9a2a23c143e74019ca05a4dc9eddf70fad29eb27237d315df",
+    "eval/cost.py": "fb26e47d7b4984b4b09b8d92ea9707cf46f3e3fb6e31b6d6b655162d2dcf88ae",
+    "eval/paired_eval.py": "a536dfb01d5e09234ea877a7d318d126210596bee8b1ca9bcf51997da4347e33",
+    "eval/build_synthetic_profiles.py": "20fc5babf270125e3b906d4d00ab38adc45c04df3af050e84a5d95e015310856"
+  },
+  "generation_parameters": {
+    "temperature": 0,
+    "response_format": "json_object",
+    "max_tokens": 4000
+  },
+  "protocol": "fixed_recorded_turns_shared_parsing_shared_candidate_core_projection",
+  "discarded_candidate_fields_both_arms": [
+    "guide_note",
+    "translated_positioning",
+    "sections"
+  ],
+  "retry_policy": "no_automatic_retries; first attempt retained",
+  "pilot_run_directory": null,
+  "frozen_at_utc": "2026-10-03T18:23:00.171185+00:00"
+}

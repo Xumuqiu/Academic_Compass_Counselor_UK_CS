@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL09",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "小组聊天工具",
+      "answers_by_element": {
+        "process": "代码主要由组员写，我帮忙准备展示，自己没有编写可确认的功能。",
+        "knowledge": "我知道项目用了 Python，但网络通信部分讲不清。",
+        "problem": "展示时消息没发出去，我只负责把问题告诉组员。",
+        "solution": "[跳过]",
+        "reflection": "我需要先分清展示工作和软件开发贡献。",
+        "outcome": "有小组仓库，里面目前没有我提交的代码。",
+        "deep:concept": "我还不能解释客户端和服务器如何交换消息。",
+        "deep:alternative": "方案选择是组员决定的，我没有参与。",
+        "deep:limit": "不能把小组仓库里的全部代码算作我独立完成。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "音乐社排练安排",
+      "answers_by_element": {
+        "process": "我负责整理排练时间，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "这段主要是记录与协作，没有使用具体编程方法。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "团队配合需要先核实每个人的空闲时间。",
+        "outcome": "留下了安排表，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

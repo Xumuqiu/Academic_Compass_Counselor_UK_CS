@@ -1,0 +1,39 @@
+{
+  "case_id": "DEV04",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "算法竞赛团队获奖",
+      "answers_by_element": {
+        "process": "简历的负责人是我填错了，实际负责人是另一位同学，我负责记录测试结果。",
+        "knowledge": "我用表格记录不同输入下的结果，没有写核心算法。",
+        "problem": "一条测试输入得到不同答案，我把它交给写算法的同学。",
+        "solution": "我反复运行这条输入确认能复现，然后记录下来交给组员修改。",
+        "reflection": "复现错误和记录条件也有价值，但不能说成我设计了算法。",
+        "outcome": "奖项属于整个团队，我有测试记录，没有个人算法获奖证明。",
+        "deep:concept": "我知道要比较预期和实际输出，还不能解释算法复杂度。",
+        "deep:alternative": "我先口头描述错误，后来发现写清输入和输出更容易让组员复现。",
+        "deep:limit": "没有核心代码贡献证据，简历上的团队负责人需要更正。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "校园志愿活动",
+      "answers_by_element": {
+        "process": "我负责整理物资编号，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "这段主要是记录与协作，没有使用具体编程方法。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "清单帮助交接，但我没有测量活动效率提升。",
+        "outcome": "留下了编号清单，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

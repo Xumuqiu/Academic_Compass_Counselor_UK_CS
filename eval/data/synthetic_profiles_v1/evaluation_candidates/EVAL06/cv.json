@@ -1,0 +1,44 @@
+{
+  "student": {
+    "id": "eval06",
+    "label": "虚构学生 EVAL06",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "B"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "图片分类在线体验",
+        "type": "academic",
+        "role": "参加图片分类体验课",
+        "skills": [
+          "Python入门"
+        ],
+        "outputs": [
+          "课堂截图"
+        ]
+      },
+      {
+        "title": "数学统计作业",
+        "type": "academic",
+        "role": "计算样本均值",
+        "skills": [
+          "数学"
+        ],
+        "outputs": [
+          "作业草稿"
+        ]
+      }
+    ]
+  }
+}

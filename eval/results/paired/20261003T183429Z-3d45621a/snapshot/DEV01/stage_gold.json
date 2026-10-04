@@ -1,0 +1,110 @@
+{
+  "case_id": "DEV01",
+  "split": "dev",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "DEV01",
+      "gap_id": "DEV01:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "normalization",
+      "description": "不同课程缩写可能导致组合键漏检",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "如果不同人用不同课程缩写，组合键还是会漏掉重复，需要先统一名称。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/5/answer"
+      ],
+      "expected_detection": "指出缩写不一致会漏检，保留这一适用限制或提出统一名称的确认问题",
+      "confirmation_question_example": "是否统一过课程缩写，如何检查仍然漏掉的重复记录？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "DEV01",
+      "opportunity_id": "DEV01:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "用星期、时段和课程名作为组合键检查重复记录",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "我把星期、时段和课程名作为组合键，先检查重复再统计。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/1/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "DEV01",
+      "opportunity_id": "DEV01:opportunity:1:2",
+      "experience_id": "exp_1",
+      "supported_fact": "认识到输入记录不准确会使图表误导读者",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "我发现图表画得漂亮还不够，输入记录不准确会让结果误导人。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/2/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "DEV01",
+      "opportunity_id": "DEV01:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/7/answer",
+          "round": 8,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV01/simulated_transcript.json#/turns/7/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

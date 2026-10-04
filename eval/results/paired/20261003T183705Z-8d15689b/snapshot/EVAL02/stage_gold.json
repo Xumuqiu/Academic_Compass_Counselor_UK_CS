@@ -1,0 +1,110 @@
+{
+  "case_id": "EVAL02",
+  "split": "evaluation_candidates",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "EVAL02",
+      "gap_id": "EVAL02:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "deployment",
+      "description": "无持久保存，演示页面不能承担正式报名",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "它没有持久保存数据，不能承担正式报名。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/5/answer"
+      ],
+      "expected_detection": "明确演示与正式报名的边界，指出数据尚不能持久保存",
+      "confirmation_question_example": "提交后数据保存在哪里，实际正式运行过吗？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "EVAL02",
+      "opportunity_id": "EVAL02:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "去掉首尾空格后检查输入长度是否为零",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "我先去掉首尾空格，再判断输入长度是否为零。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/1/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL02",
+      "opportunity_id": "EVAL02:opportunity:1:2",
+      "experience_id": "exp_1",
+      "supported_fact": "理解客户端检查不能替代服务端校验",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/3/answer",
+          "round": 4,
+          "element": "deep:concept",
+          "text": "这里是输入验证，客户端检查可以绕过，不能代替服务端校验。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/3/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL02",
+      "opportunity_id": "EVAL02:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/7/answer",
+          "round": 8,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL02/simulated_transcript.json#/turns/7/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "student": {
+    "id": "eval08",
+    "label": "虚构学生 EVAL08",
+    "subjects": [],
+    "experiences": [
+      {
+        "title": "暑期学术讲座",
+        "type": "academic",
+        "role": "参加讲座并提交心得",
+        "skills": [],
+        "outputs": [
+          "课程心得"
+        ]
+      },
+      {
+        "title": "物理实验观察",
+        "type": "academic",
+        "role": "记录课堂实验现象",
+        "skills": [
+          "Physics"
+        ],
+        "outputs": [
+          "观察表"
+        ]
+      }
+    ]
+  }
+}

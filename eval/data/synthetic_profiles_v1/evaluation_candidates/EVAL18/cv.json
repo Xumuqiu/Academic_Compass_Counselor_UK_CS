@@ -1,0 +1,44 @@
+{
+  "student": {
+    "id": "eval18",
+    "label": "虚构学生 EVAL18",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "B"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "线性近似讨论笔记",
+        "type": "reading",
+        "role": "讨论简单模型假设",
+        "skills": [
+          "数学"
+        ],
+        "outputs": [
+          "讨论笔记"
+        ]
+      },
+      {
+        "title": "简单摩擦实验",
+        "type": "academic",
+        "role": "跟随老师记录测量",
+        "skills": [
+          "Physics"
+        ],
+        "outputs": [
+          "实验记录"
+        ]
+      }
+    ]
+  }
+}

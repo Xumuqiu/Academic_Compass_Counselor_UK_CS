@@ -1,0 +1,144 @@
+{
+  "case_id": "EVAL15",
+  "split": "evaluation_candidates",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "EVAL15",
+      "gap_id": "EVAL15:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "generalization",
+      "description": "局部时间测量不能推广到所有输入规模",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/3/answer",
+          "round": 4,
+          "element": "deep:concept",
+          "text": "我只测这份数据和这台电脑，不能直接推断所有输入的复杂度。",
+          "confirmation": "student_stated"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "没有内存数据，也没有更大数据集测试。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/3/answer",
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/5/answer"
+      ],
+      "expected_detection": "保留设备、数据及测试范围，不称所有规模均更快或已证明复杂度",
+      "confirmation_question_example": "是否有更大数据集或其他输入的同条件测试？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL15",
+      "gap_id": "EVAL15:gap:v1:2",
+      "experience_id": "exp_1",
+      "kind": "memory",
+      "description": "未测内存，不能声称内存更低",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "没有内存数据，也没有更大数据集测试。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/5/answer"
+      ],
+      "expected_detection": "明确内存指标未测量，不从时间改善推出内存改善",
+      "confirmation_question_example": "有没有记录两个脚本的内存占用？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "EVAL15",
+      "opportunity_id": "EVAL15:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "在同一设备的一千条数据上各测三次，平均查询时间由5秒变为3秒",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "我先读好数据，再只计查询部分。在同一台电脑的一千条数据上各运行三次，旧脚本平均查询时间为 5 秒，新脚本为 3 秒。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/1/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL15",
+      "opportunity_id": "EVAL15:opportunity:1:2",
+      "experience_id": "exp_1",
+      "supported_fact": "认识到比较前需要统一计时范围",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "比较之前要统一计时范围，否则数字不代表同一件事。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/2/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL15",
+      "opportunity_id": "EVAL15:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/7/answer",
+          "round": 8,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL15/simulated_transcript.json#/turns/7/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

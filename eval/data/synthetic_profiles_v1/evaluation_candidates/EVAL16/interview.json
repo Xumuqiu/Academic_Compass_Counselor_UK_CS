@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL16",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "模拟器避障练习",
+      "answers_by_element": {
+        "process": "我在模拟器里设定障碍位置并修改转向规则，从未部署到真实机器人。",
+        "knowledge": "我根据模拟距离值判断是否转向，没有真实传感器。",
+        "problem": "有两个障碍挨得近时，模拟机器人会反复左右转。",
+        "solution": "我记录最近一次转向，短时间内不重复反向转。",
+        "reflection": "模拟效果不能说明实体设备一定能运行。",
+        "outcome": "有模拟录像，没有实体机器人或真实场地测试。",
+        "deep:concept": "我理解的是状态记录可以避免反复切换，不是完整自主导航。",
+        "deep:alternative": "我试过直接加大转向角，但在另一个地图会碰到障碍。",
+        "deep:limit": "真实传感器误差和电机运动都没有验证。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "科学社安全培训",
+      "answers_by_element": {
+        "process": "我负责完成课堂安全练习，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "这段主要是记录与协作，没有使用具体编程方法。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "培训记录不能替代真实设备部署经验。",
+        "outcome": "留下了练习表，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

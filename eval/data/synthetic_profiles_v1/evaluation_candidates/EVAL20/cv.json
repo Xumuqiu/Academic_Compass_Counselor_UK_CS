@@ -1,0 +1,46 @@
+{
+  "student": {
+    "id": "eval20",
+    "label": "虚构学生 EVAL20",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      },
+      {
+        "name": "Further Mathematics",
+        "predicted": "B"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "体育训练记录工具",
+        "type": "holistic",
+        "role": "整理训练数据",
+        "skills": [
+          "电子表格"
+        ],
+        "outputs": [
+          "训练记录表"
+        ]
+      },
+      {
+        "title": "计算思维入门分享",
+        "type": "reading",
+        "role": "分享任务分解例子",
+        "skills": [],
+        "outputs": [
+          "分享笔记"
+        ]
+      }
+    ]
+  }
+}

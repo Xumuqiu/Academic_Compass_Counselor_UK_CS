@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL12",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "校园编程赛测试志愿者",
+      "answers_by_element": {
+        "process": "这是简历录入错误，我没有个人一等奖，是作为测试志愿者参加了活动。",
+        "knowledge": "我运行老师准备的测试脚本，记录报错信息，没有编写比赛算法。",
+        "problem": "有一份输入文件打不开，我不知道编码格式。",
+        "solution": "我向老师报告文件名和报错，没有自行修复。",
+        "reflection": "我学到报错信息需要完整记录；我的身份是测试志愿者，简历中的个人一等奖是录入错误。",
+        "outcome": "有志愿服务证明，没有获奖证书。",
+        "deep:concept": "我知道文件读取可以报错，编码原理还没有理解。",
+        "deep:alternative": "没有比较算法或修改代码。",
+        "deep:limit": "个人一等奖应从 CV 删除，不能由赛事证明推断。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "学校开放日志愿者",
+      "answers_by_element": {
+        "process": "我负责核对活动入口编号，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "这段主要是记录与协作，没有使用具体编程方法。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "我承担的是服务岗位，没有竞赛奖项。",
+        "outcome": "留下了岗位清单，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

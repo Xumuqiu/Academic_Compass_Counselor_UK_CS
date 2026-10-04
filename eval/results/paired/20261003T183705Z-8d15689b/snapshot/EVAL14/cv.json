@@ -1,0 +1,42 @@
+{
+  "student": {
+    "id": "eval14",
+    "label": "虚构学生 EVAL14",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "社团网站管理员",
+        "type": "project",
+        "role": "修改社团网页",
+        "skills": [
+          "HTML"
+        ],
+        "outputs": [
+          "页面截图"
+        ]
+      },
+      {
+        "title": "数据伦理阅读",
+        "type": "reading",
+        "role": "记录隐私讨论问题",
+        "skills": [],
+        "outputs": [
+          "问题清单"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL20",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "体育训练记录工具",
+      "answers_by_element": {
+        "process": "我为运动社记录每次训练时间，用表格画出个人训练次数。",
+        "knowledge": "我用表格公式计数，没有写程序或预测成绩。",
+        "problem": "同一次训练被重复登记。",
+        "solution": "我保留活动编号并检查重复项，和队员核对后删除重复记录。",
+        "reflection": "我发现数据整理和体育协作可以联系，但不能仅凭它说明高级编程能力。",
+        "outcome": "有匿名训练次数表，没有体能提升的对照数据。",
+        "deep:concept": "我只理解编号去重和计数，不能解释算法模型。",
+        "deep:alternative": "我比较过按日期和按活动编号，同一天可能有两次训练，所以用了编号。",
+        "deep:limit": "训练次数不能直接说明体能或比赛表现提升。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "计算思维入门分享",
+      "answers_by_element": {
+        "process": "我负责分享任务分解例子，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "这段主要是记录与协作，没有使用具体编程方法。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "把活动联系到专业需要具体方法，而不是只写兴趣。",
+        "outcome": "留下了分享笔记，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

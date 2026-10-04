@@ -1,0 +1,118 @@
+{
+  "case_id": "EVAL07",
+  "split": "evaluation_candidates",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "EVAL07",
+      "gap_id": "EVAL07:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "concept",
+      "description": "无法解释动态规划与分治的区别",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/0/answer",
+          "round": 1,
+          "element": "problem",
+          "text": "同学问动态规划和分治的区别，我没答出来。",
+          "confirmation": "student_stated"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/3/answer",
+          "round": 4,
+          "element": "deep:concept",
+          "text": "我知道可以把任务分成小步骤，但不能给动态规划下准确的定义。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/0/answer",
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/3/answer"
+      ],
+      "expected_detection": "明确尚未理解相关区别，不写成深入研究或掌握",
+      "confirmation_question_example": "是否能分别给出动态规划与分治的例子，哪些区别尚不确定？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "EVAL07",
+      "opportunity_id": "EVAL07:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "记录未能回答的算法问题，尚未得出答案",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "我把问题记下来，准备继续查资料，暂时没有答案。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/1/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL07",
+      "opportunity_id": "EVAL07:opportunity:1:2",
+      "experience_id": "exp_1",
+      "supported_fact": "认识到复述例子不等于理解算法区别",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "我发现能复述一个例子不代表理解相关算法之间的区别。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/2/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL07",
+      "opportunity_id": "EVAL07:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/7/answer",
+          "round": 8,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL07/simulated_transcript.json#/turns/7/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

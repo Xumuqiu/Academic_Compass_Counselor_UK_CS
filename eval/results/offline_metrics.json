@@ -1,0 +1,67 @@
+{
+  "run_at_utc": "2026-10-03T14:55:20.405256+00:00",
+  "case_sha256": "d1d7213fd84ad2a3011550c2e31ace35fd54a45a96240be2f959a612b4e42c49",
+  "dataset_origin": "agent-authored synthetic",
+  "reviewer": "frozen fixtures, no model calls",
+  "metrics": {
+    "case_count": 20,
+    "quote_only": {
+      "safe_preserved": 11,
+      "safe_total": 11,
+      "unsafe_published": 9,
+      "unsafe_total": 9,
+      "accuracy": 0.55
+    },
+    "claim_guard": {
+      "safe_preserved": 8,
+      "safe_total": 11,
+      "unsafe_published": 1,
+      "unsafe_total": 9,
+      "accuracy": 0.8
+    },
+    "status_counts": {
+      "supported": 9,
+      "overstated": 1,
+      "unsupported_measurement": 1,
+      "contradicted": 3,
+      "needs_confirmation": 1,
+      "insufficient": 2,
+      "invalid_reference": 2,
+      "incomplete_segmentation": 1
+    },
+    "document_ok": 20,
+    "slice_accuracy": {
+      "supported": 1.0,
+      "overstatement": 0.75,
+      "missing": 1.0,
+      "reference": 0.25,
+      "language_and_scope": 1.0
+    },
+    "false_accept_ids": [
+      "B04"
+    ],
+    "false_reject_ids": [
+      "D01",
+      "D02",
+      "D04"
+    ],
+    "mean_latency_ms": 1.157,
+    "actual_model_requests": 0,
+    "actual_model_tokens": 0,
+    "actual_model_cost_rmb": 0.0
+  },
+  "cost_scenarios": {
+    "structured_cv_one_answer_no_rewrite": {
+      "requests": 3,
+      "assumed_input_tokens": 5900,
+      "assumed_output_tokens": 2250,
+      "estimated_rmb": 0.00298
+    },
+    "structured_cv_eight_answers_with_rewrite": {
+      "requests": 11,
+      "assumed_input_tokens": 10700,
+      "assumed_output_tokens": 4000,
+      "estimated_rmb": 0.00534
+    }
+  }
+}

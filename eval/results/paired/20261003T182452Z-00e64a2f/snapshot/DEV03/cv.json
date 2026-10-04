@@ -1,0 +1,40 @@
+{
+  "student": {
+    "id": "dev03",
+    "label": "虚构学生 DEV03",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "B"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "图书借阅工具小组作业",
+        "type": "project",
+        "role": "参与小组开发",
+        "skills": [
+          "Python"
+        ],
+        "outputs": [
+          "小组展示"
+        ]
+      },
+      {
+        "title": "编程入门阅读",
+        "type": "reading",
+        "role": "阅读列表例子",
+        "skills": [
+          "Python基础"
+        ],
+        "outputs": [
+          "练习笔记"
+        ]
+      }
+    ]
+  }
+}

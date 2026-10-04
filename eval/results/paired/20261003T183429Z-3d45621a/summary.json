@@ -1,0 +1,29 @@
+{
+  "run_id": "20261003T183429Z-3d45621a",
+  "dry_run": false,
+  "cases_attempted": 6,
+  "delivered_by_arm": {
+    "prompt_only": 6,
+    "full_guardrail": 6
+  },
+  "quality_metrics": "not_scored; requires actual output annotations",
+  "cost": {
+    "currency": "USD",
+    "shared_upstream_cost": 0.016848,
+    "guard_increment_cost": 0.023455200000000002,
+    "standalone_prompt_only_cost": 0.016848,
+    "standalone_full_guardrail_cost": 0.0403032,
+    "actual_experiment_estimated_cost": 0.04030320000000001,
+    "actual_experiment_cost": 0.04030320000000001,
+    "cost_basis": "provider_reported",
+    "unknown_cost_calls": 0,
+    "actual_model_requests": 54,
+    "dry_run": false,
+    "cost_is_usage_based_estimate_not_provider_bill": false,
+    "per_successful_delivery_standalone_cost": {
+      "prompt_only": 0.0028079999999999997,
+      "full_guardrail": 0.0067172
+    }
+  },
+  "failures": {}
+}

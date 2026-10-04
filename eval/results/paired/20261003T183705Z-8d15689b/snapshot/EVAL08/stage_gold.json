@@ -1,0 +1,104 @@
+{
+  "case_id": "EVAL08",
+  "split": "evaluation_candidates",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "EVAL08",
+      "gap_id": "EVAL08:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "motivation",
+      "description": "兴趣尚未联系到具体问题",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/3/answer",
+          "round": 4,
+          "element": "reflection",
+          "text": "我觉得这个领域有意思，但暂时说不出哪个问题最吸引我。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/3/answer"
+      ],
+      "expected_detection": "指出兴趣缺少具体问题，不能推断明确研究方向",
+      "confirmation_question_example": "哪一项具体问题最吸引你，能举一个例子吗？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL08",
+      "gap_id": "EVAL08:gap:v1:2",
+      "experience_id": "exp_1",
+      "kind": "detail",
+      "description": "具体学习内容和本人行动不足",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/0/answer",
+          "round": 1,
+          "element": "knowledge",
+          "text": "我记得听到机器学习这个词，解释不了方法。",
+          "confirmation": "student_stated"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "solution",
+          "text": "[跳过]",
+          "confirmation": "missing_answer"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/4/answer",
+          "round": 5,
+          "element": "deep:concept",
+          "text": "我还不能说明一个具体计算机科学概念。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/0/answer",
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/2/answer",
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/4/answer"
+      ],
+      "expected_detection": "指出方法说不清且没有具体解决行动，不把参加讲座写成开展研究",
+      "confirmation_question_example": "能否从已有笔记确认一项具体概念或你亲自尝试过的步骤？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "EVAL08",
+      "opportunity_id": "EVAL08:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/8/answer",
+          "round": 9,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL08/simulated_transcript.json#/turns/8/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

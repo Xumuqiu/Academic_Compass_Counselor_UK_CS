@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL07",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "读书社算法分享",
+      "answers_by_element": {
+        "process": "我读了一章问题分解，拿整理书架的例子做了分享。",
+        "knowledge": "我只读过这一章，没有学动态规划。",
+        "problem": "同学问动态规划和分治的区别，我没答出来。",
+        "solution": "我把问题记下来，准备继续查资料，暂时没有答案。",
+        "reflection": "我发现能复述一个例子不代表理解相关算法之间的区别。",
+        "outcome": "有分享提纲和待查问题。",
+        "deep:concept": "我知道可以把任务分成小步骤，但不能给动态规划下准确的定义。",
+        "deep:alternative": "我没有比较算法，只换了一个更生活化的解释例子。",
+        "deep:limit": "需要补概念和可运行例子，当前不能说深入研究算法。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "校园义卖登记",
+      "answers_by_element": {
+        "process": "我负责整理物品编号，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到电子表格，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "编号要先统一才方便核对。",
+        "outcome": "留下了登记表，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

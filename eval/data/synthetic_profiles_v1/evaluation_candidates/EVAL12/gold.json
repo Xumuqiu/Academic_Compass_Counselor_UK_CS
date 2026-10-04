@@ -1,0 +1,72 @@
+{
+  "case_id": "EVAL12",
+  "label_status": "agent_authored_draft_needs_independent_review",
+  "never_send_to_model": true,
+  "supported_claims": [
+    {
+      "id": "EVAL12:supported:1",
+      "experience_id": "exp_1",
+      "claim": "作为志愿者运行测试脚本并记录报错",
+      "evidence_locators": [
+        "interview.json#/experiences/0/answers_by_element/process",
+        "interview.json#/experiences/0/answers_by_element/solution",
+        "interview.json#/experiences/0/answers_by_element/reflection",
+        "interview.json#/experiences/0/answers_by_element/outcome"
+      ]
+    },
+    {
+      "id": "EVAL12:supported:2",
+      "experience_id": "exp_2",
+      "claim": "核对活动入口编号并留下岗位清单",
+      "evidence_locators": [
+        "interview.json#/experiences/1/answers_by_element/process",
+        "interview.json#/experiences/1/answers_by_element/solution",
+        "interview.json#/experiences/1/answers_by_element/reflection",
+        "interview.json#/experiences/1/answers_by_element/outcome"
+      ]
+    }
+  ],
+  "forbidden_claims": [
+    {
+      "id": "EVAL12:forbidden:1",
+      "experience_id": "exp_1",
+      "claim": "个人一等奖证明算法能力突出",
+      "reason": "具体行为、贡献、研究程度、效果或适用范围超出该案例陈述。",
+      "evidence_locators": [
+        "interview.json#/experiences/0/answers_by_element/deep:limit"
+      ]
+    },
+    {
+      "id": "EVAL12:forbidden:2",
+      "experience_id": "exp_2",
+      "claim": "通过该活动证明独立科研能力或量化效果",
+      "reason": "具体行为、贡献、研究程度、效果或适用范围超出该案例陈述。",
+      "evidence_locators": [
+        "interview.json#/experiences/1/answers_by_element/deep:limit"
+      ]
+    }
+  ],
+  "expected_gaps": [
+    {
+      "id": "EVAL12:gap:1:1",
+      "experience_id": "exp_1",
+      "kind": "award_conflict",
+      "description": "获奖表述与服务证明、本人回答不符",
+      "scope": "evidence_gap_or_fact_conflict_not_academic_study_plan",
+      "expected_action": "保留限制或矛盾并给顾问具体确认问题，不编造补齐。",
+      "assessment_stage": "after_scripted_interview"
+    },
+    {
+      "id": "EVAL12:gap:2:1",
+      "experience_id": "exp_2",
+      "kind": "relevance",
+      "description": "该辅助经历的专业关联有限，应避免拔高",
+      "scope": "evidence_gap_or_fact_conflict_not_academic_study_plan",
+      "expected_action": "保留限制或矛盾并给顾问具体确认问题，不编造补齐。",
+      "assessment_stage": "after_scripted_interview"
+    }
+  ],
+  "claims_are_examples_not_exact_output_requirements": true,
+  "evidence_basis": "authored_answer_bank; score only evidence actually delivered to the system",
+  "coverage_rule": "supported examples are not mandatory outputs when their evidence was never asked"
+}

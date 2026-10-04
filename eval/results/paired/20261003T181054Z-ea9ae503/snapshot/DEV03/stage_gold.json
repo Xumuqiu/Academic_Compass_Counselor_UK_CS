@@ -1,0 +1,154 @@
+{
+  "case_id": "DEV03",
+  "split": "dev",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "DEV03",
+      "gap_id": "DEV03:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "contribution",
+      "description": "本人测试数据是否实际使用及具体贡献尚未确认",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "目前需要问组员确认测试数据是不是实际使用过。",
+          "confirmation": "student_stated"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "我意识到把团队作品写在简历上时，应该区分我本人负责的部分。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/5/answer",
+        "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/2/answer"
+      ],
+      "expected_detection": "指出个人负责范围和测试数据实际使用需要核实，不把团队作品当独立贡献",
+      "confirmation_question_example": "你整理的哪些数据实际使用过，哪些步骤由你亲自完成？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "DEV03",
+      "gap_id": "DEV03:gap:v1:2",
+      "experience_id": "exp_1",
+      "kind": "solution",
+      "description": "本人解决具体问题的方法缺失",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "[跳过]",
+          "confirmation": "missing_answer"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/0/answer",
+          "round": 1,
+          "element": "problem",
+          "text": "我说不清整个系统卡在哪里，组长负责合并代码。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/1/answer",
+        "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/0/answer"
+      ],
+      "expected_detection": "指出学生跳过解决方法，不能补写实现或修复过程",
+      "confirmation_question_example": "是否有你亲自处理的一项具体问题和处理记录？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "DEV03",
+      "gap_id": "DEV03:gap:v1:3",
+      "experience_id": "exp_1",
+      "kind": "concept",
+      "description": "数据库查询原理尚说不清",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/3/answer",
+          "round": 4,
+          "element": "deep:concept",
+          "text": "我只接触了列表，数据库查询原理还说不清。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/3/answer"
+      ],
+      "expected_detection": "区分接触列表与掌握数据库查询，不把数据库术语写成掌握",
+      "confirmation_question_example": "你能说明一次实际查询是如何得到结果的吗？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "DEV03",
+      "opportunity_id": "DEV03:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "认识到团队作品应区分本人负责的部分",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "我意识到把团队作品写在简历上时，应该区分我本人负责的部分。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/2/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "DEV03",
+      "opportunity_id": "DEV03:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/7/answer",
+          "round": 8,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/dev/DEV03/simulated_transcript.json#/turns/7/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

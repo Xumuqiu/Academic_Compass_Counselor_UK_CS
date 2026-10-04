@@ -1,0 +1,3859 @@
+{
+  "case_id": "EVAL13",
+  "slice": "execution_and_measurement",
+  "dry_run": false,
+  "actual_transcript": [
+    {
+      "round": 1,
+      "question_id": "exp_1:problem",
+      "experience_id": "exp_1",
+      "element": "problem",
+      "question": "「纸面解题与网页作品」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "最后一个索引会超出数组长度。"
+    },
+    {
+      "round": 2,
+      "question_id": "exp_1:solution",
+      "experience_id": "exp_1",
+      "element": "solution",
+      "question": "你提到「最后一个索引会超出数组长度。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我从零开始画每个位置，逐步检查循环何时停止。"
+    },
+    {
+      "round": 3,
+      "question_id": "exp_1:reflection",
+      "experience_id": "exp_1",
+      "element": "reflection",
+      "question": "「纸面解题与网页作品」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "边界需要单独看，写代码之前纸面检查也能暴露问题。"
+    },
+    {
+      "round": 4,
+      "question_id": "exp_1:deep:concept",
+      "experience_id": "exp_1",
+      "element": "deep:concept",
+      "question": "关于「纸面解题与网页作品」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "数组合法索引与元素数量不同，我能用具体例子说明。"
+    },
+    {
+      "round": 5,
+      "question_id": "exp_1:deep:alternative",
+      "experience_id": "exp_1",
+      "element": "deep:alternative",
+      "question": "关于「纸面解题与网页作品」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我比较过从一和从零编号，按题目要求使用从零编号。"
+    },
+    {
+      "round": 6,
+      "question_id": "exp_1:deep:limit",
+      "experience_id": "exp_1",
+      "element": "deep:limit",
+      "question": "关于「纸面解题与网页作品」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "不能把另一段网页代码当成这道题的实现。"
+    },
+    {
+      "round": 7,
+      "question_id": "exp_2:problem",
+      "experience_id": "exp_2",
+      "element": "problem",
+      "question": "「网页导航练习」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "第一次记录有一处缺项，需要重新核对。"
+    },
+    {
+      "round": 8,
+      "question_id": "exp_2:solution",
+      "experience_id": "exp_2",
+      "element": "solution",
+      "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+    },
+    {
+      "round": 9,
+      "question_id": "exp_2:reflection",
+      "experience_id": "exp_2",
+      "element": "reflection",
+      "question": "「网页导航练习」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "这份网页是另一段作品，不能证明数组题写过代码。"
+    },
+    {
+      "round": 10,
+      "question_id": "exp_2:deep:concept",
+      "experience_id": "exp_2",
+      "element": "deep:concept",
+      "question": "关于「网页导航练习」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+    },
+    {
+      "round": 11,
+      "question_id": "exp_2:deep:alternative",
+      "experience_id": "exp_2",
+      "element": "deep:alternative",
+      "question": "关于「网页导航练习」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+    },
+    {
+      "round": 12,
+      "question_id": "exp_2:deep:limit",
+      "experience_id": "exp_2",
+      "element": "deep:limit",
+      "question": "关于「网页导航练习」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+    }
+  ],
+  "outputs": {
+    "prompt_only": {
+      "student": "虚构学生 EVAL13",
+      "programmes": [
+        {
+          "id": "manchester_cs_ug",
+          "name": "BSc Computer Science (2027 entry)",
+          "university": "The University of Manchester",
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false,
+          "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+          "requirements": [
+            {
+              "id": "manchester_cs_ug:req_02",
+              "text": "A* in Mathematics",
+              "kind": "math_grade",
+              "expected": "A*"
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "kind": "science_subject",
+              "accepted": [
+                "Computer Science",
+                "Further Mathematics",
+                "Biology",
+                "Chemistry",
+                "Physics"
+              ]
+            }
+          ],
+          "source_requirements": [
+            {
+              "id": "manchester_cs_ug:req_01",
+              "category": "gpa",
+              "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_02",
+              "category": "subject",
+              "text": "A* in Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_04",
+              "category": "material",
+              "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_05",
+              "category": "gpa",
+              "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_06",
+              "category": "subject",
+              "text": "including Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_07",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_08",
+              "category": "gpa",
+              "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_09",
+              "category": "gpa",
+              "text": "7,6,6 in Higher Level subjects",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_10",
+              "category": "subject",
+              "text": "including 7 in Mathematics: Analysis and Approaches",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_11",
+              "category": "subject",
+              "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_12",
+              "category": "language",
+              "text": "IELTS 7.0 overall, with no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_13",
+              "category": "language",
+              "text": "no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_14",
+              "category": "language",
+              "text": "TOEFL iBT 100 overall, with no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_15",
+              "category": "language",
+              "text": "no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_16",
+              "category": "language",
+              "text": "GCSE/IGCSE English Language grade B/6",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            }
+          ]
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Mathematics",
+          "predicted": "A*"
+        },
+        {
+          "name": "Physics",
+          "predicted": "A"
+        }
+      ],
+      "prompt_set_id": "ucas_2026",
+      "prompts": [
+        {
+          "id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?"
+        }
+      ],
+      "writing_guidance": {
+        "id": "ucas_2026",
+        "name": "UCAS Personal Statement（2026 年 9 月入学起：三问式）",
+        "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement",
+        "collected_on": "2026-08-12",
+        "human_verified": false,
+        "prompts": [
+          {
+            "id": "ucas_2026:q1",
+            "question": "你为什么想学习这门课程或学科？",
+            "question_en": "Why do you want to study this course or subject?",
+            "focus": "学科兴趣的真实来源、对学科重大问题的批判性参与、希望深耕的细分领域",
+            "guidance": [
+              "侧重你希望学习的学科的学术兴趣：是什么吸引你选择这门学科？哪些方面让你想在本科阶段学习它？",
+              "是否希望专注于该学科的某个特定领域？该学科的重大问题是什么，你觉得哪些最有趣、你对这些话题有何看法？",
+              "对联合课程，说明学科之间如何相互关联、为什么它们对你有吸引力。"
+            ],
+            "avoid": [
+              "避免讨论未来的职业规划——个人陈述应反映你个人的学术兴趣。",
+              "避免「我从小就梦想…」这类没有起源事件的空话。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q2",
+            "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+            "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+            "focus": "课内学习与超课程活动（super-curricular）如何递进地加深学科认知，重在反思而非罗列",
+            "guidance": [
+              "评审寻找的是能够最好地反思自身经历与学术思想的学生，而不是拥有最佳机会的学生。",
+              "如何在学习之外发展学科兴趣：额外阅读、讲座、在线资料、拓展项目资质（EPQ）？你从中发现了什么有趣之处、有何看法？",
+              "是否从其他学校科目中获得了补充所选课程的技能？",
+              "感兴趣的不仅是你读过什么的清单，而是你有反思学术思想的证据。"
+            ],
+            "avoid": [
+              "无需讨论所有当前学习，只谈与所选科目相关的部分。",
+              "不要罗列课程科目清单——资格部分会显示这些信息。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q3",
+            "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+            "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+            "focus": "课外经历（实习、项目、社会实践）如何拓宽对学科主题的理解，与课程相关性是关键",
+            "guidance": [
+              "实习或相关经历如何让你对大学将要学习的主题有更广泛的理解？",
+              "可用此空间扩展问题一和问题二中的批判性反思，或收纳前两问未能容纳的超课程活动。",
+              "写满最低 350 字符即可接受——相关性比篇幅重要。"
+            ],
+            "avoid": [
+              "确保回答与所申请课程相关，并展示对该学科的批判性参与；与课程无关的可转移技能（如球队领导力）分量应远低于学术内容。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          }
+        ]
+      },
+      "thesis_claim": "通过纸面解题和网页导航练习，学生展现了对计算机科学基础知识的理解和严谨的学习态度，体现了对编程细节和网页开发的兴趣与反思能力。",
+      "sections": [
+        {
+          "prompt_id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?",
+          "material_ids": [
+            "mat_1",
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        },
+        {
+          "prompt_id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+          "material_ids": [
+            "mat_1"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        },
+        {
+          "prompt_id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+          "material_ids": [
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        }
+      ],
+      "materials": [
+        {
+          "id": "mat_1",
+          "experience_id": "exp_1",
+          "title": "纸面解题与网页作品",
+          "prompt_id": "ucas_2026:q2",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "展示了对数组索引边界问题的深入理解和严谨的编码前准备过程",
+          "evidence_quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+          "evidence": [
+            {
+              "id": "exp_1:process:0",
+              "element": "process",
+              "text": "手工分析数组题",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:knowledge:0",
+              "element": "knowledge",
+              "text": "Python基础",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_1:outcome:0",
+              "element": "outcome",
+              "text": "手写解题笔记",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_1:problem:1",
+              "element": "problem",
+              "text": "最后一个索引会超出数组长度。",
+              "source": "dialog:r1",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_1:solution:2",
+              "element": "solution",
+              "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+              "source": "dialog:r2",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_1:process:2",
+              "element": "process",
+              "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+              "source": "dialog:r2",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:reflection:3",
+              "element": "reflection",
+              "text": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_1:process:3",
+              "element": "process",
+              "text": "写代码之前纸面检查",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:problem:3",
+              "element": "problem",
+              "text": "边界需要单独看",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_1:deep:concept:4",
+              "element": "deep:concept",
+              "text": "数组合法索引与元素数量不同，我能用具体例子说明。",
+              "source": "dialog:r4",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:alternative:5",
+              "element": "deep:alternative",
+              "text": "我比较过从一和从零编号，按题目要求使用从零编号。",
+              "source": "dialog:r5",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:limit:6",
+              "element": "deep:limit",
+              "text": "不能把另一段网页代码当成这道题的实现。",
+              "source": "dialog:r6",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：最后一个索引会超出数组长度。",
+            "解决方法：我从零开始画每个位置，逐步检查循环何时停止。",
+            "个人思考：边界需要单独看，写代码之前纸面检查也能暴露问题。",
+            "遇到的问题：边界需要单独看"
+          ],
+          "narrative": "行为过程：手工分析数组题。 运用知识：Python基础。 最终收获：手写解题笔记。 遇到的问题：最后一个索引会超出数组长度。。 解决方法：我从零开始画每个位置，逐步检查循环何时停止。。 行为过程：我从零开始画每个位置，逐步检查循环何时停止。。 个人思考：边界需要单独看，写代码之前纸面检查也能暴露问题。。 行为过程：写代码之前纸面检查。 遇到的问题：边界需要单独看。 专业深挖：数组合法索引与元素数量不同，我能用具体例子说明。。 专业深挖：我比较过从一和从零编号，按题目要求使用从零编号。。 专业深挖：不能把另一段网页代码当成这道题的实现。。",
+          "usage": "可作为 ucas_2026:q2 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "网页导航练习",
+          "guide_note": "适合围绕展示了对数组索引边界问题的深入理解和严谨的编码前准备过程与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+          "deep_dive": {
+            "concept": {
+              "text": "数组合法索引与元素数量不同，我能用具体例子说明。",
+              "source": "dialog:r4"
+            },
+            "alternative": {
+              "text": "我比较过从一和从零编号，按题目要求使用从零编号。",
+              "source": "dialog:r5"
+            },
+            "limit": {
+              "text": "不能把另一段网页代码当成这道题的实现。",
+              "source": "dialog:r6"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "Python基础",
+              "source": "cv:experience:1"
+            },
+            {
+              "kind": "process",
+              "claim": "手工分析数组题\n我从零开始画每个位置，逐步检查循环何时停止。\n写代码之前纸面检查",
+              "source": "dialog:r3"
+            },
+            {
+              "kind": "solution",
+              "claim": "我从零开始画每个位置，逐步检查循环何时停止。",
+              "source": "dialog:r2"
+            },
+            {
+              "kind": "reflection",
+              "claim": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+              "source": "dialog:r3"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "dialog:r3",
+            "knowledge": "cv:experience:1",
+            "outcome": "cv:experience:1",
+            "problem": "dialog:r3",
+            "solution": "dialog:r2",
+            "reflection": "dialog:r3"
+          },
+          "suggested_points": []
+        },
+        {
+          "id": "mat_2",
+          "experience_id": "exp_2",
+          "title": "网页导航练习",
+          "prompt_id": "ucas_2026:q3",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "反思网页导航练习中核对资料的重要性及对代码准确性的重视",
+          "evidence_quote": "这份网页是另一段作品，不能证明数组题写过代码。",
+          "evidence": [
+            {
+              "id": "exp_2:process:0",
+              "element": "process",
+              "text": "修改模板导航链接",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:knowledge:0",
+              "element": "knowledge",
+              "text": "HTML",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_2:outcome:0",
+              "element": "outcome",
+              "text": "本地页面",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_2:problem:7",
+              "element": "problem",
+              "text": "第一次记录有一处缺项，需要重新核对。",
+              "source": "dialog:r7",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_2:solution:7",
+              "element": "solution",
+              "text": "需要重新核对",
+              "source": "dialog:r7",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_2:solution:8",
+              "element": "solution",
+              "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r8",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_2:process:8",
+              "element": "process",
+              "text": "回看原始资料并向知情同学或老师确认",
+              "source": "dialog:r8",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:reflection:9",
+              "element": "reflection",
+              "text": "这份网页是另一段作品，不能证明数组题写过代码。",
+              "source": "dialog:r9",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_2:problem:9",
+              "element": "problem",
+              "text": "这份网页是另一段作品，不能证明数组题写过代码。",
+              "source": "dialog:r9",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_2:deep:concept:10",
+              "element": "deep:concept",
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r10",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:alternative:11",
+              "element": "deep:alternative",
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r11",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:limit:12",
+              "element": "deep:limit",
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r12",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：第一次记录有一处缺项，需要重新核对。",
+            "解决方法：需要重新核对",
+            "解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。",
+            "个人思考：这份网页是另一段作品，不能证明数组题写过代码。"
+          ],
+          "narrative": "行为过程：修改模板导航链接。 运用知识：HTML。 最终收获：本地页面。 遇到的问题：第一次记录有一处缺项，需要重新核对。。 解决方法：需要重新核对。 解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。。 行为过程：回看原始资料并向知情同学或老师确认。 个人思考：这份网页是另一段作品，不能证明数组题写过代码。。 遇到的问题：这份网页是另一段作品，不能证明数组题写过代码。。 专业深挖：这段经历没有进一步的专业方法证据，我不想为了申请补写概念。。 专业深挖：我试过凭记忆填写，后来选择先核对原始资料。。 专业深挖：这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。。",
+          "usage": "可作为 ucas_2026:q3 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "纸面解题与网页作品",
+          "guide_note": "适合围绕反思网页导航练习中核对资料的重要性及对代码准确性的重视与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "这份网页是另一段作品，不能证明数组题写过代码。",
+          "deep_dive": {
+            "concept": {
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r10"
+            },
+            "alternative": {
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r11"
+            },
+            "limit": {
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r12"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "HTML",
+              "source": "cv:experience:2"
+            },
+            {
+              "kind": "process",
+              "claim": "修改模板导航链接\n回看原始资料并向知情同学或老师确认",
+              "source": "dialog:r8"
+            },
+            {
+              "kind": "solution",
+              "claim": "需要重新核对\n我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r8"
+            },
+            {
+              "kind": "reflection",
+              "claim": "这份网页是另一段作品，不能证明数组题写过代码。",
+              "source": "dialog:r9"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "dialog:r8",
+            "knowledge": "cv:experience:2",
+            "outcome": "cv:experience:2",
+            "problem": "dialog:r9",
+            "solution": "dialog:r8",
+            "reflection": "dialog:r9"
+          },
+          "suggested_points": []
+        }
+      ],
+      "claim_audit": [],
+      "open_questions": [],
+      "checks": {
+        "professional_cognition": "已有至少一段本人反思或专业问题说明；需核对其学术准确性。",
+        "connection": "至少一段经历具备可指认的知识、方法或兴趣匹配；仍需核对相关性。",
+        "growth": "多段经历均记录了个人反思；可进一步核对真实的递进关系。"
+      },
+      "programme_gaps": [],
+      "mode": "prompt_only_eval",
+      "notice": "这是头脑风暴素材包，不是个人陈述成稿；待探讨内容不得写成学生事实。"
+    },
+    "full_guardrail": {
+      "student": "虚构学生 EVAL13",
+      "programmes": [
+        {
+          "id": "manchester_cs_ug",
+          "name": "BSc Computer Science (2027 entry)",
+          "university": "The University of Manchester",
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false,
+          "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+          "requirements": [
+            {
+              "id": "manchester_cs_ug:req_02",
+              "text": "A* in Mathematics",
+              "kind": "math_grade",
+              "expected": "A*"
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "kind": "science_subject",
+              "accepted": [
+                "Computer Science",
+                "Further Mathematics",
+                "Biology",
+                "Chemistry",
+                "Physics"
+              ]
+            }
+          ],
+          "source_requirements": [
+            {
+              "id": "manchester_cs_ug:req_01",
+              "category": "gpa",
+              "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_02",
+              "category": "subject",
+              "text": "A* in Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_03",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_04",
+              "category": "material",
+              "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_05",
+              "category": "gpa",
+              "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_06",
+              "category": "subject",
+              "text": "including Mathematics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_07",
+              "category": "subject",
+              "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+              "curriculum": "a_level",
+              "is_mandatory": false,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_08",
+              "category": "gpa",
+              "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_09",
+              "category": "gpa",
+              "text": "7,6,6 in Higher Level subjects",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_10",
+              "category": "subject",
+              "text": "including 7 in Mathematics: Analysis and Approaches",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_11",
+              "category": "subject",
+              "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+              "curriculum": "ib",
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_12",
+              "category": "language",
+              "text": "IELTS 7.0 overall, with no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_13",
+              "category": "language",
+              "text": "no subscore below 6.5",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_14",
+              "category": "language",
+              "text": "TOEFL iBT 100 overall, with no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_15",
+              "category": "language",
+              "text": "no subscore below 22",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            },
+            {
+              "id": "manchester_cs_ug:req_16",
+              "category": "language",
+              "text": "GCSE/IGCSE English Language grade B/6",
+              "curriculum": null,
+              "is_mandatory": true,
+              "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+              "human_verified": false
+            }
+          ]
+        }
+      ],
+      "subjects": [
+        {
+          "name": "Mathematics",
+          "predicted": "A*"
+        },
+        {
+          "name": "Physics",
+          "predicted": "A"
+        }
+      ],
+      "prompt_set_id": "ucas_2026",
+      "prompts": [
+        {
+          "id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?"
+        },
+        {
+          "id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?"
+        }
+      ],
+      "writing_guidance": {
+        "id": "ucas_2026",
+        "name": "UCAS Personal Statement（2026 年 9 月入学起：三问式）",
+        "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement",
+        "collected_on": "2026-08-12",
+        "human_verified": false,
+        "prompts": [
+          {
+            "id": "ucas_2026:q1",
+            "question": "你为什么想学习这门课程或学科？",
+            "question_en": "Why do you want to study this course or subject?",
+            "focus": "学科兴趣的真实来源、对学科重大问题的批判性参与、希望深耕的细分领域",
+            "guidance": [
+              "侧重你希望学习的学科的学术兴趣：是什么吸引你选择这门学科？哪些方面让你想在本科阶段学习它？",
+              "是否希望专注于该学科的某个特定领域？该学科的重大问题是什么，你觉得哪些最有趣、你对这些话题有何看法？",
+              "对联合课程，说明学科之间如何相互关联、为什么它们对你有吸引力。"
+            ],
+            "avoid": [
+              "避免讨论未来的职业规划——个人陈述应反映你个人的学术兴趣。",
+              "避免「我从小就梦想…」这类没有起源事件的空话。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q2",
+            "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+            "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+            "focus": "课内学习与超课程活动（super-curricular）如何递进地加深学科认知，重在反思而非罗列",
+            "guidance": [
+              "评审寻找的是能够最好地反思自身经历与学术思想的学生，而不是拥有最佳机会的学生。",
+              "如何在学习之外发展学科兴趣：额外阅读、讲座、在线资料、拓展项目资质（EPQ）？你从中发现了什么有趣之处、有何看法？",
+              "是否从其他学校科目中获得了补充所选课程的技能？",
+              "感兴趣的不仅是你读过什么的清单，而是你有反思学术思想的证据。"
+            ],
+            "avoid": [
+              "无需讨论所有当前学习，只谈与所选科目相关的部分。",
+              "不要罗列课程科目清单——资格部分会显示这些信息。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          },
+          {
+            "id": "ucas_2026:q3",
+            "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+            "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+            "focus": "课外经历（实习、项目、社会实践）如何拓宽对学科主题的理解，与课程相关性是关键",
+            "guidance": [
+              "实习或相关经历如何让你对大学将要学习的主题有更广泛的理解？",
+              "可用此空间扩展问题一和问题二中的批判性反思，或收纳前两问未能容纳的超课程活动。",
+              "写满最低 350 字符即可接受——相关性比篇幅重要。"
+            ],
+            "avoid": [
+              "确保回答与所申请课程相关，并展示对该学科的批判性参与；与课程无关的可转移技能（如球队领导力）分量应远低于学术内容。"
+            ],
+            "source_url": "https://www.ucas.com/applying/applying-university/writing-your-personal-statement"
+          }
+        ]
+      },
+      "thesis_claim": "候选主线：从已记录的经历中寻找对计算机科学的具体兴趣与持续探索",
+      "sections": [
+        {
+          "prompt_id": "ucas_2026:q1",
+          "question": "你为什么想学习这门课程或学科？",
+          "question_en": "Why do you want to study this course or subject?",
+          "material_ids": [
+            "mat_1",
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        },
+        {
+          "prompt_id": "ucas_2026:q2",
+          "question": "你的学历和学习如何帮助你为这门课程或学科做好准备？",
+          "question_en": "How have your qualifications and studies helped you to prepare for this course or subject?",
+          "material_ids": [
+            "mat_1"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        },
+        {
+          "prompt_id": "ucas_2026:q3",
+          "question": "你还在教育之外做了哪些准备，为什么这些经历有用？",
+          "question_en": "What else have you done to prepare outside of education, and why are these experiences useful?",
+          "material_ids": [
+            "mat_2"
+          ],
+          "strategy": "从学生已记录的经历与反思出发，解释与计算机科学的关系。"
+        }
+      ],
+      "materials": [
+        {
+          "id": "mat_1",
+          "experience_id": "exp_1",
+          "title": "纸面解题与网页作品",
+          "prompt_id": "ucas_2026:q2",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "展示了对数组索引边界问题的深入理解和严谨的编码前准备过程",
+          "evidence_quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+          "evidence": [
+            {
+              "id": "exp_1:process:0",
+              "element": "process",
+              "text": "手工分析数组题",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:knowledge:0",
+              "element": "knowledge",
+              "text": "Python基础",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_1:outcome:0",
+              "element": "outcome",
+              "text": "手写解题笔记",
+              "source": "cv:experience:1",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_1:problem:1",
+              "element": "problem",
+              "text": "最后一个索引会超出数组长度。",
+              "source": "dialog:r1",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_1:solution:2",
+              "element": "solution",
+              "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+              "source": "dialog:r2",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_1:process:2",
+              "element": "process",
+              "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+              "source": "dialog:r2",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:reflection:3",
+              "element": "reflection",
+              "text": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_1:process:3",
+              "element": "process",
+              "text": "写代码之前纸面检查",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_1:problem:3",
+              "element": "problem",
+              "text": "边界需要单独看",
+              "source": "dialog:r3",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_1:deep:concept:4",
+              "element": "deep:concept",
+              "text": "数组合法索引与元素数量不同，我能用具体例子说明。",
+              "source": "dialog:r4",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:alternative:5",
+              "element": "deep:alternative",
+              "text": "我比较过从一和从零编号，按题目要求使用从零编号。",
+              "source": "dialog:r5",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_1:deep:limit:6",
+              "element": "deep:limit",
+              "text": "不能把另一段网页代码当成这道题的实现。",
+              "source": "dialog:r6",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：最后一个索引会超出数组长度。",
+            "解决方法：我从零开始画每个位置，逐步检查循环何时停止。",
+            "个人思考：边界需要单独看，写代码之前纸面检查也能暴露问题。",
+            "遇到的问题：边界需要单独看"
+          ],
+          "narrative": "行为过程：手工分析数组题。 运用知识：Python基础。 最终收获：手写解题笔记。 遇到的问题：最后一个索引会超出数组长度。。 解决方法：我从零开始画每个位置，逐步检查循环何时停止。。 行为过程：我从零开始画每个位置，逐步检查循环何时停止。。 个人思考：边界需要单独看，写代码之前纸面检查也能暴露问题。。 行为过程：写代码之前纸面检查。 遇到的问题：边界需要单独看。 专业深挖：数组合法索引与元素数量不同，我能用具体例子说明。。 专业深挖：我比较过从一和从零编号，按题目要求使用从零编号。。 专业深挖：不能把另一段网页代码当成这道题的实现。。",
+          "usage": "可作为 ucas_2026:q2 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "网页导航练习",
+          "guide_note": "适合围绕展示了对数组索引边界问题的深入理解和严谨的编码前准备过程与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+          "deep_dive": {
+            "concept": {
+              "text": "数组合法索引与元素数量不同，我能用具体例子说明。",
+              "source": "dialog:r4"
+            },
+            "alternative": {
+              "text": "我比较过从一和从零编号，按题目要求使用从零编号。",
+              "source": "dialog:r5"
+            },
+            "limit": {
+              "text": "不能把另一段网页代码当成这道题的实现。",
+              "source": "dialog:r6"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "Python基础",
+              "source": "cv:experience:1"
+            },
+            {
+              "kind": "process",
+              "claim": "手工分析数组题\n我从零开始画每个位置，逐步检查循环何时停止。\n写代码之前纸面检查",
+              "source": "dialog:r3"
+            },
+            {
+              "kind": "solution",
+              "claim": "我从零开始画每个位置，逐步检查循环何时停止。",
+              "source": "dialog:r2"
+            },
+            {
+              "kind": "reflection",
+              "claim": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+              "source": "dialog:r3"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "dialog:r3",
+            "knowledge": "cv:experience:1",
+            "outcome": "cv:experience:1",
+            "problem": "dialog:r3",
+            "solution": "dialog:r2",
+            "reflection": "dialog:r3"
+          },
+          "suggested_points": []
+        },
+        {
+          "id": "mat_2",
+          "experience_id": "exp_2",
+          "title": "网页导航练习",
+          "prompt_id": "ucas_2026:q3",
+          "match_types": [
+            "skill_knowledge",
+            "mindset_scenario",
+            "interest_direction"
+          ],
+          "match_labels": [
+            "技能与知识匹配",
+            "思维与场景匹配",
+            "志趣与方向匹配"
+          ],
+          "angle": "探讨「网页导航练习」中本人采取的做法及其思考",
+          "evidence_quote": null,
+          "evidence": [
+            {
+              "id": "exp_2:process:0",
+              "element": "process",
+              "text": "修改模板导航链接",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:knowledge:0",
+              "element": "knowledge",
+              "text": "HTML",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "运用知识"
+            },
+            {
+              "id": "exp_2:outcome:0",
+              "element": "outcome",
+              "text": "本地页面",
+              "source": "cv:experience:2",
+              "confirmation": "recorded_cv",
+              "label": "最终收获"
+            },
+            {
+              "id": "exp_2:problem:7",
+              "element": "problem",
+              "text": "第一次记录有一处缺项，需要重新核对。",
+              "source": "dialog:r7",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_2:solution:7",
+              "element": "solution",
+              "text": "需要重新核对",
+              "source": "dialog:r7",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_2:solution:8",
+              "element": "solution",
+              "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r8",
+              "confirmation": "student_stated",
+              "label": "解决方法"
+            },
+            {
+              "id": "exp_2:process:8",
+              "element": "process",
+              "text": "回看原始资料并向知情同学或老师确认",
+              "source": "dialog:r8",
+              "confirmation": "student_stated",
+              "label": "行为过程"
+            },
+            {
+              "id": "exp_2:reflection:9",
+              "element": "reflection",
+              "text": "这份网页是另一段作品，不能证明数组题写过代码。",
+              "source": "dialog:r9",
+              "confirmation": "student_stated",
+              "label": "个人思考"
+            },
+            {
+              "id": "exp_2:problem:9",
+              "element": "problem",
+              "text": "这份网页是另一段作品，不能证明数组题写过代码。",
+              "source": "dialog:r9",
+              "confirmation": "student_stated",
+              "label": "遇到的问题"
+            },
+            {
+              "id": "exp_2:deep:concept:10",
+              "element": "deep:concept",
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r10",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:alternative:11",
+              "element": "deep:alternative",
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r11",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            },
+            {
+              "id": "exp_2:deep:limit:12",
+              "element": "deep:limit",
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r12",
+              "confirmation": "student_stated",
+              "label": "专业深挖"
+            }
+          ],
+          "key_points": [
+            "遇到的问题：第一次记录有一处缺项，需要重新核对。",
+            "解决方法：需要重新核对",
+            "解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。",
+            "个人思考：这份网页是另一段作品，不能证明数组题写过代码。"
+          ],
+          "narrative": "行为过程：修改模板导航链接。 运用知识：HTML。 最终收获：本地页面。 遇到的问题：第一次记录有一处缺项，需要重新核对。。 解决方法：需要重新核对。 解决方法：我回看原始资料并向知情同学或老师确认，再补上记录。。 行为过程：回看原始资料并向知情同学或老师确认。 个人思考：这份网页是另一段作品，不能证明数组题写过代码。。 遇到的问题：这份网页是另一段作品，不能证明数组题写过代码。。 专业深挖：这段经历没有进一步的专业方法证据，我不想为了申请补写概念。。 专业深挖：我试过凭记忆填写，后来选择先核对原始资料。。 专业深挖：这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。。",
+          "usage": "可作为 ucas_2026:q3 的候选素材；按学生能讲清的细节决定篇幅。",
+          "adcom_view": [
+            "可看到学生本人承担的工作与后续思考"
+          ],
+          "other_uses": [
+            "推荐信可请知情老师核对本人贡献；面试可追问做法与取舍。"
+          ],
+          "pairing": "纸面解题与网页作品",
+          "guide_note": "适合围绕探讨「网页导航练习」中本人采取的做法及其思考与学生继续核实。写作时只使用上方已记录的事实；空缺项留待追问。",
+          "translated_positioning": "这份网页是另一段作品，不能证明数组题写过代码。",
+          "deep_dive": {
+            "concept": {
+              "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+              "source": "dialog:r10"
+            },
+            "alternative": {
+              "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+              "source": "dialog:r11"
+            },
+            "limit": {
+              "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+              "source": "dialog:r12"
+            }
+          },
+          "missing": [],
+          "status": "core_usable",
+          "proof_targets": [
+            {
+              "kind": "knowledge",
+              "claim": "HTML",
+              "source": "cv:experience:2"
+            },
+            {
+              "kind": "process",
+              "claim": "修改模板导航链接\n回看原始资料并向知情同学或老师确认",
+              "source": "dialog:r8"
+            },
+            {
+              "kind": "solution",
+              "claim": "需要重新核对\n我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "source": "dialog:r8"
+            },
+            {
+              "kind": "reflection",
+              "claim": "这份网页是另一段作品，不能证明数组题写过代码。",
+              "source": "dialog:r9"
+            }
+          ],
+          "caveats": [],
+          "sources": {
+            "process": "dialog:r8",
+            "knowledge": "cv:experience:2",
+            "outcome": "cv:experience:2",
+            "problem": "dialog:r9",
+            "solution": "dialog:r8",
+            "reflection": "dialog:r9"
+          },
+          "suggested_points": []
+        }
+      ],
+      "claim_audit": [
+        {
+          "kind": "angle",
+          "experience_id": "exp_1",
+          "claim": "展示了对数组索引边界问题的深入理解和严谨的编码前准备过程",
+          "status": "supported",
+          "segments": [
+            {
+              "text": "展示了对数组索引边界问题的深入理解",
+              "status": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:deep:concept:4",
+                  "quote": "数组合法索引与元素数量不同，我能用具体例子说明。",
+                  "source": "dialog:r4",
+                  "confirmation": "student_stated"
+                }
+              ],
+              "reason": "学生陈述了对数组索引边界的具体理解，能用例子说明索引与元素数量的区别，体现了深入理解。"
+            },
+            {
+              "text": "和严谨的编码前准备过程",
+              "status": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:reflection:3",
+                  "quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+                  "source": "dialog:r3",
+                  "confirmation": "student_stated"
+                },
+                {
+                  "fact_id": "exp_1:process:3",
+                  "quote": "写代码之前纸面检查",
+                  "source": "dialog:r3",
+                  "confirmation": "student_stated"
+                }
+              ],
+              "reason": "学生多次强调写代码前的纸面检查，体现了严谨的编码前准备过程。"
+            }
+          ],
+          "original_status": "supported",
+          "suggested_wording": null,
+          "accepted_wording": "展示了对数组索引边界问题的深入理解和严谨的编码前准备过程"
+        },
+        {
+          "kind": "angle",
+          "experience_id": "exp_2",
+          "claim": "反思网页导航练习中核对资料的重要性及对代码准确性的重视",
+          "status": "insufficient",
+          "segments": [
+            {
+              "text": "反思网页导航练习中核对资料的重要性",
+              "status": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_2:solution:7",
+                  "quote": "需要重新核对",
+                  "source": "dialog:r7",
+                  "confirmation": "student_stated"
+                },
+                {
+                  "fact_id": "exp_2:solution:8",
+                  "quote": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+                  "source": "dialog:r8",
+                  "confirmation": "student_stated"
+                }
+              ],
+              "reason": "学生明确表示发现缺项后需要重新核对，并采取了回看资料和询问他人的方法，体现了对核对资料重要性的反思。"
+            },
+            {
+              "text": "及对代码准确性的重视",
+              "status": "insufficient",
+              "evidence": [],
+              "reason": "学生反思的是网页作品与数组题代码的区别，未直接体现对代码准确性的重视，缺乏直接事实支撑。"
+            }
+          ],
+          "original_status": "insufficient",
+          "suggested_wording": "反思网页导航练习中核对资料的重要性",
+          "accepted_wording": null
+        },
+        {
+          "kind": "thesis",
+          "experience_id": null,
+          "claim": "通过纸面解题和网页导航练习，学生展现了对计算机科学基础知识的理解和严谨的学习态度，体现了对编程细节和网页开发的兴趣与反思能力。",
+          "status": "incomplete_segmentation",
+          "segments": [],
+          "original_status": "incomplete_segmentation",
+          "suggested_wording": null,
+          "accepted_wording": null
+        }
+      ],
+      "open_questions": [
+        "关于「网页导航练习」：「及对代码准确性的重视」需要什么具体做法、比较依据或结果来支持？",
+        "关于申请主线：「通过纸面解题和网页导航练习，学生展现了对计算机科学基础知识的理解和严谨的学习态度，体现了对编程细节和网页开发的兴趣与反思能力。」需要什么具体做法、比较依据或结果来支持？"
+      ],
+      "checks": {
+        "professional_cognition": "已有至少一段本人反思或专业问题说明；需核对其学术准确性。",
+        "connection": "至少一段经历具备可指认的知识、方法或兴趣匹配；仍需核对相关性。",
+        "growth": "多段经历均记录了个人反思；可进一步核对真实的递进关系。"
+      },
+      "programme_gaps": [],
+      "mode": "live_model",
+      "notice": "这是头脑风暴素材包，不是个人陈述成稿；待探讨内容不得写成学生事实。"
+    }
+  },
+  "failures": {},
+  "failure_stage": null,
+  "proposal": {
+    "thesis_claim": "通过纸面解题和网页导航练习，学生展现了对计算机科学基础知识的理解和严谨的学习态度，体现了对编程细节和网页开发的兴趣与反思能力。",
+    "thesis_evidence_quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+    "materials": [
+      {
+        "experience_id": "exp_1",
+        "angle": "展示了对数组索引边界问题的深入理解和严谨的编码前准备过程",
+        "evidence_quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+        "guide_note": "用于说明学生对编程细节的关注和问题解决的思考过程，适合回答学科兴趣和学术准备相关问题",
+        "translated_positioning": "学生能够识别数组索引与元素数量的差异，采用具体例子说明边界问题，体现了基础编程能力和逻辑思维。"
+      },
+      {
+        "experience_id": "exp_2",
+        "angle": "反思网页导航练习中核对资料的重要性及对代码准确性的重视",
+        "evidence_quote": "这份网页是另一段作品，不能证明数组题写过代码。",
+        "guide_note": "用于说明学生对学习材料的严谨态度和对代码来源的准确区分，适合回答学科准备和课外经历相关问题",
+        "translated_positioning": "学生意识到不同项目的界限，主动核对原始资料并向他人确认，体现了严谨的学习态度和对专业知识的尊重。"
+      }
+    ],
+    "sections": [
+      {
+        "prompt_id": "ucas_2026:q1",
+        "material_ids": [
+          "exp_1"
+        ],
+        "strategy": "利用学生对数组边界问题的深入理解和纸面分析过程，展示其对计算机科学中基础编程问题的兴趣和批判性思考，避免空泛的兴趣描述。"
+      },
+      {
+        "prompt_id": "ucas_2026:q2",
+        "material_ids": [
+          "exp_1",
+          "exp_2"
+        ],
+        "strategy": "结合纸面解题中对边界问题的反思和网页导航练习中对资料核对的严谨态度，说明学生如何通过课内学习和相关实践深化对计算机科学的理解。"
+      },
+      {
+        "prompt_id": "ucas_2026:q3",
+        "material_ids": [
+          "exp_2"
+        ],
+        "strategy": "强调学生在课外网页导航项目中主动核对资料和向他人确认的经历，体现其对专业知识准确性的重视和批判性参与，展示与课程相关的实践经验。"
+      }
+    ]
+  },
+  "reviews": {
+    "first": {
+      "claims": [
+        {
+          "kind": "angle",
+          "experience_id": "exp_1",
+          "claim": "展示了对数组索引边界问题的深入理解和严谨的编码前准备过程",
+          "segments": [
+            {
+              "text": "展示了对数组索引边界问题的深入理解",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:deep:concept:4",
+                  "quote": "数组合法索引与元素数量不同，我能用具体例子说明。"
+                }
+              ],
+              "reason": "学生陈述了对数组索引边界的具体理解，能用例子说明索引与元素数量的区别，体现了深入理解。"
+            },
+            {
+              "text": "和严谨的编码前准备过程",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:reflection:3",
+                  "quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。"
+                },
+                {
+                  "fact_id": "exp_1:process:3",
+                  "quote": "写代码之前纸面检查"
+                }
+              ],
+              "reason": "学生多次强调写代码前的纸面检查，体现了严谨的编码前准备过程。"
+            }
+          ],
+          "suggested_wording": ""
+        },
+        {
+          "kind": "angle",
+          "experience_id": "exp_2",
+          "claim": "反思网页导航练习中核对资料的重要性及对代码准确性的重视",
+          "segments": [
+            {
+              "text": "反思网页导航练习中核对资料的重要性",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_2:solution:7",
+                  "quote": "需要重新核对"
+                },
+                {
+                  "fact_id": "exp_2:solution:8",
+                  "quote": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+                }
+              ],
+              "reason": "学生明确表示发现缺项后需要重新核对，并采取了回看资料和询问他人的方法，体现了对核对资料重要性的反思。"
+            },
+            {
+              "text": "及对代码准确性的重视",
+              "verdict": "insufficient",
+              "evidence": [
+                {
+                  "fact_id": "exp_2:reflection:9",
+                  "quote": "这份网页是另一段作品，不能证明数组题写过代码。"
+                }
+              ],
+              "reason": "学生反思的是网页作品与数组题代码的区别，未直接体现对代码准确性的重视，缺乏直接事实支撑。"
+            }
+          ],
+          "suggested_wording": "反思网页导航练习中核对资料的重要性"
+        },
+        {
+          "kind": "thesis",
+          "experience_id": null,
+          "claim": "通过纸面解题和网页导航练习，学生展现了对计算机科学基础知识的理解和严谨的学习态度，体现了对编程细节和网页开发的兴趣与反思能力。",
+          "segments": [
+            {
+              "text": "通过纸面解题和网页导航练习，学生展现了对计算机科学基础知识的理解",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:knowledge:0",
+                  "quote": "Python基础"
+                },
+                {
+                  "fact_id": "exp_2:knowledge:0",
+                  "quote": "HTML"
+                }
+              ],
+              "reason": "学生在两段经历中均涉及计算机科学基础知识（Python基础和HTML），体现了相关知识的理解。"
+            },
+            {
+              "text": "和严谨的学习态度",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:reflection:3",
+                  "quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。"
+                },
+                {
+                  "fact_id": "exp_2:solution:7",
+                  "quote": "需要重新核对"
+                }
+              ],
+              "reason": "学生多次强调细节检查和资料核对，体现了严谨的学习态度。"
+            },
+            {
+              "text": "体现了对编程细节和网页开发的兴趣与反思能力。",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_1:reflection:3",
+                  "quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。"
+                },
+                {
+                  "fact_id": "exp_2:reflection:9",
+                  "quote": "这份网页是另一段作品，不能证明数组题写过代码。"
+                }
+              ],
+              "reason": "学生对数组边界细节的关注和对网页作品的反思，体现了对编程细节和网页开发的兴趣与反思能力。"
+            }
+          ],
+          "suggested_wording": ""
+        }
+      ]
+    },
+    "second": {
+      "claims": [
+        {
+          "kind": "angle",
+          "experience_id": "exp_2",
+          "claim": "反思网页导航练习中核对资料的重要性",
+          "segments": [
+            {
+              "text": "反思网页导航练习中核对资料的重要性",
+              "verdict": "supported",
+              "evidence": [
+                {
+                  "fact_id": "exp_2:problem:7",
+                  "quote": "第一次记录有一处缺项，需要重新核对。"
+                },
+                {
+                  "fact_id": "exp_2:solution:7",
+                  "quote": "需要重新核对"
+                },
+                {
+                  "fact_id": "exp_2:solution:8",
+                  "quote": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+                },
+                {
+                  "fact_id": "exp_2:process:8",
+                  "quote": "回看原始资料并向知情同学或老师确认"
+                }
+              ],
+              "reason": "学生明确陈述网页导航练习中存在记录缺项，反思并采取了重新核对原始资料和向他人确认的措施，体现了对核对资料重要性的认识。"
+            }
+          ],
+          "suggested_wording": ""
+        }
+      ]
+    }
+  },
+  "programmes": [
+    {
+      "id": "manchester_cs_ug",
+      "name": "BSc Computer Science (2027 entry)",
+      "university": "The University of Manchester",
+      "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+      "human_verified": false,
+      "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+      "requirements": [
+        {
+          "id": "manchester_cs_ug:req_02",
+          "text": "A* in Mathematics",
+          "kind": "math_grade",
+          "expected": "A*"
+        },
+        {
+          "id": "manchester_cs_ug:req_03",
+          "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+          "kind": "science_subject",
+          "accepted": [
+            "Computer Science",
+            "Further Mathematics",
+            "Biology",
+            "Chemistry",
+            "Physics"
+          ]
+        }
+      ],
+      "source_requirements": [
+        {
+          "id": "manchester_cs_ug:req_01",
+          "category": "gpa",
+          "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+          "curriculum": "a_level",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_02",
+          "category": "subject",
+          "text": "A* in Mathematics",
+          "curriculum": "a_level",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_03",
+          "category": "subject",
+          "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+          "curriculum": "a_level",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_04",
+          "category": "material",
+          "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_05",
+          "category": "gpa",
+          "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_06",
+          "category": "subject",
+          "text": "including Mathematics",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_07",
+          "category": "subject",
+          "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+          "curriculum": "a_level",
+          "is_mandatory": false,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_08",
+          "category": "gpa",
+          "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_09",
+          "category": "gpa",
+          "text": "7,6,6 in Higher Level subjects",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_10",
+          "category": "subject",
+          "text": "including 7 in Mathematics: Analysis and Approaches",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_11",
+          "category": "subject",
+          "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+          "curriculum": "ib",
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_12",
+          "category": "language",
+          "text": "IELTS 7.0 overall, with no subscore below 6.5",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_13",
+          "category": "language",
+          "text": "no subscore below 6.5",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_14",
+          "category": "language",
+          "text": "TOEFL iBT 100 overall, with no subscore below 22",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_15",
+          "category": "language",
+          "text": "no subscore below 22",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        },
+        {
+          "id": "manchester_cs_ug:req_16",
+          "category": "language",
+          "text": "GCSE/IGCSE English Language grade B/6",
+          "curriculum": null,
+          "is_mandatory": true,
+          "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+          "human_verified": false
+        }
+      ]
+    }
+  ],
+  "state": {
+    "case": {
+      "student": {
+        "id": "eval13",
+        "label": "虚构学生 EVAL13",
+        "subjects": [
+          {
+            "name": "Mathematics",
+            "predicted": "A*"
+          },
+          {
+            "name": "Physics",
+            "predicted": "A"
+          }
+        ],
+        "experiences": [
+          {
+            "id": "exp_1",
+            "title": "纸面解题与网页作品",
+            "role": "手工分析数组题",
+            "skills": [
+              "Python基础"
+            ],
+            "outputs": [
+              "手写解题笔记"
+            ],
+            "type": "academic",
+            "source": "cv:experience:1"
+          },
+          {
+            "id": "exp_2",
+            "title": "网页导航练习",
+            "role": "修改模板导航链接",
+            "skills": [
+              "HTML"
+            ],
+            "outputs": [
+              "本地页面"
+            ],
+            "type": "project",
+            "source": "cv:experience:2"
+          }
+        ]
+      }
+    },
+    "programmes": [
+      {
+        "id": "manchester_cs_ug",
+        "name": "BSc Computer Science (2027 entry)",
+        "university": "The University of Manchester",
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false,
+        "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+        "requirements": [
+          {
+            "id": "manchester_cs_ug:req_02",
+            "text": "A* in Mathematics",
+            "kind": "math_grade",
+            "expected": "A*"
+          },
+          {
+            "id": "manchester_cs_ug:req_03",
+            "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+            "kind": "science_subject",
+            "accepted": [
+              "Computer Science",
+              "Further Mathematics",
+              "Biology",
+              "Chemistry",
+              "Physics"
+            ]
+          }
+        ],
+        "source_requirements": [
+          {
+            "id": "manchester_cs_ug:req_01",
+            "category": "gpa",
+            "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+            "curriculum": "a_level",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_02",
+            "category": "subject",
+            "text": "A* in Mathematics",
+            "curriculum": "a_level",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_03",
+            "category": "subject",
+            "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+            "curriculum": "a_level",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_04",
+            "category": "material",
+            "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_05",
+            "category": "gpa",
+            "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_06",
+            "category": "subject",
+            "text": "including Mathematics",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_07",
+            "category": "subject",
+            "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+            "curriculum": "a_level",
+            "is_mandatory": false,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_08",
+            "category": "gpa",
+            "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_09",
+            "category": "gpa",
+            "text": "7,6,6 in Higher Level subjects",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_10",
+            "category": "subject",
+            "text": "including 7 in Mathematics: Analysis and Approaches",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_11",
+            "category": "subject",
+            "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+            "curriculum": "ib",
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_12",
+            "category": "language",
+            "text": "IELTS 7.0 overall, with no subscore below 6.5",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_13",
+            "category": "language",
+            "text": "no subscore below 6.5",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_14",
+            "category": "language",
+            "text": "TOEFL iBT 100 overall, with no subscore below 22",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_15",
+            "category": "language",
+            "text": "no subscore below 22",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          },
+          {
+            "id": "manchester_cs_ug:req_16",
+            "category": "language",
+            "text": "GCSE/IGCSE English Language grade B/6",
+            "curriculum": null,
+            "is_mandatory": true,
+            "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+            "human_verified": false
+          }
+        ]
+      }
+    ],
+    "records": [
+      {
+        "experience_id": "exp_1",
+        "title": "纸面解题与网页作品",
+        "type": "academic",
+        "values": {
+          "process": "手工分析数组题\n我从零开始画每个位置，逐步检查循环何时停止。\n写代码之前纸面检查",
+          "knowledge": "Python基础",
+          "problem": "最后一个索引会超出数组长度。\n边界需要单独看",
+          "solution": "我从零开始画每个位置，逐步检查循环何时停止。",
+          "reflection": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+          "outcome": "手写解题笔记"
+        },
+        "sources": {
+          "process": "dialog:r3",
+          "knowledge": "cv:experience:1",
+          "outcome": "cv:experience:1",
+          "problem": "dialog:r3",
+          "solution": "dialog:r2",
+          "reflection": "dialog:r3"
+        },
+        "fact_items": [
+          {
+            "id": "exp_1:process:0",
+            "element": "process",
+            "text": "手工分析数组题",
+            "source": "cv:experience:1",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_1:knowledge:0",
+            "element": "knowledge",
+            "text": "Python基础",
+            "source": "cv:experience:1",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_1:outcome:0",
+            "element": "outcome",
+            "text": "手写解题笔记",
+            "source": "cv:experience:1",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_1:problem:1",
+            "element": "problem",
+            "text": "最后一个索引会超出数组长度。",
+            "source": "dialog:r1",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:solution:2",
+            "element": "solution",
+            "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+            "source": "dialog:r2",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:process:2",
+            "element": "process",
+            "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+            "source": "dialog:r2",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:reflection:3",
+            "element": "reflection",
+            "text": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+            "source": "dialog:r3",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:process:3",
+            "element": "process",
+            "text": "写代码之前纸面检查",
+            "source": "dialog:r3",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:problem:3",
+            "element": "problem",
+            "text": "边界需要单独看",
+            "source": "dialog:r3",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:deep:concept:4",
+            "element": "deep:concept",
+            "text": "数组合法索引与元素数量不同，我能用具体例子说明。",
+            "source": "dialog:r4",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:deep:alternative:5",
+            "element": "deep:alternative",
+            "text": "我比较过从一和从零编号，按题目要求使用从零编号。",
+            "source": "dialog:r5",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_1:deep:limit:6",
+            "element": "deep:limit",
+            "text": "不能把另一段网页代码当成这道题的实现。",
+            "source": "dialog:r6",
+            "confirmation": "student_stated"
+          }
+        ],
+        "skipped": [],
+        "deep": {
+          "concept": {
+            "text": "数组合法索引与元素数量不同，我能用具体例子说明。",
+            "source": "dialog:r4"
+          },
+          "alternative": {
+            "text": "我比较过从一和从零编号，按题目要求使用从零编号。",
+            "source": "dialog:r5"
+          },
+          "limit": {
+            "text": "不能把另一段网页代码当成这道题的实现。",
+            "source": "dialog:r6"
+          }
+        },
+        "verified": true
+      },
+      {
+        "experience_id": "exp_2",
+        "title": "网页导航练习",
+        "type": "project",
+        "values": {
+          "process": "修改模板导航链接\n回看原始资料并向知情同学或老师确认",
+          "knowledge": "HTML",
+          "problem": "第一次记录有一处缺项，需要重新核对。\n这份网页是另一段作品，不能证明数组题写过代码。",
+          "solution": "需要重新核对\n我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "reflection": "这份网页是另一段作品，不能证明数组题写过代码。",
+          "outcome": "本地页面"
+        },
+        "sources": {
+          "process": "dialog:r8",
+          "knowledge": "cv:experience:2",
+          "outcome": "cv:experience:2",
+          "problem": "dialog:r9",
+          "solution": "dialog:r8",
+          "reflection": "dialog:r9"
+        },
+        "fact_items": [
+          {
+            "id": "exp_2:process:0",
+            "element": "process",
+            "text": "修改模板导航链接",
+            "source": "cv:experience:2",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_2:knowledge:0",
+            "element": "knowledge",
+            "text": "HTML",
+            "source": "cv:experience:2",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_2:outcome:0",
+            "element": "outcome",
+            "text": "本地页面",
+            "source": "cv:experience:2",
+            "confirmation": "recorded_cv"
+          },
+          {
+            "id": "exp_2:problem:7",
+            "element": "problem",
+            "text": "第一次记录有一处缺项，需要重新核对。",
+            "source": "dialog:r7",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:solution:7",
+            "element": "solution",
+            "text": "需要重新核对",
+            "source": "dialog:r7",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:solution:8",
+            "element": "solution",
+            "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+            "source": "dialog:r8",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:process:8",
+            "element": "process",
+            "text": "回看原始资料并向知情同学或老师确认",
+            "source": "dialog:r8",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:reflection:9",
+            "element": "reflection",
+            "text": "这份网页是另一段作品，不能证明数组题写过代码。",
+            "source": "dialog:r9",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:problem:9",
+            "element": "problem",
+            "text": "这份网页是另一段作品，不能证明数组题写过代码。",
+            "source": "dialog:r9",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:deep:concept:10",
+            "element": "deep:concept",
+            "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+            "source": "dialog:r10",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:deep:alternative:11",
+            "element": "deep:alternative",
+            "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+            "source": "dialog:r11",
+            "confirmation": "student_stated"
+          },
+          {
+            "id": "exp_2:deep:limit:12",
+            "element": "deep:limit",
+            "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+            "source": "dialog:r12",
+            "confirmation": "student_stated"
+          }
+        ],
+        "skipped": [],
+        "deep": {
+          "concept": {
+            "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+            "source": "dialog:r10"
+          },
+          "alternative": {
+            "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+            "source": "dialog:r11"
+          },
+          "limit": {
+            "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+            "source": "dialog:r12"
+          }
+        },
+        "verified": true
+      }
+    ],
+    "round": 12,
+    "messages": [
+      {
+        "question": {
+          "id": "exp_1:problem",
+          "experience_id": "exp_1",
+          "element": "problem",
+          "text": "「纸面解题与网页作品」里最具体的一个困难是什么？当时卡在哪里？"
+        },
+        "answer": "最后一个索引会超出数组长度。"
+      },
+      {
+        "question": {
+          "id": "exp_1:solution",
+          "experience_id": "exp_1",
+          "element": "solution",
+          "text": "你提到「最后一个索引会超出数组长度。」。你尝试过什么办法，为什么选了最后的做法？"
+        },
+        "answer": "我从零开始画每个位置，逐步检查循环何时停止。"
+      },
+      {
+        "question": {
+          "id": "exp_1:reflection",
+          "experience_id": "exp_1",
+          "element": "reflection",
+          "text": "「纸面解题与网页作品」之后，你对计算机科学产生了什么新疑问或想法？"
+        },
+        "answer": "边界需要单独看，写代码之前纸面检查也能暴露问题。"
+      },
+      {
+        "question": {
+          "id": "exp_1:deep:concept",
+          "experience_id": "exp_1",
+          "element": "deep:concept",
+          "text": "关于「纸面解题与网页作品」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？"
+        },
+        "answer": "数组合法索引与元素数量不同，我能用具体例子说明。"
+      },
+      {
+        "question": {
+          "id": "exp_1:deep:alternative",
+          "experience_id": "exp_1",
+          "element": "deep:alternative",
+          "text": "关于「纸面解题与网页作品」：回头看这个做法，当时还有什么其他选择？你如何比较它们？"
+        },
+        "answer": "我比较过从一和从零编号，按题目要求使用从零编号。"
+      },
+      {
+        "question": {
+          "id": "exp_1:deep:limit",
+          "experience_id": "exp_1",
+          "element": "deep:limit",
+          "text": "关于「纸面解题与网页作品」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？"
+        },
+        "answer": "不能把另一段网页代码当成这道题的实现。"
+      },
+      {
+        "question": {
+          "id": "exp_2:problem",
+          "experience_id": "exp_2",
+          "element": "problem",
+          "text": "「网页导航练习」里最具体的一个困难是什么？当时卡在哪里？"
+        },
+        "answer": "第一次记录有一处缺项，需要重新核对。"
+      },
+      {
+        "question": {
+          "id": "exp_2:solution",
+          "experience_id": "exp_2",
+          "element": "solution",
+          "text": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？"
+        },
+        "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+      },
+      {
+        "question": {
+          "id": "exp_2:reflection",
+          "experience_id": "exp_2",
+          "element": "reflection",
+          "text": "「网页导航练习」之后，你对计算机科学产生了什么新疑问或想法？"
+        },
+        "answer": "这份网页是另一段作品，不能证明数组题写过代码。"
+      },
+      {
+        "question": {
+          "id": "exp_2:deep:concept",
+          "experience_id": "exp_2",
+          "element": "deep:concept",
+          "text": "关于「网页导航练习」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？"
+        },
+        "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+      },
+      {
+        "question": {
+          "id": "exp_2:deep:alternative",
+          "experience_id": "exp_2",
+          "element": "deep:alternative",
+          "text": "关于「网页导航练习」：回头看这个做法，当时还有什么其他选择？你如何比较它们？"
+        },
+        "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+      },
+      {
+        "question": {
+          "id": "exp_2:deep:limit",
+          "experience_id": "exp_2",
+          "element": "deep:limit",
+          "text": "关于「网页导航练习」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？"
+        },
+        "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    ],
+    "finished": false,
+    "result": null,
+    "model_usage": null
+  },
+  "calls": [
+    {
+      "call_id": "call_105",
+      "case_id": "EVAL13",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 172,
+        "completion_tokens": 44,
+        "total_tokens": 216,
+        "cost": 0.0001392,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001392,
+          "upstream_inference_prompt_cost": 6.88e-05,
+          "upstream_inference_completions_cost": 7.04e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001392,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「纸面解题与网页作品」里最具体的一个困难是什么？当时卡在哪里？",
+        "answer": "最后一个索引会超出数组长度。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "",
+        "knowledge": "",
+        "problem": "最后一个索引会超出数组长度。",
+        "solution": "",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 1.1438
+    },
+    {
+      "call_id": "call_106",
+      "case_id": "EVAL13",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 187,
+        "completion_tokens": 51,
+        "total_tokens": 238,
+        "cost": 0.0001564,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001564,
+          "upstream_inference_prompt_cost": 7.48e-05,
+          "upstream_inference_completions_cost": 8.16e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001564,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "你提到「最后一个索引会超出数组长度。」。你尝试过什么办法，为什么选了最后的做法？",
+        "answer": "我从零开始画每个位置，逐步检查循环何时停止。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "我从零开始画每个位置，逐步检查循环何时停止。",
+        "knowledge": "",
+        "problem": "",
+        "solution": "",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 1.1175
+    },
+    {
+      "call_id": "call_107",
+      "case_id": "EVAL13",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 184,
+        "completion_tokens": 60,
+        "total_tokens": 244,
+        "cost": 0.0001696,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001696,
+          "upstream_inference_prompt_cost": 7.36e-05,
+          "upstream_inference_completions_cost": 9.6e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001696,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「纸面解题与网页作品」之后，你对计算机科学产生了什么新疑问或想法？",
+        "answer": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "写代码之前纸面检查",
+        "knowledge": "",
+        "problem": "边界需要单独看",
+        "solution": "",
+        "reflection": "写代码之前纸面检查也能暴露问题",
+        "outcome": ""
+      },
+      "latency_s": 1.0415
+    },
+    {
+      "call_id": "call_108",
+      "case_id": "EVAL13",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 171,
+        "completion_tokens": 47,
+        "total_tokens": 218,
+        "cost": 0.0001436,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001436,
+          "upstream_inference_prompt_cost": 6.84e-05,
+          "upstream_inference_completions_cost": 7.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001436,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「网页导航练习」里最具体的一个困难是什么？当时卡在哪里？",
+        "answer": "第一次记录有一处缺项，需要重新核对。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "",
+        "knowledge": "",
+        "problem": "第一次记录有一处缺项",
+        "solution": "需要重新核对",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 1.0547
+    },
+    {
+      "call_id": "call_109",
+      "case_id": "EVAL13",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 192,
+        "completion_tokens": 70,
+        "total_tokens": 262,
+        "cost": 0.0001888,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001888,
+          "upstream_inference_prompt_cost": 7.68e-05,
+          "upstream_inference_completions_cost": 0.000112
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001888,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+        "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "回看原始资料并向知情同学或老师确认",
+        "knowledge": "",
+        "problem": "第一次记录有一处缺项",
+        "solution": "向知情同学或老师确认，再补上记录",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 1.2643
+    },
+    {
+      "call_id": "call_110",
+      "case_id": "EVAL13",
+      "arm": "shared",
+      "stage": "answer_parse",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 178,
+        "completion_tokens": 50,
+        "total_tokens": 228,
+        "cost": 0.0001512,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001512,
+          "upstream_inference_prompt_cost": 7.12e-05,
+          "upstream_inference_completions_cost": 8e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0001512,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "把学生这一条回答归入六要素；没有明确说到的字段留空。",
+        "question": "「网页导航练习」之后，你对计算机科学产生了什么新疑问或想法？",
+        "answer": "这份网页是另一段作品，不能证明数组题写过代码。",
+        "keys": [
+          "process",
+          "knowledge",
+          "problem",
+          "solution",
+          "reflection",
+          "outcome"
+        ],
+        "rule": "只引用回答中的内容，不添加新事实。返回以六要素英文键为键的 JSON 对象。"
+      },
+      "max_tokens": 700,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "process": "",
+        "knowledge": "",
+        "problem": "这份网页是另一段作品，不能证明数组题写过代码。",
+        "solution": "",
+        "reflection": "",
+        "outcome": ""
+      },
+      "latency_s": 0.9169
+    },
+    {
+      "call_id": "call_111",
+      "case_id": "EVAL13",
+      "arm": "shared",
+      "stage": "brief_generation",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1770,
+        "completion_tokens": 646,
+        "total_tokens": 2416,
+        "cost": 0.0017416,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0017416,
+          "upstream_inference_prompt_cost": 0.000708,
+          "upstream_inference_completions_cost": 0.0010336
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0017416,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "按 UCAS 三问，为文书老师整理完整头脑风暴素材包，不写个人陈述成稿。",
+        "evidence": [
+          {
+            "experience_id": "exp_1",
+            "title": "纸面解题与网页作品",
+            "values": {
+              "process": "手工分析数组题\n我从零开始画每个位置，逐步检查循环何时停止。\n写代码之前纸面检查",
+              "knowledge": "Python基础",
+              "problem": "最后一个索引会超出数组长度。\n边界需要单独看",
+              "solution": "我从零开始画每个位置，逐步检查循环何时停止。",
+              "reflection": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+              "outcome": "手写解题笔记"
+            },
+            "deep": {
+              "concept": {
+                "text": "数组合法索引与元素数量不同，我能用具体例子说明。",
+                "source": "dialog:r4"
+              },
+              "alternative": {
+                "text": "我比较过从一和从零编号，按题目要求使用从零编号。",
+                "source": "dialog:r5"
+              },
+              "limit": {
+                "text": "不能把另一段网页代码当成这道题的实现。",
+                "source": "dialog:r6"
+              }
+            }
+          },
+          {
+            "experience_id": "exp_2",
+            "title": "网页导航练习",
+            "values": {
+              "process": "修改模板导航链接\n回看原始资料并向知情同学或老师确认",
+              "knowledge": "HTML",
+              "problem": "第一次记录有一处缺项，需要重新核对。\n这份网页是另一段作品，不能证明数组题写过代码。",
+              "solution": "需要重新核对\n我回看原始资料并向知情同学或老师确认，再补上记录。",
+              "reflection": "这份网页是另一段作品，不能证明数组题写过代码。",
+              "outcome": "本地页面"
+            },
+            "deep": {
+              "concept": {
+                "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+                "source": "dialog:r10"
+              },
+              "alternative": {
+                "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+                "source": "dialog:r11"
+              },
+              "limit": {
+                "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+                "source": "dialog:r12"
+              }
+            }
+          }
+        ],
+        "required_material_experience_ids": [
+          "exp_1",
+          "exp_2"
+        ],
+        "ucas_questions": [
+          {
+            "id": "ucas_2026:q1",
+            "question": "Why do you want to study this course or subject?",
+            "focus": "学科兴趣的真实来源、对学科重大问题的批判性参与、希望深耕的细分领域",
+            "avoid": [
+              "避免讨论未来的职业规划——个人陈述应反映你个人的学术兴趣。",
+              "避免「我从小就梦想…」这类没有起源事件的空话。"
+            ]
+          },
+          {
+            "id": "ucas_2026:q2",
+            "question": "How have your qualifications and studies helped you to prepare for this course or subject?",
+            "focus": "课内学习与超课程活动（super-curricular）如何递进地加深学科认知，重在反思而非罗列",
+            "avoid": [
+              "无需讨论所有当前学习，只谈与所选科目相关的部分。",
+              "不要罗列课程科目清单——资格部分会显示这些信息。"
+            ]
+          },
+          {
+            "id": "ucas_2026:q3",
+            "question": "What else have you done to prepare outside of education, and why are these experiences useful?",
+            "focus": "课外经历（实习、项目、社会实践）如何拓宽对学科主题的理解，与课程相关性是关键",
+            "avoid": [
+              "确保回答与所申请课程相关，并展示对该学科的批判性参与；与课程无关的可转移技能（如球队领导力）分量应远低于学术内容。"
+            ]
+          }
+        ],
+        "programmes": [
+          {
+            "id": "manchester_cs_ug",
+            "name": "BSc Computer Science (2027 entry)",
+            "requirement_hints": [
+              {
+                "id": "manchester_cs_ug:req_02",
+                "category": "subject",
+                "text": "A* in Mathematics",
+                "curriculum": "a_level",
+                "is_mandatory": true,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_03",
+                "category": "subject",
+                "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+                "curriculum": "a_level",
+                "is_mandatory": true,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_04",
+                "category": "material",
+                "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+                "curriculum": "a_level",
+                "is_mandatory": false,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_06",
+                "category": "subject",
+                "text": "including Mathematics",
+                "curriculum": "a_level",
+                "is_mandatory": false,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              },
+              {
+                "id": "manchester_cs_ug:req_07",
+                "category": "subject",
+                "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+                "curriculum": "a_level",
+                "is_mandatory": false,
+                "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+                "human_verified": false
+              }
+            ]
+          }
+        ],
+        "output_schema": {
+          "thesis_claim": "基于已确认经历的候选主线",
+          "thesis_evidence_quote": "从一条学生原话逐字复制的短句",
+          "materials": [
+            {
+              "experience_id": "exp_1",
+              "angle": "候选写作角度",
+              "evidence_quote": "从某一条 values 原文逐字复制的短句",
+              "guide_note": "写作用途和限制",
+              "translated_positioning": "专业语言转译，未经确认的推断须标明候选"
+            }
+          ],
+          "sections": [
+            {
+              "prompt_id": "ucas_2026:q1",
+              "material_ids": [
+                "mat_1"
+              ],
+              "strategy": "这道题如何使用已确认素材"
+            }
+          ]
+        },
+        "rules": [
+          "materials必须对required_material_experience_ids中的每个ID恰好输出一条，不能遗漏、重复、合并或新增ID。示例中的exp_1只是占位符。",
+          "证据不足的经历也保留一条材料，angle明确写待核实的讨论方向；不得编造事实以补齐。",
+          "只使用给定经历 ID 与 UCAS 三问 ID。",
+          "每条材料必须提供逐字证据引文；没有任何学生原话可引用时用空串并注明待核实。",
+          "不把学生未说出的算法优化、成绩或专业认知写成事实。",
+          "素材不足的题目写明缺口，不编造填满。"
+        ]
+      },
+      "max_tokens": 4000,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "thesis_claim": "通过纸面解题和网页导航练习，学生展现了对计算机科学基础知识的理解和严谨的学习态度，体现了对编程细节和网页开发的兴趣与反思能力。",
+        "thesis_evidence_quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+        "materials": [
+          {
+            "experience_id": "exp_1",
+            "angle": "展示了对数组索引边界问题的深入理解和严谨的编码前准备过程",
+            "evidence_quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+            "guide_note": "用于说明学生对编程细节的关注和问题解决的思考过程，适合回答学科兴趣和学术准备相关问题",
+            "translated_positioning": "学生能够识别数组索引与元素数量的差异，采用具体例子说明边界问题，体现了基础编程能力和逻辑思维。"
+          },
+          {
+            "experience_id": "exp_2",
+            "angle": "反思网页导航练习中核对资料的重要性及对代码准确性的重视",
+            "evidence_quote": "这份网页是另一段作品，不能证明数组题写过代码。",
+            "guide_note": "用于说明学生对学习材料的严谨态度和对代码来源的准确区分，适合回答学科准备和课外经历相关问题",
+            "translated_positioning": "学生意识到不同项目的界限，主动核对原始资料并向他人确认，体现了严谨的学习态度和对专业知识的尊重。"
+          }
+        ],
+        "sections": [
+          {
+            "prompt_id": "ucas_2026:q1",
+            "material_ids": [
+              "exp_1"
+            ],
+            "strategy": "利用学生对数组边界问题的深入理解和纸面分析过程，展示其对计算机科学中基础编程问题的兴趣和批判性思考，避免空泛的兴趣描述。"
+          },
+          {
+            "prompt_id": "ucas_2026:q2",
+            "material_ids": [
+              "exp_1",
+              "exp_2"
+            ],
+            "strategy": "结合纸面解题中对边界问题的反思和网页导航练习中对资料核对的严谨态度，说明学生如何通过课内学习和相关实践深化对计算机科学的理解。"
+          },
+          {
+            "prompt_id": "ucas_2026:q3",
+            "material_ids": [
+              "exp_2"
+            ],
+            "strategy": "强调学生在课外网页导航项目中主动核对资料和向他人确认的经历，体现其对专业知识准确性的重视和批判性参与，展示与课程相关的实践经验。"
+          }
+        ]
+      },
+      "latency_s": 4.1882
+    },
+    {
+      "call_id": "call_112",
+      "case_id": "EVAL13",
+      "arm": "full_guardrail",
+      "stage": "claim_review",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1935,
+        "completion_tokens": 1176,
+        "total_tokens": 3111,
+        "cost": 0.0026556,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0026556,
+          "upstream_inference_prompt_cost": 0.000774,
+          "upstream_inference_completions_cost": 0.0018816
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0026556,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "独立核查候选论点中每一项具体主张与学生事实之间的关系。",
+        "facts": [
+          {
+            "experience_id": "exp_1",
+            "title": "纸面解题与网页作品",
+            "facts": [
+              {
+                "id": "exp_1:process:0",
+                "element": "process",
+                "text": "手工分析数组题",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:knowledge:0",
+                "element": "knowledge",
+                "text": "Python基础",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:outcome:0",
+                "element": "outcome",
+                "text": "手写解题笔记",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:problem:1",
+                "element": "problem",
+                "text": "最后一个索引会超出数组长度。",
+                "source": "dialog:r1",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:solution:2",
+                "element": "solution",
+                "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+                "source": "dialog:r2",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:process:2",
+                "element": "process",
+                "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+                "source": "dialog:r2",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:reflection:3",
+                "element": "reflection",
+                "text": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+                "source": "dialog:r3",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:process:3",
+                "element": "process",
+                "text": "写代码之前纸面检查",
+                "source": "dialog:r3",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:problem:3",
+                "element": "problem",
+                "text": "边界需要单独看",
+                "source": "dialog:r3",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:concept:4",
+                "element": "deep:concept",
+                "text": "数组合法索引与元素数量不同，我能用具体例子说明。",
+                "source": "dialog:r4",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:alternative:5",
+                "element": "deep:alternative",
+                "text": "我比较过从一和从零编号，按题目要求使用从零编号。",
+                "source": "dialog:r5",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:limit:6",
+                "element": "deep:limit",
+                "text": "不能把另一段网页代码当成这道题的实现。",
+                "source": "dialog:r6",
+                "confirmation": "student_stated"
+              }
+            ]
+          },
+          {
+            "experience_id": "exp_2",
+            "title": "网页导航练习",
+            "facts": [
+              {
+                "id": "exp_2:process:0",
+                "element": "process",
+                "text": "修改模板导航链接",
+                "source": "cv:experience:2",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_2:knowledge:0",
+                "element": "knowledge",
+                "text": "HTML",
+                "source": "cv:experience:2",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_2:outcome:0",
+                "element": "outcome",
+                "text": "本地页面",
+                "source": "cv:experience:2",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_2:problem:7",
+                "element": "problem",
+                "text": "第一次记录有一处缺项，需要重新核对。",
+                "source": "dialog:r7",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:solution:7",
+                "element": "solution",
+                "text": "需要重新核对",
+                "source": "dialog:r7",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:solution:8",
+                "element": "solution",
+                "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+                "source": "dialog:r8",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:process:8",
+                "element": "process",
+                "text": "回看原始资料并向知情同学或老师确认",
+                "source": "dialog:r8",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:reflection:9",
+                "element": "reflection",
+                "text": "这份网页是另一段作品，不能证明数组题写过代码。",
+                "source": "dialog:r9",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:problem:9",
+                "element": "problem",
+                "text": "这份网页是另一段作品，不能证明数组题写过代码。",
+                "source": "dialog:r9",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:concept:10",
+                "element": "deep:concept",
+                "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+                "source": "dialog:r10",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:alternative:11",
+                "element": "deep:alternative",
+                "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+                "source": "dialog:r11",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:limit:12",
+                "element": "deep:limit",
+                "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+                "source": "dialog:r12",
+                "confirmation": "student_stated"
+              }
+            ]
+          }
+        ],
+        "claims": [
+          {
+            "kind": "angle",
+            "experience_id": "exp_1",
+            "claim": "展示了对数组索引边界问题的深入理解和严谨的编码前准备过程",
+            "evidence_quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。"
+          },
+          {
+            "kind": "angle",
+            "experience_id": "exp_2",
+            "claim": "反思网页导航练习中核对资料的重要性及对代码准确性的重视",
+            "evidence_quote": "这份网页是另一段作品，不能证明数组题写过代码。"
+          },
+          {
+            "kind": "thesis",
+            "experience_id": null,
+            "claim": "通过纸面解题和网页导航练习，学生展现了对计算机科学基础知识的理解和严谨的学习态度，体现了对编程细节和网页开发的兴趣与反思能力。",
+            "evidence_quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。"
+          }
+        ],
+        "rules": [
+          "每条 claim 拆成连续 segments；各 text 原样拼接必须完全等于原 claim。",
+          "每段分别核查个人贡献、因果、比较、数字、结果和专业理解；逐字引文存在不代表支持论点。",
+          "例如放弃复杂方案支持可行性取舍，不支持算法性能优化。",
+          "只有事实直接完整支撑才用 supported；表述过强用 overstated；没有足够事实用 insufficient；与事实冲突用 contradicted。",
+          "supported 段必须引用具体 fact_id 和该事实中的逐字短句；CV 记录与学生亲口陈述须区分。",
+          "若能收窄措辞，可给 suggested_wording；它不会自动通过，仍需再核查。",
+          "一条 claim 对应一条核查结果，claim 原样复制。"
+        ],
+        "output_schema": {
+          "claims": [
+            {
+              "kind": "angle|thesis",
+              "experience_id": "经历 ID；主线为 null",
+              "claim": "原样复制",
+              "segments": [
+                {
+                  "text": "原句连续片段",
+                  "verdict": "supported|overstated|insufficient|contradicted",
+                  "evidence": [
+                    {
+                      "fact_id": "精确 fact_id",
+                      "quote": "该事实中的逐字短句"
+                    }
+                  ],
+                  "reason": "判断依据"
+                }
+              ],
+              "suggested_wording": "可选的更窄措辞；无则空串"
+            }
+          ]
+        }
+      },
+      "max_tokens": 3500,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "claims": [
+          {
+            "kind": "angle",
+            "experience_id": "exp_1",
+            "claim": "展示了对数组索引边界问题的深入理解和严谨的编码前准备过程",
+            "segments": [
+              {
+                "text": "展示了对数组索引边界问题的深入理解",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_1:deep:concept:4",
+                    "quote": "数组合法索引与元素数量不同，我能用具体例子说明。"
+                  }
+                ],
+                "reason": "学生陈述了对数组索引边界的具体理解，能用例子说明索引与元素数量的区别，体现了深入理解。"
+              },
+              {
+                "text": "和严谨的编码前准备过程",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_1:reflection:3",
+                    "quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。"
+                  },
+                  {
+                    "fact_id": "exp_1:process:3",
+                    "quote": "写代码之前纸面检查"
+                  }
+                ],
+                "reason": "学生多次强调写代码前的纸面检查，体现了严谨的编码前准备过程。"
+              }
+            ],
+            "suggested_wording": ""
+          },
+          {
+            "kind": "angle",
+            "experience_id": "exp_2",
+            "claim": "反思网页导航练习中核对资料的重要性及对代码准确性的重视",
+            "segments": [
+              {
+                "text": "反思网页导航练习中核对资料的重要性",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_2:solution:7",
+                    "quote": "需要重新核对"
+                  },
+                  {
+                    "fact_id": "exp_2:solution:8",
+                    "quote": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+                  }
+                ],
+                "reason": "学生明确表示发现缺项后需要重新核对，并采取了回看资料和询问他人的方法，体现了对核对资料重要性的反思。"
+              },
+              {
+                "text": "及对代码准确性的重视",
+                "verdict": "insufficient",
+                "evidence": [
+                  {
+                    "fact_id": "exp_2:reflection:9",
+                    "quote": "这份网页是另一段作品，不能证明数组题写过代码。"
+                  }
+                ],
+                "reason": "学生反思的是网页作品与数组题代码的区别，未直接体现对代码准确性的重视，缺乏直接事实支撑。"
+              }
+            ],
+            "suggested_wording": "反思网页导航练习中核对资料的重要性"
+          },
+          {
+            "kind": "thesis",
+            "experience_id": null,
+            "claim": "通过纸面解题和网页导航练习，学生展现了对计算机科学基础知识的理解和严谨的学习态度，体现了对编程细节和网页开发的兴趣与反思能力。",
+            "segments": [
+              {
+                "text": "通过纸面解题和网页导航练习，学生展现了对计算机科学基础知识的理解",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_1:knowledge:0",
+                    "quote": "Python基础"
+                  },
+                  {
+                    "fact_id": "exp_2:knowledge:0",
+                    "quote": "HTML"
+                  }
+                ],
+                "reason": "学生在两段经历中均涉及计算机科学基础知识（Python基础和HTML），体现了相关知识的理解。"
+              },
+              {
+                "text": "和严谨的学习态度",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_1:reflection:3",
+                    "quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。"
+                  },
+                  {
+                    "fact_id": "exp_2:solution:7",
+                    "quote": "需要重新核对"
+                  }
+                ],
+                "reason": "学生多次强调细节检查和资料核对，体现了严谨的学习态度。"
+              },
+              {
+                "text": "体现了对编程细节和网页开发的兴趣与反思能力。",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_1:reflection:3",
+                    "quote": "边界需要单独看，写代码之前纸面检查也能暴露问题。"
+                  },
+                  {
+                    "fact_id": "exp_2:reflection:9",
+                    "quote": "这份网页是另一段作品，不能证明数组题写过代码。"
+                  }
+                ],
+                "reason": "学生对数组边界细节的关注和对网页作品的反思，体现了对编程细节和网页开发的兴趣与反思能力。"
+              }
+            ],
+            "suggested_wording": ""
+          }
+        ]
+      },
+      "latency_s": 6.8783
+    },
+    {
+      "call_id": "call_113",
+      "case_id": "EVAL13",
+      "arm": "full_guardrail",
+      "stage": "narrowed_claim_recheck",
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "actual_model_call": true,
+      "status": "ok",
+      "usage": {
+        "prompt_tokens": 1770,
+        "completion_tokens": 297,
+        "total_tokens": 2067,
+        "cost": 0.0011832,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0011832,
+          "upstream_inference_prompt_cost": 0.000708,
+          "upstream_inference_completions_cost": 0.0004752
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost": 0.0011832,
+      "currency": "USD",
+      "retry_of": null,
+      "prompt": {
+        "task": "独立核查候选论点中每一项具体主张与学生事实之间的关系。",
+        "facts": [
+          {
+            "experience_id": "exp_1",
+            "title": "纸面解题与网页作品",
+            "facts": [
+              {
+                "id": "exp_1:process:0",
+                "element": "process",
+                "text": "手工分析数组题",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:knowledge:0",
+                "element": "knowledge",
+                "text": "Python基础",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:outcome:0",
+                "element": "outcome",
+                "text": "手写解题笔记",
+                "source": "cv:experience:1",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_1:problem:1",
+                "element": "problem",
+                "text": "最后一个索引会超出数组长度。",
+                "source": "dialog:r1",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:solution:2",
+                "element": "solution",
+                "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+                "source": "dialog:r2",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:process:2",
+                "element": "process",
+                "text": "我从零开始画每个位置，逐步检查循环何时停止。",
+                "source": "dialog:r2",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:reflection:3",
+                "element": "reflection",
+                "text": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+                "source": "dialog:r3",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:process:3",
+                "element": "process",
+                "text": "写代码之前纸面检查",
+                "source": "dialog:r3",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:problem:3",
+                "element": "problem",
+                "text": "边界需要单独看",
+                "source": "dialog:r3",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:concept:4",
+                "element": "deep:concept",
+                "text": "数组合法索引与元素数量不同，我能用具体例子说明。",
+                "source": "dialog:r4",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:alternative:5",
+                "element": "deep:alternative",
+                "text": "我比较过从一和从零编号，按题目要求使用从零编号。",
+                "source": "dialog:r5",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_1:deep:limit:6",
+                "element": "deep:limit",
+                "text": "不能把另一段网页代码当成这道题的实现。",
+                "source": "dialog:r6",
+                "confirmation": "student_stated"
+              }
+            ]
+          },
+          {
+            "experience_id": "exp_2",
+            "title": "网页导航练习",
+            "facts": [
+              {
+                "id": "exp_2:process:0",
+                "element": "process",
+                "text": "修改模板导航链接",
+                "source": "cv:experience:2",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_2:knowledge:0",
+                "element": "knowledge",
+                "text": "HTML",
+                "source": "cv:experience:2",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_2:outcome:0",
+                "element": "outcome",
+                "text": "本地页面",
+                "source": "cv:experience:2",
+                "confirmation": "recorded_cv"
+              },
+              {
+                "id": "exp_2:problem:7",
+                "element": "problem",
+                "text": "第一次记录有一处缺项，需要重新核对。",
+                "source": "dialog:r7",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:solution:7",
+                "element": "solution",
+                "text": "需要重新核对",
+                "source": "dialog:r7",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:solution:8",
+                "element": "solution",
+                "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+                "source": "dialog:r8",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:process:8",
+                "element": "process",
+                "text": "回看原始资料并向知情同学或老师确认",
+                "source": "dialog:r8",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:reflection:9",
+                "element": "reflection",
+                "text": "这份网页是另一段作品，不能证明数组题写过代码。",
+                "source": "dialog:r9",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:problem:9",
+                "element": "problem",
+                "text": "这份网页是另一段作品，不能证明数组题写过代码。",
+                "source": "dialog:r9",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:concept:10",
+                "element": "deep:concept",
+                "text": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+                "source": "dialog:r10",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:alternative:11",
+                "element": "deep:alternative",
+                "text": "我试过凭记忆填写，后来选择先核对原始资料。",
+                "source": "dialog:r11",
+                "confirmation": "student_stated"
+              },
+              {
+                "id": "exp_2:deep:limit:12",
+                "element": "deep:limit",
+                "text": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。",
+                "source": "dialog:r12",
+                "confirmation": "student_stated"
+              }
+            ]
+          }
+        ],
+        "claims": [
+          {
+            "kind": "angle",
+            "experience_id": "exp_2",
+            "claim": "反思网页导航练习中核对资料的重要性",
+            "evidence_quote": "这份网页是另一段作品，不能证明数组题写过代码。"
+          }
+        ],
+        "rules": [
+          "每条 claim 拆成连续 segments；各 text 原样拼接必须完全等于原 claim。",
+          "每段分别核查个人贡献、因果、比较、数字、结果和专业理解；逐字引文存在不代表支持论点。",
+          "例如放弃复杂方案支持可行性取舍，不支持算法性能优化。",
+          "只有事实直接完整支撑才用 supported；表述过强用 overstated；没有足够事实用 insufficient；与事实冲突用 contradicted。",
+          "supported 段必须引用具体 fact_id 和该事实中的逐字短句；CV 记录与学生亲口陈述须区分。",
+          "若能收窄措辞，可给 suggested_wording；它不会自动通过，仍需再核查。",
+          "一条 claim 对应一条核查结果，claim 原样复制。"
+        ],
+        "output_schema": {
+          "claims": [
+            {
+              "kind": "angle|thesis",
+              "experience_id": "经历 ID；主线为 null",
+              "claim": "原样复制",
+              "segments": [
+                {
+                  "text": "原句连续片段",
+                  "verdict": "supported|overstated|insufficient|contradicted",
+                  "evidence": [
+                    {
+                      "fact_id": "精确 fact_id",
+                      "quote": "该事实中的逐字短句"
+                    }
+                  ],
+                  "reason": "判断依据"
+                }
+              ],
+              "suggested_wording": "可选的更窄措辞；无则空串"
+            }
+          ]
+        }
+      },
+      "max_tokens": 3500,
+      "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+      "price_checked_on": "2026-10-04",
+      "cost_basis": "provider_reported",
+      "response": {
+        "claims": [
+          {
+            "kind": "angle",
+            "experience_id": "exp_2",
+            "claim": "反思网页导航练习中核对资料的重要性",
+            "segments": [
+              {
+                "text": "反思网页导航练习中核对资料的重要性",
+                "verdict": "supported",
+                "evidence": [
+                  {
+                    "fact_id": "exp_2:problem:7",
+                    "quote": "第一次记录有一处缺项，需要重新核对。"
+                  },
+                  {
+                    "fact_id": "exp_2:solution:7",
+                    "quote": "需要重新核对"
+                  },
+                  {
+                    "fact_id": "exp_2:solution:8",
+                    "quote": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+                  },
+                  {
+                    "fact_id": "exp_2:process:8",
+                    "quote": "回看原始资料并向知情同学或老师确认"
+                  }
+                ],
+                "reason": "学生明确陈述网页导航练习中存在记录缺项，反思并采取了重新核对原始资料和向他人确认的措施，体现了对核对资料重要性的认识。"
+              }
+            ],
+            "suggested_wording": ""
+          }
+        ]
+      },
+      "latency_s": 2.3825
+    }
+  ],
+  "cost_summary": {
+    "currency": "USD",
+    "shared_upstream_cost": 0.0026904,
+    "guard_increment_cost": 0.0038388,
+    "standalone_prompt_only_cost": 0.0026904,
+    "standalone_full_guardrail_cost": 0.0065292,
+    "actual_experiment_estimated_cost": 0.0065292,
+    "actual_experiment_cost": 0.0065292,
+    "cost_basis": "provider_reported",
+    "unknown_cost_calls": 0,
+    "actual_model_requests": 9,
+    "dry_run": false,
+    "cost_is_usage_based_estimate_not_provider_bill": false
+  }
+}

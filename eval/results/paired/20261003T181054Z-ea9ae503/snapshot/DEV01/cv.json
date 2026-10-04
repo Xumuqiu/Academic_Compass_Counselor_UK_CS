@@ -1,0 +1,48 @@
+{
+  "student": {
+    "id": "dev01",
+    "label": "虚构学生 DEV01",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A*"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      },
+      {
+        "name": "Further Mathematics",
+        "predicted": "B"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "社团课表可视化",
+        "type": "project",
+        "role": "负责数据整理与原型测试",
+        "skills": [
+          "Python"
+        ],
+        "outputs": [
+          "展示原型"
+        ]
+      },
+      {
+        "title": "课堂函数图像讨论",
+        "type": "academic",
+        "role": "比较手画与软件绘图",
+        "skills": [
+          "数学"
+        ],
+        "outputs": [
+          "图像笔记"
+        ]
+      }
+    ]
+  }
+}

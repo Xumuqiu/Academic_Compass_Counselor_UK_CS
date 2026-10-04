@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "bristol_cs_ug",
+    "name": "BSc Computer Science (2027 entry)",
+    "university": "University of Bristol",
+    "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/bristol_cs_ug.yaml",
+    "requirements": [
+      {
+        "id": "bristol_cs_ug:req_02",
+        "text": "A* in Mathematics",
+        "kind": "math_grade",
+        "expected": "A*"
+      }
+    ],
+    "source_requirements": [
+      {
+        "id": "bristol_cs_ug:req_01",
+        "category": "gpa",
+        "text": "A*AA including A* in Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_02",
+        "category": "subject",
+        "text": "A* in Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_03",
+        "category": "gpa",
+        "text": "AAB including A in Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_04",
+        "category": "subject",
+        "text": "A in Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_05",
+        "category": "gpa",
+        "text": "38 points overall with 18 at Higher Level, including 7 at Higher Level in Mathematics (either Analysis and Approaches or Applications and Interpretations)",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_06",
+        "category": "subject",
+        "text": "7 at Higher Level in Mathematics (either Analysis and Approaches or Applications and Interpretations)",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_07",
+        "category": "gpa",
+        "text": "34 points overall with 17 at Higher Level, including 6 at Higher Level in Mathematics",
+        "curriculum": "ib",
+        "is_mandatory": false,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_08",
+        "category": "subject",
+        "text": "6 at Higher Level in Mathematics",
+        "curriculum": "ib",
+        "is_mandatory": false,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_09",
+        "category": "gpa",
+        "text": "D*DD in either Engineering BTEC National Level 3 Extended Diploma, plus A in Mathematics at A-level (or equivalent), or any Applied General BTEC National Level 3 Extended Diploma, plus A in Mathematics at A-level",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_10",
+        "category": "subject",
+        "text": "A in Mathematics at A-level",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_11",
+        "category": "language",
+        "text": "IELTS 6.5 overall with 6.0 in all skills",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_12",
+        "category": "language",
+        "text": "IELTS 6.5 overall with 6.0 in all skills",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "bristol_cs_ug:req_13",
+        "category": "language",
+        "text": "GCSE English Language grade C or 4",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+        "human_verified": false
+      }
+    ]
+  },
+  {
+    "id": "edinburgh_cs_ug",
+    "name": "Computer Science BSc",
+    "university": "University of Edinburgh",
+    "source_url": "https://study.ed.ac.uk/programmes/undergraduate/57-computer-science",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/edinburgh_cs_ug.yaml",
+    "requirements": [
+
+    ],
+    "source_requirements": [
+      {
+        "id": "edinburgh_cs_ug:req_01",
+        "category": "gpa",
+        "text": "from A*A*A* to AAB in one set of exams",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://study.ed.ac.uk/programmes/undergraduate/57-computer-science/entry-requirements",
+        "human_verified": false
+      },
+      {
+        "id": "edinburgh_cs_ug:req_02",
+        "category": "subject",
+        "text": "Mathematics at A",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://study.ed.ac.uk/programmes/undergraduate/57-computer-science/entry-requirements",
+        "human_verified": false
+      },
+      {
+        "id": "edinburgh_cs_ug:req_03",
+        "category": "gpa",
+        "text": "from 43 points with 777 at HL to 34 points with 665 at HL",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://study.ed.ac.uk/programmes/undergraduate/57-computer-science/entry-requirements",
+        "human_verified": false
+      },
+      {
+        "id": "edinburgh_cs_ug:req_04",
+        "category": "subject",
+        "text": "Mathematics (Analysis and approaches only) at 6",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://study.ed.ac.uk/programmes/undergraduate/57-computer-science/entry-requirements",
+        "human_verified": false
+      },
+      {
+        "id": "edinburgh_cs_ug:req_05",
+        "category": "language",
+        "text": "total 6.5 with at least 5.5 in each component",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://study.ed.ac.uk/programmes/undergraduate/57-computer-science/entry-requirements",
+        "human_verified": false
+      },
+      {
+        "id": "edinburgh_cs_ug:req_06",
+        "category": "language",
+        "text": "at least 5.5 in each component",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://study.ed.ac.uk/programmes/undergraduate/57-computer-science/entry-requirements",
+        "human_verified": false
+      }
+    ]
+  },
+  {
+    "id": "glasgow_cs_ug",
+    "name": "Computing Science BSc",
+    "university": "University of Glasgow",
+    "source_url": "https://www.gla.ac.uk/undergraduate/degrees/computingscience/",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/glasgow_cs_ug.yaml",
+    "requirements": [
+
+    ],
+    "source_requirements": [
+      {
+        "id": "glasgow_cs_ug:req_01",
+        "category": "gpa",
+        "text": "AAA – AAB",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.gla.ac.uk/undergraduate/degrees/computingscience/",
+        "human_verified": false
+      },
+      {
+        "id": "glasgow_cs_ug:req_02",
+        "category": "subject",
+        "text": "A-level Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.gla.ac.uk/undergraduate/degrees/computingscience/",
+        "human_verified": false
+      },
+      {
+        "id": "glasgow_cs_ug:req_03",
+        "category": "gpa",
+        "text": "38 (6,6,6)",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.gla.ac.uk/undergraduate/degrees/computingscience/",
+        "human_verified": false
+      },
+      {
+        "id": "glasgow_cs_ug:req_04",
+        "category": "subject",
+        "text": "HL6 Mathematics (Analysis & Approaches)",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.gla.ac.uk/undergraduate/degrees/computingscience/",
+        "human_verified": false
+      },
+      {
+        "id": "glasgow_cs_ug:req_05",
+        "category": "language",
+        "text": "6.5 with no subtests under 6.0",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.gla.ac.uk/undergraduate/degrees/computingscience/",
+        "human_verified": false
+      },
+      {
+        "id": "glasgow_cs_ug:req_06",
+        "category": "language",
+        "text": "no subtests under 6.0",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.gla.ac.uk/undergraduate/degrees/computingscience/",
+        "human_verified": false
+      }
+    ]
+  },
+  {
+    "id": "imperial_computing_ug",
+    "name": "Computing BEng",
+    "university": "Imperial College London",
+    "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/imperial_computing_ug.yaml",
+    "requirements": [
+      {
+        "id": "imperial_computing_ug:req_02",
+        "text": "A* in Mathematics",
+        "kind": "math_grade",
+        "expected": "A*"
+      }
+    ],
+    "source_requirements": [
+      {
+        "id": "imperial_computing_ug:req_01",
+        "category": "gpa",
+        "text": "A*A*A – A*AAA",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_02",
+        "category": "subject",
+        "text": "A* in Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_03",
+        "category": "gpa",
+        "text": "A*, A in two further subjects or AAA in three further subjects, with Further Mathematics preferred",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_04",
+        "category": "subject",
+        "text": "Further Mathematics preferred",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_05",
+        "category": "subject",
+        "text": "ICT, Business Studies, General Studies and Critical Thinking",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_06",
+        "category": "subject",
+        "text": "ICT, Business Studies, General Studies and Critical Thinking",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_07",
+        "category": "subject",
+        "text": "ICT, Business Studies, General Studies and Critical Thinking",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_08",
+        "category": "subject",
+        "text": "ICT, Business Studies, General Studies and Critical Thinking",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_09",
+        "category": "subject",
+        "text": "Recommended subjects: Computer Science, Physics, Further Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_10",
+        "category": "subject",
+        "text": "Recommended subjects: Computer Science, Physics, Further Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_11",
+        "category": "subject",
+        "text": "Recommended subjects: Computer Science, Physics, Further Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_12",
+        "category": "gpa",
+        "text": "41 points",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_13",
+        "category": "subject",
+        "text": "7 in Mathematics at higher level",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_14",
+        "category": "gpa",
+        "text": "7 in another relevant subject at higher level",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_15",
+        "category": "language",
+        "text": "standard university requirement",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      },
+      {
+        "id": "imperial_computing_ug:req_16",
+        "category": "prereq",
+        "text": "must sit the Test for Mathematics for University Admission (TMUA)",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "human_verified": false
+      }
+    ]
+  },
+  {
+    "id": "lancaster_cs_ug",
+    "name": "Computer Science BSc Hons",
+    "university": "Lancaster University",
+    "source_url": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/lancaster_cs_ug.yaml",
+    "requirements": [
+
+    ],
+    "source_requirements": [
+      {
+        "id": "lancaster_cs_ug:req_01",
+        "category": "gpa",
+        "text": "AAB",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/",
+        "human_verified": false
+      },
+      {
+        "id": "lancaster_cs_ug:req_02",
+        "category": "subject",
+        "text": "Though not an essential subject entry requirement, applicants with A level Computing, Computer Science or Mathematics will be considered for a lower offer.",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/",
+        "human_verified": false
+      },
+      {
+        "id": "lancaster_cs_ug:req_03",
+        "category": "gpa",
+        "text": "35 points overall with 16 points from the best 3 HL subjects",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/",
+        "human_verified": false
+      },
+      {
+        "id": "lancaster_cs_ug:req_04",
+        "category": "language",
+        "text": "we require an IELTS score of 6.0 overall with at least 5.5 in each component for this programme",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/",
+        "human_verified": false
+      },
+      {
+        "id": "lancaster_cs_ug:req_05",
+        "category": "language",
+        "text": "at least 5.5 in each component",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/",
+        "human_verified": false
+      }
+    ]
+  },
+  {
+    "id": "manchester_cs_ug",
+    "name": "BSc Computer Science (2027 entry)",
+    "university": "The University of Manchester",
+    "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/manchester_cs_ug.yaml",
+    "requirements": [
+      {
+        "id": "manchester_cs_ug:req_02",
+        "text": "A* in Mathematics",
+        "kind": "math_grade",
+        "expected": "A*"
+      },
+      {
+        "id": "manchester_cs_ug:req_03",
+        "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+        "kind": "science_subject",
+        "accepted": [
+          "Computer Science",
+          "Further Mathematics",
+          "Biology",
+          "Chemistry",
+          "Physics"
+        ]
+      }
+    ],
+    "source_requirements": [
+      {
+        "id": "manchester_cs_ug:req_01",
+        "category": "gpa",
+        "text": "A*AA including A* in Mathematics, and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_02",
+        "category": "subject",
+        "text": "A* in Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_03",
+        "category": "subject",
+        "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_04",
+        "category": "material",
+        "text": "Your A Level in Mathematics should include Mathematics with a significant pure element (Use of Mathematics or Core Mathematics does not satisfy this requirement).",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_05",
+        "category": "gpa",
+        "text": "AAA including Mathematics and a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics.",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_06",
+        "category": "subject",
+        "text": "including Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_07",
+        "category": "subject",
+        "text": "a minimum of one science subject from the following list: Computer Science, Further Mathematics, Biology, Chemistry, or Physics",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_08",
+        "category": "gpa",
+        "text": "37 points overall with 7,6,6 in Higher Level subjects, including 7 in Mathematics: Analysis and Approaches.",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_09",
+        "category": "gpa",
+        "text": "7,6,6 in Higher Level subjects",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_10",
+        "category": "subject",
+        "text": "including 7 in Mathematics: Analysis and Approaches",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_11",
+        "category": "subject",
+        "text": "For this programme of study, we will only accept the following subject to meet our Mathematics requirement: Higher Level Mathematics: Analysis and Approaches.",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_12",
+        "category": "language",
+        "text": "IELTS 7.0 overall, with no subscore below 6.5",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_13",
+        "category": "language",
+        "text": "no subscore below 6.5",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_14",
+        "category": "language",
+        "text": "TOEFL iBT 100 overall, with no subscore below 22",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_15",
+        "category": "language",
+        "text": "no subscore below 22",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "manchester_cs_ug:req_16",
+        "category": "language",
+        "text": "GCSE/IGCSE English Language grade B/6",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+        "human_verified": false
+      }
+    ]
+  },
+  {
+    "id": "nottingham_cs_ug",
+    "name": "Computer Science BSc",
+    "university": "University of Nottingham",
+    "source_url": "https://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Computer-Science-BSc-Hons.html",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/nottingham_cs_ug.yaml",
+    "requirements": [
+
+    ],
+    "source_requirements": [
+      {
+        "id": "nottingham_cs_ug:req_01",
+        "category": "gpa",
+        "text": "A*AA",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Computer-Science-BSc-Hons.html",
+        "human_verified": false
+      },
+      {
+        "id": "nottingham_cs_ug:req_02",
+        "category": "subject",
+        "text": "A level computer science at grade A",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Computer-Science-BSc-Hons.html",
+        "human_verified": false
+      },
+      {
+        "id": "nottingham_cs_ug:req_03",
+        "category": "gpa",
+        "text": "36 points overall or 766 in 3 HL certificates. If taking Higher Level computer science, IBDP 34 points including HL 6 in computer science",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Computer-Science-BSc-Hons.html",
+        "human_verified": false
+      },
+      {
+        "id": "nottingham_cs_ug:req_04",
+        "category": "language",
+        "text": "6.5 (no less than 6.0 in any element)",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Computer-Science-BSc-Hons.html",
+        "human_verified": false
+      },
+      {
+        "id": "nottingham_cs_ug:req_05",
+        "category": "language",
+        "text": "no less than 6.0 in any element",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Computer-Science-BSc-Hons.html",
+        "human_verified": false
+      }
+    ]
+  },
+  {
+    "id": "sheffield_cs_ug",
+    "name": "Computer Science BSc (2027 entry)",
+    "university": "University of Sheffield",
+    "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/sheffield_cs_ug.yaml",
+    "requirements": [
+
+    ],
+    "source_requirements": [
+      {
+        "id": "sheffield_cs_ug:req_01",
+        "category": "gpa",
+        "text": "\"A*AA; AAA\"",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_02",
+        "category": "subject",
+        "text": "\"A*AA, including Maths; AAA, including Maths and Computer Science\"",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_03",
+        "category": "subject",
+        "text": "\"A*AA, including Maths; AAA, including Maths and Computer Science\"",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_04",
+        "category": "gpa",
+        "text": "\"AAB; ABB\"",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_05",
+        "category": "subject",
+        "text": "\"AAB, including A in Maths; ABB, including A in Maths and B in Computer Science\"",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_06",
+        "category": "subject",
+        "text": "\"AAB, including A in Maths; ABB, including A in Maths and B in Computer Science\"",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_07",
+        "category": "gpa",
+        "text": "\"38, with 6 in Higher Level Maths; 36, with 6 in Higher Level Maths and Computer Science\"",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_08",
+        "category": "subject",
+        "text": "\"38, with 6 in Higher Level Maths; 36, with 6 in Higher Level Maths and Computer Science\"",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_09",
+        "category": "subject",
+        "text": "\"38, with 6 in Higher Level Maths; 36, with 6 in Higher Level Maths and Computer Science\"",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_10",
+        "category": "gpa",
+        "text": "\"34, with 6 in Higher Level Maths; 33, with 6 in Higher Level Maths and 5 in Higher\nLevel Computer Science\"",
+        "curriculum": "ib",
+        "is_mandatory": false,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_11",
+        "category": "subject",
+        "text": "\"34, with 6 in Higher Level Maths; 33, with 6 in Higher Level Maths and 5 in Higher\nLevel Computer Science\"",
+        "curriculum": "ib",
+        "is_mandatory": false,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_12",
+        "category": "subject",
+        "text": "\"34, with 6 in Higher Level Maths; 33, with 6 in Higher Level Maths and 5 in Higher\nLevel Computer Science\"",
+        "curriculum": "ib",
+        "is_mandatory": false,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_13",
+        "category": "language",
+        "text": "\"GCSE English Language at grade 4/C\"",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_14",
+        "category": "language",
+        "text": "\"IELTS grade of 6.5 with a minimum of 6.0 in each component\"",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "sheffield_cs_ug:req_15",
+        "category": "language",
+        "text": "\"IELTS grade of 6.5 with a minimum of 6.0 in each component\"",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "human_verified": false
+      }
+    ]
+  },
+  {
+    "id": "southampton_cs_ug",
+    "name": "Computer Science BSc",
+    "university": "University of Southampton",
+    "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/southampton_cs_ug.yaml",
+    "requirements": [
+
+    ],
+    "source_requirements": [
+      {
+        "id": "southampton_cs_ug:req_01",
+        "category": "gpa",
+        "text": "A*AA including mathematics (minimum grade A)",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_02",
+        "category": "subject",
+        "text": "including mathematics (minimum grade A)",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_03",
+        "category": "subject",
+        "text": "Offers typically exclude General Studies and Critical Thinking",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_04",
+        "category": "subject",
+        "text": "Offers typically exclude General Studies and Critical Thinking",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_05",
+        "category": "gpa",
+        "text": "Pass, with 38 points overall, with 19 points required at Higher Level including 6 at Higher Level in Mathematics (Analysis and Approaches) or 7 at Higher Level in Mathematics (Applications and Interpretation)",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_06",
+        "category": "gpa",
+        "text": "with 19 points required at Higher Level including 6 at Higher Level in Mathematics (Analysis and Approaches) or 7 at Higher Level in Mathematics (Applications and Interpretation)",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_07",
+        "category": "subject",
+        "text": "including 6 at Higher Level in Mathematics (Analysis and Approaches) or 7 at Higher Level in Mathematics (Applications and Interpretation)",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_08",
+        "category": "subject",
+        "text": "Applicants must hold GCSE English language (or GCSE English) (minimum grade 4/C) and mathematics (minimum grade 4/C)",
+        "curriculum": "domestic_intl",
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_09",
+        "category": "subject",
+        "text": "Applicants must hold GCSE English language (or GCSE English) (minimum grade 4/C) and mathematics (minimum grade 4/C)",
+        "curriculum": "domestic_intl",
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_10",
+        "category": "language",
+        "text": "IELTS overall score: 6.5",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_11",
+        "category": "language",
+        "text": "IELTS Reading: 6.0",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_12",
+        "category": "language",
+        "text": "IELTS Writing: 6.0",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_13",
+        "category": "language",
+        "text": "IELTS Speaking: 6.0",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_14",
+        "category": "language",
+        "text": "IELTS Listening: 6.0",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      },
+      {
+        "id": "southampton_cs_ug:req_15",
+        "category": "preference",
+        "text": "If you do not meet the English language requirements through a test or qualification, you may be able to meet them by completing one of our pre-sessional English programmes",
+        "curriculum": null,
+        "is_mandatory": false,
+        "source_url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "human_verified": false
+      }
+    ]
+  },
+  {
+    "id": "warwick_cs_ug",
+    "name": "Computer Science BSc",
+    "university": "University of Warwick",
+    "source_url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/warwick_cs_ug.yaml",
+    "requirements": [
+
+    ],
+    "source_requirements": [
+      {
+        "id": "warwick_cs_ug:req_01",
+        "category": "gpa",
+        "text": "A*A*A to include A* in Mathematics.",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "warwick_cs_ug:req_02",
+        "category": "subject",
+        "text": "A-level Mathematics or equivalent is therefore required for this programme.",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "warwick_cs_ug:req_03",
+        "category": "subject",
+        "text": "Further Maths is not essential, however it is a highly recommended subject choice for a student considering Computer Science at degree level.",
+        "curriculum": "a_level",
+        "is_mandatory": false,
+        "source_url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "warwick_cs_ug:req_04",
+        "category": "gpa",
+        "text": "39 with 7, 6, 6 in three Higher Level subjects to include 7 in Higher Level Mathematics ('Analysis and Approaches' only).",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "warwick_cs_ug:req_05",
+        "category": "gpa",
+        "text": "39 with 7, 6, 6 in three Higher Level subjects to include 7 in Higher Level Mathematics ('Analysis and Approaches' only).",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "warwick_cs_ug:req_06",
+        "category": "subject",
+        "text": "39 with 7, 6, 6 in three Higher Level subjects to include 7 in Higher Level Mathematics ('Analysis and Approaches' only).",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "warwick_cs_ug:req_07",
+        "category": "language",
+        "text": "Band A",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      }
+    ]
+  },
+  {
+    "id": "york_cs_ug",
+    "name": "Computer Science BSc",
+    "university": "University of York",
+    "source_url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+    "human_verified": false,
+    "source": "Academic_Compass_Navigator_Code/kb/seed/york_cs_ug.yaml",
+    "requirements": [
+
+    ],
+    "source_requirements": [
+      {
+        "id": "york_cs_ug:req_01",
+        "category": "gpa",
+        "text": "AAA including Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "york_cs_ug:req_02",
+        "category": "subject",
+        "text": "AAA including Mathematics",
+        "curriculum": "a_level",
+        "is_mandatory": true,
+        "source_url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "york_cs_ug:req_03",
+        "category": "gpa",
+        "text": "36 points overall, including 5 in Higher Level Mathematics (either Analysis and Approaches or Applications and Interpretations), or 6 in Standard Level Mathematics (Analysis and Approaches)",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "york_cs_ug:req_04",
+        "category": "subject",
+        "text": "5 in Higher Level Mathematics (either Analysis and Approaches or Applications and Interpretations), or 6 in Standard Level Mathematics (Analysis and Approaches)",
+        "curriculum": "ib",
+        "is_mandatory": true,
+        "source_url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "york_cs_ug:req_05",
+        "category": "language",
+        "text": "6.5, with a minimum of 6.0 in each component",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      },
+      {
+        "id": "york_cs_ug:req_06",
+        "category": "language",
+        "text": "a minimum of 6.0 in each component",
+        "curriculum": null,
+        "is_mandatory": true,
+        "source_url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "human_verified": false
+      }
+    ]
+  }
+]

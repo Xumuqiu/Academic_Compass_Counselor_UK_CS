@@ -1,0 +1,44 @@
+{
+  "student": {
+    "id": "eval03",
+    "label": "虚构学生 EVAL03",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "B"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "机器人急弯路线对比",
+        "type": "competition",
+        "role": "负责路线策略测试",
+        "skills": [
+          "RoboExp"
+        ],
+        "outputs": [
+          "十次测试记录"
+        ]
+      },
+      {
+        "title": "机械结构课堂练习",
+        "type": "academic",
+        "role": "观察连杆动作",
+        "skills": [
+          "Physics"
+        ],
+        "outputs": [
+          "观察笔记"
+        ]
+      }
+    ]
+  }
+}

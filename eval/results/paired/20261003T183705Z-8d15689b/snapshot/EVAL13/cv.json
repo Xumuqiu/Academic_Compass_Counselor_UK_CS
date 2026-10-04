@@ -1,0 +1,40 @@
+{
+  "student": {
+    "id": "eval13",
+    "label": "虚构学生 EVAL13",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A*"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "纸面解题与网页作品",
+        "type": "academic",
+        "role": "手工分析数组题",
+        "skills": [
+          "Python基础"
+        ],
+        "outputs": [
+          "手写解题笔记"
+        ]
+      },
+      {
+        "title": "网页导航练习",
+        "type": "project",
+        "role": "修改模板导航链接",
+        "skills": [
+          "HTML"
+        ],
+        "outputs": [
+          "本地页面"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL02",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "志愿活动报名页面",
+      "answers_by_element": {
+        "process": "我搭建报名页面，给必填项加提示，然后让三位同学用虚构信息尝试。",
+        "knowledge": "我用 JavaScript 检查字符串是否为空，没有连接服务器数据库。",
+        "problem": "只输入空格也能通过检查。",
+        "solution": "我先去掉首尾空格，再判断输入长度是否为零。",
+        "reflection": "边界输入也需要测试，能显示页面不代表能处理所有输入。",
+        "outcome": "三个同学完成了演示测试，没有线上报名或转化率记录。",
+        "deep:concept": "这里是输入验证，客户端检查可以绕过，不能代替服务端校验。",
+        "deep:alternative": "我比较过只弹提示和阻止提交，最后在空输入时阻止演示提交。",
+        "deep:limit": "它没有持久保存数据，不能承担正式报名。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "环保社物资登记",
+      "answers_by_element": {
+        "process": "我负责维护匿名借用清单，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到电子表格，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "我能确认记录工作，不能证明减少了物资损失。",
+        "outcome": "留下了借用清单，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

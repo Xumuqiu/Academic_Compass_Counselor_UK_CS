@@ -1,0 +1,50 @@
+{
+  "a27d35c17e4d4c11": {
+    "case_id": "DEV01",
+    "arm": "prompt_only"
+  },
+  "ee5fec99611a493f": {
+    "case_id": "DEV01",
+    "arm": "full_guardrail"
+  },
+  "ad6da75df506494e": {
+    "case_id": "DEV02",
+    "arm": "prompt_only"
+  },
+  "6570e3d1a2864bb0": {
+    "case_id": "DEV02",
+    "arm": "full_guardrail"
+  },
+  "95f4aee927f54af4": {
+    "case_id": "DEV03",
+    "arm": "prompt_only"
+  },
+  "193e8cdcaea3401c": {
+    "case_id": "DEV03",
+    "arm": "full_guardrail"
+  },
+  "8458be49c889448c": {
+    "case_id": "DEV04",
+    "arm": "prompt_only"
+  },
+  "c91d56b45581407c": {
+    "case_id": "DEV04",
+    "arm": "full_guardrail"
+  },
+  "918aeb54296e4269": {
+    "case_id": "DEV05",
+    "arm": "prompt_only"
+  },
+  "84ce55ae42694a00": {
+    "case_id": "DEV05",
+    "arm": "full_guardrail"
+  },
+  "d99ca209aaa44ad1": {
+    "case_id": "DEV06",
+    "arm": "prompt_only"
+  },
+  "679713be0a7448cd": {
+    "case_id": "DEV06",
+    "arm": "full_guardrail"
+  }
+}

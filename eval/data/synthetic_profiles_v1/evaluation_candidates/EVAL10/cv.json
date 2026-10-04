@@ -1,0 +1,49 @@
+{
+  "student": {
+    "id": "eval10",
+    "label": "虚构学生 EVAL10",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A*"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      },
+      {
+        "name": "Further Mathematics",
+        "predicted": "B"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "课程签到应用",
+        "type": "project",
+        "role": "负责前后端开发",
+        "skills": [
+          "HTML",
+          "Python"
+        ],
+        "outputs": [
+          "演示应用"
+        ]
+      },
+      {
+        "title": "课堂字符串练习",
+        "type": "academic",
+        "role": "检查字母大小写",
+        "skills": [
+          "Python"
+        ],
+        "outputs": [
+          "练习代码"
+        ]
+      }
+    ]
+  }
+}

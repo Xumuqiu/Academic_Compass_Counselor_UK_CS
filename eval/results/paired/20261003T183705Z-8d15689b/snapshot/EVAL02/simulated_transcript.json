@@ -1,0 +1,117 @@
+{
+  "case_id": "EVAL02",
+  "record_type": "offline_rule_path_fixture",
+  "actual_student_interview": false,
+  "model_calls": 0,
+  "note": "由当前规则选择器回放，未调用模型；live 解析可改变问题顺序或轮数，须按回答库重新回放。",
+  "turns": [
+    {
+      "round": 1,
+      "question_id": "exp_1:problem",
+      "experience_id": "exp_1",
+      "element": "problem",
+      "question": "「志愿活动报名页面」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "只输入空格也能通过检查。"
+    },
+    {
+      "round": 2,
+      "question_id": "exp_1:solution",
+      "experience_id": "exp_1",
+      "element": "solution",
+      "question": "你提到「只输入空格也能通过检查。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我先去掉首尾空格，再判断输入长度是否为零。"
+    },
+    {
+      "round": 3,
+      "question_id": "exp_1:reflection",
+      "experience_id": "exp_1",
+      "element": "reflection",
+      "question": "「志愿活动报名页面」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "边界输入也需要测试，能显示页面不代表能处理所有输入。"
+    },
+    {
+      "round": 4,
+      "question_id": "exp_1:deep:concept",
+      "experience_id": "exp_1",
+      "element": "deep:concept",
+      "question": "关于「志愿活动报名页面」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这里是输入验证，客户端检查可以绕过，不能代替服务端校验。"
+    },
+    {
+      "round": 5,
+      "question_id": "exp_1:deep:alternative",
+      "experience_id": "exp_1",
+      "element": "deep:alternative",
+      "question": "关于「志愿活动报名页面」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我比较过只弹提示和阻止提交，最后在空输入时阻止演示提交。"
+    },
+    {
+      "round": 6,
+      "question_id": "exp_1:deep:limit",
+      "experience_id": "exp_1",
+      "element": "deep:limit",
+      "question": "关于「志愿活动报名页面」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "它没有持久保存数据，不能承担正式报名。"
+    },
+    {
+      "round": 7,
+      "question_id": "exp_2:problem",
+      "experience_id": "exp_2",
+      "element": "problem",
+      "question": "「环保社物资登记」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "第一次记录有一处缺项，需要重新核对。"
+    },
+    {
+      "round": 8,
+      "question_id": "exp_2:solution",
+      "experience_id": "exp_2",
+      "element": "solution",
+      "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+    },
+    {
+      "round": 9,
+      "question_id": "exp_2:reflection",
+      "experience_id": "exp_2",
+      "element": "reflection",
+      "question": "「环保社物资登记」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "我能确认记录工作，不能证明减少了物资损失。"
+    },
+    {
+      "round": 10,
+      "question_id": "exp_2:deep:concept",
+      "experience_id": "exp_2",
+      "element": "deep:concept",
+      "question": "关于「环保社物资登记」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+    },
+    {
+      "round": 11,
+      "question_id": "exp_2:deep:alternative",
+      "experience_id": "exp_2",
+      "element": "deep:alternative",
+      "question": "关于「环保社物资登记」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+    },
+    {
+      "round": 12,
+      "question_id": "exp_2:deep:limit",
+      "experience_id": "exp_2",
+      "element": "deep:limit",
+      "question": "关于「环保社物资登记」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+    }
+  ],
+  "unasked_answer_fields": {
+    "exp_1": [
+      "process",
+      "knowledge",
+      "outcome"
+    ],
+    "exp_2": [
+      "process",
+      "knowledge",
+      "outcome"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "student": {
+    "id": "synthetic_cv_02",
+    "label": "虚构学生 B（A-Level）",
+    "subjects": [
+      {"name": "Mathematics", "predicted": "A*"},
+      {"name": "Physics", "predicted": "A"},
+      {"name": "Economics", "predicted": "B"}
+    ],
+    "experiences": [
+      {
+        "title": "学校编程社课表可视化项目",
+        "role": "清理数据并测试原型",
+        "skills": ["Python", "数据可视化"],
+        "outputs": ["在社团展示的可运行原型"],
+        "type": "project"
+      },
+      {
+        "title": "独立阅读计算思维入门材料",
+        "role": "阅读并记录问题拆解方法",
+        "skills": ["问题分解"],
+        "outputs": ["阅读笔记"],
+        "type": "reading"
+      }
+    ]
+  }
+}

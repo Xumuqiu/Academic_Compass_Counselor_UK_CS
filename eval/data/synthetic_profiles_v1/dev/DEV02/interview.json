@@ -1,0 +1,39 @@
+{
+  "case_id": "DEV02",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "机器人巡线调试",
+      "answers_by_element": {
+        "process": "我记录机器人在哪些弯道偏离，调整传感器位置和速度，再重复跑同一路线。",
+        "knowledge": "我根据左右传感器是否检测到黑线，分别设置直行、左转和右转动作。",
+        "problem": "急弯时机器人会错过黑线，换到光线更强的位置也不稳定。",
+        "solution": "我先降低急弯速度，又调整传感器位置，每次只改一个因素。",
+        "reflection": "程序逻辑正确也不保证实体稳定，传感器和环境会影响结果。",
+        "outcome": "留下调试记录和机器人，没有保留完成时间或准确率的测量。",
+        "deep:concept": "我理解的是利用传感器反馈调整运动，还没有学过完整的控制理论。",
+        "deep:alternative": "我比较过直接加速和先降低急弯速度，加速时更容易偏离。",
+        "deep:limit": "我没测量准确率，换赛道能否稳定运行还需要重新测试。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "足球社训练记录",
+      "answers_by_element": {
+        "process": "我负责轮流记录出勤，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到电子表格，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "记录准确需要向队友核对，不能凭印象填写。",
+        "outcome": "留下了出勤表，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

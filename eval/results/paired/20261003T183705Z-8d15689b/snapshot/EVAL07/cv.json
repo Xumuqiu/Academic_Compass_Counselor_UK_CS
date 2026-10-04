@@ -1,0 +1,44 @@
+{
+  "student": {
+    "id": "eval07",
+    "label": "虚构学生 EVAL07",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A*"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "读书社算法分享",
+        "type": "reading",
+        "role": "阅读并作社团分享",
+        "skills": [
+          "问题分解"
+        ],
+        "outputs": [
+          "分享提纲"
+        ]
+      },
+      {
+        "title": "校园义卖登记",
+        "type": "holistic",
+        "role": "整理物品编号",
+        "skills": [
+          "电子表格"
+        ],
+        "outputs": [
+          "登记表"
+        ]
+      }
+    ]
+  }
+}

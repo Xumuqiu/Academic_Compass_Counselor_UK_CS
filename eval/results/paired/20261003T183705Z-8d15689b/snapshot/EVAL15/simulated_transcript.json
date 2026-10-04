@@ -1,0 +1,117 @@
+{
+  "case_id": "EVAL15",
+  "record_type": "offline_rule_path_fixture",
+  "actual_student_interview": false,
+  "model_calls": 0,
+  "note": "由当前规则选择器回放，未调用模型；live 解析可改变问题顺序或轮数，须按回答库重新回放。",
+  "turns": [
+    {
+      "round": 1,
+      "question_id": "exp_1:problem",
+      "experience_id": "exp_1",
+      "element": "problem",
+      "question": "「本地搜索脚本时间测量」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "第一次测试包含文件读取，结果不容易比较。"
+    },
+    {
+      "round": 2,
+      "question_id": "exp_1:solution",
+      "experience_id": "exp_1",
+      "element": "solution",
+      "question": "你提到「第一次测试包含文件读取，结果不容易比较。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我先读好数据，再只计查询部分。在同一台电脑的一千条数据上各运行三次，旧脚本平均查询时间为 5 秒，新脚本为 3 秒。"
+    },
+    {
+      "round": 3,
+      "question_id": "exp_1:reflection",
+      "experience_id": "exp_1",
+      "element": "reflection",
+      "question": "「本地搜索脚本时间测量」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "比较之前要统一计时范围，否则数字不代表同一件事。"
+    },
+    {
+      "round": 4,
+      "question_id": "exp_1:deep:concept",
+      "experience_id": "exp_1",
+      "element": "deep:concept",
+      "question": "关于「本地搜索脚本时间测量」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "我只测这份数据和这台电脑，不能直接推断所有输入的复杂度。"
+    },
+    {
+      "round": 5,
+      "question_id": "exp_1:deep:alternative",
+      "experience_id": "exp_1",
+      "element": "deep:alternative",
+      "question": "关于「本地搜索脚本时间测量」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我比较了逐行遍历和预建字典，也注意到预建字典需要额外准备。"
+    },
+    {
+      "round": 6,
+      "question_id": "exp_1:deep:limit",
+      "experience_id": "exp_1",
+      "element": "deep:limit",
+      "question": "关于「本地搜索脚本时间测量」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "没有内存数据，也没有更大数据集测试。"
+    },
+    {
+      "round": 7,
+      "question_id": "exp_2:problem",
+      "experience_id": "exp_2",
+      "element": "problem",
+      "question": "「数学概率讨论」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "第一次记录有一处缺项，需要重新核对。"
+    },
+    {
+      "round": 8,
+      "question_id": "exp_2:solution",
+      "experience_id": "exp_2",
+      "element": "solution",
+      "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+    },
+    {
+      "round": 9,
+      "question_id": "exp_2:reflection",
+      "experience_id": "exp_2",
+      "element": "reflection",
+      "question": "「数学概率讨论」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "小样本观测不等于数学证明。"
+    },
+    {
+      "round": 10,
+      "question_id": "exp_2:deep:concept",
+      "experience_id": "exp_2",
+      "element": "deep:concept",
+      "question": "关于「数学概率讨论」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+    },
+    {
+      "round": 11,
+      "question_id": "exp_2:deep:alternative",
+      "experience_id": "exp_2",
+      "element": "deep:alternative",
+      "question": "关于「数学概率讨论」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+    },
+    {
+      "round": 12,
+      "question_id": "exp_2:deep:limit",
+      "experience_id": "exp_2",
+      "element": "deep:limit",
+      "question": "关于「数学概率讨论」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+    }
+  ],
+  "unasked_answer_fields": {
+    "exp_1": [
+      "process",
+      "knowledge",
+      "outcome"
+    ],
+    "exp_2": [
+      "process",
+      "knowledge",
+      "outcome"
+    ]
+  }
+}

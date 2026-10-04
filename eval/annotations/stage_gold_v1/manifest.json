@@ -1,0 +1,35 @@
+{
+  "annotation_version": "stage_gold_v1",
+  "annotated_at": "2026-10-04",
+  "status": "completed_ai_author_annotation_not_formal_human_gold",
+  "author": "Codex",
+  "reviewer": "Codex",
+  "independent_review": false,
+  "human_review_complete": false,
+  "independent_held_out": false,
+  "model_quality_scored": false,
+  "model_calls": 0,
+  "original_data_checksums_sha256": "836de6cf4f9355009f1528a1db0ef2e56d2b249bc9f5f942a138cabff6aae478",
+  "scoring_rules_sha256": "0990074fc72361d515e09ce16e254d5f75cc1aba755c7e12180ef62a5f22c069",
+  "annotation_generator_sha256": "a6af951ec838a863ee5258626219e409efe84efb80b5589f60656941f6c9fac2",
+  "cases": 26,
+  "included_gaps": 39,
+  "included_opportunities": 73,
+  "excluded_original_gaps": 27,
+  "original_reference_examples_reviewed": 104,
+  "splits": {
+    "dev": {
+      "cases": 6,
+      "gaps": 11,
+      "opportunities": 17
+    },
+    "evaluation_candidates": {
+      "cases": 20,
+      "gaps": 28,
+      "opportunities": 56
+    }
+  },
+  "frozen_for_live_run": false,
+  "retention_reporting": "overall plus primary/secondary; secondary scripted verification repeats across all cases",
+  "path_change_rule": "if live parser changes delivered questions, recheck eligibility against common actual input before scoring; do not assume hidden bank facts"
+}

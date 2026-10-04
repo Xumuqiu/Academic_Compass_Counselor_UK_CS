@@ -1,0 +1,210 @@
+[
+  {
+    "case_id": "DEV01",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "DEV02",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "DEV03",
+    "primary_opportunities": 1,
+    "secondary_opportunities": 1,
+    "primary_gaps": 3,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "DEV04",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "DEV05",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "DEV06",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL01",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL02",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL03",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL04",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL05",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL06",
+    "primary_opportunities": 1,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL07",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL08",
+    "primary_opportunities": 0,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "主经历没有足够具体已确认事实，保留率只计辅助经历的核对行动；不得强求原CV讲座成果。"
+  },
+  {
+    "case_id": "EVAL09",
+    "primary_opportunities": 1,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL10",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL11",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL12",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL13",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL14",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL15",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL16",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL17",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL18",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL19",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 1,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  },
+  {
+    "case_id": "EVAL20",
+    "primary_opportunities": 2,
+    "secondary_opportunities": 1,
+    "primary_gaps": 2,
+    "original_supported_examples_not_automatically_required": true,
+    "notes": "全部机会仅依据实际送达回答；未问过程、成果不自动确认。"
+  }
+]

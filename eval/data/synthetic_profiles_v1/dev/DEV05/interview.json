@@ -1,0 +1,39 @@
+{
+  "case_id": "DEV05",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "AI 辅助电脑配件页面",
+      "answers_by_element": {
+        "process": "页面想法是我的，AI 生成了第一版 HTML，我修改分类标题、链接和布局。",
+        "knowledge": "我理解标签和链接，但数据抓取脚本是 AI 给的，我没实际运行。",
+        "problem": "有几个按钮跳到了错误页面，小屏幕上文字也重叠。",
+        "solution": "我逐个检查 href，把卡片改成纵向排列，再用手机浏览器查看。",
+        "reflection": "AI 输出需要我检查，我也知道没理解的抓取代码不能直接当自己的成果。",
+        "outcome": "有本地静态页面截图，没有实时价格同步或真实用户统计。",
+        "deep:concept": "我能解释链接与布局，暂时不能解释网络请求和数据库。",
+        "deep:alternative": "我先想做实时比价，后来改成手工录入几件商品的静态页面。",
+        "deep:limit": "价格会过期，页面只是原型；我还没有完成自动同步。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "课堂数据库讲解",
+      "answers_by_element": {
+        "process": "我负责记录老师演示，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到SQL入门，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "我只跟着老师查询，不是独立建立数据库。",
+        "outcome": "留下了课堂笔记，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

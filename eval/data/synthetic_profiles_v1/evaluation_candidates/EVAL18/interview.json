@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL18",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "线性近似讨论笔记",
+      "answers_by_element": {
+        "process": "我读了简化运动例子，写下忽略阻力的条件，并和老师讨论。",
+        "knowledge": "我用了函数图像比较直线和曲线，但没有求解非线性方程。",
+        "problem": "我不理解某个近似为什么只在小范围成立。",
+        "solution": "我画了几个位置的图，老师解释后我重新写了近似范围。",
+        "reflection": "我学会在使用一个模型之前先问它适用的条件。",
+        "outcome": "有修订过的笔记，结论来自教学讨论，不是我的原创发现。",
+        "deep:concept": "我能解释近似在局部使用，但还不能证明误差界。",
+        "deep:alternative": "我比较过直接使用直线和保留原曲线，后者更复杂但需要更多知识。",
+        "deep:limit": "不能把课堂例子称为原创模型或研究论文。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "简单摩擦实验",
+      "answers_by_element": {
+        "process": "我负责跟随老师记录测量，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到Physics，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "我做了记录，但实验设计来自老师。",
+        "outcome": "留下了实验记录，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

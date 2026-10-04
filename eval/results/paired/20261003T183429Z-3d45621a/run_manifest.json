@@ -1,0 +1,75 @@
+{
+  "run_id": "20261003T183429Z-3d45621a",
+  "status": "first_attempt_complete",
+  "dry_run": false,
+  "split": "dev",
+  "case_ids": [
+    "DEV01",
+    "DEV02",
+    "DEV03",
+    "DEV04",
+    "DEV05",
+    "DEV06"
+  ],
+  "planned_sample_count": 6,
+  "provider": "openrouter",
+  "model": "openai/gpt-4.1-mini",
+  "endpoint": "https://openrouter.ai/api/v1",
+  "pricing": {
+    "cost": null,
+    "currency": "USD",
+    "price_source": "https://openrouter.ai/api/v1/model/openai/gpt-4.1-mini",
+    "price_checked_on": "2026-10-04",
+    "cost_basis": "catalog_estimate"
+  },
+  "budget_limit": 10.0,
+  "budget_currency": "USD",
+  "independent_held_out_count": 0,
+  "gold_author_review": "AI author; no independent human review",
+  "data_checksums_sha256": "836de6cf4f9355009f1528a1db0ef2e56d2b249bc9f5f942a138cabff6aae478",
+  "stage_gold_checksums_sha256": "0099f9aec4fa6a848b87f4c3de5e82167adc4f5e2f679a3bc42e9f797e0d7054",
+  "scoring_rules_sha256": "0990074fc72361d515e09ce16e254d5f75cc1aba755c7e12180ef62a5f22c069",
+  "prompt_source_sha256": "2052e98616d51fa8f5c02980a4d13b22797abe7d2c40aedb10d46d964b96d068",
+  "code_hashes": {
+    "counselor/intake.py": "608a73dbe8b139b55c3b3ea75c1389c216a24a246a9b4ce6d073b32f1c4045c6",
+    "counselor/server.py": "aea8f83a8e7ea31c57790bad95faae6126fd5857dd6a74d2c8ecdbc6a3a14d95",
+    "counselor/claim_check.py": "fae68a93c4ce63914f79bdd0acce5a4502c8121f7a0d09afcb7ddeeb504095d2",
+    "counselor/config.py": "65e34b4bfed4e796ff3d0ec412d76a318a2a418a8fdf30dd8013e779c240ca07",
+    "counselor/domain.py": "448160460fad9fe4985e2f03454443b487b8b8949105534e3de77dc01615143f",
+    "counselor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "counselor/llm.py": "2052e98616d51fa8f5c02980a4d13b22797abe7d2c40aedb10d46d964b96d068",
+    "counselor/check_llm.py": "fbb8e89cadd379bb4bf722498d9bbe45c346adabefe775bcf7641173ecadbd17",
+    "counselor/document.py": "3cc9fa090aee138bbbd78cb8a7699c9db285c2f702a40a2020bc7e3b5881b9a3",
+    "counselor/cv.py": "d1fcd332b5b4a06488b0d223cf8e5c17292e31a1d7a46cba07a0d3db86ae87a3",
+    "counselor/workflow.py": "bd81887c68052e64cc1941660f26843a7c40288289ba7acfa6de45d7fe057439",
+    "counselor/data.py": "8563935db7eda5e69c9302f454f9dacd12bdbcebb426689efe94fb7470f55a4b",
+    "eval/annotate_synthetic_profiles.py": "a6af951ec838a863ee5258626219e409efe84efb80b5589f60656941f6c9fac2",
+    "eval/__init__.py": "be5180493a667c5281628737527662300beba74bea283bd7cf37c29543c33926",
+    "eval/run_offline.py": "44c993589a3b9970220fbcdf9c0eac3ea8a85fc900587a49dc720c4ff6a560c0",
+    "eval/run_live.py": "725b137e13051f5a7ddde6a16a0b4e7ee2d0e23ef54a81b7ace7714c7bcb4215",
+    "eval/score_paired.py": "ac912ae791f76de9a2a23c143e74019ca05a4dc9eddf70fad29eb27237d315df",
+    "eval/cost.py": "15c9cc878e608794607dbb3e44026659cab7ba7e88aae136629bfed4c47ba615",
+    "eval/paired_eval.py": "6c80a09186108ce3ab53e4ae20f960d5c972613426a28b29f8e19280ee8e6431",
+    "eval/build_synthetic_profiles.py": "20fc5babf270125e3b906d4d00ab38adc45c04df3af050e84a5d95e015310856"
+  },
+  "reference_data_hashes": {
+    "data/sample_cv.json": "dee5466747c7dcccd368ce4208186661ef5306083f32c9b6d3ca259508daa0ed",
+    "data/demo_case.json": "9bf3385a88f1ecdbd0efce89b1cc96989a801b8063b2227decbd9a2061baae94",
+    "data/programmes.json": "9667e2becddfd4b1bc11125c0f0ba12add62fcaf4031baef3c8aa27c8d1b5f73",
+    "data/ucas_2026.json": "470652493feb3412d2fcd1e4a4f1315bbee9176ea5fab8e9f767bfa1e0a83343"
+  },
+  "generation_parameters": {
+    "temperature": 0,
+    "response_format": "json_object",
+    "max_tokens": 4000
+  },
+  "protocol": "fixed_recorded_turns_shared_parsing_shared_candidate_core_projection",
+  "discarded_candidate_fields_both_arms": [
+    "guide_note",
+    "translated_positioning",
+    "sections"
+  ],
+  "retry_policy": "no_automatic_retries; first attempt retained",
+  "pilot_run_directory": null,
+  "frozen_at_utc": "2026-10-03T18:34:29.028504+00:00"
+}

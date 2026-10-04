@@ -1,0 +1,39 @@
+{
+  "case_id": "DEV03",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "图书借阅工具小组作业",
+      "answers_by_element": {
+        "process": "我们做了一个借阅工具，但我现在只能确定自己整理过几条测试数据。",
+        "knowledge": "我会用列表记录书名，但数据库和登录功能主要是组员做的。",
+        "problem": "我说不清整个系统卡在哪里，组长负责合并代码。",
+        "solution": "[跳过]",
+        "reflection": "我意识到把团队作品写在简历上时，应该区分我本人负责的部分。",
+        "outcome": "有小组展示文件，我没有独立完成的功能截图。",
+        "deep:concept": "我只接触了列表，数据库查询原理还说不清。",
+        "deep:alternative": "我没有参与技术方案选择。",
+        "deep:limit": "目前需要问组员确认测试数据是不是实际使用过。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "编程入门阅读",
+      "answers_by_element": {
+        "process": "我负责阅读列表例子，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到Python基础，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "我会复述列表例子，还没有独立完成复杂项目。",
+        "outcome": "留下了练习笔记，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

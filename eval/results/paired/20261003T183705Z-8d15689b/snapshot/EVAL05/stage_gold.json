@@ -1,0 +1,144 @@
+{
+  "case_id": "EVAL05",
+  "split": "evaluation_candidates",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "EVAL05",
+      "gap_id": "EVAL05:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "effect",
+      "description": "没有证据证明工具提高英语成绩",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "没有录入的词就找不到，也没有证据说明它提高了英语成绩。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/5/answer"
+      ],
+      "expected_detection": "明确成绩效果未经证实，不从可查询推出成绩提升",
+      "confirmation_question_example": "有没有使用前后成绩或其他学习效果记录？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL05",
+      "gap_id": "EVAL05:gap:v1:2",
+      "experience_id": "exp_1",
+      "kind": "method",
+      "description": "固定词卡查询不能写成训练AI模型",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/3/answer",
+          "round": 4,
+          "element": "deep:concept",
+          "text": "字典映射是预先定义的查找，不会自己学习新词。",
+          "confirmation": "student_stated"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/4/answer",
+          "round": 5,
+          "element": "deep:alternative",
+          "text": "我想过训练模型，但自己的任务只是固定词卡查询。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/3/answer",
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/4/answer"
+      ],
+      "expected_detection": "明确实际任务是固定字典查询，训练模型只被考虑而非实现",
+      "confirmation_question_example": "实际做的是字典查找还是训练过模型，有哪些记录？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "EVAL05",
+      "opportunity_id": "EVAL05:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "用转小写和去空格规范化词卡查询输入",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "我统一转小写并去掉空格，再做字典查询。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/1/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL05",
+      "opportunity_id": "EVAL05:opportunity:1:2",
+      "experience_id": "exp_1",
+      "supported_fact": "理解固定字典查找不会自行学习新词",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/3/answer",
+          "round": 4,
+          "element": "deep:concept",
+          "text": "字典映射是预先定义的查找，不会自己学习新词。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/3/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL05",
+      "opportunity_id": "EVAL05:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/8/answer",
+          "round": 9,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL05/simulated_transcript.json#/turns/8/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

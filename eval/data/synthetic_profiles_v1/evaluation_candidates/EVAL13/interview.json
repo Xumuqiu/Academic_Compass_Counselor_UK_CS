@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL13",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "纸面解题与网页作品",
+      "answers_by_element": {
+        "process": "我做过数组题的纸面分析，网页作品是另一段经历，不能混在一起。",
+        "knowledge": "我用表格追踪索引变化，没把这一题写成程序。",
+        "problem": "最后一个索引会超出数组长度。",
+        "solution": "我从零开始画每个位置，逐步检查循环何时停止。",
+        "reflection": "边界需要单独看，写代码之前纸面检查也能暴露问题。",
+        "outcome": "有手写笔记，没有这个题目的可运行程序。",
+        "deep:concept": "数组合法索引与元素数量不同，我能用具体例子说明。",
+        "deep:alternative": "我比较过从一和从零编号，按题目要求使用从零编号。",
+        "deep:limit": "不能把另一段网页代码当成这道题的实现。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "网页导航练习",
+      "answers_by_element": {
+        "process": "我负责修改模板导航链接，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到HTML，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "这份网页是另一段作品，不能证明数组题写过代码。",
+        "outcome": "留下了本地页面，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

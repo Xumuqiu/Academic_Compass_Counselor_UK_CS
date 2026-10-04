@@ -1,0 +1,42 @@
+{
+  "student": {
+    "id": "eval16",
+    "label": "虚构学生 EVAL16",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A*"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "模拟器避障练习",
+        "type": "project",
+        "role": "在模拟器中测试避障",
+        "skills": [
+          "Python"
+        ],
+        "outputs": [
+          "模拟运行录像"
+        ]
+      },
+      {
+        "title": "科学社安全培训",
+        "type": "holistic",
+        "role": "完成课堂安全练习",
+        "skills": [],
+        "outputs": [
+          "练习表"
+        ]
+      }
+    ]
+  }
+}

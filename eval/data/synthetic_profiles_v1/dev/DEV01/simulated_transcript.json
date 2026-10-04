@@ -1,0 +1,117 @@
+{
+  "case_id": "DEV01",
+  "record_type": "offline_rule_path_fixture",
+  "actual_student_interview": false,
+  "model_calls": 0,
+  "note": "由当前规则选择器回放，未调用模型；live 解析可改变问题顺序或轮数，须按回答库重新回放。",
+  "turns": [
+    {
+      "round": 1,
+      "question_id": "exp_1:problem",
+      "experience_id": "exp_1",
+      "element": "problem",
+      "question": "「社团课表可视化」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "同一门课程被录入两次，柱状图就比实际多了一节。"
+    },
+    {
+      "round": 2,
+      "question_id": "exp_1:solution",
+      "experience_id": "exp_1",
+      "element": "solution",
+      "question": "你提到「同一门课程被录入两次，柱状图就比实际多了一节。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我把星期、时段和课程名作为组合键，先检查重复再统计。"
+    },
+    {
+      "round": 3,
+      "question_id": "exp_1:reflection",
+      "experience_id": "exp_1",
+      "element": "reflection",
+      "question": "「社团课表可视化」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "我发现图表画得漂亮还不够，输入记录不准确会让结果误导人。"
+    },
+    {
+      "round": 4,
+      "question_id": "exp_1:deep:concept",
+      "experience_id": "exp_1",
+      "element": "deep:concept",
+      "question": "关于「社团课表可视化」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这里涉及数据表示和去重，组合键帮助判断两条记录是不是同一节课。"
+    },
+    {
+      "round": 5,
+      "question_id": "exp_1:deep:alternative",
+      "experience_id": "exp_1",
+      "element": "deep:alternative",
+      "question": "关于「社团课表可视化」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过只按课程名去重，但同一课程在不同时间会被错误合并。"
+    },
+    {
+      "round": 6,
+      "question_id": "exp_1:deep:limit",
+      "experience_id": "exp_1",
+      "element": "deep:limit",
+      "question": "关于「社团课表可视化」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "如果不同人用不同课程缩写，组合键还是会漏掉重复，需要先统一名称。"
+    },
+    {
+      "round": 7,
+      "question_id": "exp_2:problem",
+      "experience_id": "exp_2",
+      "element": "problem",
+      "question": "「课堂函数图像讨论」里最具体的一个困难是什么？当时卡在哪里？",
+      "answer": "第一次记录有一处缺项，需要重新核对。"
+    },
+    {
+      "round": 8,
+      "question_id": "exp_2:solution",
+      "experience_id": "exp_2",
+      "element": "solution",
+      "question": "你提到「第一次记录有一处缺项，需要重新核对。」。你尝试过什么办法，为什么选了最后的做法？",
+      "answer": "我回看原始资料并向知情同学或老师确认，再补上记录。"
+    },
+    {
+      "round": 9,
+      "question_id": "exp_2:reflection",
+      "experience_id": "exp_2",
+      "element": "reflection",
+      "question": "「课堂函数图像讨论」之后，你对计算机科学产生了什么新疑问或想法？",
+      "answer": "我发现输入范围会改变图像看起来的趋势。"
+    },
+    {
+      "round": 10,
+      "question_id": "exp_2:deep:concept",
+      "experience_id": "exp_2",
+      "element": "deep:concept",
+      "question": "关于「课堂函数图像讨论」：你提到的知识或方法，对应计算机科学的哪个具体问题？你是怎么理解它的？",
+      "answer": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。"
+    },
+    {
+      "round": 11,
+      "question_id": "exp_2:deep:alternative",
+      "experience_id": "exp_2",
+      "element": "deep:alternative",
+      "question": "关于「课堂函数图像讨论」：回头看这个做法，当时还有什么其他选择？你如何比较它们？",
+      "answer": "我试过凭记忆填写，后来选择先核对原始资料。"
+    },
+    {
+      "round": 12,
+      "question_id": "exp_2:deep:limit",
+      "experience_id": "exp_2",
+      "element": "deep:limit",
+      "question": "关于「课堂函数图像讨论」：这段经历里，现有做法在什么条件下可能失效？你还想学什么来改进？",
+      "answer": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+    }
+  ],
+  "unasked_answer_fields": {
+    "exp_1": [
+      "process",
+      "knowledge",
+      "outcome"
+    ],
+    "exp_2": [
+      "process",
+      "knowledge",
+      "outcome"
+    ]
+  }
+}

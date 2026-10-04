@@ -1,0 +1,44 @@
+{
+  "student": {
+    "id": "dev05",
+    "label": "虚构学生 DEV05",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "AI 辅助电脑配件页面",
+        "type": "project",
+        "role": "设计信息展示并修改页面",
+        "skills": [
+          "HTML"
+        ],
+        "outputs": [
+          "静态网页"
+        ]
+      },
+      {
+        "title": "课堂数据库讲解",
+        "type": "academic",
+        "role": "记录老师演示",
+        "skills": [
+          "SQL入门"
+        ],
+        "outputs": [
+          "课堂笔记"
+        ]
+      }
+    ]
+  }
+}

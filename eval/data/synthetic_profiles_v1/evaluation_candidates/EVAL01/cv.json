@@ -1,0 +1,40 @@
+{
+  "student": {
+    "id": "eval01",
+    "label": "虚构学生 EVAL01",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A*"
+      },
+      {
+        "name": "Physics",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "校园空气质量记录",
+        "type": "project",
+        "role": "记录并分析传感器读数",
+        "skills": [
+          "Python"
+        ],
+        "outputs": [
+          "折线图和记录表"
+        ]
+      },
+      {
+        "title": "数学社函数练习",
+        "type": "academic",
+        "role": "检查函数取值",
+        "skills": [
+          "数学"
+        ],
+        "outputs": [
+          "练习草稿"
+        ]
+      }
+    ]
+  }
+}

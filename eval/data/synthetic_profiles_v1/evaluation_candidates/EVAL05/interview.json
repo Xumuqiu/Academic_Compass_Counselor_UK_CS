@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL05",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "英语词卡检索练习",
+      "answers_by_element": {
+        "process": "我把词卡放在字典里，输入英文后返回中文，并记录查不到的单词。",
+        "knowledge": "我用字典查询和字符串转小写，没有使用机器学习。",
+        "problem": "大写字母和词尾空格导致有些词查不到。",
+        "solution": "我统一转小写并去掉空格，再做字典查询。",
+        "reflection": "简单规则已经能解决这个问题，不需要把它称为 AI。",
+        "outcome": "脚本可以查询我手工录入的二十个词，没有学习成绩数据。",
+        "deep:concept": "字典映射是预先定义的查找，不会自己学习新词。",
+        "deep:alternative": "我想过训练模型，但自己的任务只是固定词卡查询。",
+        "deep:limit": "没有录入的词就找不到，也没有证据说明它提高了英语成绩。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "英语演讲社",
+      "answers_by_element": {
+        "process": "我负责组织一次练习，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "这段主要是记录与协作，没有使用具体编程方法。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "组织交流不直接证明计算机科研能力。",
+        "outcome": "留下了练习安排表，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

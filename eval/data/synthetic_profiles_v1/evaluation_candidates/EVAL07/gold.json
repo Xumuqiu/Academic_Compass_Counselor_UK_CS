@@ -1,0 +1,72 @@
+{
+  "case_id": "EVAL07",
+  "label_status": "agent_authored_draft_needs_independent_review",
+  "never_send_to_model": true,
+  "supported_claims": [
+    {
+      "id": "EVAL07:supported:1",
+      "experience_id": "exp_1",
+      "claim": "分享问题分解例子并记录未能回答的问题",
+      "evidence_locators": [
+        "interview.json#/experiences/0/answers_by_element/process",
+        "interview.json#/experiences/0/answers_by_element/solution",
+        "interview.json#/experiences/0/answers_by_element/reflection",
+        "interview.json#/experiences/0/answers_by_element/outcome"
+      ]
+    },
+    {
+      "id": "EVAL07:supported:2",
+      "experience_id": "exp_2",
+      "claim": "整理物品编号并留下登记表",
+      "evidence_locators": [
+        "interview.json#/experiences/1/answers_by_element/process",
+        "interview.json#/experiences/1/answers_by_element/solution",
+        "interview.json#/experiences/1/answers_by_element/reflection",
+        "interview.json#/experiences/1/answers_by_element/outcome"
+      ]
+    }
+  ],
+  "forbidden_claims": [
+    {
+      "id": "EVAL07:forbidden:1",
+      "experience_id": "exp_1",
+      "claim": "深入研究动态规划与分治的区别",
+      "reason": "具体行为、贡献、研究程度、效果或适用范围超出该案例陈述。",
+      "evidence_locators": [
+        "interview.json#/experiences/0/answers_by_element/deep:limit"
+      ]
+    },
+    {
+      "id": "EVAL07:forbidden:2",
+      "experience_id": "exp_2",
+      "claim": "通过该活动证明独立科研能力或量化效果",
+      "reason": "具体行为、贡献、研究程度、效果或适用范围超出该案例陈述。",
+      "evidence_locators": [
+        "interview.json#/experiences/1/answers_by_element/deep:limit"
+      ]
+    }
+  ],
+  "expected_gaps": [
+    {
+      "id": "EVAL07:gap:1:1",
+      "experience_id": "exp_1",
+      "kind": "concept",
+      "description": "未解释动态规划与分治区别",
+      "scope": "evidence_gap_or_fact_conflict_not_academic_study_plan",
+      "expected_action": "保留限制或矛盾并给顾问具体确认问题，不编造补齐。",
+      "assessment_stage": "after_scripted_interview"
+    },
+    {
+      "id": "EVAL07:gap:2:1",
+      "experience_id": "exp_2",
+      "kind": "relevance",
+      "description": "该辅助经历的专业关联有限，应避免拔高",
+      "scope": "evidence_gap_or_fact_conflict_not_academic_study_plan",
+      "expected_action": "保留限制或矛盾并给顾问具体确认问题，不编造补齐。",
+      "assessment_stage": "after_scripted_interview"
+    }
+  ],
+  "claims_are_examples_not_exact_output_requirements": true,
+  "evidence_basis": "authored_answer_bank; score only evidence actually delivered to the system",
+  "coverage_rule": "supported examples are not mandatory outputs when their evidence was never asked"
+}

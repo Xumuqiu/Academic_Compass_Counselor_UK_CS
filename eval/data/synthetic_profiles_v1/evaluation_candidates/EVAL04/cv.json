@@ -1,0 +1,44 @@
+{
+  "student": {
+    "id": "eval04",
+    "label": "虚构学生 EVAL04",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "A*"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "课堂排序方法比较",
+        "type": "academic",
+        "role": "手工比较排序步骤",
+        "skills": [
+          "Python基础"
+        ],
+        "outputs": [
+          "步骤比较表"
+        ]
+      },
+      {
+        "title": "小游戏规则阅读",
+        "type": "reading",
+        "role": "分析示例移动规则",
+        "skills": [
+          "Scratch"
+        ],
+        "outputs": [
+          "规则笔记"
+        ]
+      }
+    ]
+  }
+}

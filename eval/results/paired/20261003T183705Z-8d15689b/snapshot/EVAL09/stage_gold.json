@@ -1,0 +1,128 @@
+{
+  "case_id": "EVAL09",
+  "split": "evaluation_candidates",
+  "annotation_status": "completed_ai_author_annotation_no_independent_human_review",
+  "basis": "current_offline_rule_path_transcript_only",
+  "never_send_to_model": true,
+  "gaps": [
+    {
+      "case_id": "EVAL09",
+      "gap_id": "EVAL09:gap:v1:1",
+      "experience_id": "exp_1",
+      "kind": "contribution",
+      "description": "可确认的软件开发贡献缺失",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/1/answer",
+          "round": 2,
+          "element": "solution",
+          "text": "[跳过]",
+          "confirmation": "missing_answer"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/2/answer",
+          "round": 3,
+          "element": "reflection",
+          "text": "我需要先分清展示工作和软件开发贡献。",
+          "confirmation": "student_stated"
+        },
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/5/answer",
+          "round": 6,
+          "element": "deep:limit",
+          "text": "不能把小组仓库里的全部代码算作我独立完成。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/1/answer",
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/2/answer",
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/5/answer"
+      ],
+      "expected_detection": "区分报告展示问题与本人软件实现，不归属整个仓库代码",
+      "confirmation_question_example": "有哪些你亲自编写或修改的功能记录？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL09",
+      "gap_id": "EVAL09:gap:v1:2",
+      "experience_id": "exp_1",
+      "kind": "concept",
+      "description": "无法解释客户端与服务器的消息交换",
+      "detectable_from": "actual_delivered_offline_transcript",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/3/answer",
+          "round": 4,
+          "element": "deep:concept",
+          "text": "我还不能解释客户端和服务器如何交换消息。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/3/answer"
+      ],
+      "expected_detection": "保留网络通信理解不足，不称独立实现协议",
+      "confirmation_question_example": "能否说明一次消息发送经过哪些步骤？",
+      "include_primary": 1,
+      "exclusion_reason": "",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    }
+  ],
+  "opportunities": [
+    {
+      "case_id": "EVAL09",
+      "opportunity_id": "EVAL09:opportunity:1:1",
+      "experience_id": "exp_1",
+      "supported_fact": "在展示消息发送失败时将问题报告给组员",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/0/answer",
+          "round": 1,
+          "element": "problem",
+          "text": "展示时消息没发出去，我只负责把问题告诉组员。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/0/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "保留本人具体方法、选择或可明确指认的反思，不要求拔高能力与效果。",
+      "acceptable_scope": "限所引实际陈述；不追加未确认的实现、成果、效果或理解程度。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04"
+    },
+    {
+      "case_id": "EVAL09",
+      "opportunity_id": "EVAL09:opportunity:2:1",
+      "experience_id": "exp_2",
+      "supported_fact": "核对原始资料并向知情者确认后补上缺项",
+      "evidence": [
+        {
+          "locator": "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/8/answer",
+          "round": 9,
+          "element": "solution",
+          "text": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+          "confirmation": "student_stated"
+        }
+      ],
+      "evidence_locators": [
+        "data/synthetic_profiles_v1/evaluation_candidates/EVAL09/simulated_transcript.json#/turns/8/answer"
+      ],
+      "confirmation_status": "student_stated",
+      "include_retention": 1,
+      "why_useful": "可用的记录核对行动，专业深度有限；不能默认确认CV全部职责和成果。",
+      "acceptable_scope": "仅记录核对行动，不推出独立研究或量化效果。",
+      "adjudicated_by": "Codex (AI author review; not independent human adjudication)",
+      "reviewed_at": "2026-10-04",
+      "low_diversity_fixture": true
+    }
+  ]
+}

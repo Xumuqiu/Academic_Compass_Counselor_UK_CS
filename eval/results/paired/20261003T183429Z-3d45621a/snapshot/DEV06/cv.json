@@ -1,0 +1,46 @@
+{
+  "student": {
+    "id": "dev06",
+    "label": "虚构学生 DEV06",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "predicted": "B"
+      },
+      {
+        "name": "Physics",
+        "predicted": "B"
+      },
+      {
+        "name": "Computer Science",
+        "predicted": "A"
+      },
+      {
+        "name": "Further Mathematics",
+        "predicted": "B"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "入门控制模型阅读",
+        "type": "reading",
+        "role": "阅读入门讲义并做笔记",
+        "skills": [
+          "数学建模"
+        ],
+        "outputs": [
+          "阅读笔记"
+        ]
+      },
+      {
+        "title": "学校电子设备参观",
+        "type": "holistic",
+        "role": "观察并记录设备流程",
+        "skills": [],
+        "outputs": [
+          "参观笔记"
+        ]
+      }
+    ]
+  }
+}

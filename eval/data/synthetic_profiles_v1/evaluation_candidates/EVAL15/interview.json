@@ -1,0 +1,39 @@
+{
+  "case_id": "EVAL15",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "本地搜索脚本时间测量",
+      "answers_by_element": {
+        "process": "我在同一台电脑和同一份一千条数据上运行两个脚本，每个运行三次。",
+        "knowledge": "我用同一个计时函数记录查询时间，没有测内存。",
+        "problem": "第一次测试包含文件读取，结果不容易比较。",
+        "solution": "我先读好数据，再只计查询部分。在同一台电脑的一千条数据上各运行三次，旧脚本平均查询时间为 5 秒，新脚本为 3 秒。",
+        "reflection": "比较之前要统一计时范围，否则数字不代表同一件事。",
+        "outcome": "三个测试中，旧脚本平均查询时间为 5 秒，新脚本为 3 秒。",
+        "deep:concept": "我只测这份数据和这台电脑，不能直接推断所有输入的复杂度。",
+        "deep:alternative": "我比较了逐行遍历和预建字典，也注意到预建字典需要额外准备。",
+        "deep:limit": "没有内存数据，也没有更大数据集测试。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "数学概率讨论",
+      "answers_by_element": {
+        "process": "我负责比较两个课堂概率例子，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "我用到数学，这里只能确认入门练习。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "小样本观测不等于数学证明。",
+        "outcome": "留下了讨论草稿，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}

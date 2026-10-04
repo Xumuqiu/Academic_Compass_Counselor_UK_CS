@@ -1,0 +1,39 @@
+{
+  "case_id": "DEV06",
+  "record_type": "authored_simulated_answer_bank",
+  "not_a_live_transcript": true,
+  "experience_order_is_significant": true,
+  "fallback_answer": "[跳过]",
+  "experiences": [
+    {
+      "experience_id": "exp_1",
+      "title": "入门控制模型阅读",
+      "answers_by_element": {
+        "process": "我看了一个线性模型示例，列出它忽略摩擦变化的假设，再写下疑问。",
+        "knowledge": "我能用变量表示位置变化，但还不能推导课程中的全部方程。",
+        "problem": "我不理解为什么现实中的摩擦变化会使模型预测不同。",
+        "solution": "我找了更简单的弹簧例子，画出假设和实际条件的区别。",
+        "reflection": "我开始关注一个模型在什么条件下成立，还没有解决非线性问题。",
+        "outcome": "有两页笔记和问题清单，没有研究论文或实验结论。",
+        "deep:concept": "我只理解了线性近似的直观含义，非线性模型求解还不会。",
+        "deep:alternative": "我试过直接背公式，后来用具体例子检查假设更容易理解。",
+        "deep:limit": "还需要学微积分和更完整的建模方法，不能说已经研究过非线性控制。"
+      }
+    },
+    {
+      "experience_id": "exp_2",
+      "title": "学校电子设备参观",
+      "answers_by_element": {
+        "process": "我负责观察并记录设备流程，完成后把记录交给老师或社团同学查看。",
+        "knowledge": "这段主要是记录与协作，没有使用具体编程方法。",
+        "problem": "第一次记录有一处缺项，需要重新核对。",
+        "solution": "我回看原始资料并向知情同学或老师确认，再补上记录。",
+        "reflection": "参观使我提出成本问题，但不是参与研发。",
+        "outcome": "留下了参观笔记，没有进行正式效果评估。",
+        "deep:concept": "这段经历没有进一步的专业方法证据，我不想为了申请补写概念。",
+        "deep:alternative": "我试过凭记忆填写，后来选择先核对原始资料。",
+        "deep:limit": "这段经历的范围就是课堂或社团记录，不能说明独立研究或量化影响。"
+      }
+    }
+  ]
+}
