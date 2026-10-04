@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academic Compass | UK CS Brainstorming</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <button id="languageToggle" type="button" class="language-toggle" aria-label="Switch to Chinese">中文</button>
+      <div class="eyebrow">ACADEMIC COMPASS · UK UNDERGRADUATE CS</div>
+      <h1 data-zh="从学生经历到头脑风暴素材包" data-en="From student experiences to a brainstorming brief">From student experiences to a brainstorming brief</h1>
+      <p data-zh="导入档案，逐段追问学生本人做过的事，整理 UCAS 三问的素材与使用说明，并导出 Word 文档。" data-en="Import a profile, explore what the student actually did, organise material for the three UCAS questions, and export a Word brief.">Import a profile, explore what the student actually did, organise material for the three UCAS questions, and export a Word brief.</p>
+      <p class="help" data-zh="语言切换仅调整界面与固定提示；学生原话和模型生成内容保留原语言。" data-en="The language switch changes the interface and standard prompts. Student statements and generated content stay in their original language.">The language switch changes the interface and standard prompts. Student statements and generated content stay in their original language.</p>
+    </header>
+    <section class="card" id="startPanel">
+      <div class="step" data-zh="01 · 建立案例" data-en="01 · Create a case">01 · Create a case</div>
+      <label data-zh="目标项目（可多选）" data-en="Target programmes (select one or more)">Target programmes (select one or more)</label>
+      <div id="programmes"></div>
+      <p class="help" data-zh="项目要求尚未人工核对；请在实际申请前打开院校官网确认。" data-en="Programme requirements have not been verified. Check the university's official website before using them for an application.">Programme requirements have not been verified. Check the university's official website before using them for an application.</p>
+      <label for="cvFile" data-zh="学生档案" data-en="Student profile">Student profile</label>
+      <div class="file-picker">
+        <input id="cvFile" class="visually-hidden" type="file" accept=".json,.txt,.docx,.pdf,application/json,text/plain,application/pdf">
+        <label for="cvFile" class="file-trigger" data-zh="选择文件" data-en="Choose a file">Choose a file</label>
+        <span id="cvFileName" aria-live="polite">No file selected</span>
+      </div>
+      <p class="help"><span data-zh="JSON 可直接使用，" data-en="JSON profiles can be used directly. ">JSON profiles can be used directly. </span><a href="/sample-cv.json" download data-zh="下载示例" data-en="Download a sample">Download a sample</a><span data-zh="。TXT、DOCX、文字版 PDF 的自动抽取需要 live 模式与模型凭据。上传内容在服务会话内存中；live 模式会将相关材料发送给模型供应商。" data-en=". TXT, DOCX and text-based PDF extraction require live mode and model credentials. Uploads are held in session memory; live mode sends relevant material to the model provider.">. TXT, DOCX and text-based PDF extraction require live mode and model credentials. Uploads are held in session memory; live mode sends relevant material to the model provider.</span></p>
+      <div class="actions">
+        <button id="startUploaded" type="button" data-zh="导入档案并开始" data-en="Import profile and start">Import profile and start</button>
+        <button id="startDemo" class="secondary" type="button" data-zh="使用内置虚构案例" data-en="Use a fictional sample">Use a fictional sample</button>
+      </div>
+    </section>
+    <section class="card hidden" id="interviewPanel">
+      <div class="step"><span data-zh="02 · 多经历访谈" data-en="02 · Experience interview">02 · Experience interview</span> <span id="progress"></span></div>
+      <p id="caseSummary" class="muted"></p>
+      <div class="question" id="question"></div>
+      <p id="why" class="help"></p>
+      <label for="answer" data-zh="学生的原话" data-en="Student's own words">Student's own words</label>
+      <textarea id="answer" rows="6" maxlength="3000" placeholder="Describe the context, your own actions, reasons for your choices, and the result."></textarea>
+      <div class="actions">
+        <button id="submit" type="button" data-zh="提交回答" data-en="Submit answer">Submit answer</button>
+        <button id="skip" class="secondary" type="button" data-zh="跳过本题" data-en="Skip question">Skip question</button>
+        <button id="finish" class="secondary" type="button" data-zh="生成头脑风暴素材包" data-en="Generate brainstorming brief">Generate brainstorming brief</button>
+      </div>
+      <div class="mini-title" data-zh="已记录的经历" data-en="Recorded experiences">Recorded experiences</div>
+      <div id="records"></div>
+    </section>
+    <section class="card hidden" id="resultPanel">
+      <div class="step" data-zh="03 · 头脑风暴结果" data-en="03 · Brainstorming results">03 · Brainstorming results</div>
+      <div id="resultContent"></div>
+      <div class="actions">
+        <button id="download" type="button" data-zh="下载 Word 文档" data-en="Download Word document">Download Word document</button>
+        <button id="restart" class="secondary" type="button" data-zh="开始新案例" data-en="Start a new case">Start a new case</button>
+      </div>
+    </section>
+    <div id="error" role="alert" aria-live="polite"></div>
+    <footer data-zh="结果是待学生与顾问核实的申请素材，不是个人陈述成稿；本系统不生成学业规划。" data-en="This is application material for student and counsellor review, not a finished personal statement. This system does not produce academic plans.">This is application material for student and counsellor review, not a finished personal statement. This system does not produce academic plans.</footer>
+  </main>
+  <script src="/full.js"></script>
+</body>
+</html>

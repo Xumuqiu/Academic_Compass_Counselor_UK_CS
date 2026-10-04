@@ -1,0 +1,3 @@
+# Optional for text-layer PDF intake. JSON/TXT/DOCX and DOCX export use only
+# the Python standard library. PyMuPDF is used if already installed.
+pypdf>=5,<7
